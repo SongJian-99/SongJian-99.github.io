@@ -7,7 +7,7 @@ module.exports = {
     // 主题 移动端优化
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
   ],
-  base: '/blog',
+  base: '/',
   markdown: {
     lineNumbers: false // 代码块显示行号
   },

@@ -4,13 +4,13 @@
 export const siteData = {
   "title": "Cleaner",
   "description": "Cleaner",
-  "base": "/blog",
+  "base": "/",
   "headTags": [
     [
       "link",
       {
         "rel": "icon",
-        "href": "/blogfavicon.ico"
+        "href": "/favicon.ico"
       }
     ],
     [
@@ -22,34 +22,6 @@ export const siteData = {
     ]
   ],
   "pages": [
-    {
-      "frontmatter": {},
-      "regularPath": "/books/bookList.html",
-      "relativePath": "books/bookList.md",
-      "key": "v-7a04bb7c",
-      "path": "/books/bookList.html",
-      "lastUpdated": "10/14/2022, 3:44:51 PM",
-      "lastUpdatedTimestamp": 1665733491000
-    },
-    {
-      "title": "关圣帝君觉世真经",
-      "frontmatter": {
-        "title": "关圣帝君觉世真经",
-        "date": "2023-04-20T00:00:00.000Z",
-        "categories": [
-          "传统文化"
-        ],
-        "tags": [
-          "道"
-        ]
-      },
-      "regularPath": "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html",
-      "relativePath": "books/关圣帝君觉世真经.md",
-      "key": "v-2d92859e",
-      "path": "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html",
-      "lastUpdated": "4/20/2023, 8:37:27 PM",
-      "lastUpdatedTimestamp": 1681994247000
-    },
     {
       "title": "首页",
       "frontmatter": {
@@ -73,8 +45,36 @@ export const siteData = {
       "relativePath": "README.md",
       "key": "v-9280c340",
       "path": "/",
-      "lastUpdated": "4/20/2023, 8:37:27 PM",
-      "lastUpdatedTimestamp": 1681994247000
+      "lastUpdated": "4/21/2023, 9:53:30 AM",
+      "lastUpdatedTimestamp": 1682042010000
+    },
+    {
+      "title": "关圣帝君觉世真经",
+      "frontmatter": {
+        "title": "关圣帝君觉世真经",
+        "date": "2023-04-20T00:00:00.000Z",
+        "categories": [
+          "传统文化"
+        ],
+        "tags": [
+          "道"
+        ]
+      },
+      "regularPath": "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html",
+      "relativePath": "books/关圣帝君觉世真经.md",
+      "key": "v-2d92859e",
+      "path": "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html",
+      "lastUpdated": "4/21/2023, 9:53:30 AM",
+      "lastUpdatedTimestamp": 1682042010000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/books/bookList.html",
+      "relativePath": "books/bookList.md",
+      "key": "v-7a04bb7c",
+      "path": "/books/bookList.html",
+      "lastUpdated": "4/21/2023, 9:53:30 AM",
+      "lastUpdatedTimestamp": 1682042010000
     },
     {
       "title": "太上老君说常清静经",
@@ -92,8 +92,59 @@ export const siteData = {
       "relativePath": "books/太上老君说常清静经.md",
       "key": "v-3ec94b9a",
       "path": "/books/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E8%AF%B4%E5%B8%B8%E6%B8%85%E9%9D%99%E7%BB%8F.html",
-      "lastUpdated": "4/20/2023, 8:37:27 PM",
-      "lastUpdatedTimestamp": 1681994247000
+      "lastUpdated": "4/21/2023, 9:53:30 AM",
+      "lastUpdatedTimestamp": 1682042010000
+    },
+    {
+      "title": "素书",
+      "frontmatter": {
+        "title": "素书",
+        "date": "2023-04-20T00:00:00.000Z",
+        "categories": [
+          "传统文化"
+        ],
+        "tags": [
+          "道"
+        ]
+      },
+      "regularPath": "/books/%E7%B4%A0%E4%B9%A6.html",
+      "relativePath": "books/素书.md",
+      "key": "v-cbbc8128",
+      "path": "/books/%E7%B4%A0%E4%B9%A6.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "原始章第一",
+          "slug": "原始章第一"
+        },
+        {
+          "level": 2,
+          "title": "正道章第二",
+          "slug": "正道章第二"
+        },
+        {
+          "level": 2,
+          "title": "求人之志章第三",
+          "slug": "求人之志章第三"
+        },
+        {
+          "level": 2,
+          "title": "本德宗道章第四",
+          "slug": "本德宗道章第四"
+        },
+        {
+          "level": 2,
+          "title": "遵义章第五",
+          "slug": "遵义章第五"
+        },
+        {
+          "level": 2,
+          "title": "安礼章第六",
+          "slug": "安礼章第六"
+        }
+      ],
+      "lastUpdated": "4/21/2023, 9:53:30 AM",
+      "lastUpdatedTimestamp": 1682042010000
     },
     {
       "title": "太乙金华宗旨",
@@ -188,104 +239,8 @@ export const siteData = {
           "slug": "劝世歌第十三"
         }
       ],
-      "lastUpdated": "4/20/2023, 8:37:27 PM",
-      "lastUpdatedTimestamp": 1681994247000
-    },
-    {
-      "title": "素书",
-      "frontmatter": {
-        "title": "素书",
-        "date": "2023-04-20T00:00:00.000Z",
-        "categories": [
-          "传统文化"
-        ],
-        "tags": [
-          "道"
-        ]
-      },
-      "regularPath": "/books/%E7%B4%A0%E4%B9%A6.html",
-      "relativePath": "books/素书.md",
-      "key": "v-cbbc8128",
-      "path": "/books/%E7%B4%A0%E4%B9%A6.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "原始章第一",
-          "slug": "原始章第一"
-        },
-        {
-          "level": 2,
-          "title": "正道章第二",
-          "slug": "正道章第二"
-        },
-        {
-          "level": 2,
-          "title": "求人之志章第三",
-          "slug": "求人之志章第三"
-        },
-        {
-          "level": 2,
-          "title": "本德宗道章第四",
-          "slug": "本德宗道章第四"
-        },
-        {
-          "level": 2,
-          "title": "遵义章第五",
-          "slug": "遵义章第五"
-        },
-        {
-          "level": 2,
-          "title": "安礼章第六",
-          "slug": "安礼章第六"
-        }
-      ],
-      "lastUpdated": "4/20/2023, 8:37:27 PM",
-      "lastUpdatedTimestamp": 1681994247000
-    },
-    {
-      "frontmatter": {
-        "layout": "Tags",
-        "title": "Tags"
-      },
-      "regularPath": "/tag/",
-      "key": "v-b1564aac",
-      "path": "/tag/"
-    },
-    {
-      "frontmatter": {
-        "layout": "FrontmatterKey",
-        "title": "Categories"
-      },
-      "regularPath": "/categories/",
-      "key": "v-ef9325c4",
-      "path": "/categories/"
-    },
-    {
-      "frontmatter": {
-        "layout": "TimeLines",
-        "title": "Timeline"
-      },
-      "regularPath": "/timeline/",
-      "key": "v-6319eb4e",
-      "path": "/timeline/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "道 Tags"
-      },
-      "regularPath": "/tag/%E9%81%93/",
-      "key": "v-c7911d02",
-      "path": "/tag/道/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Category",
-        "title": "传统文化 Categories"
-      },
-      "regularPath": "/categories/%E4%BC%A0%E7%BB%9F%E6%96%87%E5%8C%96/",
-      "key": "v-60cad880",
-      "path": "/categories/传统文化/"
+      "lastUpdated": "4/21/2023, 9:53:30 AM",
+      "lastUpdatedTimestamp": 1682042010000
     }
   ],
   "themeConfig": {
