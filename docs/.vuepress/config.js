@@ -18,9 +18,7 @@ module.exports = {
     type: 'blog',
     autohor: 'Cleaner',
     // 个人信息的头像
-    authorAvatar: '/favicon.ico',
-    // 导航栏左侧 logo
-    logo: '/favicon.ico',
+    authorAvatar: '/avator.jpg',
     search: true,
     searchMaxSuggestions: 10,
     // 自动形成侧边导航及其深度

@@ -3,9 +3,9 @@
  */
 export default {
   "v-9280c340": () => import("E:\\vscode\\blog\\docs\\README.md"),
-  "v-2d92859e": () => import("E:\\vscode\\blog\\docs\\books\\关圣帝君觉世真经.md"),
-  "v-7a04bb7c": () => import("E:\\vscode\\blog\\docs\\books\\bookList.md"),
   "v-3ec94b9a": () => import("E:\\vscode\\blog\\docs\\books\\太上老君说常清静经.md"),
-  "v-cbbc8128": () => import("E:\\vscode\\blog\\docs\\books\\素书.md"),
-  "v-06af9d94": () => import("E:\\vscode\\blog\\docs\\books\\太乙金华宗旨.md") 
+  "v-7a04bb7c": () => import("E:\\vscode\\blog\\docs\\books\\bookList.md"),
+  "v-2d92859e": () => import("E:\\vscode\\blog\\docs\\books\\关圣帝君觉世真经.md"),
+  "v-06af9d94": () => import("E:\\vscode\\blog\\docs\\books\\太乙金华宗旨.md"),
+  "v-cbbc8128": () => import("E:\\vscode\\blog\\docs\\books\\素书.md") 
 }

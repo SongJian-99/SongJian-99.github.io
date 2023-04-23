@@ -21,6 +21,30 @@ export const routes = [
     redirect: "/"
   },
   {
+    name: "v-3ec94b9a",
+    path: "/books/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E8%AF%B4%E5%B8%B8%E6%B8%85%E9%9D%99%E7%BB%8F.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-3ec94b9a").then(next)
+    },
+  },
+  {
+    path: "/books/太上老君说常清静经.html",
+    redirect: "/books/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E8%AF%B4%E5%B8%B8%E6%B8%85%E9%9D%99%E7%BB%8F.html"
+  },
+  {
+    path: "/books/太上老君说常清静经.html",
+    redirect: "/books/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E8%AF%B4%E5%B8%B8%E6%B8%85%E9%9D%99%E7%BB%8F.html"
+  },
+  {
+    name: "v-7a04bb7c",
+    path: "/books/bookList.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7a04bb7c").then(next)
+    },
+  },
+  {
     name: "v-2d92859e",
     path: "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html",
     component: GlobalLayout,
@@ -37,28 +61,20 @@ export const routes = [
     redirect: "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html"
   },
   {
-    name: "v-7a04bb7c",
-    path: "/books/bookList.html",
+    name: "v-06af9d94",
+    path: "/books/%E5%A4%AA%E4%B9%99%E9%87%91%E5%8D%8E%E5%AE%97%E6%97%A8.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7a04bb7c").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-06af9d94").then(next)
     },
   },
   {
-    name: "v-3ec94b9a",
-    path: "/books/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E8%AF%B4%E5%B8%B8%E6%B8%85%E9%9D%99%E7%BB%8F.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3ec94b9a").then(next)
-    },
+    path: "/books/太乙金华宗旨.html",
+    redirect: "/books/%E5%A4%AA%E4%B9%99%E9%87%91%E5%8D%8E%E5%AE%97%E6%97%A8.html"
   },
   {
-    path: "/books/太上老君说常清静经.html",
-    redirect: "/books/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E8%AF%B4%E5%B8%B8%E6%B8%85%E9%9D%99%E7%BB%8F.html"
-  },
-  {
-    path: "/books/太上老君说常清静经.html",
-    redirect: "/books/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E8%AF%B4%E5%B8%B8%E6%B8%85%E9%9D%99%E7%BB%8F.html"
+    path: "/books/太乙金华宗旨.html",
+    redirect: "/books/%E5%A4%AA%E4%B9%99%E9%87%91%E5%8D%8E%E5%AE%97%E6%97%A8.html"
   },
   {
     name: "v-cbbc8128",
@@ -77,20 +93,69 @@ export const routes = [
     redirect: "/books/%E7%B4%A0%E4%B9%A6.html"
   },
   {
-    name: "v-06af9d94",
-    path: "/books/%E5%A4%AA%E4%B9%99%E9%87%91%E5%8D%8E%E5%AE%97%E6%97%A8.html",
+    name: "v-b1564aac",
+    path: "/tag/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-06af9d94").then(next)
+      ensureAsyncComponentsLoaded("Tags", "v-b1564aac").then(next)
     },
+    meta: {"pid":"tags","id":"tags"}
   },
   {
-    path: "/books/太乙金华宗旨.html",
-    redirect: "/books/%E5%A4%AA%E4%B9%99%E9%87%91%E5%8D%8E%E5%AE%97%E6%97%A8.html"
+    path: "/tag/index.html",
+    redirect: "/tag/"
   },
   {
-    path: "/books/太乙金华宗旨.html",
-    redirect: "/books/%E5%A4%AA%E4%B9%99%E9%87%91%E5%8D%8E%E5%AE%97%E6%97%A8.html"
+    name: "v-ef9325c4",
+    path: "/categories/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("FrontmatterKey", "v-ef9325c4").then(next)
+    },
+    meta: {"pid":"categories","id":"categories"}
+  },
+  {
+    path: "/categories/index.html",
+    redirect: "/categories/"
+  },
+  {
+    name: "v-6319eb4e",
+    path: "/timeline/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("TimeLines", "v-6319eb4e").then(next)
+    },
+    meta: {"pid":"timeline","id":"timeline"}
+  },
+  {
+    path: "/timeline/index.html",
+    redirect: "/timeline/"
+  },
+  {
+    name: "v-c7911d02",
+    path: "/tag/道/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-c7911d02").then(next)
+    },
+    meta: {"pid":"tags","id":"道"}
+  },
+  {
+    path: "/tag/道/index.html",
+    redirect: "/tag/道/"
+  },
+  {
+    name: "v-60cad880",
+    path: "/categories/传统文化/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-60cad880").then(next)
+    },
+    meta: {"pid":"categories","id":"传统文化"}
+  },
+  {
+    path: "/categories/传统文化/index.html",
+    redirect: "/categories/传统文化/"
   },
   {
     path: '*',
