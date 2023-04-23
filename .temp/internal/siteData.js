@@ -43,12 +43,43 @@ export const siteData = {
       },
       "regularPath": "/",
       "relativePath": "README.md",
-      "key": "v-9280c340",
+      "key": "v-51316b00",
       "path": "/",
       "lastUpdated": "4/21/2023, 10:12:31 AM",
       "lastUpdatedTimestamp": 1682043151000
     },
     {
+<<<<<<< HEAD
+=======
+      "frontmatter": {},
+      "regularPath": "/books/bookList.html",
+      "relativePath": "books/bookList.md",
+      "key": "v-0c9027ef",
+      "path": "/books/bookList.html",
+      "lastUpdated": "4/21/2023, 9:53:30 AM",
+      "lastUpdatedTimestamp": 1682042010000
+    },
+    {
+      "title": "关圣帝君觉世真经",
+      "frontmatter": {
+        "title": "关圣帝君觉世真经",
+        "date": "2023-04-20T00:00:00.000Z",
+        "categories": [
+          "传统文化"
+        ],
+        "tags": [
+          "道"
+        ]
+      },
+      "regularPath": "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html",
+      "relativePath": "books/关圣帝君觉世真经.md",
+      "key": "v-b2f54a44",
+      "path": "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html",
+      "lastUpdated": "4/21/2023, 9:53:30 AM",
+      "lastUpdatedTimestamp": 1682042010000
+    },
+    {
+>>>>>>> ef6aa55f7b1d8d1e235333d070860a9c73195cc6
       "title": "太上老君说常清静经",
       "frontmatter": {
         "title": "太上老君说常清静经",
@@ -62,7 +93,7 @@ export const siteData = {
       },
       "regularPath": "/books/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E8%AF%B4%E5%B8%B8%E6%B8%85%E9%9D%99%E7%BB%8F.html",
       "relativePath": "books/太上老君说常清静经.md",
-      "key": "v-3ec94b9a",
+      "key": "v-12c47507",
       "path": "/books/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E8%AF%B4%E5%B8%B8%E6%B8%85%E9%9D%99%E7%BB%8F.html",
       "lastUpdated": "4/21/2023, 9:53:30 AM",
       "lastUpdatedTimestamp": 1682042010000
@@ -88,10 +119,49 @@ export const siteData = {
           "道"
         ]
       },
+<<<<<<< HEAD
       "regularPath": "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html",
       "relativePath": "books/关圣帝君觉世真经.md",
       "key": "v-2d92859e",
       "path": "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html",
+=======
+      "regularPath": "/books/%E7%B4%A0%E4%B9%A6.html",
+      "relativePath": "books/素书.md",
+      "key": "v-266fa699",
+      "path": "/books/%E7%B4%A0%E4%B9%A6.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "原始章第一",
+          "slug": "原始章第一"
+        },
+        {
+          "level": 2,
+          "title": "正道章第二",
+          "slug": "正道章第二"
+        },
+        {
+          "level": 2,
+          "title": "求人之志章第三",
+          "slug": "求人之志章第三"
+        },
+        {
+          "level": 2,
+          "title": "本德宗道章第四",
+          "slug": "本德宗道章第四"
+        },
+        {
+          "level": 2,
+          "title": "遵义章第五",
+          "slug": "遵义章第五"
+        },
+        {
+          "level": 2,
+          "title": "安礼章第六",
+          "slug": "安礼章第六"
+        }
+      ],
+>>>>>>> ef6aa55f7b1d8d1e235333d070860a9c73195cc6
       "lastUpdated": "4/21/2023, 9:53:30 AM",
       "lastUpdatedTimestamp": 1682042010000
     },
@@ -109,7 +179,7 @@ export const siteData = {
       },
       "regularPath": "/books/%E5%A4%AA%E4%B9%99%E9%87%91%E5%8D%8E%E5%AE%97%E6%97%A8.html",
       "relativePath": "books/太乙金华宗旨.md",
-      "key": "v-06af9d94",
+      "key": "v-7e1bd87e",
       "path": "/books/%E5%A4%AA%E4%B9%99%E9%87%91%E5%8D%8E%E5%AE%97%E6%97%A8.html",
       "headers": [
         {
@@ -192,6 +262,7 @@ export const siteData = {
       "lastUpdatedTimestamp": 1682042010000
     },
     {
+<<<<<<< HEAD
       "title": "素书",
       "frontmatter": {
         "title": "素书",
@@ -243,6 +314,8 @@ export const siteData = {
       "lastUpdatedTimestamp": 1682042010000
     },
     {
+=======
+>>>>>>> ef6aa55f7b1d8d1e235333d070860a9c73195cc6
       "frontmatter": {
         "layout": "Tags",
         "title": "Tags"

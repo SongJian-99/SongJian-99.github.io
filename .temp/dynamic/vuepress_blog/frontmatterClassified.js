@@ -8,10 +8,17 @@ export default {
       "scope": "tags",
       "path": "/tag/道/",
       "pageKeys": [
+<<<<<<< HEAD
         "v-2d92859e",
         "v-06af9d94",
         "v-3ec94b9a",
         "v-cbbc8128"
+=======
+        "v-b2f54a44",
+        "v-12c47507",
+        "v-266fa699",
+        "v-7e1bd87e"
+>>>>>>> ef6aa55f7b1d8d1e235333d070860a9c73195cc6
       ]
     }
   },
@@ -21,10 +28,17 @@ export default {
       "scope": "categories",
       "path": "/categories/传统文化/",
       "pageKeys": [
+<<<<<<< HEAD
         "v-2d92859e",
         "v-06af9d94",
         "v-3ec94b9a",
         "v-cbbc8128"
+=======
+        "v-b2f54a44",
+        "v-12c47507",
+        "v-266fa699",
+        "v-7e1bd87e"
+>>>>>>> ef6aa55f7b1d8d1e235333d070860a9c73195cc6
       ]
     }
   },
