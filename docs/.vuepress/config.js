@@ -1,7 +1,12 @@
 module.exports = {
+  locales: {
+    '/': {
+      lang: 'zh-CN'
+    }
+  },
   theme: 'reco',
   title: 'Cleaner',
-  description: 'Cleaner',
+  description: '记录',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     // 主题 移动端优化
@@ -27,16 +32,11 @@ module.exports = {
     noFoundPageByTencent: false,
     lastUpdated: '更新时间',
     // 博客配置
-    // blogConfig: {
-    //   category: {
-    //     location: 2, // 导航栏中的位置
-    //     text: '分类'  // 文字
-    //   },
-    //   tag: {
-    //     location: 3,
-    //     text: '标签'      
-    //   }
-    // },
+    blogConfig: {
+      socialLinks: [
+        {icon: 'reco-github', link: 'https://github.com/SongJian-99'}
+      ]
+    },
     nav: [ // 导航栏配置
       // {
       //   text: 'java',
@@ -48,7 +48,8 @@ module.exports = {
       // },
       // {text: '杂项', link: '/other/'},
       { text: '书籍', link: '/books/bookList', icon: 'reco-document' },
-      { text: '时间轴', link: '/timeLine/', icon: 'reco-date' }
+      { text: '时间轴', link: '/timeLine/', icon: 'reco-date' },
+      // { text: '关于我', link: '/blogs/aboutMe', icon: 'reco-account' }
     ],
     sidebar: {
       '/books/': [
@@ -63,6 +64,13 @@ module.exports = {
           ]
         }
       ]
+    },
+    // 评论插件配置
+    valineConfig: {
+      appId: 'qR1MgQXTGffUVgeTTM9Qnl3E-gzGzoHsz',
+      appKey: 'OdwTWvfZsjbJIsBtQcgzc4eP',
+      showComment: false
+      // isShowComments: true  在需要添加评论的页面加上这个配置
     }
   }
 };

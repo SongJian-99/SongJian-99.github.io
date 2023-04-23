@@ -3,7 +3,7 @@
  */
 export const siteData = {
   "title": "Cleaner",
-  "description": "Cleaner",
+  "description": "记录",
   "base": "/",
   "headTags": [
     [
@@ -23,41 +23,38 @@ export const siteData = {
   ],
   "pages": [
     {
+      "frontmatter": {},
+      "regularPath": "/books/bookList.html",
+      "relativePath": "books/bookList.md",
+      "key": "v-7a04bb7c",
+      "path": "/books/bookList.html",
+      "lastUpdated": "2023/4/21 上午9:53:30",
+      "lastUpdatedTimestamp": 1682042010000
+    },
+    {
       "title": "首页",
       "frontmatter": {
         "home": true,
         "title": "首页",
         "author": "Cleaner",
-        "data": "2022-8-30",
-        "heroImage": "/logo.jpg",
-        "heroImageStyle": {
-          "maxHeight": "400px",
-          "display": "block",
-          "margin": "6rem auto 1.5rem",
-          "boxShadow": "0 5px 18px rgba(0,0,0,0.2)"
-        },
         "heroText": null,
         "tagline": null,
         "actionText": "开始 →",
-        "actionLink": "/books/"
+        "actionLink": "/books/",
+        "heroImage": "/logo.jpg",
+        "heroImageStyle": {
+          "maxWidth": "450px",
+          "display": "block",
+          "margin": "-6rem auto 1.5rem",
+          "boxShadow": "0 5px 18px rgba(0,0,0,0.2)"
+        }
       },
       "regularPath": "/",
       "relativePath": "README.md",
-      "key": "v-51316b00",
+      "key": "v-9280c340",
       "path": "/",
-      "lastUpdated": "4/21/2023, 10:12:31 AM",
+      "lastUpdated": "2023/4/21 上午10:12:31",
       "lastUpdatedTimestamp": 1682043151000
-    },
-    {
-<<<<<<< HEAD
-=======
-      "frontmatter": {},
-      "regularPath": "/books/bookList.html",
-      "relativePath": "books/bookList.md",
-      "key": "v-0c9027ef",
-      "path": "/books/bookList.html",
-      "lastUpdated": "4/21/2023, 9:53:30 AM",
-      "lastUpdatedTimestamp": 1682042010000
     },
     {
       "title": "关圣帝君觉世真经",
@@ -73,13 +70,12 @@ export const siteData = {
       },
       "regularPath": "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html",
       "relativePath": "books/关圣帝君觉世真经.md",
-      "key": "v-b2f54a44",
+      "key": "v-2d92859e",
       "path": "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html",
-      "lastUpdated": "4/21/2023, 9:53:30 AM",
+      "lastUpdated": "2023/4/21 上午9:53:30",
       "lastUpdatedTimestamp": 1682042010000
     },
     {
->>>>>>> ef6aa55f7b1d8d1e235333d070860a9c73195cc6
       "title": "太上老君说常清静经",
       "frontmatter": {
         "title": "太上老君说常清静经",
@@ -93,24 +89,15 @@ export const siteData = {
       },
       "regularPath": "/books/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E8%AF%B4%E5%B8%B8%E6%B8%85%E9%9D%99%E7%BB%8F.html",
       "relativePath": "books/太上老君说常清静经.md",
-      "key": "v-12c47507",
+      "key": "v-3ec94b9a",
       "path": "/books/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E8%AF%B4%E5%B8%B8%E6%B8%85%E9%9D%99%E7%BB%8F.html",
-      "lastUpdated": "4/21/2023, 9:53:30 AM",
+      "lastUpdated": "2023/4/21 上午9:53:30",
       "lastUpdatedTimestamp": 1682042010000
     },
     {
-      "frontmatter": {},
-      "regularPath": "/books/bookList.html",
-      "relativePath": "books/bookList.md",
-      "key": "v-7a04bb7c",
-      "path": "/books/bookList.html",
-      "lastUpdated": "4/21/2023, 9:53:30 AM",
-      "lastUpdatedTimestamp": 1682042010000
-    },
-    {
-      "title": "关圣帝君觉世真经",
+      "title": "素书",
       "frontmatter": {
-        "title": "关圣帝君觉世真经",
+        "title": "素书",
         "date": "2023-04-20T00:00:00.000Z",
         "categories": [
           "传统文化"
@@ -119,15 +106,9 @@ export const siteData = {
           "道"
         ]
       },
-<<<<<<< HEAD
-      "regularPath": "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html",
-      "relativePath": "books/关圣帝君觉世真经.md",
-      "key": "v-2d92859e",
-      "path": "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html",
-=======
       "regularPath": "/books/%E7%B4%A0%E4%B9%A6.html",
       "relativePath": "books/素书.md",
-      "key": "v-266fa699",
+      "key": "v-cbbc8128",
       "path": "/books/%E7%B4%A0%E4%B9%A6.html",
       "headers": [
         {
@@ -161,8 +142,7 @@ export const siteData = {
           "slug": "安礼章第六"
         }
       ],
->>>>>>> ef6aa55f7b1d8d1e235333d070860a9c73195cc6
-      "lastUpdated": "4/21/2023, 9:53:30 AM",
+      "lastUpdated": "2023/4/21 上午9:53:30",
       "lastUpdatedTimestamp": 1682042010000
     },
     {
@@ -179,7 +159,7 @@ export const siteData = {
       },
       "regularPath": "/books/%E5%A4%AA%E4%B9%99%E9%87%91%E5%8D%8E%E5%AE%97%E6%97%A8.html",
       "relativePath": "books/太乙金华宗旨.md",
-      "key": "v-7e1bd87e",
+      "key": "v-06af9d94",
       "path": "/books/%E5%A4%AA%E4%B9%99%E9%87%91%E5%8D%8E%E5%AE%97%E6%97%A8.html",
       "headers": [
         {
@@ -258,64 +238,10 @@ export const siteData = {
           "slug": "劝世歌第十三"
         }
       ],
-      "lastUpdated": "4/21/2023, 9:53:30 AM",
+      "lastUpdated": "2023/4/21 上午9:53:30",
       "lastUpdatedTimestamp": 1682042010000
     },
     {
-<<<<<<< HEAD
-      "title": "素书",
-      "frontmatter": {
-        "title": "素书",
-        "date": "2023-04-20T00:00:00.000Z",
-        "categories": [
-          "传统文化"
-        ],
-        "tags": [
-          "道"
-        ]
-      },
-      "regularPath": "/books/%E7%B4%A0%E4%B9%A6.html",
-      "relativePath": "books/素书.md",
-      "key": "v-cbbc8128",
-      "path": "/books/%E7%B4%A0%E4%B9%A6.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "原始章第一",
-          "slug": "原始章第一"
-        },
-        {
-          "level": 2,
-          "title": "正道章第二",
-          "slug": "正道章第二"
-        },
-        {
-          "level": 2,
-          "title": "求人之志章第三",
-          "slug": "求人之志章第三"
-        },
-        {
-          "level": 2,
-          "title": "本德宗道章第四",
-          "slug": "本德宗道章第四"
-        },
-        {
-          "level": 2,
-          "title": "遵义章第五",
-          "slug": "遵义章第五"
-        },
-        {
-          "level": 2,
-          "title": "安礼章第六",
-          "slug": "安礼章第六"
-        }
-      ],
-      "lastUpdated": "4/21/2023, 9:53:30 AM",
-      "lastUpdatedTimestamp": 1682042010000
-    },
-    {
-=======
->>>>>>> ef6aa55f7b1d8d1e235333d070860a9c73195cc6
       "frontmatter": {
         "layout": "Tags",
         "title": "Tags"
@@ -371,6 +297,14 @@ export const siteData = {
     "sidebarDepth": 1,
     "noFoundPageByTencent": false,
     "lastUpdated": "更新时间",
+    "blogConfig": {
+      "socialLinks": [
+        {
+          "icon": "reco-github",
+          "link": "https://github.com/SongJian-99"
+        }
+      ]
+    },
     "nav": [
       {
         "text": "书籍",
@@ -408,6 +342,17 @@ export const siteData = {
           ]
         }
       ]
+    },
+    "valineConfig": {
+      "appId": "qR1MgQXTGffUVgeTTM9Qnl3E-gzGzoHsz",
+      "appKey": "OdwTWvfZsjbJIsBtQcgzc4eP",
+      "showComment": false
+    }
+  },
+  "locales": {
+    "/": {
+      "lang": "zh-CN",
+      "path": "/"
     }
   }
 }
