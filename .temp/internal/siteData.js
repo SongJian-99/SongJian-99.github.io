@@ -23,6 +23,25 @@ export const siteData = {
   ],
   "pages": [
     {
+      "title": "关圣帝君觉世真经",
+      "frontmatter": {
+        "title": "关圣帝君觉世真经",
+        "date": "2023-04-20T00:00:00.000Z",
+        "categories": [
+          "传统文化"
+        ],
+        "tags": [
+          "道"
+        ]
+      },
+      "regularPath": "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html",
+      "relativePath": "books/关圣帝君觉世真经.md",
+      "key": "v-2d92859e",
+      "path": "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html",
+      "lastUpdated": "2023/4/21 上午9:53:30",
+      "lastUpdatedTimestamp": 1682042010000
+    },
+    {
       "frontmatter": {},
       "regularPath": "/books/bookList.html",
       "relativePath": "books/bookList.md",
@@ -53,46 +72,8 @@ export const siteData = {
       "relativePath": "README.md",
       "key": "v-9280c340",
       "path": "/",
-      "lastUpdated": "2023/4/21 上午10:12:31",
-      "lastUpdatedTimestamp": 1682043151000
-    },
-    {
-      "title": "关圣帝君觉世真经",
-      "frontmatter": {
-        "title": "关圣帝君觉世真经",
-        "date": "2023-04-20T00:00:00.000Z",
-        "categories": [
-          "传统文化"
-        ],
-        "tags": [
-          "道"
-        ]
-      },
-      "regularPath": "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html",
-      "relativePath": "books/关圣帝君觉世真经.md",
-      "key": "v-2d92859e",
-      "path": "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html",
-      "lastUpdated": "2023/4/21 上午9:53:30",
-      "lastUpdatedTimestamp": 1682042010000
-    },
-    {
-      "title": "太上老君说常清静经",
-      "frontmatter": {
-        "title": "太上老君说常清静经",
-        "date": "2023-04-20T00:00:00.000Z",
-        "categories": [
-          "传统文化"
-        ],
-        "tags": [
-          "道"
-        ]
-      },
-      "regularPath": "/books/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E8%AF%B4%E5%B8%B8%E6%B8%85%E9%9D%99%E7%BB%8F.html",
-      "relativePath": "books/太上老君说常清静经.md",
-      "key": "v-3ec94b9a",
-      "path": "/books/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E8%AF%B4%E5%B8%B8%E6%B8%85%E9%9D%99%E7%BB%8F.html",
-      "lastUpdated": "2023/4/21 上午9:53:30",
-      "lastUpdatedTimestamp": 1682042010000
+      "lastUpdated": "2023/4/23 下午4:18:30",
+      "lastUpdatedTimestamp": 1682237910000
     },
     {
       "title": "素书",
@@ -142,6 +123,25 @@ export const siteData = {
           "slug": "安礼章第六"
         }
       ],
+      "lastUpdated": "2023/4/21 上午9:53:30",
+      "lastUpdatedTimestamp": 1682042010000
+    },
+    {
+      "title": "太上老君说常清静经",
+      "frontmatter": {
+        "title": "太上老君说常清静经",
+        "date": "2023-04-20T00:00:00.000Z",
+        "categories": [
+          "传统文化"
+        ],
+        "tags": [
+          "道"
+        ]
+      },
+      "regularPath": "/books/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E8%AF%B4%E5%B8%B8%E6%B8%85%E9%9D%99%E7%BB%8F.html",
+      "relativePath": "books/太上老君说常清静经.md",
+      "key": "v-3ec94b9a",
+      "path": "/books/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E8%AF%B4%E5%B8%B8%E6%B8%85%E9%9D%99%E7%BB%8F.html",
       "lastUpdated": "2023/4/21 上午9:53:30",
       "lastUpdatedTimestamp": 1682042010000
     },

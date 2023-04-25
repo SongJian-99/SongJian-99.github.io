@@ -9,6 +9,22 @@ import GlobalLayout from "E:\\vscode\\blog\\node_modules\\@vuepress\\core\\lib\\
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
+    name: "v-2d92859e",
+    path: "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-2d92859e").then(next)
+    },
+  },
+  {
+    path: "/books/关圣帝君觉世真经.html",
+    redirect: "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html"
+  },
+  {
+    path: "/books/关圣帝君觉世真经.html",
+    redirect: "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html"
+  },
+  {
     name: "v-7a04bb7c",
     path: "/books/bookList.html",
     component: GlobalLayout,
@@ -29,20 +45,20 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-2d92859e",
-    path: "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html",
+    name: "v-cbbc8128",
+    path: "/books/%E7%B4%A0%E4%B9%A6.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2d92859e").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-cbbc8128").then(next)
     },
   },
   {
-    path: "/books/关圣帝君觉世真经.html",
-    redirect: "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html"
+    path: "/books/素书.html",
+    redirect: "/books/%E7%B4%A0%E4%B9%A6.html"
   },
   {
-    path: "/books/关圣帝君觉世真经.html",
-    redirect: "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html"
+    path: "/books/素书.html",
+    redirect: "/books/%E7%B4%A0%E4%B9%A6.html"
   },
   {
     name: "v-3ec94b9a",
@@ -59,22 +75,6 @@ export const routes = [
   {
     path: "/books/太上老君说常清静经.html",
     redirect: "/books/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E8%AF%B4%E5%B8%B8%E6%B8%85%E9%9D%99%E7%BB%8F.html"
-  },
-  {
-    name: "v-cbbc8128",
-    path: "/books/%E7%B4%A0%E4%B9%A6.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-cbbc8128").then(next)
-    },
-  },
-  {
-    path: "/books/素书.html",
-    redirect: "/books/%E7%B4%A0%E4%B9%A6.html"
-  },
-  {
-    path: "/books/素书.html",
-    redirect: "/books/%E7%B4%A0%E4%B9%A6.html"
   },
   {
     name: "v-06af9d94",
