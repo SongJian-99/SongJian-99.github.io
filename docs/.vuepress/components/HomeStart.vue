@@ -1,7 +1,7 @@
 <template>
-  <div class="startBtn">
-    <button>开始</button>
-  </div>
+  <router-link to="/books/">
+    <button class="startBtn">关于</button>
+  </router-link>
 </template>
 
 <script>
@@ -12,6 +12,15 @@
 
 <style scoped>
   .startBtn {
-    background-color: red;
+    position: absolute;
+    top: -55rem;
+    left: 420px;
+    z-index: 9999999999;
+    width: 100px;
+    height: 50px;
+    background-color:#3eaf7c;
+    border: 0;
+    color: white;
+    font-size: 20px;
   }
 </style>

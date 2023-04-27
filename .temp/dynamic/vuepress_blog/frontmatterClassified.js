@@ -9,9 +9,9 @@ export default {
       "path": "/tag/道/",
       "pageKeys": [
         "v-2d92859e",
-        "v-cbbc8128",
         "v-3ec94b9a",
-        "v-06af9d94"
+        "v-06af9d94",
+        "v-cbbc8128"
       ]
     }
   },
@@ -22,9 +22,9 @@ export default {
       "path": "/categories/传统文化/",
       "pageKeys": [
         "v-2d92859e",
-        "v-cbbc8128",
         "v-3ec94b9a",
-        "v-06af9d94"
+        "v-06af9d94",
+        "v-cbbc8128"
       ]
     }
   },

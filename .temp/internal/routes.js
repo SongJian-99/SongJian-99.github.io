@@ -9,6 +9,14 @@ import GlobalLayout from "E:\\vscode\\blog\\node_modules\\@vuepress\\core\\lib\\
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
+    name: "v-7a04bb7c",
+    path: "/books/bookList.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7a04bb7c").then(next)
+    },
+  },
+  {
     name: "v-2d92859e",
     path: "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html",
     component: GlobalLayout,
@@ -25,14 +33,6 @@ export const routes = [
     redirect: "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html"
   },
   {
-    name: "v-7a04bb7c",
-    path: "/books/bookList.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7a04bb7c").then(next)
-    },
-  },
-  {
     name: "v-9280c340",
     path: "/",
     component: GlobalLayout,
@@ -43,22 +43,6 @@ export const routes = [
   {
     path: "/index.html",
     redirect: "/"
-  },
-  {
-    name: "v-cbbc8128",
-    path: "/books/%E7%B4%A0%E4%B9%A6.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-cbbc8128").then(next)
-    },
-  },
-  {
-    path: "/books/素书.html",
-    redirect: "/books/%E7%B4%A0%E4%B9%A6.html"
-  },
-  {
-    path: "/books/素书.html",
-    redirect: "/books/%E7%B4%A0%E4%B9%A6.html"
   },
   {
     name: "v-3ec94b9a",
@@ -91,6 +75,22 @@ export const routes = [
   {
     path: "/books/太乙金华宗旨.html",
     redirect: "/books/%E5%A4%AA%E4%B9%99%E9%87%91%E5%8D%8E%E5%AE%97%E6%97%A8.html"
+  },
+  {
+    name: "v-cbbc8128",
+    path: "/books/%E7%B4%A0%E4%B9%A6.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-cbbc8128").then(next)
+    },
+  },
+  {
+    path: "/books/素书.html",
+    redirect: "/books/%E7%B4%A0%E4%B9%A6.html"
+  },
+  {
+    path: "/books/素书.html",
+    redirect: "/books/%E7%B4%A0%E4%B9%A6.html"
   },
   {
     name: "v-b1564aac",
