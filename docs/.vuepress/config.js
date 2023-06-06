@@ -31,6 +31,8 @@ module.exports = {
     sidebarDepth: 1,
     noFoundPageByTencent: false,
     lastUpdated: '更新时间',
+    // 设置时区偏移量（8小时）
+    timezoneOffset: 8 * 60 * 60 * 1000,
     // 博客配置
     blogConfig: {
       socialLinks: [
