@@ -6,7 +6,7 @@ module.exports = {
   },
   theme: 'reco',
   title: 'Cleaner',
-  description: '记录',
+  description: 'Cleaner\'s blog',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     // 主题 移动端优化
@@ -14,7 +14,7 @@ module.exports = {
   ],
   base: '/',
   markdown: {
-    lineNumbers: false // 代码块显示行号
+    lineNumbers: true // 代码块显示行号
   },
   plugins: [
     ['@vuepress-reco/vuepress-plugin-back-to-top']
@@ -46,7 +46,7 @@ module.exports = {
       //     {text: '并发编程', link: '/'}
       //   ]
       // },
-      // {text: '杂项', link: '/other/'},
+      { text: 'Docker', link: '/docker/preface', icon: 'iconfont icon-docker' },
       { text: '书籍', link: '/books/bookList', icon: 'reco-document' },
       { text: '时间轴', link: '/timeLine/', icon: 'reco-date' },
       // { text: '关于我', link: '/blogs/aboutMe', icon: 'reco-account' }
@@ -61,6 +61,20 @@ module.exports = {
             { title: '太上老君说常清静经', path: '/books/太上老君说常清静经' },
             { title: '关圣帝君觉世真经', path: '/books/关圣帝君觉世真经' },
             { title: '素书', path: '/books/素书' },
+          ]
+        }
+      ],
+      '/docker/': [
+        // {
+        //   title: 'Docker 基础',
+        //   collapsable: true,
+        // },
+        {
+          title: 'Docker 应用',
+          collapsable: true,
+          children: [
+            { title: '使用 Docker Compose 部署 Elasticsearch + Kibana', path: '/docker/Elasticsearch' },
+            { title: '使用 Dockerfile + Docker Compose 部署 Web 项目', path: '/docker/Web' }
           ]
         }
       ]

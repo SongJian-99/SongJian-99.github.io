@@ -1,1 +1,1 @@
-export { default } from "E:\\vscode\\blog\\node_modules\\vuepress-plugin-smooth-scroll\\lib\\enhanceApp.js"
+export { default } from "E:\\vscode\\blog\\node_modules\\@vuepress\\plugin-blog\\lib\\client\\services.js"

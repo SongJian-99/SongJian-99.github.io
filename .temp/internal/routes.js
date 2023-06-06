@@ -17,6 +17,18 @@ export const routes = [
     },
   },
   {
+    name: "v-9280c340",
+    path: "/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-9280c340").then(next)
+    },
+  },
+  {
+    path: "/index.html",
+    redirect: "/"
+  },
+  {
     name: "v-2d92859e",
     path: "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html",
     component: GlobalLayout,
@@ -31,18 +43,6 @@ export const routes = [
   {
     path: "/books/关圣帝君觉世真经.html",
     redirect: "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html"
-  },
-  {
-    name: "v-9280c340",
-    path: "/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-9280c340").then(next)
-    },
-  },
-  {
-    path: "/index.html",
-    redirect: "/"
   },
   {
     name: "v-3ec94b9a",
@@ -77,6 +77,14 @@ export const routes = [
     redirect: "/books/%E5%A4%AA%E4%B9%99%E9%87%91%E5%8D%8E%E5%AE%97%E6%97%A8.html"
   },
   {
+    name: "v-100f049c",
+    path: "/docker/preface.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-100f049c").then(next)
+    },
+  },
+  {
     name: "v-cbbc8128",
     path: "/books/%E7%B4%A0%E4%B9%A6.html",
     component: GlobalLayout,
@@ -91,6 +99,22 @@ export const routes = [
   {
     path: "/books/素书.html",
     redirect: "/books/%E7%B4%A0%E4%B9%A6.html"
+  },
+  {
+    name: "v-d8bc6e10",
+    path: "/docker/Elasticsearch.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-d8bc6e10").then(next)
+    },
+  },
+  {
+    name: "v-539ebe6c",
+    path: "/docker/Web.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-539ebe6c").then(next)
+    },
   },
   {
     name: "v-b1564aac",
@@ -145,6 +169,19 @@ export const routes = [
     redirect: "/tag/道/"
   },
   {
+    name: "v-83bebff6",
+    path: "/tag/Docker/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-83bebff6").then(next)
+    },
+    meta: {"pid":"tags","id":"Docker"}
+  },
+  {
+    path: "/tag/Docker/index.html",
+    redirect: "/tag/Docker/"
+  },
+  {
     name: "v-60cad880",
     path: "/categories/传统文化/",
     component: GlobalLayout,
@@ -156,6 +193,19 @@ export const routes = [
   {
     path: "/categories/传统文化/index.html",
     redirect: "/categories/传统文化/"
+  },
+  {
+    name: "v-12afc5a1",
+    path: "/categories/后端/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-12afc5a1").then(next)
+    },
+    meta: {"pid":"categories","id":"后端"}
+  },
+  {
+    path: "/categories/后端/index.html",
+    redirect: "/categories/后端/"
   },
   {
     path: '*',

@@ -1,2 +1,1 @@
-import "E:\\vscode\\blog\\node_modules\\@vuepress\\core\\lib\\node\\internal-plugins\\style\\client.js"
-export default {}
+export { default } from "E:\\vscode\\blog\\node_modules\\vuepress-theme-reco\\enhanceApp.js"

@@ -13,6 +13,15 @@ export default {
         "v-06af9d94",
         "v-cbbc8128"
       ]
+    },
+    "Docker": {
+      "key": "Docker",
+      "scope": "tags",
+      "path": "/tag/Docker/",
+      "pageKeys": [
+        "v-d8bc6e10",
+        "v-539ebe6c"
+      ]
     }
   },
   "categories": {
@@ -25,6 +34,15 @@ export default {
         "v-3ec94b9a",
         "v-06af9d94",
         "v-cbbc8128"
+      ]
+    },
+    "后端": {
+      "key": "后端",
+      "scope": "categories",
+      "path": "/categories/后端/",
+      "pageKeys": [
+        "v-d8bc6e10",
+        "v-539ebe6c"
       ]
     }
   },

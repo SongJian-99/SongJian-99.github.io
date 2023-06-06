@@ -1,1 +1,2 @@
-export { default } from "E:\\vscode\\blog\\node_modules\\@vuepress-reco\\vuepress-plugin-pagation\\bin\\enhanceAppFile.js"
+import "E:\\vscode\\blog\\node_modules\\@vuepress\\core\\lib\\node\\internal-plugins\\style\\client.js"
+export default {}

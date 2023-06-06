@@ -14,17 +14,15 @@ heroImageStyle: {
   boxShadow: '0 5px 18px rgba(0,0,0,0.2)'
 }
 ---
-<template>
+<!-- <template>
   <router-link to="/books/">
-    <button class="startBtn">关于</button>
+    <button class="startBtn" style="transition: transform 0.25s ease-in-out 0.16s, opacity 0.25s ease-in-out 0.16s; transform: translateY(0px); opacity: 1;">关于</button>
   </router-link>
 </template>
 
 <style scoped>
   .startBtn {
-    position: absolute;
-    top: -55rem;
-    left: 420px;
+    position: relative;
     z-index: 9999999999;
     width: 100px;
     height: 50px;
@@ -33,4 +31,4 @@ heroImageStyle: {
     color: white;
     font-size: 20px;
   }
-</style>
+</style> -->

@@ -3,7 +3,7 @@
  */
 export const siteData = {
   "title": "Cleaner",
-  "description": "记录",
+  "description": "Cleaner's blog",
   "base": "/",
   "headTags": [
     [
@@ -32,25 +32,6 @@ export const siteData = {
       "lastUpdatedTimestamp": 1682042010000
     },
     {
-      "title": "关圣帝君觉世真经",
-      "frontmatter": {
-        "title": "关圣帝君觉世真经",
-        "date": "2023-04-20T00:00:00.000Z",
-        "categories": [
-          "传统文化"
-        ],
-        "tags": [
-          "道"
-        ]
-      },
-      "regularPath": "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html",
-      "relativePath": "books/关圣帝君觉世真经.md",
-      "key": "v-2d92859e",
-      "path": "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html",
-      "lastUpdated": "2023/4/21 上午9:53:30",
-      "lastUpdatedTimestamp": 1682042010000
-    },
-    {
       "title": "首页",
       "frontmatter": {
         "home": true,
@@ -72,8 +53,27 @@ export const siteData = {
       "relativePath": "README.md",
       "key": "v-9280c340",
       "path": "/",
-      "lastUpdated": "2023/4/23 下午4:18:30",
-      "lastUpdatedTimestamp": 1682237910000
+      "lastUpdated": "2023/4/27 下午5:15:04",
+      "lastUpdatedTimestamp": 1682586904000
+    },
+    {
+      "title": "关圣帝君觉世真经",
+      "frontmatter": {
+        "title": "关圣帝君觉世真经",
+        "date": "2023-04-20T00:00:00.000Z",
+        "categories": [
+          "传统文化"
+        ],
+        "tags": [
+          "道"
+        ]
+      },
+      "regularPath": "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html",
+      "relativePath": "books/关圣帝君觉世真经.md",
+      "key": "v-2d92859e",
+      "path": "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html",
+      "lastUpdated": "2023/4/21 上午9:53:30",
+      "lastUpdatedTimestamp": 1682042010000
     },
     {
       "title": "太上老君说常清静经",
@@ -191,6 +191,13 @@ export const siteData = {
       "lastUpdatedTimestamp": 1682042010000
     },
     {
+      "frontmatter": {},
+      "regularPath": "/docker/preface.html",
+      "relativePath": "docker/preface.md",
+      "key": "v-100f049c",
+      "path": "/docker/preface.html"
+    },
+    {
       "title": "素书",
       "frontmatter": {
         "title": "素书",
@@ -242,6 +249,181 @@ export const siteData = {
       "lastUpdatedTimestamp": 1682042010000
     },
     {
+      "title": "使用 Docker Compose 部署 Elasticsearch + Kibana",
+      "frontmatter": {
+        "title": "使用 Docker Compose 部署 Elasticsearch + Kibana",
+        "date": "2023-06-06T00:00:00.000Z",
+        "isShowComments": true,
+        "categories": [
+          "后端"
+        ],
+        "tags": [
+          "Docker"
+        ]
+      },
+      "regularPath": "/docker/Elasticsearch.html",
+      "relativePath": "docker/Elasticsearch.md",
+      "key": "v-d8bc6e10",
+      "path": "/docker/Elasticsearch.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "服务器目录结构",
+          "slug": "服务器目录结构"
+        },
+        {
+          "level": 2,
+          "title": "部署 Elasticsearch 和 Kibana",
+          "slug": "部署-elasticsearch-和-kibana"
+        },
+        {
+          "level": 3,
+          "title": "启动容器",
+          "slug": "启动容器"
+        },
+        {
+          "level": 3,
+          "title": "设置登陆密码",
+          "slug": "设置登陆密码"
+        },
+        {
+          "level": 3,
+          "title": "完整配置文件内容",
+          "slug": "完整配置文件内容"
+        },
+        {
+          "level": 2,
+          "title": "Spring Boot 整合 Elasticsearch",
+          "slug": "spring-boot-整合-elasticsearch"
+        },
+        {
+          "level": 3,
+          "title": "添加依赖",
+          "slug": "添加依赖"
+        },
+        {
+          "level": 3,
+          "title": "添加配置",
+          "slug": "添加配置"
+        },
+        {
+          "level": 3,
+          "title": "使用",
+          "slug": "使用"
+        },
+        {
+          "level": 2,
+          "title": "问题",
+          "slug": "问题"
+        }
+      ]
+    },
+    {
+      "title": "使用 Dockerfile + Docker Compose 部署 Web 项目",
+      "frontmatter": {
+        "title": "使用 Dockerfile + Docker Compose 部署 Web 项目",
+        "date": "2023-06-06T00:00:00.000Z",
+        "isShowComments": true,
+        "categories": [
+          "后端"
+        ],
+        "tags": [
+          "Docker"
+        ]
+      },
+      "regularPath": "/docker/Web.html",
+      "relativePath": "docker/Web.md",
+      "key": "v-539ebe6c",
+      "path": "/docker/Web.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "服务器目录结构",
+          "slug": "服务器目录结构"
+        },
+        {
+          "level": 2,
+          "title": "数据库",
+          "slug": "数据库"
+        },
+        {
+          "level": 3,
+          "title": "拉取 MySQL 镜像",
+          "slug": "拉取-mysql-镜像"
+        },
+        {
+          "level": 3,
+          "title": "启动 MySQL 容器",
+          "slug": "启动-mysql-容器"
+        },
+        {
+          "level": 2,
+          "title": "制作 JDK17 镜像",
+          "slug": "制作-jdk17-镜像"
+        },
+        {
+          "level": 3,
+          "title": "下载 JDK",
+          "slug": "下载-jdk"
+        },
+        {
+          "level": 3,
+          "title": "编写 Dockerfile 文件",
+          "slug": "编写-dockerfile-文件"
+        },
+        {
+          "level": 3,
+          "title": "构建 JDK 镜像",
+          "slug": "构建-jdk-镜像"
+        },
+        {
+          "level": 2,
+          "title": "后端",
+          "slug": "后端"
+        },
+        {
+          "level": 3,
+          "title": "编写 Dockerfile 文件",
+          "slug": "编写-dockerfile-文件-2"
+        },
+        {
+          "level": 3,
+          "title": "启动容器",
+          "slug": "启动容器"
+        },
+        {
+          "level": 2,
+          "title": "前端",
+          "slug": "前端"
+        },
+        {
+          "level": 3,
+          "title": "项目打包",
+          "slug": "项目打包"
+        },
+        {
+          "level": 3,
+          "title": "编写 nginx.conf 配置文件",
+          "slug": "编写-nginx-conf-配置文件"
+        },
+        {
+          "level": 3,
+          "title": "编写 Dockerfile 文件",
+          "slug": "编写-dockerfile-文件-3"
+        },
+        {
+          "level": 3,
+          "title": "启动容器",
+          "slug": "启动容器-2"
+        },
+        {
+          "level": 2,
+          "title": "问题",
+          "slug": "问题"
+        }
+      ]
+    },
+    {
       "frontmatter": {
         "layout": "Tags",
         "title": "Tags"
@@ -279,12 +461,30 @@ export const siteData = {
     },
     {
       "frontmatter": {
+        "layout": "Tag",
+        "title": "Docker Tags"
+      },
+      "regularPath": "/tag/Docker/",
+      "key": "v-83bebff6",
+      "path": "/tag/Docker/"
+    },
+    {
+      "frontmatter": {
         "layout": "Category",
         "title": "传统文化 Categories"
       },
       "regularPath": "/categories/%E4%BC%A0%E7%BB%9F%E6%96%87%E5%8C%96/",
       "key": "v-60cad880",
       "path": "/categories/传统文化/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "后端 Categories"
+      },
+      "regularPath": "/categories/%E5%90%8E%E7%AB%AF/",
+      "key": "v-12afc5a1",
+      "path": "/categories/后端/"
     }
   ],
   "themeConfig": {
@@ -306,6 +506,11 @@ export const siteData = {
       ]
     },
     "nav": [
+      {
+        "text": "Docker",
+        "link": "/docker/preface",
+        "icon": "iconfont icon-docker"
+      },
       {
         "text": "书籍",
         "link": "/books/bookList",
@@ -338,6 +543,22 @@ export const siteData = {
             {
               "title": "素书",
               "path": "/books/素书"
+            }
+          ]
+        }
+      ],
+      "/docker/": [
+        {
+          "title": "Docker 应用",
+          "collapsable": true,
+          "children": [
+            {
+              "title": "使用 Docker Compose 部署 Elasticsearch + Kibana",
+              "path": "/docker/Elasticsearch"
+            },
+            {
+              "title": "使用 Dockerfile + Docker Compose 部署 Web 项目",
+              "path": "/docker/Web"
             }
           ]
         }
