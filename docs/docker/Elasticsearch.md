@@ -56,11 +56,13 @@ version: '3.3'
 services:
     elasticsearch:
         restart: always
-        image: elasticsearch:7.17.0    # 使用的镜像名称
+        image: elasticsearch:7.17.0     # 使用的镜像名称
         container_name: elasticsearch   # 容器名称
-        ports:  # 指定暴露的端口
+        ports:  # 指定暴露的端口
           - 9200:9200
           - 9300:9300
+        environment: 
+          - ES_JAVA_OPTS= -Xms2g -Xmx2g # 指定 JVM 内存大小
         volumes:    # 指定挂载目录
           - ~/mall/pack/elastic/config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
           - ~/mall/pack/elastic/data:/usr/share/elasticsearch/data
@@ -78,10 +80,9 @@ services:
         volumes:
           - ~/mall/pack/elastic/kibana/kibana.yml:/usr/share/kibana/config/kibana.yml
         networks:
-          - kibana-network
+          - elasticsearch-network
 networks:
   elasticsearch-network:
-  kibana-network:
 ```
 
 4.  执行如下命令，启动容器。
@@ -239,3 +240,13 @@ public class Demo {
     解决：执行命令 `chmod -R 777 data` ，然后重新启动容器即可。
     
 ![image-20230605094800124.png](https://s2.loli.net/2023/06/05/jnJvgN16cfRLSQU.png)
+
+2.  elasticsearch 容器内存占用高达 13G。
+
+    解决：在 docker-compose.yaml 文件中添加如下配置，指定 JVM 内存占用大小。
+    
+~~~yaml
+environment:
+  - ES_JAVA_OPTS= -Xms2g -Xmx2g
+~~~
+

@@ -17,18 +17,6 @@ export const routes = [
     },
   },
   {
-    name: "v-9280c340",
-    path: "/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-9280c340").then(next)
-    },
-  },
-  {
-    path: "/index.html",
-    redirect: "/"
-  },
-  {
     name: "v-2d92859e",
     path: "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html",
     component: GlobalLayout,
@@ -43,6 +31,26 @@ export const routes = [
   {
     path: "/books/关圣帝君觉世真经.html",
     redirect: "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html"
+  },
+  {
+    name: "v-d8bc6e10",
+    path: "/docker/Elasticsearch.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-d8bc6e10").then(next)
+    },
+  },
+  {
+    name: "v-9280c340",
+    path: "/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-9280c340").then(next)
+    },
+  },
+  {
+    path: "/index.html",
+    redirect: "/"
   },
   {
     name: "v-3ec94b9a",
@@ -85,6 +93,14 @@ export const routes = [
     },
   },
   {
+    name: "v-539ebe6c",
+    path: "/docker/Web.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-539ebe6c").then(next)
+    },
+  },
+  {
     name: "v-cbbc8128",
     path: "/books/%E7%B4%A0%E4%B9%A6.html",
     component: GlobalLayout,
@@ -99,22 +115,6 @@ export const routes = [
   {
     path: "/books/素书.html",
     redirect: "/books/%E7%B4%A0%E4%B9%A6.html"
-  },
-  {
-    name: "v-d8bc6e10",
-    path: "/docker/Elasticsearch.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-d8bc6e10").then(next)
-    },
-  },
-  {
-    name: "v-539ebe6c",
-    path: "/docker/Web.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-539ebe6c").then(next)
-    },
   },
   {
     name: "v-b1564aac",
