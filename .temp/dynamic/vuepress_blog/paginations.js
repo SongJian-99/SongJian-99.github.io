@@ -24,6 +24,15 @@ export default [{
   nextText: "Next",
 },
 {
+  pid: "tags",
+  id: "VuePress",
+  filter: filters.tags,
+  sorter: sorters.tags,
+  pages: [{"path":"/tag/VuePress/","interval":[0,2]}],
+  prevText: "Prev",
+  nextText: "Next",
+},
+{
   pid: "categories",
   id: "传统文化",
   filter: filters.categories,
@@ -38,6 +47,15 @@ export default [{
   filter: filters.categories,
   sorter: sorters.categories,
   pages: [{"path":"/categories/后端/","interval":[0,2]}],
+  prevText: "Prev",
+  nextText: "Next",
+},
+{
+  pid: "categories",
+  id: "前端",
+  filter: filters.categories,
+  sorter: sorters.categories,
+  pages: [{"path":"/categories/前端/","interval":[0,2]}],
   prevText: "Prev",
   nextText: "Next",
 }]

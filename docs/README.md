@@ -2,10 +2,8 @@
 home: true
 title: 首页
 author: Cleaner
-heroText: null
-tagline: null
-actionText: 开始 →
-actionLink: /books/
+heroText: null  # 禁用标题
+tagline: null   # 禁用副标题
 heroImage: /logo.jpg
 heroImageStyle: {
   maxWidth: '450px',

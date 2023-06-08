@@ -10,8 +10,8 @@ export default {
       "pageKeys": [
         "v-2d92859e",
         "v-3ec94b9a",
-        "v-06af9d94",
-        "v-cbbc8128"
+        "v-cbbc8128",
+        "v-06af9d94"
       ]
     },
     "Docker": {
@@ -21,6 +21,15 @@ export default {
       "pageKeys": [
         "v-d8bc6e10",
         "v-539ebe6c"
+      ]
+    },
+    "VuePress": {
+      "key": "VuePress",
+      "scope": "tags",
+      "path": "/tag/VuePress/",
+      "pageKeys": [
+        "v-5b9558ca",
+        "v-6ffbb6db"
       ]
     }
   },
@@ -32,8 +41,8 @@ export default {
       "pageKeys": [
         "v-2d92859e",
         "v-3ec94b9a",
-        "v-06af9d94",
-        "v-cbbc8128"
+        "v-cbbc8128",
+        "v-06af9d94"
       ]
     },
     "后端": {
@@ -43,6 +52,15 @@ export default {
       "pageKeys": [
         "v-d8bc6e10",
         "v-539ebe6c"
+      ]
+    },
+    "前端": {
+      "key": "前端",
+      "scope": "categories",
+      "path": "/categories/前端/",
+      "pageKeys": [
+        "v-5b9558ca",
+        "v-6ffbb6db"
       ]
     }
   },

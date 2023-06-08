@@ -48,6 +48,13 @@ module.exports = {
       //     {text: '并发编程', link: '/'}
       //   ]
       // },
+      {
+        text: '前端',
+        icon: 'iconfont icon-frontend',
+        items: [
+          { text: 'VuePress', link: '/frontend/vuepress/VuePressOne'}
+        ]
+      },
       { text: 'Docker', link: '/docker/preface', icon: 'iconfont icon-docker' },
       { text: '书籍', link: '/books/bookList', icon: 'reco-document' },
       { text: '时间轴', link: '/timeLine/', icon: 'reco-date' },
@@ -77,6 +84,16 @@ module.exports = {
           children: [
             { title: '使用 Docker Compose 部署 Elasticsearch + Kibana', path: '/docker/Elasticsearch' },
             { title: '使用 Dockerfile + Docker Compose 部署 Web 项目', path: '/docker/Web' }
+          ]
+        }
+      ],
+      '/frontend/vuepress': [
+        {
+          title: 'VuePress',
+          collapsable: true,
+          children: [
+            { title: '使用 VuePress + GitHub Pages + GitHub Actions 搭建个人博客', path: '/frontend/vuepress/VuePressOne' },
+            { title: 'VuePress 个人博客美化：vuepress-theme-reco 主题使用', path: '/frontend/vuepress/VuePressTwo' }
           ]
         }
       ]

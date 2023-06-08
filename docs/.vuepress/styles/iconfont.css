@@ -1,9 +1,8 @@
-
 @font-face {
   font-family: 'iconfont';  /* Project id 4106829 */
-  src: url('//at.alicdn.com/t/c/font_4106829_zht8j7o2e0c.woff2?t=1686032576507') format('woff2'),
-        url('//at.alicdn.com/t/c/font_4106829_zht8j7o2e0c.woff?t=1686032576507') format('woff'),
-        url('//at.alicdn.com/t/c/font_4106829_zht8j7o2e0c.ttf?t=1686032576507') format('truetype');
+  src: url('iconfont.woff2?t=1686214891039') format('woff2'),
+        url('iconfont.woff?t=1686214891039') format('woff'),
+        url('iconfont.ttf?t=1686214891039') format('truetype');
 }
   
 .iconfont {
@@ -16,4 +15,12 @@
 
 .icon-docker:before{
   content: "\e600";
+}
+
+.icon-vue:before {
+  content: "\e799";
+}
+
+.icon-frontend:before {
+  content: "\e61c";
 }

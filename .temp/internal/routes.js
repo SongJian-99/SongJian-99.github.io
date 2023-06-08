@@ -9,6 +9,18 @@ import GlobalLayout from "E:\\vscode\\blog\\node_modules\\@vuepress\\core\\lib\\
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
+    name: "v-9280c340",
+    path: "/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-9280c340").then(next)
+    },
+  },
+  {
+    path: "/index.html",
+    redirect: "/"
+  },
+  {
     name: "v-7a04bb7c",
     path: "/books/bookList.html",
     component: GlobalLayout,
@@ -33,26 +45,6 @@ export const routes = [
     redirect: "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html"
   },
   {
-    name: "v-d8bc6e10",
-    path: "/docker/Elasticsearch.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-d8bc6e10").then(next)
-    },
-  },
-  {
-    name: "v-9280c340",
-    path: "/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-9280c340").then(next)
-    },
-  },
-  {
-    path: "/index.html",
-    redirect: "/"
-  },
-  {
     name: "v-3ec94b9a",
     path: "/books/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E8%AF%B4%E5%B8%B8%E6%B8%85%E9%9D%99%E7%BB%8F.html",
     component: GlobalLayout,
@@ -67,6 +59,46 @@ export const routes = [
   {
     path: "/books/太上老君说常清静经.html",
     redirect: "/books/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E8%AF%B4%E5%B8%B8%E6%B8%85%E9%9D%99%E7%BB%8F.html"
+  },
+  {
+    name: "v-d8bc6e10",
+    path: "/docker/Elasticsearch.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-d8bc6e10").then(next)
+    },
+  },
+  {
+    name: "v-cbbc8128",
+    path: "/books/%E7%B4%A0%E4%B9%A6.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-cbbc8128").then(next)
+    },
+  },
+  {
+    path: "/books/素书.html",
+    redirect: "/books/%E7%B4%A0%E4%B9%A6.html"
+  },
+  {
+    path: "/books/素书.html",
+    redirect: "/books/%E7%B4%A0%E4%B9%A6.html"
+  },
+  {
+    name: "v-100f049c",
+    path: "/docker/preface.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-100f049c").then(next)
+    },
+  },
+  {
+    name: "v-5b9558ca",
+    path: "/frontend/vuepress/VuePressOne.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5b9558ca").then(next)
+    },
   },
   {
     name: "v-06af9d94",
@@ -85,14 +117,6 @@ export const routes = [
     redirect: "/books/%E5%A4%AA%E4%B9%99%E9%87%91%E5%8D%8E%E5%AE%97%E6%97%A8.html"
   },
   {
-    name: "v-100f049c",
-    path: "/docker/preface.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-100f049c").then(next)
-    },
-  },
-  {
     name: "v-539ebe6c",
     path: "/docker/Web.html",
     component: GlobalLayout,
@@ -101,20 +125,12 @@ export const routes = [
     },
   },
   {
-    name: "v-cbbc8128",
-    path: "/books/%E7%B4%A0%E4%B9%A6.html",
+    name: "v-6ffbb6db",
+    path: "/frontend/vuepress/VuePressTwo.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-cbbc8128").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-6ffbb6db").then(next)
     },
-  },
-  {
-    path: "/books/素书.html",
-    redirect: "/books/%E7%B4%A0%E4%B9%A6.html"
-  },
-  {
-    path: "/books/素书.html",
-    redirect: "/books/%E7%B4%A0%E4%B9%A6.html"
   },
   {
     name: "v-b1564aac",
@@ -182,6 +198,19 @@ export const routes = [
     redirect: "/tag/Docker/"
   },
   {
+    name: "v-5e08fc30",
+    path: "/tag/VuePress/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-5e08fc30").then(next)
+    },
+    meta: {"pid":"tags","id":"VuePress"}
+  },
+  {
+    path: "/tag/VuePress/index.html",
+    redirect: "/tag/VuePress/"
+  },
+  {
     name: "v-60cad880",
     path: "/categories/传统文化/",
     component: GlobalLayout,
@@ -206,6 +235,19 @@ export const routes = [
   {
     path: "/categories/后端/index.html",
     redirect: "/categories/后端/"
+  },
+  {
+    name: "v-14bbbf36",
+    path: "/categories/前端/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-14bbbf36").then(next)
+    },
+    meta: {"pid":"categories","id":"前端"}
+  },
+  {
+    path: "/categories/前端/index.html",
+    redirect: "/categories/前端/"
   },
   {
     path: '*',
