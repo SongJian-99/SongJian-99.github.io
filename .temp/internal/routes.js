@@ -9,24 +9,28 @@ import GlobalLayout from "E:\\vscode\\blog\\node_modules\\@vuepress\\core\\lib\\
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-9280c340",
-    path: "/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-9280c340").then(next)
-    },
-  },
-  {
-    path: "/index.html",
-    redirect: "/"
-  },
-  {
     name: "v-7a04bb7c",
     path: "/books/bookList.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-7a04bb7c").then(next)
     },
+  },
+  {
+    name: "v-3ec94b9a",
+    path: "/books/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E8%AF%B4%E5%B8%B8%E6%B8%85%E9%9D%99%E7%BB%8F.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-3ec94b9a").then(next)
+    },
+  },
+  {
+    path: "/books/太上老君说常清静经.html",
+    redirect: "/books/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E8%AF%B4%E5%B8%B8%E6%B8%85%E9%9D%99%E7%BB%8F.html"
+  },
+  {
+    path: "/books/太上老君说常清静经.html",
+    redirect: "/books/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E8%AF%B4%E5%B8%B8%E6%B8%85%E9%9D%99%E7%BB%8F.html"
   },
   {
     name: "v-2d92859e",
@@ -45,20 +49,40 @@ export const routes = [
     redirect: "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html"
   },
   {
-    name: "v-3ec94b9a",
-    path: "/books/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E8%AF%B4%E5%B8%B8%E6%B8%85%E9%9D%99%E7%BB%8F.html",
+    name: "v-9280c340",
+    path: "/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3ec94b9a").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-9280c340").then(next)
     },
   },
   {
-    path: "/books/太上老君说常清静经.html",
-    redirect: "/books/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E8%AF%B4%E5%B8%B8%E6%B8%85%E9%9D%99%E7%BB%8F.html"
+    path: "/index.html",
+    redirect: "/"
   },
   {
-    path: "/books/太上老君说常清静经.html",
-    redirect: "/books/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E8%AF%B4%E5%B8%B8%E6%B8%85%E9%9D%99%E7%BB%8F.html"
+    name: "v-06af9d94",
+    path: "/books/%E5%A4%AA%E4%B9%99%E9%87%91%E5%8D%8E%E5%AE%97%E6%97%A8.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-06af9d94").then(next)
+    },
+  },
+  {
+    path: "/books/太乙金华宗旨.html",
+    redirect: "/books/%E5%A4%AA%E4%B9%99%E9%87%91%E5%8D%8E%E5%AE%97%E6%97%A8.html"
+  },
+  {
+    path: "/books/太乙金华宗旨.html",
+    redirect: "/books/%E5%A4%AA%E4%B9%99%E9%87%91%E5%8D%8E%E5%AE%97%E6%97%A8.html"
+  },
+  {
+    name: "v-100f049c",
+    path: "/docker/preface.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-100f049c").then(next)
+    },
   },
   {
     name: "v-d8bc6e10",
@@ -85,11 +109,11 @@ export const routes = [
     redirect: "/books/%E7%B4%A0%E4%B9%A6.html"
   },
   {
-    name: "v-100f049c",
-    path: "/docker/preface.html",
+    name: "v-539ebe6c",
+    path: "/docker/Web.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-100f049c").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-539ebe6c").then(next)
     },
   },
   {
@@ -98,30 +122,6 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-5b9558ca").then(next)
-    },
-  },
-  {
-    name: "v-06af9d94",
-    path: "/books/%E5%A4%AA%E4%B9%99%E9%87%91%E5%8D%8E%E5%AE%97%E6%97%A8.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-06af9d94").then(next)
-    },
-  },
-  {
-    path: "/books/太乙金华宗旨.html",
-    redirect: "/books/%E5%A4%AA%E4%B9%99%E9%87%91%E5%8D%8E%E5%AE%97%E6%97%A8.html"
-  },
-  {
-    path: "/books/太乙金华宗旨.html",
-    redirect: "/books/%E5%A4%AA%E4%B9%99%E9%87%91%E5%8D%8E%E5%AE%97%E6%97%A8.html"
-  },
-  {
-    name: "v-539ebe6c",
-    path: "/docker/Web.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-539ebe6c").then(next)
     },
   },
   {

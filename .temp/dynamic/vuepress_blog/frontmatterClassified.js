@@ -8,10 +8,10 @@ export default {
       "scope": "tags",
       "path": "/tag/道/",
       "pageKeys": [
-        "v-2d92859e",
         "v-3ec94b9a",
-        "v-cbbc8128",
-        "v-06af9d94"
+        "v-2d92859e",
+        "v-06af9d94",
+        "v-cbbc8128"
       ]
     },
     "Docker": {
@@ -39,10 +39,10 @@ export default {
       "scope": "categories",
       "path": "/categories/传统文化/",
       "pageKeys": [
-        "v-2d92859e",
         "v-3ec94b9a",
-        "v-cbbc8128",
-        "v-06af9d94"
+        "v-2d92859e",
+        "v-06af9d94",
+        "v-cbbc8128"
       ]
     },
     "后端": {
