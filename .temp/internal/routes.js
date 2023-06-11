@@ -9,6 +9,26 @@ import GlobalLayout from "E:\\vscode\\blog\\node_modules\\@vuepress\\core\\lib\\
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
+    name: "v-9280c340",
+    path: "/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-9280c340").then(next)
+    },
+  },
+  {
+    path: "/index.html",
+    redirect: "/"
+  },
+  {
+    name: "v-a02ed722",
+    path: "/backend/docker/preface.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-a02ed722").then(next)
+    },
+  },
+  {
     name: "v-7a04bb7c",
     path: "/books/bookList.html",
     component: GlobalLayout,
@@ -17,20 +37,28 @@ export const routes = [
     },
   },
   {
-    name: "v-3ec94b9a",
-    path: "/books/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E8%AF%B4%E5%B8%B8%E6%B8%85%E9%9D%99%E7%BB%8F.html",
+    name: "v-f6dcfe16",
+    path: "/backend/docker/Elasticsearch.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3ec94b9a").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-f6dcfe16").then(next)
     },
   },
   {
-    path: "/books/太上老君说常清静经.html",
-    redirect: "/books/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E8%AF%B4%E5%B8%B8%E6%B8%85%E9%9D%99%E7%BB%8F.html"
+    name: "v-65a62e07",
+    path: "/backend/docker/Web.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-65a62e07").then(next)
+    },
   },
   {
-    path: "/books/太上老君说常清静经.html",
-    redirect: "/books/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E8%AF%B4%E5%B8%B8%E6%B8%85%E9%9D%99%E7%BB%8F.html"
+    name: "v-091f4df9",
+    path: "/backend/work/poi.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-091f4df9").then(next)
+    },
   },
   {
     name: "v-2d92859e",
@@ -49,16 +77,20 @@ export const routes = [
     redirect: "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html"
   },
   {
-    name: "v-9280c340",
-    path: "/",
+    name: "v-3ec94b9a",
+    path: "/books/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E8%AF%B4%E5%B8%B8%E6%B8%85%E9%9D%99%E7%BB%8F.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-9280c340").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-3ec94b9a").then(next)
     },
   },
   {
-    path: "/index.html",
-    redirect: "/"
+    path: "/books/太上老君说常清静经.html",
+    redirect: "/books/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E8%AF%B4%E5%B8%B8%E6%B8%85%E9%9D%99%E7%BB%8F.html"
+  },
+  {
+    path: "/books/太上老君说常清静经.html",
+    redirect: "/books/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E8%AF%B4%E5%B8%B8%E6%B8%85%E9%9D%99%E7%BB%8F.html"
   },
   {
     name: "v-06af9d94",
@@ -77,22 +109,6 @@ export const routes = [
     redirect: "/books/%E5%A4%AA%E4%B9%99%E9%87%91%E5%8D%8E%E5%AE%97%E6%97%A8.html"
   },
   {
-    name: "v-100f049c",
-    path: "/docker/preface.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-100f049c").then(next)
-    },
-  },
-  {
-    name: "v-d8bc6e10",
-    path: "/docker/Elasticsearch.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-d8bc6e10").then(next)
-    },
-  },
-  {
     name: "v-cbbc8128",
     path: "/books/%E7%B4%A0%E4%B9%A6.html",
     component: GlobalLayout,
@@ -107,14 +123,6 @@ export const routes = [
   {
     path: "/books/素书.html",
     redirect: "/books/%E7%B4%A0%E4%B9%A6.html"
-  },
-  {
-    name: "v-539ebe6c",
-    path: "/docker/Web.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-539ebe6c").then(next)
-    },
   },
   {
     name: "v-5b9558ca",
@@ -172,19 +180,6 @@ export const routes = [
     redirect: "/timeline/"
   },
   {
-    name: "v-c7911d02",
-    path: "/tag/道/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-c7911d02").then(next)
-    },
-    meta: {"pid":"tags","id":"道"}
-  },
-  {
-    path: "/tag/道/index.html",
-    redirect: "/tag/道/"
-  },
-  {
     name: "v-83bebff6",
     path: "/tag/Docker/",
     component: GlobalLayout,
@@ -196,6 +191,32 @@ export const routes = [
   {
     path: "/tag/Docker/index.html",
     redirect: "/tag/Docker/"
+  },
+  {
+    name: "v-18082c7a",
+    path: "/tag/Java/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-18082c7a").then(next)
+    },
+    meta: {"pid":"tags","id":"Java"}
+  },
+  {
+    path: "/tag/Java/index.html",
+    redirect: "/tag/Java/"
+  },
+  {
+    name: "v-c7911d02",
+    path: "/tag/道/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-c7911d02").then(next)
+    },
+    meta: {"pid":"tags","id":"道"}
+  },
+  {
+    path: "/tag/道/index.html",
+    redirect: "/tag/道/"
   },
   {
     name: "v-5e08fc30",
@@ -211,19 +232,6 @@ export const routes = [
     redirect: "/tag/VuePress/"
   },
   {
-    name: "v-60cad880",
-    path: "/categories/传统文化/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-60cad880").then(next)
-    },
-    meta: {"pid":"categories","id":"传统文化"}
-  },
-  {
-    path: "/categories/传统文化/index.html",
-    redirect: "/categories/传统文化/"
-  },
-  {
     name: "v-12afc5a1",
     path: "/categories/后端/",
     component: GlobalLayout,
@@ -235,6 +243,19 @@ export const routes = [
   {
     path: "/categories/后端/index.html",
     redirect: "/categories/后端/"
+  },
+  {
+    name: "v-60cad880",
+    path: "/categories/传统文化/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-60cad880").then(next)
+    },
+    meta: {"pid":"categories","id":"传统文化"}
+  },
+  {
+    path: "/categories/传统文化/index.html",
+    redirect: "/categories/传统文化/"
   },
   {
     name: "v-14bbbf36",

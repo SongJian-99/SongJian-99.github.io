@@ -17,7 +17,10 @@ module.exports = {
     lineNumbers: true // 代码块显示行号
   },
   plugins: [
-    ['@vuepress-reco/vuepress-plugin-back-to-top']
+    ['@vuepress-reco/vuepress-plugin-back-to-top'],
+    ['@vuepress-reco/vuepress-plugin-pagation', {
+      perPage: 10
+    }]
   ],
   themeConfig: {
     type: 'blog',
@@ -36,18 +39,11 @@ module.exports = {
     // 博客配置
     blogConfig: {
       socialLinks: [
-        {icon: 'reco-github', link: 'https://github.com/SongJian-99'}
+        {icon: 'reco-github', link: 'https://github.com/SongJian-99'},
+        {icon: 'reco-juejin', link: 'https://juejin.cn/user/1517786987244510'}
       ]
     },
     nav: [ // 导航栏配置
-      // {
-      //   text: 'java',
-      //   link: '/java/', 
-      //   items: [
-      //     {text: 'JVM', link: '/'},
-      //     {text: '并发编程', link: '/'}
-      //   ]
-      // },
       {
         text: '前端',
         icon: 'iconfont icon-frontend',
@@ -55,7 +51,8 @@ module.exports = {
           { text: 'VuePress', link: '/frontend/vuepress/VuePressOne'}
         ]
       },
-      { text: 'Docker', link: '/docker/preface', icon: 'iconfont icon-docker' },
+      { text: 'Docker', link: '/backend/docker/preface', icon: 'iconfont icon-docker' },
+      { text: '工作', link: '/backend/work/poi', icon: 'iconfont icon-work' },
       { text: '书籍', link: '/books/bookList', icon: 'reco-document' },
       { text: '时间轴', link: '/timeLine/', icon: 'reco-date' },
       // { text: '关于我', link: '/blogs/aboutMe', icon: 'reco-account' }
@@ -73,7 +70,7 @@ module.exports = {
           ]
         }
       ],
-      '/docker/': [
+      '/backend/docker/': [
         // {
         //   title: 'Docker 基础',
         //   collapsable: true,
@@ -82,8 +79,17 @@ module.exports = {
           title: 'Docker 应用',
           collapsable: true,
           children: [
-            { title: '使用 Docker Compose 部署 Elasticsearch + Kibana', path: '/docker/Elasticsearch' },
-            { title: '使用 Dockerfile + Docker Compose 部署 Web 项目', path: '/docker/Web' }
+            { title: '使用 Docker Compose 部署 Elasticsearch + Kibana', path: '/backend/docker/Elasticsearch' },
+            { title: '使用 Dockerfile + Docker Compose 部署 Web 项目', path: '/backend/docker/Web' }
+          ]
+        }
+      ],
+      '/backend/work/': [
+        {
+          title: '工作实践',
+          collapsable: true,
+          children: [
+            { title: '使用 Poi-tl 类库实现 Echarts 图表 + 前端表格导出到 Word 文档', path: '/backend/work/poi' }
           ]
         }
       ],
