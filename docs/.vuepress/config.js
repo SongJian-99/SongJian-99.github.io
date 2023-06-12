@@ -19,7 +19,7 @@ module.exports = {
   plugins: [
     ['@vuepress-reco/vuepress-plugin-back-to-top'],
     ['@vuepress-reco/vuepress-plugin-pagation', {
-      perPage: 10
+      perPage: 5
     }]
   ],
   themeConfig: {

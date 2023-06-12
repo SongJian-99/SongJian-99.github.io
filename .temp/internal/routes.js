@@ -21,11 +21,11 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-a02ed722",
-    path: "/backend/docker/preface.html",
+    name: "v-65a62e07",
+    path: "/backend/docker/Web.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-a02ed722").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-65a62e07").then(next)
     },
   },
   {
@@ -45,22 +45,6 @@ export const routes = [
     },
   },
   {
-    name: "v-65a62e07",
-    path: "/backend/docker/Web.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-65a62e07").then(next)
-    },
-  },
-  {
-    name: "v-091f4df9",
-    path: "/backend/work/poi.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-091f4df9").then(next)
-    },
-  },
-  {
     name: "v-2d92859e",
     path: "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html",
     component: GlobalLayout,
@@ -75,6 +59,14 @@ export const routes = [
   {
     path: "/books/关圣帝君觉世真经.html",
     redirect: "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html"
+  },
+  {
+    name: "v-091f4df9",
+    path: "/backend/work/poi.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-091f4df9").then(next)
+    },
   },
   {
     name: "v-3ec94b9a",
@@ -93,6 +85,14 @@ export const routes = [
     redirect: "/books/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E8%AF%B4%E5%B8%B8%E6%B8%85%E9%9D%99%E7%BB%8F.html"
   },
   {
+    name: "v-a02ed722",
+    path: "/backend/docker/preface.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-a02ed722").then(next)
+    },
+  },
+  {
     name: "v-06af9d94",
     path: "/books/%E5%A4%AA%E4%B9%99%E9%87%91%E5%8D%8E%E5%AE%97%E6%97%A8.html",
     component: GlobalLayout,
@@ -107,6 +107,14 @@ export const routes = [
   {
     path: "/books/太乙金华宗旨.html",
     redirect: "/books/%E5%A4%AA%E4%B9%99%E9%87%91%E5%8D%8E%E5%AE%97%E6%97%A8.html"
+  },
+  {
+    name: "v-6ffbb6db",
+    path: "/frontend/vuepress/VuePressTwo.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6ffbb6db").then(next)
+    },
   },
   {
     name: "v-cbbc8128",
@@ -131,144 +139,6 @@ export const routes = [
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-5b9558ca").then(next)
     },
-  },
-  {
-    name: "v-6ffbb6db",
-    path: "/frontend/vuepress/VuePressTwo.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6ffbb6db").then(next)
-    },
-  },
-  {
-    name: "v-b1564aac",
-    path: "/tag/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tags", "v-b1564aac").then(next)
-    },
-    meta: {"pid":"tags","id":"tags"}
-  },
-  {
-    path: "/tag/index.html",
-    redirect: "/tag/"
-  },
-  {
-    name: "v-ef9325c4",
-    path: "/categories/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("FrontmatterKey", "v-ef9325c4").then(next)
-    },
-    meta: {"pid":"categories","id":"categories"}
-  },
-  {
-    path: "/categories/index.html",
-    redirect: "/categories/"
-  },
-  {
-    name: "v-6319eb4e",
-    path: "/timeline/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("TimeLines", "v-6319eb4e").then(next)
-    },
-    meta: {"pid":"timeline","id":"timeline"}
-  },
-  {
-    path: "/timeline/index.html",
-    redirect: "/timeline/"
-  },
-  {
-    name: "v-83bebff6",
-    path: "/tag/Docker/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-83bebff6").then(next)
-    },
-    meta: {"pid":"tags","id":"Docker"}
-  },
-  {
-    path: "/tag/Docker/index.html",
-    redirect: "/tag/Docker/"
-  },
-  {
-    name: "v-18082c7a",
-    path: "/tag/Java/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-18082c7a").then(next)
-    },
-    meta: {"pid":"tags","id":"Java"}
-  },
-  {
-    path: "/tag/Java/index.html",
-    redirect: "/tag/Java/"
-  },
-  {
-    name: "v-c7911d02",
-    path: "/tag/道/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-c7911d02").then(next)
-    },
-    meta: {"pid":"tags","id":"道"}
-  },
-  {
-    path: "/tag/道/index.html",
-    redirect: "/tag/道/"
-  },
-  {
-    name: "v-5e08fc30",
-    path: "/tag/VuePress/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-5e08fc30").then(next)
-    },
-    meta: {"pid":"tags","id":"VuePress"}
-  },
-  {
-    path: "/tag/VuePress/index.html",
-    redirect: "/tag/VuePress/"
-  },
-  {
-    name: "v-12afc5a1",
-    path: "/categories/后端/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-12afc5a1").then(next)
-    },
-    meta: {"pid":"categories","id":"后端"}
-  },
-  {
-    path: "/categories/后端/index.html",
-    redirect: "/categories/后端/"
-  },
-  {
-    name: "v-60cad880",
-    path: "/categories/传统文化/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-60cad880").then(next)
-    },
-    meta: {"pid":"categories","id":"传统文化"}
-  },
-  {
-    path: "/categories/传统文化/index.html",
-    redirect: "/categories/传统文化/"
-  },
-  {
-    name: "v-14bbbf36",
-    path: "/categories/前端/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-14bbbf36").then(next)
-    },
-    meta: {"pid":"categories","id":"前端"}
-  },
-  {
-    path: "/categories/前端/index.html",
-    redirect: "/categories/前端/"
   },
   {
     path: '*',
