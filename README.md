@@ -4,8 +4,5 @@
 * [VuePress + GitHub Pages 搭建个人博客（一）](https://blog.csdn.net/qq_45745523/article/details/126674971?spm=1001.2014.3001.5501)
 * [VuePress + GitHub Actions 实现博客自动化部署（二）](https://blog.csdn.net/qq_45745523/article/details/130295894)
 # TODO
-* 代码复制插件报错问题解决，可能是Node版本问题
-* 集成内容更新提示插件
 * 自定义域名配置
 * 首页标题样式调整
-* 首页页脚添加域名备案信息

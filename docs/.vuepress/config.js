@@ -20,11 +20,26 @@ module.exports = {
     ['@vuepress-reco/vuepress-plugin-back-to-top'],
     ['@vuepress-reco/vuepress-plugin-pagation', {
       perPage: 5
+    }],
+    ["vuepress-plugin-nuggets-style-copy", {
+      copyText: "copy",
+      tip: {
+        content: "复制成功!"
+      }
+    }],
+    ['@vuepress/pwa', {
+      serviceWorker: true,
+      updatePopup: {
+          message: "发现新内容可用",
+          buttonText: "刷新"
+      }
     }]
   ],
   themeConfig: {
     type: 'blog',
     autohor: 'Cleaner',
+    // 域名
+    domain: 'cleaner.love', 
     // 个人信息的头像
     authorAvatar: '/avator.jpg',
     search: true,
