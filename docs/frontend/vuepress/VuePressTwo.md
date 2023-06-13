@@ -263,6 +263,8 @@ import '../.vuepress/styles/iconfont.css'
 
 除了官方提供的插件，插件广场中又提供了许多实用的插件，大家可以自行探索使用。
 
+插件配置好后，一定要重新启动项目（热更新都是泪啊）。
+
 ### back-to-top
 
 回到顶部小火箭插件
@@ -300,6 +302,55 @@ valineConfig: {
     // isShowComments: true  在需要添加评论的页面加上这个配置
 }
 ~~~
+
+### pagination
+
+分页插件，实现首页内容分页展示效果。
+
+* 安装
+
+~~~sh
+npm install -D @vuepress-reco/vuepress-plugin-pagation
+~~~
+
+* 使用
+
+~~~js
+module.exports = {
+	plugins: [
+  		['@vuepress-reco/vuepress-plugin-pagation', {
+      		perPage: 5	// 每页展示条数
+    	}]
+    ]
+}
+~~~
+
+### PWA
+
+内容刷新弹窗插件。网站有内容更新时会出现弹窗，并提供了一个刷新按钮，允许用户立即刷新内容。
+
+* 安装
+
+~~~sh
+npm install -D @vuepress/plugin-pwa
+~~~
+
+* 使用
+
+~~~js
+module.exports = {
+	plugins: [
+  		['@vuepress/pwa', {
+          serviceWorker: true,
+          updatePopup: {
+              message: "发现新内容可用",
+              buttonText: "刷新"
+      	  }
+    	}]
+    ]
+}
+~~~
+
 
 ## 末尾
 

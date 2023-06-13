@@ -16,18 +16,21 @@ tags:
 
 ## 新建代码仓库
 
-登录 GitHub，新建一个代码仓库，仓库名称为 xxx.github.io，xxx 为你的 GitHub 账号名。
+1. 登录 GitHub，新建一个代码仓库，仓库名称为 xxx.github.io，xxx 为你的 GitHub 账号名。
 
-*   为什么这么命名？因为部署到 GitHub Pages 后，通过仓库名称（例如：<https://songjian-99.github.io/>）就可以访问到网站。如果是其他的仓库名称，那么访问的域名就是 <https://songjian-99.github.io/xxx>，访问的域名会自动加上 xxx.github.io 作为中间的一层路径。（同时项目中 config.js 文件中的 base 属性也要对应上）
+   为什么这么命名？因为部署到 GitHub Pages 后，通过仓库名称（例如：<https://songjian-99.github.io/>）就可以访问到网站。如果是其他的仓库名称，那么访问的域名就是 <https://songjian-99.github.io/xxx>，访问的域名会自动加上 xxx.github.io 作为中间的一层路径。（同时项目中 config.js 文件中的 base 属性也要对应上）
 
-新增一个代码分支，名称为 gh-pages（workflow 配置文件中会使用）。
+2. 新增一个代码分支，名称为 gh-pages（workflow 配置文件中会使用）。
 
-*   master 分支：存放项目源码
-*   gh-pages 分支：存放 VuePress 生成的静态文件
+   master 分支：存放项目源码
+
+   gh-pages 分支：存放 VuePress 生成的静态文件
 
 ## VuePress
 
-本文只提供 VuePress 的基础使用和简单配置，如果要深入使用，推荐使用其他主题来丰富 VuePress 的功能。
+本文只提供 VuePress 的基础使用和简单配置，不会深度介绍 VuePress 的各个功能点。如果要深入使用，可以自行查看官方文档。
+
+推荐使用其他主题来丰富 VuePress 的功能。
 
 ### 项目初始化
 
@@ -40,7 +43,7 @@ npm install -D vuepress // 安装 VuePress 依赖。VuePress 版本为 1.x，需
 
 ### 配置
 
-参考官方文档[目录结构](https://vuepress.vuejs.org/zh/guide/directory-structure.html)和[基本配置](https://vuepress.vuejs.org/zh/guide/basic-config.html)选项卡，创建目录、添加相关配置文件。最终目录结构如下（仅列出项目主要目录）。
+参考官方文档[目录结构](https://vuepress.vuejs.org/zh/guide/directory-structure.html)和[基本配置](https://vuepress.vuejs.org/zh/guide/basic-config.html)选项卡，在项目中创建目录并且添加相关配置文件。最终目录结构如下（仅列出项目主要目录）。
 ~~~
 —— blog // 根目录
    |—— docs  
@@ -55,7 +58,7 @@ npm install -D vuepress // 安装 VuePress 依赖。VuePress 版本为 1.x，需
        |—— README.md // 首页配置文件
   |—— package.json
 ~~~
-*   config.js：必要的配置文件，可以配置网站的导航栏，侧边栏，网站主题等信息。
+*   config.js：必要的配置文件，可以配置网站的导航栏、侧边栏、主题和插件等信息。
 
 ~~~js
 module.exports = {
@@ -80,7 +83,7 @@ module.exports = {
 };
 ~~~
 
-*   README.md：配置网站的首页布局。
+*   README.md：网站的首页配置文件。
 
 ~~~md
 home: true
@@ -125,11 +128,11 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 
 ### 运行
 
-执行命令`npm run dev`运行项目。访问 localhost:8080，界面展示如下。至此本地搭建 VuePress 项目完成。 ![image-20220903095832615.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/650e5f3b98a84dfe97886e2a2fa85853~tplv-k3u1fbpfcp-zoom-1.image)
+执行命令`npm run dev`运行项目。浏览器访问 localhost:8080，界面展示如下。至此本地搭建 VuePress 项目完成。 ![image-20220903095832615.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/650e5f3b98a84dfe97886e2a2fa85853~tplv-k3u1fbpfcp-zoom-1.image)
 
 ## GitHub Pages
 
-进入仓库页面，点击 Settings，选择 Pages 选项卡，在 Build and deployment 下选择 gh-pages 分支，点击 save 即可。
+进入仓库页面，点击 Settings，选择 Pages 选项卡，在 Build and deployment 下选择 gh-pages 分支，然后点击 save 即可。
 
 ![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c967a38f5830419d90e8f0b2998d32d8~tplv-k3u1fbpfcp-zoom-1.image)
 
@@ -141,13 +144,13 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 
 ![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/361aa00da2b54265b1c0ccdd8001f3e1~tplv-k3u1fbpfcp-zoom-1.image)
 
-2.  点击 Generate new token。Note 描述该 token 用来做什么，可以随便填写，有意义即可；Expiration 选择 token 的过期时间；Select Scopes 至少要勾选上 repo，否则这个 token 没有仓库权限，自动部署会失败。然后点击生成 token。将 token 复制下来，下一步会使用。
+2.  点击 Generate new token。Note：描述该 token 用来做什么，可以随便填写，有意义即可；Expiration：选择 token 的过期时间；Select Scopes：选择 token 的使用范围，至少要勾选上 repo，否则这个 token 没有仓库权限，自动部署会失败。然后点击生成 token。将 token 复制下来，下一步会使用。
 
 ![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/33176097bd90425bb6194385165e8536~tplv-k3u1fbpfcp-zoom-1.image)
 
 ### 创建 Secrets
 
-返回到仓库页面，点击 Settings，选择 Secrets and variables 选项卡，选择 Actions 选项，点击 New repository secret，新增一个 Secret，名称为 ACCESS\_TOKEN，下一步会用到，值就是上一步生成的 token 值。
+返回到仓库页面，点击 Settings，选择 Secrets and variables 选项卡，选择 Actions 选项，点击 New repository secret，新增一个 Secret，名称为 ACCESS\_TOKEN，值就是上一步生成的 token 值。将名称复制下来，下一步会用到。
 
 ![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5d751d9e0cf549ea93365c7048042a14~tplv-k3u1fbpfcp-zoom-1.image)
 
@@ -157,7 +160,7 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 
 ![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a462e74e793c41e68c62d80bc8010717~tplv-k3u1fbpfcp-zoom-1.image)
 
-Workflow配置文件：main.yml
+Workflow 配置文件：main.yml
 ~~~yaml
 # workflow 名称，可以自定义
 name: Deploy GitHub Pages
@@ -217,7 +220,7 @@ jobs:
 ~~~
 ## 验证
 
-我们只需 push 代码到仓库中，workflow 就会自动运行，并且按照配置文件中的步骤依次执行命令，最终将项目编译后的静态文件部署到 gh-pages 分支上。可以在 Actions 中查看运行情况。运行成功后，即可通过域名访问页面。
+所有步骤配置完成，我们只需将项目代码 push 到仓库中，workflow 就会自动运行，并且按照配置文件中的步骤依次执行命令，最终将项目编译后的静态文件部署到 gh-pages 分支上。可以在 Actions 中查看运行情况。运行成功后，即可通过域名访问页面。
 
 ## 问题
 
@@ -225,6 +228,9 @@ jobs:
 
 2.  出现问题最多的地方就是 workflow 自动执行的时候，因为有很多个步骤。每次执行失败的时候，定位下哪个步骤出现错误，看一下错误信息，然后再针对性修改。
 
-    大致的修改方向：首先确保创建 access token 和 secret 这两个步骤没问题（这两个步骤有问题会出现仓库无权限 403，push 代码失败的错误），然后检验是否和 workflow 的配置文件相对应。
+    大致的修改方向：首先确保创建 access token 和 secret 这两个步骤没问题（这两个步骤有问题会出现仓库无权限 403，push 代码失败的错误），并且确保名称和 workflow 的配置文件相对应。
 
 3.  workflow 配置文件可以自行调整，官方提供的和其他博客中的配置文件各种各样，这种不行就换另一种试试。
+
+    `crazy-max/ghaction-github-pages@v2` 完整配置参数地址：https://github.com/crazy-max/ghaction-github-pages
+   
