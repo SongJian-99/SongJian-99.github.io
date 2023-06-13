@@ -45,7 +45,7 @@ jobs:
       - name: Build
         run: 
           npm run build
-          echo 'cleaner.love' > .vuepress/dist/CNAME
+          echo 'cleaner.love' > docs/.vuepress/dist/CNAME
 
       # 部署到 GitHub Pages
       - name: Deploy
