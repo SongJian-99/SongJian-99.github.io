@@ -38,8 +38,7 @@ module.exports = {
   themeConfig: {
     type: 'blog',
     autohor: 'Cleaner',
-    // 域名
-    domain: 'cleaner.love', 
+    domain: 'cleaner.love',
     // 个人信息的头像
     authorAvatar: '/avator.jpg',
     search: true,

@@ -1,2 +1,2 @@
-import "/Users/songjian/Project/vscode/blog/docs/.vuepress/enhanceApp.js"
+import "E:\\vscode\\blog\\docs\\.vuepress\\enhanceApp.js"
 export default {}
