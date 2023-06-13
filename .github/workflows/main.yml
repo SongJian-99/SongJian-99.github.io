@@ -43,7 +43,9 @@ jobs:
 
       # 生成静态文件
       - name: Build
-        run:  npm run build
+        run: 
+          npm run build
+          echo 'cleaner.love' > .vuepress/dist/CNAME
 
       # 部署到 GitHub Pages
       - name: Deploy
