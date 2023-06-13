@@ -351,8 +351,84 @@ module.exports = {
 }
 ~~~
 
+### copy
+
+代码复制弹窗插件，提升复制代码体验。
+
+* 安装
+
+~~~sh
+npm install -D vuepress-plugin-nuggets-style-copy
+~~~
+
+* 使用
+
+~~~js
+module.exports = {
+  plugins: [
+      ["vuepress-plugin-nuggets-style-copy", {
+        copyText: "copy",
+        tip: {
+          content: "复制成功!"
+        }
+    	}]
+    ]
+}
+~~~
+
+* **注意**：如果你使用该插件时出现报错，请看文末**问题**一节。
+
+
+## 问题
+
+copy 插件报错：本项目 Node.js 版本为 14.18.0，插件可以正常安装，但是项目启动后，该插件会报错。通过查看错误信息，定位是插件中的 copy.vue 文件出现错误。目前是通过打补丁修改插件源码的方式来解决报错的问题，解决过程如下。（[参考文档](https://juejin.cn/post/7022252841116893215)）
+
+1. 安装依赖
+
+```sh
+yarn add patch-package postinstall-postinstall -D
+```
+
+2. 修改 /node_module/vuepress-plugin-nuggets-style-copy/copy.vue 文件。
+
+~~~vue {4-6}
+// copy.vue 源码
+if (visibleTip) {
+	this.$message({
+    time,
+    content,
+    title
+	});
+}
+~~~
+
+~~~vue {4-6}
+// copy.vue 修改后的代码
+if (visibleTip) {
+	this.$message({
+    time:time,
+    content:content,
+    title:title
+	});
+}
+~~~
+
+3. 生成修改文件，命令运行成功后，项目中会新增 <font color=green>patches</font> 目录
+
+~~~sh
+npx patch-package lodash
+~~~
+
+4. 修改 package.json 文件，在 scirpts 下新增如下配置。
+
+~~~json
+"scripts": {
+	"postinstall": "patch-package"
+}
+~~~
+
+5. 删除 node_modules 文件夹，重新 install 下载依赖。下载完成后，插件源码已经变为我们修改过的代码，然后启动项目即可正常使用该插件。
 
 ## 末尾
 
-本文列出了博客网站中需要的大部分功能，更多的功能在本人后续的使用过程中慢慢探索，到时候也会同步更新到本文中。欢迎大家访问我的个人[博客网站](https://songjian-99.github.io/)，并提供宝贵建议。
-
+本文介绍了主题的大部分功能，更多功能在本人后续的使用过程中慢慢探索，然后也会同步更新该篇文章。欢迎大家访问我的个人[博客网站](https://songjian-99.github.io/)，并提供宝贵建议。
