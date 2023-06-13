@@ -25,10 +25,10 @@ export default {
       "scope": "tags",
       "path": "/tag/道/",
       "pageKeys": [
-        "v-3ec94b9a",
-        "v-2d92859e",
         "v-06af9d94",
-        "v-cbbc8128"
+        "v-2d92859e",
+        "v-cbbc8128",
+        "v-3ec94b9a"
       ]
     },
     "VuePress": {
@@ -57,10 +57,10 @@ export default {
       "scope": "categories",
       "path": "/categories/传统文化/",
       "pageKeys": [
-        "v-3ec94b9a",
-        "v-2d92859e",
         "v-06af9d94",
-        "v-cbbc8128"
+        "v-2d92859e",
+        "v-cbbc8128",
+        "v-3ec94b9a"
       ]
     },
     "前端": {

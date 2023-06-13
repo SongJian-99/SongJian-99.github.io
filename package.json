@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vuepress dev docs --temp .temp",
     "build": "vuepress build docs",
-    "deploy": "bash deploy.sh"
+    "deploy": "bash deploy.sh",
+    "postinstall": "patch-package"
   },
   "author": "Cleaner",
   "license": "ISC",
@@ -17,6 +18,8 @@
     "@vuepress-reco/vuepress-plugin-pagation": "^1.6.17",
     "@vuepress/plugin-back-to-top": "^1.9.7",
     "@vuepress/plugin-pwa": "^1.9.9",
+    "patch-package": "^7.0.0",
+    "postinstall-postinstall": "^2.1.0",
     "vue": "^2.7.14",
     "vuepress": "^1.9.9",
     "vuepress-plugin-nuggets-style-copy": "^1.0.3",
