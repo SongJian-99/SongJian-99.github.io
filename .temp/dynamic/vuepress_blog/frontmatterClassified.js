@@ -8,17 +8,8 @@ export default {
       "scope": "tags",
       "path": "/tag/Docker/",
       "pageKeys": [
-        "v-f6dcfe16",
-        "v-65a62e07"
-      ]
-    },
-    "Java": {
-      "key": "Java",
-      "scope": "tags",
-      "path": "/tag/Java/",
-      "pageKeys": [
-        "v-091f4df9",
-        "v-2ab2a5ca"
+        "v-44f55287",
+        "v-75616575"
       ]
     },
     "道": {
@@ -26,10 +17,18 @@ export default {
       "scope": "tags",
       "path": "/tag/道/",
       "pageKeys": [
-        "v-3ec94b9a",
-        "v-2d92859e",
-        "v-06af9d94",
-        "v-cbbc8128"
+        "v-12c47507",
+        "v-b2f54a44",
+        "v-266fa699",
+        "v-7e1bd87e"
+      ]
+    },
+    "Java": {
+      "key": "Java",
+      "scope": "tags",
+      "path": "/tag/Java/",
+      "pageKeys": [
+        "v-02e979b9"
       ]
     },
     "VuePress": {
@@ -37,8 +36,8 @@ export default {
       "scope": "tags",
       "path": "/tag/VuePress/",
       "pageKeys": [
-        "v-5b9558ca",
-        "v-6ffbb6db"
+        "v-38cd854a",
+        "v-45d2da1b"
       ]
     }
   },
@@ -48,10 +47,9 @@ export default {
       "scope": "categories",
       "path": "/categories/后端/",
       "pageKeys": [
-        "v-f6dcfe16",
-        "v-091f4df9",
-        "v-65a62e07",
-        "v-2ab2a5ca"
+        "v-44f55287",
+        "v-75616575",
+        "v-02e979b9"
       ]
     },
     "传统文化": {
@@ -59,10 +57,10 @@ export default {
       "scope": "categories",
       "path": "/categories/传统文化/",
       "pageKeys": [
-        "v-3ec94b9a",
-        "v-2d92859e",
-        "v-06af9d94",
-        "v-cbbc8128"
+        "v-12c47507",
+        "v-b2f54a44",
+        "v-266fa699",
+        "v-7e1bd87e"
       ]
     },
     "前端": {
@@ -70,8 +68,8 @@ export default {
       "scope": "categories",
       "path": "/categories/前端/",
       "pageKeys": [
-        "v-5b9558ca",
-        "v-6ffbb6db"
+        "v-38cd854a",
+        "v-45d2da1b"
       ]
     }
   },

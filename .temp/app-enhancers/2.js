@@ -1,2 +1,2 @@
-import "E:\\vscode\\blog\\node_modules\\@vuepress\\core\\lib\\node\\internal-plugins\\style\\client.js"
+import "/Users/songjian/Project/vscode/blog/node_modules/@vuepress/core/lib/node/internal-plugins/style/client.js"
 export default {}
