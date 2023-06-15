@@ -21,6 +21,12 @@ module.exports = {
     ['@vuepress-reco/vuepress-plugin-back-to-top'],
     // SEO 优化
     ['vuepress-plugin-baidu-autopush'], 
+    // 解决 sitemap 报错问题
+    ['@vuepress/last-updated', {
+      transformer: timestamp => {
+        return new Date(timestamp).toISOString()
+      }
+    }]
     ['vuepress-plugin-sitemap', {
       hostname: 'https://cleaner.love/'
     }],
@@ -78,7 +84,6 @@ module.exports = {
       { text: '工作', link: '/backend/work/poi', icon: 'iconfont icon-work' },
       { text: '书籍', link: '/books/bookList', icon: 'reco-document' },
       { text: '时间轴', link: '/timeLine/', icon: 'reco-date' },
-      // { text: '关于我', link: '/blogs/aboutMe', icon: 'reco-account' }
     ],
     sidebar: {
       '/books/': [
@@ -94,10 +99,6 @@ module.exports = {
         }
       ],
       '/backend/docker/': [
-        // {
-        //   title: 'Docker 基础',
-        //   collapsable: true,
-        // },
         {
           title: 'Docker 应用',
           collapsable: true,
@@ -133,7 +134,6 @@ module.exports = {
       appId: 'qR1MgQXTGffUVgeTTM9Qnl3E-gzGzoHsz',
       appKey: 'OdwTWvfZsjbJIsBtQcgzc4eP',
       showComment: false
-      // isShowComments: true  在需要添加评论的页面加上这个配置
     }
   }
 };
