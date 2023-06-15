@@ -12,7 +12,8 @@
   "author": "Cleaner",
   "license": "ISC",
   "dependencies": {
-    "vue-template-compiler": "^2.7.10"
+    "vue-template-compiler": "^2.7.10",
+    "vuepress-plugin-sitemap": "^2.3.1"
   },
   "devDependencies": {
     "@vuepress-reco/vuepress-plugin-pagation": "^1.6.17",
@@ -22,6 +23,7 @@
     "postinstall-postinstall": "^2.1.0",
     "vue": "^2.7.14",
     "vuepress": "^1.9.9",
+    "vuepress-plugin-baidu-autopush": "^1.0.1",
     "vuepress-plugin-nuggets-style-copy": "^1.0.3",
     "vuepress-theme-reco": "^1.6.16"
   }

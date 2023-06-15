@@ -17,16 +17,25 @@ module.exports = {
     lineNumbers: true // 代码块显示行号
   },
   plugins: [
+    // 回到顶部
     ['@vuepress-reco/vuepress-plugin-back-to-top'],
+    // SEO 优化
+    ['vuepress-plugin-baidu-autopush'], 
+    ['vuepress-plugin-sitemap', {
+      hostname: 'https://cleaner.love/'
+    }],
+    // 分页
     ['@vuepress-reco/vuepress-plugin-pagation', {
       perPage: 5
     }],
+    // 代码复制
     ["vuepress-plugin-nuggets-style-copy", {
       copyText: "copy",
       tip: {
         content: "复制成功!"
       }
     }],
+    // 内容刷新
     ['@vuepress/pwa', {
       serviceWorker: true,
       updatePopup: {
