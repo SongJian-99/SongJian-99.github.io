@@ -379,6 +379,35 @@ module.exports = {
 * **注意**：如果你使用该插件时出现报错，请看文末**问题**一节。
 
 
+### sitemap
+
+网站地图，提升网站的可见性和排名。
+
+* 安装
+
+~~~sh
+npm install vuepress-plugin-sitemap
+~~~
+
+* 使用。注意 sitemap 插件和 last updated 插件时间对象冲突，会产生报错。
+
+~~~js
+module.exports = {
+  plugins: [
+    	// 解决 sitemap 报错问题
+    	['@vuepress/last-updated', {
+      	transformer: timestamp => {
+        	return new Date(timestamp).toISOString()
+      	}
+    	}],
+  		['vuepress-plugin-sitemap', {
+      	hostname: 'https://cleaner.love/'
+    	}]
+  	]
+}
+~~~
+
+
 ## 问题
 
 copy 插件报错：本项目 Node.js 版本为 14.18.0，插件可以正常安装，但是项目启动后，该插件会报错。通过查看错误信息，定位是插件中的 copy.vue 文件出现错误。目前是通过打补丁修改插件源码的方式来解决报错的问题，解决过程如下。（[参考文档](https://juejin.cn/post/7022252841116893215)）

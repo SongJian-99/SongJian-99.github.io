@@ -3,24 +3,21 @@
  */
 export default {
   "tags": {
+    "MySQL": {
+      "key": "MySQL",
+      "scope": "tags",
+      "path": "/tag/MySQL/",
+      "pageKeys": [
+        "v-13646f9b"
+      ]
+    },
     "Java": {
       "key": "Java",
       "scope": "tags",
       "path": "/tag/Java/",
       "pageKeys": [
-        "v-2ab2a5ca",
-        "v-091f4df9"
-      ]
-    },
-    "道": {
-      "key": "道",
-      "scope": "tags",
-      "path": "/tag/道/",
-      "pageKeys": [
-        "v-2d92859e",
-        "v-3ec94b9a",
-        "v-cbbc8128",
-        "v-06af9d94"
+        "v-02e979b9",
+        "v-7505ae4a"
       ]
     },
     "Docker": {
@@ -28,8 +25,19 @@ export default {
       "scope": "tags",
       "path": "/tag/Docker/",
       "pageKeys": [
-        "v-65a62e07",
-        "v-f6dcfe16"
+        "v-75616575",
+        "v-44f55287"
+      ]
+    },
+    "道": {
+      "key": "道",
+      "scope": "tags",
+      "path": "/tag/道/",
+      "pageKeys": [
+        "v-b2f54a44",
+        "v-12c47507",
+        "v-266fa699",
+        "v-7e1bd87e"
       ]
     },
     "VuePress": {
@@ -37,8 +45,8 @@ export default {
       "scope": "tags",
       "path": "/tag/VuePress/",
       "pageKeys": [
-        "v-5b9558ca",
-        "v-6ffbb6db"
+        "v-45d2da1b",
+        "v-38cd854a"
       ]
     }
   },
@@ -48,10 +56,11 @@ export default {
       "scope": "categories",
       "path": "/categories/后端/",
       "pageKeys": [
-        "v-2ab2a5ca",
-        "v-091f4df9",
-        "v-65a62e07",
-        "v-f6dcfe16"
+        "v-13646f9b",
+        "v-02e979b9",
+        "v-75616575",
+        "v-44f55287",
+        "v-7505ae4a"
       ]
     },
     "传统文化": {
@@ -59,10 +68,10 @@ export default {
       "scope": "categories",
       "path": "/categories/传统文化/",
       "pageKeys": [
-        "v-2d92859e",
-        "v-3ec94b9a",
-        "v-cbbc8128",
-        "v-06af9d94"
+        "v-b2f54a44",
+        "v-12c47507",
+        "v-266fa699",
+        "v-7e1bd87e"
       ]
     },
     "前端": {
@@ -70,8 +79,8 @@ export default {
       "scope": "categories",
       "path": "/categories/前端/",
       "pageKeys": [
-        "v-5b9558ca",
-        "v-6ffbb6db"
+        "v-45d2da1b",
+        "v-38cd854a"
       ]
     }
   },
