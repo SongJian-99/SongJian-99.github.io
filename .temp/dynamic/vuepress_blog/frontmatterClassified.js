@@ -3,22 +3,13 @@
  */
 export default {
   "tags": {
-    "Docker": {
-      "key": "Docker",
-      "scope": "tags",
-      "path": "/tag/Docker/",
-      "pageKeys": [
-        "v-65a62e07",
-        "v-f6dcfe16"
-      ]
-    },
     "Java": {
       "key": "Java",
       "scope": "tags",
       "path": "/tag/Java/",
       "pageKeys": [
-        "v-091f4df9",
-        "v-2ab2a5ca"
+        "v-2ab2a5ca",
+        "v-091f4df9"
       ]
     },
     "道": {
@@ -28,8 +19,17 @@ export default {
       "pageKeys": [
         "v-2d92859e",
         "v-3ec94b9a",
-        "v-06af9d94",
-        "v-cbbc8128"
+        "v-cbbc8128",
+        "v-06af9d94"
+      ]
+    },
+    "Docker": {
+      "key": "Docker",
+      "scope": "tags",
+      "path": "/tag/Docker/",
+      "pageKeys": [
+        "v-65a62e07",
+        "v-f6dcfe16"
       ]
     },
     "VuePress": {
@@ -48,10 +48,10 @@ export default {
       "scope": "categories",
       "path": "/categories/后端/",
       "pageKeys": [
-        "v-65a62e07",
+        "v-2ab2a5ca",
         "v-091f4df9",
-        "v-f6dcfe16",
-        "v-2ab2a5ca"
+        "v-65a62e07",
+        "v-f6dcfe16"
       ]
     },
     "传统文化": {
@@ -61,8 +61,8 @@ export default {
       "pageKeys": [
         "v-2d92859e",
         "v-3ec94b9a",
-        "v-06af9d94",
-        "v-cbbc8128"
+        "v-cbbc8128",
+        "v-06af9d94"
       ]
     },
     "前端": {

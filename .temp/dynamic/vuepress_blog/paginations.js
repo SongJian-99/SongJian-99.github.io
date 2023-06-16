@@ -7,15 +7,6 @@ import filters from './pageFilters'
 
 export default [{
   pid: "tags",
-  id: "Docker",
-  filter: filters.tags,
-  sorter: sorters.tags,
-  pages: [{"path":"/tag/Docker/","interval":[0,2]}],
-  prevText: "Prev",
-  nextText: "Next",
-},
-{
-  pid: "tags",
   id: "Java",
   filter: filters.tags,
   sorter: sorters.tags,
@@ -29,6 +20,15 @@ export default [{
   filter: filters.tags,
   sorter: sorters.tags,
   pages: [{"path":"/tag/道/","interval":[0,4]}],
+  prevText: "Prev",
+  nextText: "Next",
+},
+{
+  pid: "tags",
+  id: "Docker",
+  filter: filters.tags,
+  sorter: sorters.tags,
+  pages: [{"path":"/tag/Docker/","interval":[0,2]}],
   prevText: "Prev",
   nextText: "Next",
 },

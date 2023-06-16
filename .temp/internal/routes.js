@@ -21,30 +21,6 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-65a62e07",
-    path: "/backend/docker/Web.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-65a62e07").then(next)
-    },
-  },
-  {
-    name: "v-091f4df9",
-    path: "/backend/work/poi.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-091f4df9").then(next)
-    },
-  },
-  {
-    name: "v-f6dcfe16",
-    path: "/backend/docker/Elasticsearch.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-f6dcfe16").then(next)
-    },
-  },
-  {
     name: "v-a02ed722",
     path: "/backend/docker/preface.html",
     component: GlobalLayout,
@@ -58,6 +34,22 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-2ab2a5ca").then(next)
+    },
+  },
+  {
+    name: "v-091f4df9",
+    path: "/backend/work/poi.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-091f4df9").then(next)
+    },
+  },
+  {
+    name: "v-7a04bb7c",
+    path: "/books/bookList.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7a04bb7c").then(next)
     },
   },
   {
@@ -77,6 +69,22 @@ export const routes = [
     redirect: "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html"
   },
   {
+    name: "v-65a62e07",
+    path: "/backend/docker/Web.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-65a62e07").then(next)
+    },
+  },
+  {
+    name: "v-f6dcfe16",
+    path: "/backend/docker/Elasticsearch.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-f6dcfe16").then(next)
+    },
+  },
+  {
     name: "v-3ec94b9a",
     path: "/books/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E8%AF%B4%E5%B8%B8%E6%B8%85%E9%9D%99%E7%BB%8F.html",
     component: GlobalLayout,
@@ -93,27 +101,11 @@ export const routes = [
     redirect: "/books/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E8%AF%B4%E5%B8%B8%E6%B8%85%E9%9D%99%E7%BB%8F.html"
   },
   {
-    name: "v-06af9d94",
-    path: "/books/%E5%A4%AA%E4%B9%99%E9%87%91%E5%8D%8E%E5%AE%97%E6%97%A8.html",
+    name: "v-5b9558ca",
+    path: "/frontend/vuepress/VuePressOne.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-06af9d94").then(next)
-    },
-  },
-  {
-    path: "/books/太乙金华宗旨.html",
-    redirect: "/books/%E5%A4%AA%E4%B9%99%E9%87%91%E5%8D%8E%E5%AE%97%E6%97%A8.html"
-  },
-  {
-    path: "/books/太乙金华宗旨.html",
-    redirect: "/books/%E5%A4%AA%E4%B9%99%E9%87%91%E5%8D%8E%E5%AE%97%E6%97%A8.html"
-  },
-  {
-    name: "v-7a04bb7c",
-    path: "/books/bookList.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7a04bb7c").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-5b9558ca").then(next)
     },
   },
   {
@@ -133,12 +125,20 @@ export const routes = [
     redirect: "/books/%E7%B4%A0%E4%B9%A6.html"
   },
   {
-    name: "v-5b9558ca",
-    path: "/frontend/vuepress/VuePressOne.html",
+    name: "v-06af9d94",
+    path: "/books/%E5%A4%AA%E4%B9%99%E9%87%91%E5%8D%8E%E5%AE%97%E6%97%A8.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5b9558ca").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-06af9d94").then(next)
     },
+  },
+  {
+    path: "/books/太乙金华宗旨.html",
+    redirect: "/books/%E5%A4%AA%E4%B9%99%E9%87%91%E5%8D%8E%E5%AE%97%E6%97%A8.html"
+  },
+  {
+    path: "/books/太乙金华宗旨.html",
+    redirect: "/books/%E5%A4%AA%E4%B9%99%E9%87%91%E5%8D%8E%E5%AE%97%E6%97%A8.html"
   },
   {
     name: "v-6ffbb6db",
@@ -188,19 +188,6 @@ export const routes = [
     redirect: "/timeline/"
   },
   {
-    name: "v-83bebff6",
-    path: "/tag/Docker/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-83bebff6").then(next)
-    },
-    meta: {"pid":"tags","id":"Docker"}
-  },
-  {
-    path: "/tag/Docker/index.html",
-    redirect: "/tag/Docker/"
-  },
-  {
     name: "v-18082c7a",
     path: "/tag/Java/",
     component: GlobalLayout,
@@ -225,6 +212,19 @@ export const routes = [
   {
     path: "/tag/道/index.html",
     redirect: "/tag/道/"
+  },
+  {
+    name: "v-83bebff6",
+    path: "/tag/Docker/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-83bebff6").then(next)
+    },
+    meta: {"pid":"tags","id":"Docker"}
+  },
+  {
+    path: "/tag/Docker/index.html",
+    redirect: "/tag/Docker/"
   },
   {
     name: "v-5e08fc30",
