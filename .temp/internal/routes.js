@@ -9,20 +9,16 @@ import GlobalLayout from "/Users/songjian/Project/vscode/blog/node_modules/@vuep
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-13646f9b",
-    path: "/backend/mysql/preface.html",
+    name: "v-51316b00",
+    path: "/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-13646f9b").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-51316b00").then(next)
     },
   },
   {
-    name: "v-02e979b9",
-    path: "/backend/work/poi.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-02e979b9").then(next)
-    },
+    path: "/index.html",
+    redirect: "/"
   },
   {
     name: "v-75616575",
@@ -30,6 +26,14 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-75616575").then(next)
+    },
+  },
+  {
+    name: "v-44f55287",
+    path: "/backend/docker/Web.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-44f55287").then(next)
     },
   },
   {
@@ -41,16 +45,28 @@ export const routes = [
     },
   },
   {
-    name: "v-51316b00",
-    path: "/",
+    name: "v-02e979b9",
+    path: "/backend/work/poi.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-51316b00").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-02e979b9").then(next)
     },
   },
   {
-    path: "/index.html",
-    redirect: "/"
+    name: "v-13646f9b",
+    path: "/backend/mysql/preface.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-13646f9b").then(next)
+    },
+  },
+  {
+    name: "v-7505ae4a",
+    path: "/backend/work/practice.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7505ae4a").then(next)
+    },
   },
   {
     name: "v-0c9027ef",
@@ -93,12 +109,20 @@ export const routes = [
     redirect: "/books/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E8%AF%B4%E5%B8%B8%E6%B8%85%E9%9D%99%E7%BB%8F.html"
   },
   {
-    name: "v-44f55287",
-    path: "/backend/docker/Web.html",
+    name: "v-7e1bd87e",
+    path: "/books/%E5%A4%AA%E4%B9%99%E9%87%91%E5%8D%8E%E5%AE%97%E6%97%A8.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-44f55287").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-7e1bd87e").then(next)
     },
+  },
+  {
+    path: "/books/太乙金华宗旨.html",
+    redirect: "/books/%E5%A4%AA%E4%B9%99%E9%87%91%E5%8D%8E%E5%AE%97%E6%97%A8.html"
+  },
+  {
+    path: "/books/太乙金华宗旨.html",
+    redirect: "/books/%E5%A4%AA%E4%B9%99%E9%87%91%E5%8D%8E%E5%AE%97%E6%97%A8.html"
   },
   {
     name: "v-266fa699",
@@ -117,14 +141,6 @@ export const routes = [
     redirect: "/books/%E7%B4%A0%E4%B9%A6.html"
   },
   {
-    name: "v-7505ae4a",
-    path: "/backend/work/practice.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7505ae4a").then(next)
-    },
-  },
-  {
     name: "v-45d2da1b",
     path: "/frontend/vuepress/VuePressOne.html",
     component: GlobalLayout,
@@ -139,22 +155,6 @@ export const routes = [
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-38cd854a").then(next)
     },
-  },
-  {
-    name: "v-7e1bd87e",
-    path: "/books/%E5%A4%AA%E4%B9%99%E9%87%91%E5%8D%8E%E5%AE%97%E6%97%A8.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7e1bd87e").then(next)
-    },
-  },
-  {
-    path: "/books/太乙金华宗旨.html",
-    redirect: "/books/%E5%A4%AA%E4%B9%99%E9%87%91%E5%8D%8E%E5%AE%97%E6%97%A8.html"
-  },
-  {
-    path: "/books/太乙金华宗旨.html",
-    redirect: "/books/%E5%A4%AA%E4%B9%99%E9%87%91%E5%8D%8E%E5%AE%97%E6%97%A8.html"
   },
   {
     name: "v-b1564aac",
@@ -196,17 +196,17 @@ export const routes = [
     redirect: "/timeline/"
   },
   {
-    name: "v-dc3c2992",
-    path: "/tag/MySQL/",
+    name: "v-83bebff6",
+    path: "/tag/Docker/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-dc3c2992").then(next)
+      ensureAsyncComponentsLoaded("Tag", "v-83bebff6").then(next)
     },
-    meta: {"pid":"tags","id":"MySQL"}
+    meta: {"pid":"tags","id":"Docker"}
   },
   {
-    path: "/tag/MySQL/index.html",
-    redirect: "/tag/MySQL/"
+    path: "/tag/Docker/index.html",
+    redirect: "/tag/Docker/"
   },
   {
     name: "v-18082c7a",
@@ -222,17 +222,17 @@ export const routes = [
     redirect: "/tag/Java/"
   },
   {
-    name: "v-83bebff6",
-    path: "/tag/Docker/",
+    name: "v-dc3c2992",
+    path: "/tag/MySQL/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-83bebff6").then(next)
+      ensureAsyncComponentsLoaded("Tag", "v-dc3c2992").then(next)
     },
-    meta: {"pid":"tags","id":"Docker"}
+    meta: {"pid":"tags","id":"MySQL"}
   },
   {
-    path: "/tag/Docker/index.html",
-    redirect: "/tag/Docker/"
+    path: "/tag/MySQL/index.html",
+    redirect: "/tag/MySQL/"
   },
   {
     name: "v-c7911d02",

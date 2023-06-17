@@ -3,12 +3,13 @@
  */
 export default {
   "tags": {
-    "MySQL": {
-      "key": "MySQL",
+    "Docker": {
+      "key": "Docker",
       "scope": "tags",
-      "path": "/tag/MySQL/",
+      "path": "/tag/Docker/",
       "pageKeys": [
-        "v-13646f9b"
+        "v-75616575",
+        "v-44f55287"
       ]
     },
     "Java": {
@@ -20,13 +21,12 @@ export default {
         "v-7505ae4a"
       ]
     },
-    "Docker": {
-      "key": "Docker",
+    "MySQL": {
+      "key": "MySQL",
       "scope": "tags",
-      "path": "/tag/Docker/",
+      "path": "/tag/MySQL/",
       "pageKeys": [
-        "v-75616575",
-        "v-44f55287"
+        "v-13646f9b"
       ]
     },
     "道": {
@@ -36,8 +36,8 @@ export default {
       "pageKeys": [
         "v-b2f54a44",
         "v-12c47507",
-        "v-266fa699",
-        "v-7e1bd87e"
+        "v-7e1bd87e",
+        "v-266fa699"
       ]
     },
     "VuePress": {
@@ -56,10 +56,10 @@ export default {
       "scope": "categories",
       "path": "/categories/后端/",
       "pageKeys": [
-        "v-13646f9b",
-        "v-02e979b9",
         "v-75616575",
         "v-44f55287",
+        "v-02e979b9",
+        "v-13646f9b",
         "v-7505ae4a"
       ]
     },
@@ -70,8 +70,8 @@ export default {
       "pageKeys": [
         "v-b2f54a44",
         "v-12c47507",
-        "v-266fa699",
-        "v-7e1bd87e"
+        "v-7e1bd87e",
+        "v-266fa699"
       ]
     },
     "前端": {

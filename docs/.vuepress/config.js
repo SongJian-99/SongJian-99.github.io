@@ -81,7 +81,7 @@ module.exports = {
         ]
       },
       { text: 'Docker', link: '/backend/docker/preface', icon: 'iconfont icon-docker' },
-      { text: 'MySQL', link: '/backend/mysql/preface', icon: 'iconfont icon-docker' },
+      { text: 'MySQL', link: '/backend/mysql/preface', icon: 'iconfont icon-mysql' },
       { text: '工作', link: '/backend/work/poi', icon: 'iconfont icon-work' },
       { text: '书籍', link: '/books/bookList', icon: 'reco-document' },
       { text: '时间轴', link: '/timeLine/', icon: 'reco-date' }

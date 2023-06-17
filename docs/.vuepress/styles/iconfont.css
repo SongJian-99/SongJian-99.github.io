@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'iconfont';  /* Project id 4106829 */
-  src: url('iconfont.woff2?t=1686470891814') format('woff2'),
-        url('iconfont.woff?t=1686470891814') format('woff'),
-        url('iconfont.ttf?t=1686470891814') format('truetype');
+  src: url('iconfont.woff2?t=1686962609103') format('woff2'),
+        url('iconfont.woff?t=1686962609103') format('woff'),
+        url('iconfont.ttf?t=1686962609103') format('truetype');
 }
   
 .iconfont {
@@ -27,4 +27,12 @@
 
 .icon-work:before {
   content: "\e68c";
+}
+
+.icon-mysql:before {
+  content: "\e682";
+}
+
+.icon-cleaner:before {
+  content: "\eaa9";
 }

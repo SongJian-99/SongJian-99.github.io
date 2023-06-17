@@ -7,10 +7,10 @@ import filters from './pageFilters'
 
 export default [{
   pid: "tags",
-  id: "MySQL",
+  id: "Docker",
   filter: filters.tags,
   sorter: sorters.tags,
-  pages: [{"path":"/tag/MySQL/","interval":[0,1]}],
+  pages: [{"path":"/tag/Docker/","interval":[0,2]}],
   prevText: "Prev",
   nextText: "Next",
 },
@@ -25,10 +25,10 @@ export default [{
 },
 {
   pid: "tags",
-  id: "Docker",
+  id: "MySQL",
   filter: filters.tags,
   sorter: sorters.tags,
-  pages: [{"path":"/tag/Docker/","interval":[0,2]}],
+  pages: [{"path":"/tag/MySQL/","interval":[0,1]}],
   prevText: "Prev",
   nextText: "Next",
 },
