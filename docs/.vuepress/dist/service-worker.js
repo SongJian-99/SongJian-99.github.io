@@ -27,11 +27,19 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
+<<<<<<< HEAD
     "revision": "72dcd3740a40116ec0b5435bc269a781"
   },
   {
     "url": "assets/css/0.styles.abb837a2.css",
     "revision": "d0807b738c24981afc3644e8c44e2799"
+=======
+    "revision": "08b5c20b12d2d5d27383e1b2b070fd16"
+  },
+  {
+    "url": "assets/css/0.styles.04b644ea.css",
+    "revision": "880f1fb67fb7bd8ef352a9aba745f885"
+>>>>>>> a3721b9 (feat:git缓存清理)
   },
   {
     "url": "assets/fonts/iconfont.938fa69e.woff",
@@ -58,6 +66,7 @@ self.__precacheManifest = [
     "revision": "4b459837f393f7ed1c8d1bde2c2f6687"
   },
   {
+<<<<<<< HEAD
     "url": "assets/js/12.b15432a8.js",
     "revision": "5345ab819a05999791ecd195ae474966"
   },
@@ -76,6 +85,26 @@ self.__precacheManifest = [
   {
     "url": "assets/js/16.5067bb2c.js",
     "revision": "6670dfd8be37189cf78eedb624cff111"
+=======
+    "url": "assets/js/12.67aeae84.js",
+    "revision": "b932f7a73f072e38b5f8b9c8292f44df"
+  },
+  {
+    "url": "assets/js/13.a3840d38.js",
+    "revision": "2207cec41e4cc4edc8f40debce3781dc"
+  },
+  {
+    "url": "assets/js/14.a5fb61b9.js",
+    "revision": "b578d5f03f949d374048319fda2862d5"
+  },
+  {
+    "url": "assets/js/15.baecc900.js",
+    "revision": "304362506c227d0c92d6779d241b73c6"
+  },
+  {
+    "url": "assets/js/16.467478c9.js",
+    "revision": "e38347ee84703eb40cd7177fce9a928d"
+>>>>>>> a3721b9 (feat:git缓存清理)
   },
   {
     "url": "assets/js/17.575bd632.js",
@@ -86,12 +115,21 @@ self.__precacheManifest = [
     "revision": "103aae4cefd529a7e49a171842770e09"
   },
   {
+<<<<<<< HEAD
     "url": "assets/js/19.1a84a247.js",
     "revision": "92e0bed912c5c0ac9fe5d04ca31c143a"
   },
   {
     "url": "assets/js/20.77b1e1f3.js",
     "revision": "b2611e231dca8418e89f01e012037141"
+=======
+    "url": "assets/js/19.494b340b.js",
+    "revision": "8fc5913471ba5e4c4e78577e46091d91"
+  },
+  {
+    "url": "assets/js/20.0148c883.js",
+    "revision": "be5e244bf6645fe6693a1380f544e4fb"
+>>>>>>> a3721b9 (feat:git缓存清理)
   },
   {
     "url": "assets/js/21.3f7267ac.js",
@@ -114,7 +152,11 @@ self.__precacheManifest = [
     "revision": "009c48822d5dd874f3ccc30d707ce18f"
   },
   {
+<<<<<<< HEAD
     "url": "assets/js/3.be998e2f.js",
+=======
+    "url": "assets/js/3.34654343.js",
+>>>>>>> a3721b9 (feat:git缓存清理)
     "revision": "6696a254306ee063fbc306ad6c339094"
   },
   {
@@ -142,8 +184,13 @@ self.__precacheManifest = [
     "revision": "bd2a6fe962463078020ad8f652c045ee"
   },
   {
+<<<<<<< HEAD
     "url": "assets/js/app.3c89f207.js",
     "revision": "d758307927ba63c4d4435b7bca101197"
+=======
+    "url": "assets/js/app.0312a93a.js",
+    "revision": "6378efc1d3b397d7f1bc46fe259fe273"
+>>>>>>> a3721b9 (feat:git缓存清理)
   },
   {
     "url": "avator.jpg",
@@ -151,6 +198,7 @@ self.__precacheManifest = [
   },
   {
     "url": "backend/docker/Elasticsearch.html",
+<<<<<<< HEAD
     "revision": "a4a45769807df20bef910cf30c974db2"
   },
   {
@@ -216,6 +264,73 @@ self.__precacheManifest = [
   {
     "url": "index.html",
     "revision": "2efe4d70545c559fdbbe72f9dc46baf5"
+=======
+    "revision": "7eb207a7e2a24600573a1fe99cf2bf70"
+  },
+  {
+    "url": "backend/docker/preface.html",
+    "revision": "b4ca0794149f4ffbf1e6699050d8a1d1"
+  },
+  {
+    "url": "backend/docker/Web.html",
+    "revision": "6c194c37d27cac799ffec97fac36fe1d"
+  },
+  {
+    "url": "backend/work/poi.html",
+    "revision": "56cc6dd370ae13d012fc3ecf043e3261"
+  },
+  {
+    "url": "backend/work/practice.html",
+    "revision": "4ff81b7a346941c1b110d0cf7e7a2ef1"
+  },
+  {
+    "url": "books/bookList.html",
+    "revision": "7d7b96c3084503a7923df65592711826"
+  },
+  {
+    "url": "books/关圣帝君觉世真经.html",
+    "revision": "372c582dfc0022381001878e84369b98"
+  },
+  {
+    "url": "books/太上老君说常清静经.html",
+    "revision": "bc2b233b35dff6896fd3f3322fec13a7"
+  },
+  {
+    "url": "books/太乙金华宗旨.html",
+    "revision": "85601f96196ca28b8a3d52980640335d"
+  },
+  {
+    "url": "books/素书.html",
+    "revision": "113110d97bb10e2d485cf118f1df4abb"
+  },
+  {
+    "url": "categories/index.html",
+    "revision": "ca5ff861291db3bf8fdee638cca6a980"
+  },
+  {
+    "url": "categories/传统文化/index.html",
+    "revision": "030310642d9204fa5f551f19002113c2"
+  },
+  {
+    "url": "categories/前端/index.html",
+    "revision": "8c0f4c124197a462fac535532c103158"
+  },
+  {
+    "url": "categories/后端/index.html",
+    "revision": "4cbf3ff940d71cdc8b6cf55c3d11a14d"
+  },
+  {
+    "url": "frontend/vuepress/VuePressOne.html",
+    "revision": "9325f76fc068eb55fbcb126f14f4069f"
+  },
+  {
+    "url": "frontend/vuepress/VuePressTwo.html",
+    "revision": "d37c4be614db0627c69821d2cbce31e8"
+  },
+  {
+    "url": "index.html",
+    "revision": "26b3732ad62f1db78abf00333bd45b22"
+>>>>>>> a3721b9 (feat:git缓存清理)
   },
   {
     "url": "logo.jpg",
@@ -223,6 +338,7 @@ self.__precacheManifest = [
   },
   {
     "url": "tag/Docker/index.html",
+<<<<<<< HEAD
     "revision": "ab03f1321500195fb8f07dae20a9d5d0"
   },
   {
@@ -244,6 +360,29 @@ self.__precacheManifest = [
   {
     "url": "timeline/index.html",
     "revision": "cbdb4af523b7202f0782b8f5878010c1"
+=======
+    "revision": "53316f47e590edaca7a6eb5841569ccc"
+  },
+  {
+    "url": "tag/index.html",
+    "revision": "ebf98f4488fec0b1ca8f69c353602a68"
+  },
+  {
+    "url": "tag/Java/index.html",
+    "revision": "1e8c62184f12457e9b3c6bd4932d2f96"
+  },
+  {
+    "url": "tag/VuePress/index.html",
+    "revision": "ca5fe78f5eeb3c8f3bd3203407a98552"
+  },
+  {
+    "url": "tag/道/index.html",
+    "revision": "6a6ff8d7883e379df75a40ea7a7c8bd2"
+  },
+  {
+    "url": "timeline/index.html",
+    "revision": "bb5c3e24479f085a3d094c9054b98dd7"
+>>>>>>> a3721b9 (feat:git缓存清理)
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
