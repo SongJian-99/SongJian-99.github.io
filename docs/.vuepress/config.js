@@ -135,7 +135,8 @@ module.exports = {
           collapsable: true,
           children: [
             { title: '使用 VuePress + GitHub Pages + GitHub Actions 搭建个人博客', path: '/frontend/vuepress/VuePressOne' },
-            { title: 'VuePress 个人博客美化：vuepress-theme-reco 主题使用', path: '/frontend/vuepress/VuePressTwo' }
+            { title: 'VuePress 个人博客美化：vuepress-theme-reco 主题使用', path: '/frontend/vuepress/VuePressTwo' },
+            { title: 'VuePress + GitHub Pages 自定义域名', path: '/frontend/vuepress/VuePressThree' }
           ]
         }
       ]
