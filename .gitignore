@@ -4,9 +4,9 @@ bin-release/
 [Oo]bj/
 [Bb]in/
 
-/docs/backend
-/docs/books
-/docs/fronted
+docs/backend/*
+docs/books/*
+docs/fronted/*
 .gitignore
 LICENSE
 
