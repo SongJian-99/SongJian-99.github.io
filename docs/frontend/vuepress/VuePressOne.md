@@ -10,7 +10,7 @@ tags:
 ---
 
 
->本篇文章主要介绍使用 VuePress + GibHub Pages 搭建个人博客，并使用 GibHub Actions 实现博客自动化部署的详细步骤。
+>本文主要介绍使用 VuePress + GibHub Pages 搭建个人博客，并使用 GibHub Actions 实现博客自动化部署的详细步骤。
 >
 >[VuePress 中文文档](https://vuepress.vuejs.org/zh/)
 

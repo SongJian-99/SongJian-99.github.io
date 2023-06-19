@@ -10,7 +10,7 @@ tags:
 ---
 
 
-> 本篇文章主要介绍了使用 Docker Compse 部署 Elasticsearch + Kibana，并整合到 Spring Boot 项目中的详细步骤。
+> 本文主要介绍了使用 Docker Compse 部署 Elasticsearch + Kibana，并整合到 Spring Boot 项目中的详细步骤。
 >
 > Elasticsearch + Kibana 版本: 7.17.0（7 的最新版本）；Spring Boot 版本：2.7.5 。
 >

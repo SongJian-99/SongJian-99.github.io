@@ -9,9 +9,9 @@ tags:
  - Docker
 ---
 
-> 本篇文章主要介绍使用 Dockerfile + Docker Compose 部署完整 Web 项目（包括数据库、后端和前端）的详细步骤。
+> 本文主要介绍使用 Dockerfile + Docker Compose 部署完整 Web 项目（包括数据库、后端和前端）的详细步骤。
 > 
-> 项目是前后端分离的，后端使用 SpringBoot2.7.5 + JKD17 + MySQL 8；前端使用 Vue + webpack。服务器是跑在 WSL2 上的 Ubuntu 20.04.5
+> 项目是前后端分离的，后端使用 SpringBoot2.7.5 + JDK17 + MySQL 8；前端使用 Vue + webpack。服务器是跑在 WSL2 上的 Ubuntu 20.04.5
 
 ## 服务器目录结构
 
