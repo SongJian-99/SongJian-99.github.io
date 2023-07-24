@@ -1,7 +1,6 @@
 ---
 title: VuePress 个人博客美化：vuepress-theme-reco 主题使用
 date: 2023-06-08
-isShowComments: true
 author: Cleaner
 categories: 
  - 前端

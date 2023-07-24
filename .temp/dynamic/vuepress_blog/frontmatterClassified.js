@@ -3,14 +3,6 @@
  */
 export default {
   "tags": {
-    "MySQL": {
-      "key": "MySQL",
-      "scope": "tags",
-      "path": "/tag/MySQL/",
-      "pageKeys": [
-        "v-022ff53e"
-      ]
-    },
     "Docker": {
       "key": "Docker",
       "scope": "tags",
@@ -20,13 +12,29 @@ export default {
         "v-65a62e07"
       ]
     },
+    "微服务": {
+      "key": "微服务",
+      "scope": "tags",
+      "path": "/tag/微服务/",
+      "pageKeys": [
+        "v-1227ff87"
+      ]
+    },
+    "MySQL": {
+      "key": "MySQL",
+      "scope": "tags",
+      "path": "/tag/MySQL/",
+      "pageKeys": [
+        "v-022ff53e"
+      ]
+    },
     "Java": {
       "key": "Java",
       "scope": "tags",
       "path": "/tag/Java/",
       "pageKeys": [
-        "v-091f4df9",
-        "v-2ab2a5ca"
+        "v-2ab2a5ca",
+        "v-091f4df9"
       ]
     },
     "道": {
@@ -34,9 +42,9 @@ export default {
       "scope": "tags",
       "path": "/tag/道/",
       "pageKeys": [
-        "v-06af9d94",
-        "v-2d92859e",
         "v-3ec94b9a",
+        "v-2d92859e",
+        "v-06af9d94",
         "v-cbbc8128"
       ]
     },
@@ -47,7 +55,8 @@ export default {
       "pageKeys": [
         "v-5b9558ca",
         "v-921ea9ca",
-        "v-6ffbb6db"
+        "v-6ffbb6db",
+        "v-2fa3798a"
       ]
     }
   },
@@ -57,11 +66,12 @@ export default {
       "scope": "categories",
       "path": "/categories/后端/",
       "pageKeys": [
-        "v-022ff53e",
         "v-f6dcfe16",
         "v-65a62e07",
-        "v-091f4df9",
-        "v-2ab2a5ca"
+        "v-1227ff87",
+        "v-022ff53e",
+        "v-2ab2a5ca",
+        "v-091f4df9"
       ]
     },
     "传统文化": {
@@ -69,9 +79,9 @@ export default {
       "scope": "categories",
       "path": "/categories/传统文化/",
       "pageKeys": [
-        "v-06af9d94",
-        "v-2d92859e",
         "v-3ec94b9a",
+        "v-2d92859e",
+        "v-06af9d94",
         "v-cbbc8128"
       ]
     },
@@ -82,7 +92,8 @@ export default {
       "pageKeys": [
         "v-5b9558ca",
         "v-921ea9ca",
-        "v-6ffbb6db"
+        "v-6ffbb6db",
+        "v-2fa3798a"
       ]
     }
   },

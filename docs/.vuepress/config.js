@@ -77,12 +77,13 @@ module.exports = {
         text: '前端',
         icon: 'iconfont icon-frontend',
         items: [
-          { text: 'VuePress', link: '/frontend/vuepress/VuePressOne'}
+          { text: 'VuePress', link: '/frontend/vuepress/preface'}
         ]
       },
       { text: 'Docker', link: '/backend/docker/preface', icon: 'iconfont icon-docker' },
       { text: 'MySQL', link: '/backend/mysql/preface', icon: 'iconfont icon-mysql' },
       { text: '工作', link: '/backend/work/poi', icon: 'iconfont icon-work' },
+      { text: '微服务', link: '/backend/microservice/twelve-factor', icon: 'iconfont icon-work' },
       { text: '书籍', link: '/books/bookList', icon: 'reco-document' },
       { text: '时间轴', link: '/timeLine/', icon: 'reco-date' }
     ],
@@ -106,6 +107,15 @@ module.exports = {
           children: [
             { title: '使用 Docker Compose 部署 Elasticsearch + Kibana', path: '/backend/docker/Elasticsearch' },
             { title: '使用 Dockerfile + Docker Compose 部署 Web 项目', path: '/backend/docker/Web' }
+          ]
+        }
+      ],
+      '/backend/microservice/': [
+        {
+          title: '微服务理论知识',
+          collapsable: true,
+          children: [
+            { title: '微服务架构中实施应用开发的十二要素', path: '/backend/microservice/twelve-factor' }
           ]
         }
       ],
