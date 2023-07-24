@@ -8,17 +8,16 @@ export default {
       "scope": "tags",
       "path": "/tag/Docker/",
       "pageKeys": [
-        "v-75616575",
-        "v-44f55287"
+        "v-65a62e07",
+        "v-f6dcfe16"
       ]
     },
-    "Java": {
-      "key": "Java",
+    "微服务": {
+      "key": "微服务",
       "scope": "tags",
-      "path": "/tag/Java/",
+      "path": "/tag/微服务/",
       "pageKeys": [
-        "v-02e979b9",
-        "v-7505ae4a"
+        "v-1227ff87"
       ]
     },
     "MySQL": {
@@ -26,7 +25,16 @@ export default {
       "scope": "tags",
       "path": "/tag/MySQL/",
       "pageKeys": [
-        "v-13646f9b"
+        "v-022ff53e"
+      ]
+    },
+    "Java": {
+      "key": "Java",
+      "scope": "tags",
+      "path": "/tag/Java/",
+      "pageKeys": [
+        "v-2ab2a5ca",
+        "v-091f4df9"
       ]
     },
     "道": {
@@ -34,10 +42,10 @@ export default {
       "scope": "tags",
       "path": "/tag/道/",
       "pageKeys": [
-        "v-7e1bd87e",
-        "v-b2f54a44",
-        "v-12c47507",
-        "v-266fa699"
+        "v-2d92859e",
+        "v-3ec94b9a",
+        "v-cbbc8128",
+        "v-06af9d94"
       ]
     },
     "VuePress": {
@@ -45,9 +53,10 @@ export default {
       "scope": "tags",
       "path": "/tag/VuePress/",
       "pageKeys": [
-        "v-45d2da1b",
-        "v-7b66f19b",
-        "v-38cd854a"
+        "v-5b9558ca",
+        "v-921ea9ca",
+        "v-6ffbb6db",
+        "v-2fa3798a"
       ]
     }
   },
@@ -57,11 +66,12 @@ export default {
       "scope": "categories",
       "path": "/categories/后端/",
       "pageKeys": [
-        "v-75616575",
-        "v-44f55287",
-        "v-02e979b9",
-        "v-7505ae4a",
-        "v-13646f9b"
+        "v-65a62e07",
+        "v-1227ff87",
+        "v-f6dcfe16",
+        "v-022ff53e",
+        "v-2ab2a5ca",
+        "v-091f4df9"
       ]
     },
     "传统文化": {
@@ -69,10 +79,10 @@ export default {
       "scope": "categories",
       "path": "/categories/传统文化/",
       "pageKeys": [
-        "v-7e1bd87e",
-        "v-b2f54a44",
-        "v-12c47507",
-        "v-266fa699"
+        "v-2d92859e",
+        "v-3ec94b9a",
+        "v-cbbc8128",
+        "v-06af9d94"
       ]
     },
     "前端": {
@@ -80,9 +90,10 @@ export default {
       "scope": "categories",
       "path": "/categories/前端/",
       "pageKeys": [
-        "v-45d2da1b",
-        "v-7b66f19b",
-        "v-38cd854a"
+        "v-5b9558ca",
+        "v-921ea9ca",
+        "v-6ffbb6db",
+        "v-2fa3798a"
       ]
     }
   },
