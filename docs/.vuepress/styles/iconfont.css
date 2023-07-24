@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'iconfont';  /* Project id 4106829 */
-  src: url('iconfont.woff2?t=1686962609103') format('woff2'),
-        url('iconfont.woff?t=1686962609103') format('woff'),
-        url('iconfont.ttf?t=1686962609103') format('truetype');
+  src: url('iconfont.woff2?t=1690199288273') format('woff2'),
+        url('iconfont.woff?t=1690199288273') format('woff'),
+        url('iconfont.ttf?t=1690199288273') format('truetype');
 }
   
 .iconfont {
@@ -35,4 +35,8 @@
 
 .icon-cleaner:before {
   content: "\eaa9";
+}
+
+.icon-microservice:before {
+  content: "\e7fa";
 }

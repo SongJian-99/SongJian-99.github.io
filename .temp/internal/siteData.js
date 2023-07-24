@@ -40,26 +40,90 @@ export const siteData = {
       },
       "regularPath": "/",
       "relativePath": "README.md",
-      "key": "v-9280c340",
+      "key": "v-51316b00",
       "path": "/",
       "lastUpdated": "2023/6/12 下午6:05:45",
       "lastUpdatedTimestamp": 1686564345000
     },
     {
-      "frontmatter": {},
-      "regularPath": "/backend/docker/preface.html",
-      "relativePath": "backend/docker/preface.md",
-      "key": "v-a02ed722",
-      "path": "/backend/docker/preface.html",
-      "lastUpdated": "2023/6/18 下午3:32:10",
-      "lastUpdatedTimestamp": 1687073530000
+      "title": "使用 Docker Compose 部署 Elasticsearch + Kibana",
+      "frontmatter": {
+        "title": "使用 Docker Compose 部署 Elasticsearch + Kibana",
+        "date": "2023-06-06T00:00:00.000Z",
+        "isShowComments": false,
+        "author": "Cleaner",
+        "categories": [
+          "后端"
+        ],
+        "tags": [
+          "Docker"
+        ]
+      },
+      "regularPath": "/backend/docker/Elasticsearch.html",
+      "relativePath": "backend/docker/Elasticsearch.md",
+      "key": "v-75616575",
+      "path": "/backend/docker/Elasticsearch.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "服务器目录结构",
+          "slug": "服务器目录结构"
+        },
+        {
+          "level": 2,
+          "title": "部署 Elasticsearch 和 Kibana",
+          "slug": "部署-elasticsearch-和-kibana"
+        },
+        {
+          "level": 3,
+          "title": "启动容器",
+          "slug": "启动容器"
+        },
+        {
+          "level": 3,
+          "title": "设置登陆密码",
+          "slug": "设置登陆密码"
+        },
+        {
+          "level": 3,
+          "title": "完整配置文件内容",
+          "slug": "完整配置文件内容"
+        },
+        {
+          "level": 2,
+          "title": "Spring Boot 整合 Elasticsearch",
+          "slug": "spring-boot-整合-elasticsearch"
+        },
+        {
+          "level": 3,
+          "title": "添加依赖",
+          "slug": "添加依赖"
+        },
+        {
+          "level": 3,
+          "title": "添加配置",
+          "slug": "添加配置"
+        },
+        {
+          "level": 3,
+          "title": "使用",
+          "slug": "使用"
+        },
+        {
+          "level": 2,
+          "title": "问题",
+          "slug": "问题"
+        }
+      ],
+      "lastUpdated": "2023/6/19 下午8:33:26",
+      "lastUpdatedTimestamp": 1687178006000
     },
     {
       "title": "使用 Dockerfile + Docker Compose 部署 Web 项目",
       "frontmatter": {
         "title": "使用 Dockerfile + Docker Compose 部署 Web 项目",
         "date": "2023-06-06T00:00:00.000Z",
-        "isShowComments": true,
+        "isShowComments": false,
         "author": "Cleaner",
         "categories": [
           "后端"
@@ -70,7 +134,7 @@ export const siteData = {
       },
       "regularPath": "/backend/docker/Web.html",
       "relativePath": "backend/docker/Web.md",
-      "key": "v-65a62e07",
+      "key": "v-44f55287",
       "path": "/backend/docker/Web.html",
       "headers": [
         {
@@ -163,6 +227,15 @@ export const siteData = {
       "lastUpdatedTimestamp": 1687178006000
     },
     {
+      "frontmatter": {},
+      "regularPath": "/backend/docker/preface.html",
+      "relativePath": "backend/docker/preface.md",
+      "key": "v-dbe98e22",
+      "path": "/backend/docker/preface.html",
+      "lastUpdated": "2023/6/18 下午3:32:10",
+      "lastUpdatedTimestamp": 1687073530000
+    },
+    {
       "title": "微服务架构中实施应用开发的十二要素",
       "frontmatter": {
         "title": "微服务架构中实施应用开发的十二要素",
@@ -178,7 +251,7 @@ export const siteData = {
       },
       "regularPath": "/backend/microservice/twelve-factor.html",
       "relativePath": "backend/microservice/twelve-factor.md",
-      "key": "v-1227ff87",
+      "key": "v-6cf9ce47",
       "path": "/backend/microservice/twelve-factor.html",
       "headers": [
         {
@@ -246,84 +319,11 @@ export const siteData = {
       "lastUpdatedTimestamp": 1690192734000
     },
     {
-      "title": "使用 Docker Compose 部署 Elasticsearch + Kibana",
-      "frontmatter": {
-        "title": "使用 Docker Compose 部署 Elasticsearch + Kibana",
-        "date": "2023-06-06T00:00:00.000Z",
-        "isShowComments": true,
-        "author": "Cleaner",
-        "categories": [
-          "后端"
-        ],
-        "tags": [
-          "Docker"
-        ]
-      },
-      "regularPath": "/backend/docker/Elasticsearch.html",
-      "relativePath": "backend/docker/Elasticsearch.md",
-      "key": "v-f6dcfe16",
-      "path": "/backend/docker/Elasticsearch.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "服务器目录结构",
-          "slug": "服务器目录结构"
-        },
-        {
-          "level": 2,
-          "title": "部署 Elasticsearch 和 Kibana",
-          "slug": "部署-elasticsearch-和-kibana"
-        },
-        {
-          "level": 3,
-          "title": "启动容器",
-          "slug": "启动容器"
-        },
-        {
-          "level": 3,
-          "title": "设置登陆密码",
-          "slug": "设置登陆密码"
-        },
-        {
-          "level": 3,
-          "title": "完整配置文件内容",
-          "slug": "完整配置文件内容"
-        },
-        {
-          "level": 2,
-          "title": "Spring Boot 整合 Elasticsearch",
-          "slug": "spring-boot-整合-elasticsearch"
-        },
-        {
-          "level": 3,
-          "title": "添加依赖",
-          "slug": "添加依赖"
-        },
-        {
-          "level": 3,
-          "title": "添加配置",
-          "slug": "添加配置"
-        },
-        {
-          "level": 3,
-          "title": "使用",
-          "slug": "使用"
-        },
-        {
-          "level": 2,
-          "title": "问题",
-          "slug": "问题"
-        }
-      ],
-      "lastUpdated": "2023/6/19 下午8:33:26",
-      "lastUpdatedTimestamp": 1687178006000
-    },
-    {
       "title": "MySQL",
       "frontmatter": {
         "title": "MySQL",
         "date": "2023-06-016",
-        "isShowComments": true,
+        "isShowComments": false,
         "author": "Cleaner",
         "categories": [
           "后端"
@@ -334,7 +334,7 @@ export const siteData = {
       },
       "regularPath": "/backend/mysql/preface.html",
       "relativePath": "backend/mysql/preface.md",
-      "key": "v-022ff53e",
+      "key": "v-13646f9b",
       "path": "/backend/mysql/preface.html",
       "headers": [
         {
@@ -352,74 +352,11 @@ export const siteData = {
       "lastUpdatedTimestamp": 1687073530000
     },
     {
-      "title": "Update 未加索引导致的微服务模块不可用",
-      "frontmatter": {
-        "title": "Update 未加索引导致的微服务模块不可用",
-        "date": "2023-06-14T00:00:00.000Z",
-        "isShowComments": true,
-        "author": "Cleaner",
-        "categories": [
-          "后端"
-        ],
-        "tags": [
-          "Java"
-        ]
-      },
-      "regularPath": "/backend/work/practice.html",
-      "relativePath": "backend/work/practice.md",
-      "key": "v-2ab2a5ca",
-      "path": "/backend/work/practice.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "前言",
-          "slug": "前言"
-        },
-        {
-          "level": 2,
-          "title": "现象",
-          "slug": "现象"
-        },
-        {
-          "level": 2,
-          "title": "错误排查",
-          "slug": "错误排查"
-        },
-        {
-          "level": 3,
-          "title": "查看日志",
-          "slug": "查看日志"
-        },
-        {
-          "level": 3,
-          "title": "连接数据库",
-          "slug": "连接数据库"
-        },
-        {
-          "level": 2,
-          "title": "问题定位&解决",
-          "slug": "问题定位-解决"
-        },
-        {
-          "level": 2,
-          "title": "问题",
-          "slug": "问题"
-        },
-        {
-          "level": 2,
-          "title": "末尾",
-          "slug": "末尾"
-        }
-      ],
-      "lastUpdated": "2023/6/19 下午8:33:26",
-      "lastUpdatedTimestamp": 1687178006000
-    },
-    {
       "title": "使用 Poi-tl 类库实现 Echarts 图表 + 前端表格导出到 Word 文档",
       "frontmatter": {
         "title": "使用 Poi-tl 类库实现 Echarts 图表 + 前端表格导出到 Word 文档",
         "date": "2023-06-11T00:00:00.000Z",
-        "isShowComments": true,
+        "isShowComments": false,
         "author": "Cleaner",
         "categories": [
           "后端"
@@ -430,7 +367,7 @@ export const siteData = {
       },
       "regularPath": "/backend/work/poi.html",
       "relativePath": "backend/work/poi.md",
-      "key": "v-091f4df9",
+      "key": "v-02e979b9",
       "path": "/backend/work/poi.html",
       "headers": [
         {
@@ -483,51 +420,67 @@ export const siteData = {
       "lastUpdatedTimestamp": 1687178006000
     },
     {
-      "title": "关圣帝君觉世真经",
+      "title": "Update 未加索引导致的微服务模块不可用",
       "frontmatter": {
-        "title": "关圣帝君觉世真经",
-        "date": "2023-04-20T00:00:00.000Z",
+        "title": "Update 未加索引导致的微服务模块不可用",
+        "date": "2023-06-14T00:00:00.000Z",
+        "isShowComments": false,
+        "author": "Cleaner",
         "categories": [
-          "传统文化"
+          "后端"
         ],
         "tags": [
-          "道"
+          "Java"
         ]
       },
-      "regularPath": "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html",
-      "relativePath": "books/关圣帝君觉世真经.md",
-      "key": "v-2d92859e",
-      "path": "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html",
-      "lastUpdated": "2023/6/18 下午3:32:10",
-      "lastUpdatedTimestamp": 1687073530000
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/books/bookList.html",
-      "relativePath": "books/bookList.md",
-      "key": "v-7a04bb7c",
-      "path": "/books/bookList.html",
-      "lastUpdated": "2023/6/18 下午3:32:10",
-      "lastUpdatedTimestamp": 1687073530000
-    },
-    {
-      "title": "太上老君说常清静经",
-      "frontmatter": {
-        "title": "太上老君说常清静经",
-        "date": "2023-04-20T00:00:00.000Z",
-        "categories": [
-          "传统文化"
-        ],
-        "tags": [
-          "道"
-        ]
-      },
-      "regularPath": "/books/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E8%AF%B4%E5%B8%B8%E6%B8%85%E9%9D%99%E7%BB%8F.html",
-      "relativePath": "books/太上老君说常清静经.md",
-      "key": "v-3ec94b9a",
-      "path": "/books/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E8%AF%B4%E5%B8%B8%E6%B8%85%E9%9D%99%E7%BB%8F.html",
-      "lastUpdated": "2023/6/18 下午3:32:10",
-      "lastUpdatedTimestamp": 1687073530000
+      "regularPath": "/backend/work/practice.html",
+      "relativePath": "backend/work/practice.md",
+      "key": "v-7505ae4a",
+      "path": "/backend/work/practice.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "前言",
+          "slug": "前言"
+        },
+        {
+          "level": 2,
+          "title": "现象",
+          "slug": "现象"
+        },
+        {
+          "level": 2,
+          "title": "错误排查",
+          "slug": "错误排查"
+        },
+        {
+          "level": 3,
+          "title": "查看日志",
+          "slug": "查看日志"
+        },
+        {
+          "level": 3,
+          "title": "连接数据库",
+          "slug": "连接数据库"
+        },
+        {
+          "level": 2,
+          "title": "问题定位&解决",
+          "slug": "问题定位-解决"
+        },
+        {
+          "level": 2,
+          "title": "问题",
+          "slug": "问题"
+        },
+        {
+          "level": 2,
+          "title": "末尾",
+          "slug": "末尾"
+        }
+      ],
+      "lastUpdated": "2023/6/19 下午8:33:26",
+      "lastUpdatedTimestamp": 1687178006000
     },
     {
       "title": "使用 VuePress + GitHub Pages + GitHub Actions 搭建个人博客",
@@ -544,7 +497,7 @@ export const siteData = {
       },
       "regularPath": "/frontend/vuepress/VuePressOne.html",
       "relativePath": "frontend/vuepress/VuePressOne.md",
-      "key": "v-5b9558ca",
+      "key": "v-45d2da1b",
       "path": "/frontend/vuepress/VuePressOne.html",
       "headers": [
         {
@@ -612,57 +565,6 @@ export const siteData = {
       "lastUpdatedTimestamp": 1690192871000
     },
     {
-      "title": "素书",
-      "frontmatter": {
-        "title": "素书",
-        "date": "2023-04-20T00:00:00.000Z",
-        "categories": [
-          "传统文化"
-        ],
-        "tags": [
-          "道"
-        ]
-      },
-      "regularPath": "/books/%E7%B4%A0%E4%B9%A6.html",
-      "relativePath": "books/素书.md",
-      "key": "v-cbbc8128",
-      "path": "/books/%E7%B4%A0%E4%B9%A6.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "原始章第一",
-          "slug": "原始章第一"
-        },
-        {
-          "level": 2,
-          "title": "正道章第二",
-          "slug": "正道章第二"
-        },
-        {
-          "level": 2,
-          "title": "求人之志章第三",
-          "slug": "求人之志章第三"
-        },
-        {
-          "level": 2,
-          "title": "本德宗道章第四",
-          "slug": "本德宗道章第四"
-        },
-        {
-          "level": 2,
-          "title": "遵义章第五",
-          "slug": "遵义章第五"
-        },
-        {
-          "level": 2,
-          "title": "安礼章第六",
-          "slug": "安礼章第六"
-        }
-      ],
-      "lastUpdated": "2023/6/18 下午3:32:10",
-      "lastUpdatedTimestamp": 1687073530000
-    },
-    {
       "title": "VuePress + GitHub Pages 自定义域名",
       "frontmatter": {
         "title": "VuePress + GitHub Pages 自定义域名",
@@ -677,7 +579,7 @@ export const siteData = {
       },
       "regularPath": "/frontend/vuepress/VuePressThree.html",
       "relativePath": "frontend/vuepress/VuePressThree.md",
-      "key": "v-921ea9ca",
+      "key": "v-7b66f19b",
       "path": "/frontend/vuepress/VuePressThree.html",
       "headers": [
         {
@@ -720,102 +622,6 @@ export const siteData = {
       "lastUpdatedTimestamp": 1690192871000
     },
     {
-      "title": "太乙金华宗旨",
-      "frontmatter": {
-        "title": "太乙金华宗旨",
-        "date": "2023-04-20T00:00:00.000Z",
-        "categories": [
-          "传统文化"
-        ],
-        "tags": [
-          "道"
-        ]
-      },
-      "regularPath": "/books/%E5%A4%AA%E4%B9%99%E9%87%91%E5%8D%8E%E5%AE%97%E6%97%A8.html",
-      "relativePath": "books/太乙金华宗旨.md",
-      "key": "v-06af9d94",
-      "path": "/books/%E5%A4%AA%E4%B9%99%E9%87%91%E5%8D%8E%E5%AE%97%E6%97%A8.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "自序",
-          "slug": "自序"
-        },
-        {
-          "level": 2,
-          "title": "重序",
-          "slug": "重序"
-        },
-        {
-          "level": 2,
-          "title": "天心第一",
-          "slug": "天心第一"
-        },
-        {
-          "level": 2,
-          "title": "元神识神第二",
-          "slug": "元神识神第二"
-        },
-        {
-          "level": 2,
-          "title": "回光守中第三",
-          "slug": "回光守中第三"
-        },
-        {
-          "level": 2,
-          "title": "回光调息第四",
-          "slug": "回光调息第四"
-        },
-        {
-          "level": 2,
-          "title": "回光差谬第五",
-          "slug": "回光差谬第五"
-        },
-        {
-          "level": 2,
-          "title": "回光征验第六",
-          "slug": "回光征验第六"
-        },
-        {
-          "level": 2,
-          "title": "回光活法第七",
-          "slug": "回光活法第七"
-        },
-        {
-          "level": 2,
-          "title": "逍遥诀法第八",
-          "slug": "逍遥诀法第八"
-        },
-        {
-          "level": 2,
-          "title": "百日立基第九",
-          "slug": "百日立基第九"
-        },
-        {
-          "level": 2,
-          "title": "性光识光第十",
-          "slug": "性光识光第十"
-        },
-        {
-          "level": 2,
-          "title": "坎离交媾第十一",
-          "slug": "坎离交媾第十一"
-        },
-        {
-          "level": 2,
-          "title": "周天第十二",
-          "slug": "周天第十二"
-        },
-        {
-          "level": 2,
-          "title": "劝世歌第十三",
-          "slug": "劝世歌第十三"
-        }
-      ],
-      "lastUpdated": "2023/6/18 下午3:32:10",
-      "lastUpdatedTimestamp": 1687073530000
-    },
-    {
       "title": "VuePress 个人博客美化：vuepress-theme-reco 主题使用",
       "frontmatter": {
         "title": "VuePress 个人博客美化：vuepress-theme-reco 主题使用",
@@ -830,7 +636,7 @@ export const siteData = {
       },
       "regularPath": "/frontend/vuepress/VuePressTwo.html",
       "relativePath": "frontend/vuepress/VuePressTwo.md",
-      "key": "v-6ffbb6db",
+      "key": "v-38cd854a",
       "path": "/frontend/vuepress/VuePressTwo.html",
       "headers": [
         {
@@ -923,27 +729,6 @@ export const siteData = {
       "lastUpdatedTimestamp": 1690192871000
     },
     {
-      "title": "使用 VuePress + GitHub Pages + GitHub Actions 搭建个人博客",
-      "frontmatter": {
-        "title": "使用 VuePress + GitHub Pages + GitHub Actions 搭建个人博客",
-        "date": "2023-06-08T00:00:00.000Z",
-        "isShowComments": true,
-        "author": "Cleaner",
-        "categories": [
-          "前端"
-        ],
-        "tags": [
-          "VuePress"
-        ]
-      },
-      "regularPath": "/frontend/vuepress/preface.html",
-      "relativePath": "frontend/vuepress/preface.md",
-      "key": "v-2fa3798a",
-      "path": "/frontend/vuepress/preface.html",
-      "lastUpdated": "2023/7/24 下午5:58:54",
-      "lastUpdatedTimestamp": 1690192734000
-    },
-    {
       "frontmatter": {
         "layout": "Tags",
         "title": "Tags"
@@ -1009,15 +794,6 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "道 Tags"
-      },
-      "regularPath": "/tag/%E9%81%93/",
-      "key": "v-c7911d02",
-      "path": "/tag/道/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
         "title": "VuePress Tags"
       },
       "regularPath": "/tag/VuePress/",
@@ -1032,15 +808,6 @@ export const siteData = {
       "regularPath": "/categories/%E5%90%8E%E7%AB%AF/",
       "key": "v-12afc5a1",
       "path": "/categories/后端/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Category",
-        "title": "传统文化 Categories"
-      },
-      "regularPath": "/categories/%E4%BC%A0%E7%BB%9F%E6%96%87%E5%8C%96/",
-      "key": "v-60cad880",
-      "path": "/categories/传统文化/"
     },
     {
       "frontmatter": {
@@ -1083,7 +850,7 @@ export const siteData = {
         "items": [
           {
             "text": "VuePress",
-            "link": "/frontend/vuepress/preface"
+            "link": "/frontend/vuepress/VuePressOne.md"
           }
         ]
       },
@@ -1105,12 +872,7 @@ export const siteData = {
       {
         "text": "微服务",
         "link": "/backend/microservice/twelve-factor",
-        "icon": "iconfont icon-work"
-      },
-      {
-        "text": "书籍",
-        "link": "/books/bookList",
-        "icon": "reco-document"
+        "icon": "iconfont icon-microservice"
       },
       {
         "text": "时间轴",
@@ -1119,30 +881,6 @@ export const siteData = {
       }
     ],
     "sidebar": {
-      "/books/": [
-        {
-          "title": "传统文化",
-          "collapsable": true,
-          "children": [
-            {
-              "title": "太乙金华宗旨",
-              "path": "/books/太乙金华宗旨"
-            },
-            {
-              "title": "太上老君说常清静经",
-              "path": "/books/太上老君说常清静经"
-            },
-            {
-              "title": "关圣帝君觉世真经",
-              "path": "/books/关圣帝君觉世真经"
-            },
-            {
-              "title": "素书",
-              "path": "/books/素书"
-            }
-          ]
-        }
-      ],
       "/backend/docker/": [
         {
           "title": "Docker 应用",

@@ -77,29 +77,16 @@ module.exports = {
         text: '前端',
         icon: 'iconfont icon-frontend',
         items: [
-          { text: 'VuePress', link: '/frontend/vuepress/preface'}
+          { text: 'VuePress', link: '/frontend/vuepress/VuePressOne.md'}
         ]
       },
       { text: 'Docker', link: '/backend/docker/preface', icon: 'iconfont icon-docker' },
       { text: 'MySQL', link: '/backend/mysql/preface', icon: 'iconfont icon-mysql' },
       { text: '工作', link: '/backend/work/poi', icon: 'iconfont icon-work' },
-      { text: '微服务', link: '/backend/microservice/twelve-factor', icon: 'iconfont icon-work' },
-      { text: '书籍', link: '/books/bookList', icon: 'reco-document' },
+      { text: '微服务', link: '/backend/microservice/twelve-factor', icon: 'iconfont icon-microservice' },
       { text: '时间轴', link: '/timeLine/', icon: 'reco-date' }
     ],
     sidebar: {
-      '/books/': [
-        {
-          title: '传统文化',
-          collapsable: true,
-          children: [
-            { title: '太乙金华宗旨', path: '/books/太乙金华宗旨' },
-            { title: '太上老君说常清静经', path: '/books/太上老君说常清静经' },
-            { title: '关圣帝君觉世真经', path: '/books/关圣帝君觉世真经' },
-            { title: '素书', path: '/books/素书' },
-          ]
-        }
-      ],
       '/backend/docker/': [
         {
           title: 'Docker 应用',
@@ -129,16 +116,6 @@ module.exports = {
           ]
         }
       ],
-      // '/backend/mysql/': [
-      //   {
-      //     title: 'MySQL',
-      //     collapsable: true,
-      //     children: [
-      //       { title: '使用 Poi-tl 类库实现 Echarts 图表 + 前端表格导出到 Word 文档', path: '/backend/work/poi' },
-      //       { title: 'Update 未加索引导致的微服务模块不可用', path: '/backend/work/practice' }
-      //     ]
-      //   }
-      // ],
       '/frontend/vuepress': [
         {
           title: 'VuePress',

@@ -4,16 +4,16 @@
 
 import { injectComponentOption, ensureAsyncComponentsLoaded } from '@app/util'
 import rootMixins from '@internal/root-mixins'
-import GlobalLayout from "E:\\vscode\\blog\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
+import GlobalLayout from "/Users/songjian/Project/vscode/blog/node_modules/@vuepress/core/lib/client/components/GlobalLayout.vue"
 
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-9280c340",
+    name: "v-51316b00",
     path: "/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-9280c340").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-51316b00").then(next)
     },
   },
   {
@@ -21,163 +21,83 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-a02ed722",
-    path: "/backend/docker/preface.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-a02ed722").then(next)
-    },
-  },
-  {
-    name: "v-65a62e07",
-    path: "/backend/docker/Web.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-65a62e07").then(next)
-    },
-  },
-  {
-    name: "v-1227ff87",
-    path: "/backend/microservice/twelve-factor.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-1227ff87").then(next)
-    },
-  },
-  {
-    name: "v-f6dcfe16",
+    name: "v-75616575",
     path: "/backend/docker/Elasticsearch.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-f6dcfe16").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-75616575").then(next)
     },
   },
   {
-    name: "v-022ff53e",
+    name: "v-44f55287",
+    path: "/backend/docker/Web.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-44f55287").then(next)
+    },
+  },
+  {
+    name: "v-dbe98e22",
+    path: "/backend/docker/preface.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-dbe98e22").then(next)
+    },
+  },
+  {
+    name: "v-6cf9ce47",
+    path: "/backend/microservice/twelve-factor.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6cf9ce47").then(next)
+    },
+  },
+  {
+    name: "v-13646f9b",
     path: "/backend/mysql/preface.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-022ff53e").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-13646f9b").then(next)
     },
   },
   {
-    name: "v-2ab2a5ca",
-    path: "/backend/work/practice.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2ab2a5ca").then(next)
-    },
-  },
-  {
-    name: "v-091f4df9",
+    name: "v-02e979b9",
     path: "/backend/work/poi.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-091f4df9").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-02e979b9").then(next)
     },
   },
   {
-    name: "v-2d92859e",
-    path: "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html",
+    name: "v-7505ae4a",
+    path: "/backend/work/practice.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2d92859e").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-7505ae4a").then(next)
     },
   },
   {
-    path: "/books/关圣帝君觉世真经.html",
-    redirect: "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html"
-  },
-  {
-    path: "/books/关圣帝君觉世真经.html",
-    redirect: "/books/%E5%85%B3%E5%9C%A3%E5%B8%9D%E5%90%9B%E8%A7%89%E4%B8%96%E7%9C%9F%E7%BB%8F.html"
-  },
-  {
-    name: "v-7a04bb7c",
-    path: "/books/bookList.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7a04bb7c").then(next)
-    },
-  },
-  {
-    name: "v-3ec94b9a",
-    path: "/books/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E8%AF%B4%E5%B8%B8%E6%B8%85%E9%9D%99%E7%BB%8F.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3ec94b9a").then(next)
-    },
-  },
-  {
-    path: "/books/太上老君说常清静经.html",
-    redirect: "/books/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E8%AF%B4%E5%B8%B8%E6%B8%85%E9%9D%99%E7%BB%8F.html"
-  },
-  {
-    path: "/books/太上老君说常清静经.html",
-    redirect: "/books/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E8%AF%B4%E5%B8%B8%E6%B8%85%E9%9D%99%E7%BB%8F.html"
-  },
-  {
-    name: "v-5b9558ca",
+    name: "v-45d2da1b",
     path: "/frontend/vuepress/VuePressOne.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5b9558ca").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-45d2da1b").then(next)
     },
   },
   {
-    name: "v-cbbc8128",
-    path: "/books/%E7%B4%A0%E4%B9%A6.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-cbbc8128").then(next)
-    },
-  },
-  {
-    path: "/books/素书.html",
-    redirect: "/books/%E7%B4%A0%E4%B9%A6.html"
-  },
-  {
-    path: "/books/素书.html",
-    redirect: "/books/%E7%B4%A0%E4%B9%A6.html"
-  },
-  {
-    name: "v-921ea9ca",
+    name: "v-7b66f19b",
     path: "/frontend/vuepress/VuePressThree.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-921ea9ca").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-7b66f19b").then(next)
     },
   },
   {
-    name: "v-06af9d94",
-    path: "/books/%E5%A4%AA%E4%B9%99%E9%87%91%E5%8D%8E%E5%AE%97%E6%97%A8.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-06af9d94").then(next)
-    },
-  },
-  {
-    path: "/books/太乙金华宗旨.html",
-    redirect: "/books/%E5%A4%AA%E4%B9%99%E9%87%91%E5%8D%8E%E5%AE%97%E6%97%A8.html"
-  },
-  {
-    path: "/books/太乙金华宗旨.html",
-    redirect: "/books/%E5%A4%AA%E4%B9%99%E9%87%91%E5%8D%8E%E5%AE%97%E6%97%A8.html"
-  },
-  {
-    name: "v-6ffbb6db",
+    name: "v-38cd854a",
     path: "/frontend/vuepress/VuePressTwo.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6ffbb6db").then(next)
-    },
-  },
-  {
-    name: "v-2fa3798a",
-    path: "/frontend/vuepress/preface.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2fa3798a").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-38cd854a").then(next)
     },
   },
   {
@@ -272,19 +192,6 @@ export const routes = [
     redirect: "/tag/Java/"
   },
   {
-    name: "v-c7911d02",
-    path: "/tag/道/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-c7911d02").then(next)
-    },
-    meta: {"pid":"tags","id":"道"}
-  },
-  {
-    path: "/tag/道/index.html",
-    redirect: "/tag/道/"
-  },
-  {
     name: "v-5e08fc30",
     path: "/tag/VuePress/",
     component: GlobalLayout,
@@ -309,19 +216,6 @@ export const routes = [
   {
     path: "/categories/后端/index.html",
     redirect: "/categories/后端/"
-  },
-  {
-    name: "v-60cad880",
-    path: "/categories/传统文化/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-60cad880").then(next)
-    },
-    meta: {"pid":"categories","id":"传统文化"}
-  },
-  {
-    path: "/categories/传统文化/index.html",
-    redirect: "/categories/传统文化/"
   },
   {
     name: "v-14bbbf36",
