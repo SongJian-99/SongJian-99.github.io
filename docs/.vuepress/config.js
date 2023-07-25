@@ -84,6 +84,7 @@ module.exports = {
       { text: 'MySQL', link: '/backend/mysql/preface', icon: 'iconfont icon-mysql' },
       { text: '工作', link: '/backend/work/poi', icon: 'iconfont icon-work' },
       { text: '微服务', link: '/backend/microservice/twelve-factor', icon: 'iconfont icon-microservice' },
+      { text: '留言板', link: '/message-board', icon: 'reco-suggestion' },
       { text: '时间轴', link: '/timeLine/', icon: 'reco-date' }
     ],
     sidebar: {
