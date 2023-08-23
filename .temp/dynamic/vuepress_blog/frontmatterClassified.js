@@ -12,15 +12,6 @@ export default {
         "v-65a62e07"
       ]
     },
-    "Java": {
-      "key": "Java",
-      "scope": "tags",
-      "path": "/tag/Java/",
-      "pageKeys": [
-        "v-091f4df9",
-        "v-2ab2a5ca"
-      ]
-    },
     "微服务": {
       "key": "微服务",
       "scope": "tags",
@@ -34,7 +25,17 @@ export default {
       "scope": "tags",
       "path": "/tag/MySQL/",
       "pageKeys": [
-        "v-022ff53e"
+        "v-022ff53e",
+        "v-15ca2d81"
+      ]
+    },
+    "工作": {
+      "key": "工作",
+      "scope": "tags",
+      "path": "/tag/工作/",
+      "pageKeys": [
+        "v-091f4df9",
+        "v-2ab2a5ca"
       ]
     },
     "VuePress": {
@@ -55,10 +56,11 @@ export default {
       "path": "/categories/后端/",
       "pageKeys": [
         "v-f6dcfe16",
-        "v-65a62e07",
-        "v-091f4df9",
         "v-1227ff87",
+        "v-65a62e07",
         "v-022ff53e",
+        "v-15ca2d81",
+        "v-091f4df9",
         "v-2ab2a5ca"
       ]
     },

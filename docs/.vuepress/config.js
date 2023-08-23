@@ -117,6 +117,15 @@ module.exports = {
           ]
         }
       ],
+      '/backend/mysql': [
+        {
+          title: 'MySQL',
+          collapsable: true,
+          children: [
+            { title: 'SQL执行计划分析', path: '/backend/mysql/explain' },
+          ]
+        }
+      ],
       '/frontend/vuepress': [
         {
           title: 'VuePress',
