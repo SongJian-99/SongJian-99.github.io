@@ -21,14 +21,6 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-a02ed722",
-    path: "/backend/docker/preface.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-a02ed722").then(next)
-    },
-  },
-  {
     name: "v-f6dcfe16",
     path: "/backend/docker/Elasticsearch.html",
     component: GlobalLayout,
@@ -37,11 +29,11 @@ export const routes = [
     },
   },
   {
-    name: "v-1227ff87",
-    path: "/backend/microservice/twelve-factor.html",
+    name: "v-a02ed722",
+    path: "/backend/docker/preface.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-1227ff87").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-a02ed722").then(next)
     },
   },
   {
@@ -77,11 +69,11 @@ export const routes = [
     },
   },
   {
-    name: "v-5b9558ca",
-    path: "/frontend/vuepress/VuePressOne.html",
+    name: "v-1227ff87",
+    path: "/backend/microservice/twelve-factor.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5b9558ca").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-1227ff87").then(next)
     },
   },
   {
@@ -93,11 +85,27 @@ export const routes = [
     },
   },
   {
+    name: "v-5b9558ca",
+    path: "/frontend/vuepress/VuePressOne.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5b9558ca").then(next)
+    },
+  },
+  {
     name: "v-921ea9ca",
     path: "/frontend/vuepress/VuePressThree.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-921ea9ca").then(next)
+    },
+  },
+  {
+    name: "v-6a783e8a",
+    path: "/message-board.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6a783e8a").then(next)
     },
   },
   {
@@ -109,11 +117,11 @@ export const routes = [
     },
   },
   {
-    name: "v-6a783e8a",
-    path: "/message-board.html",
+    name: "v-24218ec4",
+    path: "/tool/git.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6a783e8a").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-24218ec4").then(next)
     },
   },
   {
@@ -169,19 +177,6 @@ export const routes = [
     redirect: "/tag/Docker/"
   },
   {
-    name: "v-5706017f",
-    path: "/tag/微服务/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-5706017f").then(next)
-    },
-    meta: {"pid":"tags","id":"微服务"}
-  },
-  {
-    path: "/tag/微服务/index.html",
-    redirect: "/tag/微服务/"
-  },
-  {
     name: "v-dc3c2992",
     path: "/tag/MySQL/",
     component: GlobalLayout,
@@ -208,6 +203,19 @@ export const routes = [
     redirect: "/tag/工作/"
   },
   {
+    name: "v-5706017f",
+    path: "/tag/微服务/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-5706017f").then(next)
+    },
+    meta: {"pid":"tags","id":"微服务"}
+  },
+  {
+    path: "/tag/微服务/index.html",
+    redirect: "/tag/微服务/"
+  },
+  {
     name: "v-5e08fc30",
     path: "/tag/VuePress/",
     component: GlobalLayout,
@@ -219,6 +227,19 @@ export const routes = [
   {
     path: "/tag/VuePress/index.html",
     redirect: "/tag/VuePress/"
+  },
+  {
+    name: "v-32555732",
+    path: "/tag/Git/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-32555732").then(next)
+    },
+    meta: {"pid":"tags","id":"Git"}
+  },
+  {
+    path: "/tag/Git/index.html",
+    redirect: "/tag/Git/"
   },
   {
     name: "v-12afc5a1",
@@ -245,6 +266,19 @@ export const routes = [
   {
     path: "/categories/前端/index.html",
     redirect: "/categories/前端/"
+  },
+  {
+    name: "v-7f958298",
+    path: "/categories/工具/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-7f958298").then(next)
+    },
+    meta: {"pid":"categories","id":"工具"}
+  },
+  {
+    path: "/categories/工具/index.html",
+    redirect: "/categories/工具/"
   },
   {
     path: '*',

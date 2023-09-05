@@ -84,6 +84,7 @@ module.exports = {
       { text: 'MySQL', link: '/backend/mysql/preface', icon: 'iconfont icon-mysql' },
       { text: '工作', link: '/backend/work/poi', icon: 'iconfont icon-work' },
       { text: '微服务', link: '/backend/microservice/twelve-factor', icon: 'iconfont icon-microservice' },
+      { text: '工具', link: '/tool/git', icon: 'iconfont icon-tools' },
       { text: '留言板', link: '/message-board', icon: 'reco-suggestion' },
       { text: '时间轴', link: '/timeLine/', icon: 'reco-date' }
     ],
@@ -134,6 +135,15 @@ module.exports = {
             { title: '使用 VuePress + GitHub Pages + GitHub Actions 搭建个人博客', path: '/frontend/vuepress/VuePressOne' },
             { title: 'VuePress 个人博客美化：vuepress-theme-reco 主题使用', path: '/frontend/vuepress/VuePressTwo' },
             { title: 'VuePress + GitHub Pages 自定义域名', path: '/frontend/vuepress/VuePressThree' }
+          ]
+        }
+      ],
+      '/tool': [
+        {
+          title: '工具',
+          collapsable: true,
+          children: [
+            { title: 'Git', path: '/tool/git' }
           ]
         }
       ]
