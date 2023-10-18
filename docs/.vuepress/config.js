@@ -114,7 +114,8 @@ module.exports = {
           collapsable: true,
           children: [
             { title: '使用 Poi-tl 类库实现 Echarts 图表 + 前端表格导出到 Word 文档', path: '/backend/work/poi' },
-            { title: 'Update 未加索引导致的微服务模块不可用', path: '/backend/work/practice' }
+            { title: 'Update 未加索引导致的微服务模块不可用', path: '/backend/work/practice' },
+            { title: '企业级在线办公套件——OnlyOffice Workspace 部署使用', path: '/backend/work/onlyoffice' }
           ]
         }
       ],

@@ -8,8 +8,8 @@ export default {
       "scope": "tags",
       "path": "/tag/Docker/",
       "pageKeys": [
-        "v-f6dcfe16",
-        "v-65a62e07"
+        "v-65a62e07",
+        "v-f6dcfe16"
       ]
     },
     "MySQL": {
@@ -17,8 +17,8 @@ export default {
       "scope": "tags",
       "path": "/tag/MySQL/",
       "pageKeys": [
-        "v-022ff53e",
-        "v-15ca2d81"
+        "v-15ca2d81",
+        "v-022ff53e"
       ]
     },
     "工作": {
@@ -27,7 +27,8 @@ export default {
       "path": "/tag/工作/",
       "pageKeys": [
         "v-091f4df9",
-        "v-2ab2a5ca"
+        "v-2ab2a5ca",
+        "v-165bc73b"
       ]
     },
     "微服务": {
@@ -63,13 +64,14 @@ export default {
       "scope": "categories",
       "path": "/categories/后端/",
       "pageKeys": [
-        "v-f6dcfe16",
         "v-65a62e07",
-        "v-022ff53e",
+        "v-f6dcfe16",
         "v-15ca2d81",
+        "v-022ff53e",
         "v-091f4df9",
         "v-1227ff87",
-        "v-2ab2a5ca"
+        "v-2ab2a5ca",
+        "v-165bc73b"
       ]
     },
     "前端": {

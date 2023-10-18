@@ -21,22 +21,6 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-f6dcfe16",
-    path: "/backend/docker/Elasticsearch.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-f6dcfe16").then(next)
-    },
-  },
-  {
-    name: "v-a02ed722",
-    path: "/backend/docker/preface.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-a02ed722").then(next)
-    },
-  },
-  {
     name: "v-65a62e07",
     path: "/backend/docker/Web.html",
     component: GlobalLayout,
@@ -45,11 +29,11 @@ export const routes = [
     },
   },
   {
-    name: "v-022ff53e",
-    path: "/backend/mysql/preface.html",
+    name: "v-f6dcfe16",
+    path: "/backend/docker/Elasticsearch.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-022ff53e").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-f6dcfe16").then(next)
     },
   },
   {
@@ -61,14 +45,6 @@ export const routes = [
     },
   },
   {
-    name: "v-091f4df9",
-    path: "/backend/work/poi.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-091f4df9").then(next)
-    },
-  },
-  {
     name: "v-1227ff87",
     path: "/backend/microservice/twelve-factor.html",
     component: GlobalLayout,
@@ -77,11 +53,35 @@ export const routes = [
     },
   },
   {
-    name: "v-2ab2a5ca",
-    path: "/backend/work/practice.html",
+    name: "v-a02ed722",
+    path: "/backend/docker/preface.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2ab2a5ca").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-a02ed722").then(next)
+    },
+  },
+  {
+    name: "v-165bc73b",
+    path: "/backend/work/onlyoffice.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-165bc73b").then(next)
+    },
+  },
+  {
+    name: "v-091f4df9",
+    path: "/backend/work/poi.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-091f4df9").then(next)
+    },
+  },
+  {
+    name: "v-022ff53e",
+    path: "/backend/mysql/preface.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-022ff53e").then(next)
     },
   },
   {
@@ -93,19 +93,19 @@ export const routes = [
     },
   },
   {
+    name: "v-2ab2a5ca",
+    path: "/backend/work/practice.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-2ab2a5ca").then(next)
+    },
+  },
+  {
     name: "v-921ea9ca",
     path: "/frontend/vuepress/VuePressThree.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-921ea9ca").then(next)
-    },
-  },
-  {
-    name: "v-6a783e8a",
-    path: "/message-board.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6a783e8a").then(next)
     },
   },
   {
@@ -117,168 +117,20 @@ export const routes = [
     },
   },
   {
+    name: "v-6a783e8a",
+    path: "/message-board.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6a783e8a").then(next)
+    },
+  },
+  {
     name: "v-24218ec4",
     path: "/tool/git.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-24218ec4").then(next)
     },
-  },
-  {
-    name: "v-b1564aac",
-    path: "/tag/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tags", "v-b1564aac").then(next)
-    },
-    meta: {"pid":"tags","id":"tags"}
-  },
-  {
-    path: "/tag/index.html",
-    redirect: "/tag/"
-  },
-  {
-    name: "v-ef9325c4",
-    path: "/categories/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("FrontmatterKey", "v-ef9325c4").then(next)
-    },
-    meta: {"pid":"categories","id":"categories"}
-  },
-  {
-    path: "/categories/index.html",
-    redirect: "/categories/"
-  },
-  {
-    name: "v-6319eb4e",
-    path: "/timeline/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("TimeLines", "v-6319eb4e").then(next)
-    },
-    meta: {"pid":"timeline","id":"timeline"}
-  },
-  {
-    path: "/timeline/index.html",
-    redirect: "/timeline/"
-  },
-  {
-    name: "v-83bebff6",
-    path: "/tag/Docker/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-83bebff6").then(next)
-    },
-    meta: {"pid":"tags","id":"Docker"}
-  },
-  {
-    path: "/tag/Docker/index.html",
-    redirect: "/tag/Docker/"
-  },
-  {
-    name: "v-dc3c2992",
-    path: "/tag/MySQL/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-dc3c2992").then(next)
-    },
-    meta: {"pid":"tags","id":"MySQL"}
-  },
-  {
-    path: "/tag/MySQL/index.html",
-    redirect: "/tag/MySQL/"
-  },
-  {
-    name: "v-5e81bb1d",
-    path: "/tag/工作/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-5e81bb1d").then(next)
-    },
-    meta: {"pid":"tags","id":"工作"}
-  },
-  {
-    path: "/tag/工作/index.html",
-    redirect: "/tag/工作/"
-  },
-  {
-    name: "v-5706017f",
-    path: "/tag/微服务/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-5706017f").then(next)
-    },
-    meta: {"pid":"tags","id":"微服务"}
-  },
-  {
-    path: "/tag/微服务/index.html",
-    redirect: "/tag/微服务/"
-  },
-  {
-    name: "v-5e08fc30",
-    path: "/tag/VuePress/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-5e08fc30").then(next)
-    },
-    meta: {"pid":"tags","id":"VuePress"}
-  },
-  {
-    path: "/tag/VuePress/index.html",
-    redirect: "/tag/VuePress/"
-  },
-  {
-    name: "v-32555732",
-    path: "/tag/Git/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-32555732").then(next)
-    },
-    meta: {"pid":"tags","id":"Git"}
-  },
-  {
-    path: "/tag/Git/index.html",
-    redirect: "/tag/Git/"
-  },
-  {
-    name: "v-12afc5a1",
-    path: "/categories/后端/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-12afc5a1").then(next)
-    },
-    meta: {"pid":"categories","id":"后端"}
-  },
-  {
-    path: "/categories/后端/index.html",
-    redirect: "/categories/后端/"
-  },
-  {
-    name: "v-14bbbf36",
-    path: "/categories/前端/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-14bbbf36").then(next)
-    },
-    meta: {"pid":"categories","id":"前端"}
-  },
-  {
-    path: "/categories/前端/index.html",
-    redirect: "/categories/前端/"
-  },
-  {
-    name: "v-7f958298",
-    path: "/categories/工具/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-7f958298").then(next)
-    },
-    meta: {"pid":"categories","id":"工具"}
-  },
-  {
-    path: "/categories/工具/index.html",
-    redirect: "/categories/工具/"
   },
   {
     path: '*',
