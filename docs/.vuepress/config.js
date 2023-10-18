@@ -153,7 +153,8 @@ module.exports = {
     valineConfig: {
       appId: 'qR1MgQXTGffUVgeTTM9Qnl3E-gzGzoHsz',
       appKey: 'OdwTWvfZsjbJIsBtQcgzc4eP',
-      showComment: false
+      placeholder: '欢迎留言',
+      showComment: false,
     }
   }
 };
