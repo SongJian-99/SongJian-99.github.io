@@ -12,23 +12,6 @@ export default {
         "v-65a62e07"
       ]
     },
-    "MySQL": {
-      "key": "MySQL",
-      "scope": "tags",
-      "path": "/tag/MySQL/",
-      "pageKeys": [
-        "v-15ca2d81",
-        "v-022ff53e"
-      ]
-    },
-    "微服务": {
-      "key": "微服务",
-      "scope": "tags",
-      "path": "/tag/微服务/",
-      "pageKeys": [
-        "v-1227ff87"
-      ]
-    },
     "工作": {
       "key": "工作",
       "scope": "tags",
@@ -39,14 +22,31 @@ export default {
         "v-2ab2a5ca"
       ]
     },
+    "微服务": {
+      "key": "微服务",
+      "scope": "tags",
+      "path": "/tag/微服务/",
+      "pageKeys": [
+        "v-1227ff87"
+      ]
+    },
+    "MySQL": {
+      "key": "MySQL",
+      "scope": "tags",
+      "path": "/tag/MySQL/",
+      "pageKeys": [
+        "v-022ff53e",
+        "v-15ca2d81"
+      ]
+    },
     "VuePress": {
       "key": "VuePress",
       "scope": "tags",
       "path": "/tag/VuePress/",
       "pageKeys": [
-        "v-5b9558ca",
         "v-921ea9ca",
-        "v-6ffbb6db"
+        "v-6ffbb6db",
+        "v-5b9558ca"
       ]
     },
     "Git": {
@@ -65,13 +65,13 @@ export default {
       "path": "/categories/后端/",
       "pageKeys": [
         "v-f6dcfe16",
-        "v-65a62e07",
-        "v-15ca2d81",
-        "v-1227ff87",
         "v-165bc73b",
-        "v-022ff53e",
+        "v-1227ff87",
         "v-091f4df9",
-        "v-2ab2a5ca"
+        "v-2ab2a5ca",
+        "v-022ff53e",
+        "v-65a62e07",
+        "v-15ca2d81"
       ]
     },
     "前端": {
@@ -79,9 +79,9 @@ export default {
       "scope": "categories",
       "path": "/categories/前端/",
       "pageKeys": [
-        "v-5b9558ca",
         "v-921ea9ca",
-        "v-6ffbb6db"
+        "v-6ffbb6db",
+        "v-5b9558ca"
       ]
     },
     "工具": {
