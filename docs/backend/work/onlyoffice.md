@@ -82,11 +82,12 @@ mysql:8.0.29
 ```
 ### Document Server
 
-[Document Server](https://github.com/ONLYOFFICE/DocumentServer) （6.0 版本之后更名为 OnlyOffice Docs）是一个功能强大的在线文档编辑和协作平台，允许用户在 Web 浏览器中操作各种文档（Word、Excel、PPT 等）。支持单独部署，集成到已有项目中。
+[Document Server](https://github.com/ONLYOFFICE/DocumentServer) （6.0 版本之后更名为 OnlyOffice Docs）是一个功能强大的在线文档编辑和协作平台，允许用户在 Web 浏览器中操作各种文档（Word、Excel、PPT 等）。
 
 *   支持多种文档格式，如 .docx、.xlsx、.pptx 等。
 *   支持同一文档实时协作与共享，多个用户可以同时编辑文档。
-*   支持私有化部署，相比市面上的在线文档，用户能够完全掌控数据安全，实现自主托管和数据隐私控制。
+*   支持私有化部署，集成到已有项目中。
+*   相比市面上的在线文档，用户能够完全掌控数据安全，实现自主托管和数据隐私控制。
 
 1.  创建挂载目录。
 
@@ -163,6 +164,8 @@ onlyoffice/communityserver
 
 ## Vue 集成 Document Server
 
+[官方 API 配置文档](https://api.onlyoffice.com/zh/editors/methods)
+
 1.  在`public/index.html`文件中添加如下命令。IP:端口 为 Document Server 服务的地址。
 
 ```html
@@ -210,20 +213,20 @@ export default {
       this.doctype = this.getFileType(option.fileType)
       const document = {
         fileType: option.fileType,      // 文档类型
-        key: option.key || '',          // 唯一值
+        key: option.key || '',          // 文档唯一值
         title: option.title,            // 文件名称
         permissions: {                  
           edit: option.isEdit,          // 是否可以编辑
           print: option.isPrint,
           download: option.isDownload,
-          fillForms: true,              // 是否可以填写表格
+          fillForms: true,              // 是否可以填写表单
           review: true                  // 跟踪变化
         },
         url: option.url                // 指定需打开加载文档的URL
       }
 ​
       const editorConfig = {
-        callbackUrl: option.callbackUrl, // 编辑word后保存时回调的地址，这个回调用于后端接收你改变后的数据
+        callbackUrl: option.callbackUrl, // 编辑word后保存时回调的地址，用于后端二次开发
         lang: option.lang,              // 语言设置
         chat: {
           autosave: true,              // 是否自动保存
@@ -250,8 +253,8 @@ export default {
         documentType: this.doctype,
         editorConfig: editorConfig,
         events: {
-          onAppReady: this.onAppReady,   // 应用程序被加载到浏览器中。
-          onDocumentStateChange: this.onDocumentStateChange,        //文档被修改。
+          onAppReady: this.onAppReady,   // 当应用程序加载到浏览器时调用的函数。
+          onDocumentStateChange: this.onDocumentStateChange,        // 文档被修改调用的函数。
         },
         width: '100%',          // 定义浏览器窗口中的档高度（默认为 100%）。
         height: '800px',        // 定义浏览器窗口中的文档宽度（默认为 100%）。
@@ -263,11 +266,10 @@ export default {
     onDocumentStateChange(event) { 
       console.log(event)
     },  
-    /* OnlyOffice 编辑器加载完成后调用 */
+    /* 应用程序加载到浏览器后调用 */
     onAppReady() {
        // 创建connector连接器
       this.connector = this.docEditor.createConnector(); 
-      console.log(this.docEditor, '创建connector连接器');
     },
     /* getFileType 方法用于根据文件类型（fileType）返回对应的文档类型（docType） */
     getFileType(fileType) {
@@ -323,8 +325,8 @@ export default {
         url: 'http://ip:端口/aa.xlsx',  // 文档访问地址
         callbackUrl:'',     // 关闭文档后会调用callbackurl地址进行文档保存
         fileType: 'xlsx',   // 文件扩展名 
-        key: '2222',        // key 不能为空
-        title: 'Vue集成',  // 文档文件名   
+        key: '2222',        // 唯一，非空
+        title: 'Vue集成',   // 文档文件名   
         isEdit: true,         // 是否可以编辑
         isDownload:true,      // 是否可以下载 
         lang: 'zh-CN',        // 语言：zh-CN简体中文/en英文           
