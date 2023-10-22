@@ -86,6 +86,13 @@ module.exports = {
       { text: '微服务', link: '/backend/microservice/twelve-factor', icon: 'iconfont icon-microservice' },
       { text: '工具', link: '/tool/git', icon: 'iconfont icon-tools' },
       { text: '留言板', link: '/message-board', icon: 'reco-suggestion' },
+      { 
+        text: '其他',
+        icon: 'reco-other',
+        items: [
+          { text: '树洞', link: '/other/treeholes'}
+        ]
+      },
       { text: '时间轴', link: '/timeLine/', icon: 'reco-date' }
     ],
     sidebar: {
