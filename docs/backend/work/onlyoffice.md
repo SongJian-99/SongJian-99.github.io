@@ -11,13 +11,22 @@ tags:
 
 > 本文主要介绍使用 Docker 部署 OnlyOffice Workspace（包括 Community Server、Control Panel、Document Server） 的详细步骤。
 > 
-> OnlyOffice 版本：7.4.1（目前最新版本）
+> OnlyOffice 版本：7.4.1（目前最新版本为 7.5，10 月 18 日发布）
 >
-> [官网地址](https://www.onlyoffice.com/zh/)
+> [官网地址](https://www.onlyoffice.com/zh/)、[GitHub 仓库地址](https://github.com/ONLYOFFICE/DocumentServer)
 
 ## 前言
 
-OnlyOffice Workspace 是一个开源免费的企业级办公套件，由文档服务（Document Server）、控制面板（Control Panel）、社区服务（Community Server）和邮件服务（Mail Server）四个组件构成，提供了文档管理、项目管理、成员、邮件、日历和推送等功能。支持私有化部署，企业内部使用，保证数据安全。
+Onlyoffice 是一款功能丰富的在线 Office 工具，类似 WPS 和 微软的 Office 套件。OnlyOffice Workspace 是由 OnlyOffice 推出的基于云计算的企业级在线协作办公平台，由文档服务（Document Server）、控制面板（Control Panel）、社区服务（Community Server）和邮件服务（Mail Server）四个组件构成，提供了文档、项目、成员、邮件等功能模块，支持文档多人协作、历史版本控制等功能，旨在帮助用户提高工作效率和工作质量。
+
+OnlyOffice Workspace 有三个使用版本，分别为社区版（开源免费，但有使用限制）、企业版（收费）和开发版（收费）。本文主要介绍社区版 OnlyOffice Workspace 的部署和使用。
+
+相比市面上的在线文档突出的特点（或者说使用价值）：
+
+*   界面简洁，易操作，无广告。
+*   代码开源，支持私有化部署，数据安全。
+*   文档统一管理，功能丰富，支持文档实时协作，文档权限细粒度控制。
+*   适合企业内网使用。
 
 ## 部署
 
@@ -25,7 +34,7 @@ OnlyOffice Workspace 是一个开源免费的企业级办公套件，由文档�
 
 ### 服务器要求
 
-服务器空闲内存至少要 8GB，Community Server 服务依赖 Elasticsearch，内存不足会导致 Elasticsearch 服务启动失败。本人实际搭建 OnlyOffice Workspace，内存总共消耗 10GB 左右。
+服务器空闲内存至少要 8GB，Community Server 服务依赖 Elasticsearch，内存不足会导致 Elasticsearch 服务启动失败。本人实际搭建 OnlyOffice Workspace，内存总共消耗 12GB 左右。
 
 |      | 配置                             |
 | ---- | ------------------------------ |
@@ -82,12 +91,12 @@ mysql:8.0.29
 ```
 ### Document Server
 
-[Document Server](https://github.com/ONLYOFFICE/DocumentServer) （6.0 版本之后更名为 OnlyOffice Docs）是一个功能强大的在线文档编辑和协作平台，允许用户在 Web 浏览器中操作各种文档（Word、Excel、PPT 等）。
+[Document Server](https://github.com/ONLYOFFICE/DocumentServer) （6.0 版本之后更名为 OnlyOffice Docs）是一个功能强大的在线文档编辑和协作平台，允许用户在 Web 浏览器中操作各种文档。
 
 *   支持多种文档格式，如 .docx、.xlsx、.pptx 等。
-*   支持同一文档实时协作与共享，多个用户可以同时编辑文档。
-*   支持私有化部署，集成到已有项目中。
-*   相比市面上的在线文档，用户能够完全掌控数据安全，实现自主托管和数据隐私控制。
+*   支持文档共享与实时协作，多个用户可以同时编辑文档。
+*   支持私有化部署，集成到已有项目中，进行二次开发。
+*   用户能够完全掌控数据安全，实现自主托管和数据隐私控制。
 
 1.  创建挂载目录。
 
@@ -156,15 +165,29 @@ onlyoffice/communityserver
 
 ![image-20231017142926576.png](https://s2.loli.net/2023/10/18/caeZ9Yo3f2Bl4wF.png)
 
-## 页面
+## 使用
 
 浏览器访问`ip:9101`，填写用户名、密码和邮箱注册登录。登录成功后首页如下所示。至此 OnlyOffice Workspace 搭建成功。
 
 ![image-20231017111430208.png](https://s2.loli.net/2023/10/18/sfnMYVSUAowbWv8.png)
 
+### 邮件添加账户
+
+邮件模块可以集成第三方的邮件服务（QQ 邮箱、163 邮箱等），实现邮件的基本操作（发送、删除等）。
+
+集成过程比较容易，但需要正确填写账户的配置信息，具体配置见下图。红框圈出来的部分替换为邮箱地址（例如 <xxx@qq.com>）；登陆密码替换为邮件服务的**授权码**，注意不是邮箱的登陆密码，授权码在邮箱设置界面查看（QQ 邮箱——设置——账户）。
+
+![image-20231031161451346.png](https://s2.loli.net/2023/10/31/ZC3ok6JPcUNRIyQ.png)
+
+![image-20231031162824988.png](https://s2.loli.net/2023/10/31/bxMQisrByEe5hYu.png)
+
+配置好之后，点击保存即可。
+
+
 ## Vue 集成 Document Server
 
-[官方 API 配置文档](https://api.onlyoffice.com/zh/editors/methods)
+Document Server 提供了大量的 API 用于将文档编辑器集成到用户的项目中，支持二次开发。
+[官方 API 配置文档](https://api.onlyoffice.com/zh/editors/config/events#onDocumentStateChange)
 
 1.  在`public/index.html`文件中添加如下命令。IP:端口 为 Document Server 服务的地址。
 
@@ -382,3 +405,12 @@ Community Server 容器内部依赖于许多其他三方服务（如 Nginx、Ela
 ```sh
 docker restart 容器id
 ```
+
+### Document Server 20 人使用限制
+
+Document Server 社区版本虽然是开源的，但是有 20 人的使用限制，打开文档数量超过 20 个之后，新文档只能以只读的方式打开，对于不超过 20 人的使用团队来说，这个足够了。如果要解除这个限制，提供三种解决思路：
+
+1. 降低 OnlyOffice 版本到 6.x，6.x 版本可以通过修改容器内部的配置文件，来解除限制，7.x 版本修复了这个问题。（缺点是版本只能停留在 6.x，新版本的功能使用不了）
+2. 代码反编译，修改源码后，重新编译镜像部署。（需要一定的技术能力）
+3. 购买企业版。（开销问题）
+

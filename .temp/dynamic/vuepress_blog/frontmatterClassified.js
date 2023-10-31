@@ -8,8 +8,8 @@ export default {
       "scope": "tags",
       "path": "/tag/Docker/",
       "pageKeys": [
-        "v-75616575",
-        "v-44f55287"
+        "v-f6dcfe16",
+        "v-65a62e07"
       ]
     },
     "微服务": {
@@ -17,7 +17,7 @@ export default {
       "scope": "tags",
       "path": "/tag/微服务/",
       "pageKeys": [
-        "v-6cf9ce47"
+        "v-1227ff87"
       ]
     },
     "MySQL": {
@@ -25,8 +25,8 @@ export default {
       "scope": "tags",
       "path": "/tag/MySQL/",
       "pageKeys": [
-        "v-2a4697bb",
-        "v-13646f9b"
+        "v-15ca2d81",
+        "v-022ff53e"
       ]
     },
     "工作": {
@@ -34,9 +34,9 @@ export default {
       "scope": "tags",
       "path": "/tag/工作/",
       "pageKeys": [
-        "v-02e979b9",
-        "v-7505ae4a",
-        "v-660e62fb"
+        "v-091f4df9",
+        "v-165bc73b",
+        "v-2ab2a5ca"
       ]
     },
     "VuePress": {
@@ -44,9 +44,9 @@ export default {
       "scope": "tags",
       "path": "/tag/VuePress/",
       "pageKeys": [
-        "v-45d2da1b",
-        "v-7b66f19b",
-        "v-38cd854a"
+        "v-5b9558ca",
+        "v-921ea9ca",
+        "v-6ffbb6db"
       ]
     },
     "Git": {
@@ -54,7 +54,7 @@ export default {
       "scope": "tags",
       "path": "/tag/Git/",
       "pageKeys": [
-        "v-f25abe5e"
+        "v-24218ec4"
       ]
     }
   },
@@ -64,14 +64,14 @@ export default {
       "scope": "categories",
       "path": "/categories/后端/",
       "pageKeys": [
-        "v-75616575",
-        "v-6cf9ce47",
-        "v-44f55287",
-        "v-2a4697bb",
-        "v-13646f9b",
-        "v-02e979b9",
-        "v-7505ae4a",
-        "v-660e62fb"
+        "v-f6dcfe16",
+        "v-65a62e07",
+        "v-1227ff87",
+        "v-15ca2d81",
+        "v-022ff53e",
+        "v-091f4df9",
+        "v-165bc73b",
+        "v-2ab2a5ca"
       ]
     },
     "前端": {
@@ -79,9 +79,9 @@ export default {
       "scope": "categories",
       "path": "/categories/前端/",
       "pageKeys": [
-        "v-45d2da1b",
-        "v-7b66f19b",
-        "v-38cd854a"
+        "v-5b9558ca",
+        "v-921ea9ca",
+        "v-6ffbb6db"
       ]
     },
     "工具": {
@@ -89,7 +89,7 @@ export default {
       "scope": "categories",
       "path": "/categories/工具/",
       "pageKeys": [
-        "v-f25abe5e"
+        "v-24218ec4"
       ]
     }
   },
