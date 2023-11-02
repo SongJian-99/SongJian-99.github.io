@@ -12,6 +12,8 @@
   "author": "Cleaner",
   "license": "ISC",
   "dependencies": {
+    "async-validator": "^1.11.5",
+    "core-js": "^3.33.2",
     "element-ui": "^2.15.14",
     "vue-template-compiler": "^2.7.10",
     "vuepress-plugin-sitemap": "^2.3.1"
