@@ -127,13 +127,13 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 
 ### 运行
 
-执行命令`npm run dev`运行项目。浏览器访问 localhost:8080，界面展示如下。至此本地搭建 VuePress 项目完成。 ![image-20220903095832615.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/650e5f3b98a84dfe97886e2a2fa85853~tplv-k3u1fbpfcp-zoom-1.image)
+执行命令`npm run dev`运行项目。浏览器访问 localhost:8080，界面展示如下。至此本地搭建 VuePress 项目完成。![image-20220903095832615.png](https://s2.loli.net/2022/09/03/SBikFRhbIyzGvdf.png)
 
 ## GitHub Pages
 
 进入仓库页面，点击 Settings，选择 Pages 选项卡，在 Build and deployment 下选择 gh-pages 分支，然后点击 save 即可。
 
-![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c967a38f5830419d90e8f0b2998d32d8~tplv-k3u1fbpfcp-zoom-1.image)
+![image.png](https://s2.loli.net/2023/06/01/fKX4DSTv3mQdcUV.png)
 
 ## GitHub Actions
 
@@ -141,23 +141,23 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 
 1.  点击用户头像，选择 Settings，进入用户设置面板，然后选择 Developer settings 选项卡（选项卡列表最下面），展开 Personal access tokens 选项卡，点击 Tokens(classic)。
 
-![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/361aa00da2b54265b1c0ccdd8001f3e1~tplv-k3u1fbpfcp-zoom-1.image)
+![image.png](https://s2.loli.net/2023/06/01/LZbrpcjEXteuP2Y.png)
 
 2.  点击 Generate new token。Note：描述该 token 用来做什么，可以随便填写，有意义即可；Expiration：选择 token 的过期时间；Select Scopes：选择 token 的使用范围，至少要勾选上 repo，否则这个 token 没有仓库权限，自动部署会失败。然后点击生成 token。将 token 复制下来，下一步会使用。
 
-![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/33176097bd90425bb6194385165e8536~tplv-k3u1fbpfcp-zoom-1.image)
+![image.png](https://s2.loli.net/2023/04/21/I9o2ybSQP5hmwCg.png)
 
 ### 创建 Secrets
 
 返回到仓库页面，点击 Settings，选择 Secrets and variables 选项卡，选择 Actions 选项，点击 New repository secret，新增一个 Secret，名称为 ACCESS\_TOKEN，值就是上一步生成的 token 值。将名称复制下来，下一步会用到。
 
-![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5d751d9e0cf549ea93365c7048042a14~tplv-k3u1fbpfcp-zoom-1.image)
+![image.png](https://s2.loli.net/2023/04/21/KHRkAlpPfhEUN7S.png)
 
 ### 创建任务文件
 
 返回到仓库页面，点击 Actions，点击 New workflow，然后点击 set up a workflow yourself。
 
-![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a462e74e793c41e68c62d80bc8010717~tplv-k3u1fbpfcp-zoom-1.image)
+![image.png](https://s2.loli.net/2023/04/21/tiK8E1zFl3bXAdh.png)
 
 Workflow 配置文件：main.yml
 ~~~yaml
