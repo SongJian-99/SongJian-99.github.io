@@ -1312,9 +1312,9 @@
     "@vssue/utils" "^1.4.7"
     axios "^0.21.1"
 
-"@vssue/api-github-v3@^1.1.2", "@vssue/api-github-v3@^1.4.4":
+"@vssue/api-github-v3@^1.1.2", "@vssue/api-github-v3@^1.4.4", "@vssue/api-github-v3@^1.4.7":
   version "1.4.7"
-  resolved "https://registry.npmjs.org/@vssue/api-github-v3/-/api-github-v3-1.4.7.tgz"
+  resolved "https://registry.npmmirror.com/@vssue/api-github-v3/-/api-github-v3-1.4.7.tgz#7e30304111ac34b5785abe2f99be8dcc04e94cdf"
   integrity sha512-ukhOnzGQarmj606ZiYN9iCMyr3EJS3YEPdZXX+zBLVsuzjTL5ffLbbpXsEtPBh2XNt3Ig3XdzCvA9bVXhwy4mQ==
   dependencies:
     "@vssue/utils" "^1.4.7"
@@ -1344,9 +1344,9 @@
     date-fns "^1.29.0"
     qs "^6.6.0"
 
-"@vssue/vuepress-plugin-vssue@^1.2.0":
+"@vssue/vuepress-plugin-vssue@^1.2.0", "@vssue/vuepress-plugin-vssue@^1.4.8":
   version "1.4.8"
-  resolved "https://registry.npmjs.org/@vssue/vuepress-plugin-vssue/-/vuepress-plugin-vssue-1.4.8.tgz"
+  resolved "https://registry.npmmirror.com/@vssue/vuepress-plugin-vssue/-/vuepress-plugin-vssue-1.4.8.tgz#37b8ada338c1222a143eb648555372d2959f4624"
   integrity sha512-0QzegHl/Rx4/XgXswThIJi4Yk+b6AIaM450jX6p4RbOM6yOTzEKLTMduUo54Rvhq/NHNusu4Yy/w1iY8NTqBEg==
   dependencies:
     vssue "^1.4.8"
@@ -1510,6 +1510,11 @@
   version "1.6.13"
   resolved "https://registry.npmjs.org/@vuepress-reco/vuepress-plugin-back-to-top/-/vuepress-plugin-back-to-top-1.6.13.tgz"
   integrity sha512-4KPllVU1ruD4SANuZ0wNQJwpcSctKJmWD4XhdAXOuoNc2kRzM4ic/xnWZ9YJuTlae94w4ocnmm3bZafWuewqRw==
+
+"@vuepress-reco/vuepress-plugin-bulletin-popover@^1.6.16":
+  version "1.6.16"
+  resolved "https://registry.npmmirror.com/@vuepress-reco/vuepress-plugin-bulletin-popover/-/vuepress-plugin-bulletin-popover-1.6.16.tgz#4ec76a2826ab9ab018c7421553fed1aa2c31f02e"
+  integrity sha512-5OMK01joMSRyZ9Hiw4UqutM2kcSirmgFW5CG9tkWs+CnUFVb0f9Ap4myipp6LfMlW6ktw3LdOz1oTsyFw+FrpA==
 
 "@vuepress-reco/vuepress-plugin-comments@^1.6.13":
   version "1.6.13"
@@ -9472,6 +9477,11 @@ vuepress-plugin-nuggets-style-copy@^1.0.3:
   integrity sha512-0v+9i8ZkD0a87nxH/KGioJE6Szeh5ZMBQxRyjEyeUo3B/OSXuuED9ih6+JW2e3LKbsxkza1ZAv8dVXNurKXtFw==
   dependencies:
     clipboard "^2.0.4"
+
+vuepress-plugin-reading-progress@^1.0.10:
+  version "1.0.10"
+  resolved "https://registry.npmmirror.com/vuepress-plugin-reading-progress/-/vuepress-plugin-reading-progress-1.0.10.tgz#0b9d44e27d583ff20e0307993aa4cbda49f3bdca"
+  integrity sha512-7OxcjNEDf9gqFTns0YnXrqPnTRlX6wvxWFr7D8tlfyMPpsZwJkh/MkJveRrEaKcU0gk8QGmPHnXLAZ3soTThVg==
 
 vuepress-plugin-sitemap@^2.3.1:
   version "2.3.1"

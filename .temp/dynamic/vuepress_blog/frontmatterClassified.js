@@ -17,18 +17,8 @@ export default {
       "scope": "tags",
       "path": "/tag/MySQL/",
       "pageKeys": [
-        "v-022ff53e",
-        "v-15ca2d81"
-      ]
-    },
-    "工作": {
-      "key": "工作",
-      "scope": "tags",
-      "path": "/tag/工作/",
-      "pageKeys": [
-        "v-165bc73b",
-        "v-2ab2a5ca",
-        "v-091f4df9"
+        "v-15ca2d81",
+        "v-022ff53e"
       ]
     },
     "微服务": {
@@ -37,6 +27,16 @@ export default {
       "path": "/tag/微服务/",
       "pageKeys": [
         "v-1227ff87"
+      ]
+    },
+    "工作": {
+      "key": "工作",
+      "scope": "tags",
+      "path": "/tag/工作/",
+      "pageKeys": [
+        "v-165bc73b",
+        "v-091f4df9",
+        "v-2ab2a5ca"
       ]
     },
     "VuePress": {
@@ -65,13 +65,13 @@ export default {
       "path": "/categories/后端/",
       "pageKeys": [
         "v-f6dcfe16",
-        "v-022ff53e",
-        "v-165bc73b",
-        "v-15ca2d81",
-        "v-1227ff87",
         "v-65a62e07",
-        "v-2ab2a5ca",
-        "v-091f4df9"
+        "v-15ca2d81",
+        "v-022ff53e",
+        "v-1227ff87",
+        "v-165bc73b",
+        "v-091f4df9",
+        "v-2ab2a5ca"
       ]
     },
     "前端": {
