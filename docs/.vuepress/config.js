@@ -54,11 +54,12 @@ module.exports = {
       fixed: 'top'
     }],
     ['@vssue/vuepress-plugin-vssue', {
-      platform: 'github',
+      platform: 'github-v4',
       owner: 'Cleaner',
-      repo: 'https://github.com/SongJian-99/blog-comment',
+      repo: 'blog-comment',
       clientId: 'd6e74656c615a5422460',
       clientSecret: 'c687a83e9a86a3688729a34f7bfa567a10f59da7',
+      autoCreateIssue: true
     }]
     // 公告栏
     // ['@vuepress-reco/vuepress-plugin-bulletin-popover', {

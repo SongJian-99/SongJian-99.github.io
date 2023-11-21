@@ -67,8 +67,8 @@ export default {
         "v-f6dcfe16",
         "v-65a62e07",
         "v-15ca2d81",
-        "v-022ff53e",
         "v-1227ff87",
+        "v-022ff53e",
         "v-165bc73b",
         "v-091f4df9",
         "v-2ab2a5ca"
