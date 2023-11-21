@@ -15,6 +15,8 @@ import m13 from "E:\\vscode\\blog\\.temp\\app-enhancers\\11.js"
 import m14 from "E:\\vscode\\blog\\.temp\\app-enhancers\\dynamic-pagation.js"
 import m15 from "E:\\vscode\\blog\\.temp\\app-enhancers\\12.js"
 import m16 from "E:\\vscode\\blog\\.temp\\app-enhancers\\13.js"
+import m17 from "E:\\vscode\\blog\\.temp\\app-enhancers\\14.js"
+import m18 from "E:\\vscode\\blog\\.temp\\app-enhancers\\15.js"
 
 export default [
   m0,
@@ -33,5 +35,7 @@ export default [
   m13,
   m14,
   m15,
-  m16
+  m16,
+  m17,
+  m18
 ]

@@ -1,7 +1,6 @@
 ---
 title: Git
 date: 2023-09-05
-isShowComments: false
 author: Cleaner
 categories: 
  - 工具

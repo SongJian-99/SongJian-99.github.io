@@ -1,4 +1,5 @@
 export default [
   "BackToTop",
-  "SWUpdatePopup"
+  "SWUpdatePopup",
+  "ReadingProgress"
 ]

@@ -3,21 +3,13 @@
  */
 export default {
   "tags": {
-    "微服务": {
-      "key": "微服务",
-      "scope": "tags",
-      "path": "/tag/微服务/",
-      "pageKeys": [
-        "v-1227ff87"
-      ]
-    },
     "Docker": {
       "key": "Docker",
       "scope": "tags",
       "path": "/tag/Docker/",
       "pageKeys": [
-        "v-65a62e07",
-        "v-f6dcfe16"
+        "v-f6dcfe16",
+        "v-65a62e07"
       ]
     },
     "MySQL": {
@@ -39,13 +31,21 @@ export default {
         "v-091f4df9"
       ]
     },
+    "微服务": {
+      "key": "微服务",
+      "scope": "tags",
+      "path": "/tag/微服务/",
+      "pageKeys": [
+        "v-1227ff87"
+      ]
+    },
     "VuePress": {
       "key": "VuePress",
       "scope": "tags",
       "path": "/tag/VuePress/",
       "pageKeys": [
-        "v-921ea9ca",
         "v-5b9558ca",
+        "v-921ea9ca",
         "v-6ffbb6db"
       ]
     },
@@ -64,12 +64,12 @@ export default {
       "scope": "categories",
       "path": "/categories/后端/",
       "pageKeys": [
-        "v-1227ff87",
-        "v-65a62e07",
         "v-f6dcfe16",
         "v-022ff53e",
         "v-165bc73b",
         "v-15ca2d81",
+        "v-1227ff87",
+        "v-65a62e07",
         "v-2ab2a5ca",
         "v-091f4df9"
       ]
@@ -79,8 +79,8 @@ export default {
       "scope": "categories",
       "path": "/categories/前端/",
       "pageKeys": [
-        "v-921ea9ca",
         "v-5b9558ca",
+        "v-921ea9ca",
         "v-6ffbb6db"
       ]
     },

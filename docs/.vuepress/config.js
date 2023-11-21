@@ -48,7 +48,37 @@ module.exports = {
           message: "发现新内容可用",
           buttonText: "刷新"
       }
+    }],
+    // 文章阅读进度条，官网地址：https://github.com/tolking/vuepress-plugin-reading-progress
+    ['reading-progress', {
+      fixed: 'top'
+    }],
+    ['@vssue/vuepress-plugin-vssue', {
+      platform: 'github',
+      owner: 'Cleaner',
+      repo: 'https://github.com/SongJian-99/blog-comment',
+      clientId: 'd6e74656c615a5422460',
+      clientSecret: 'c687a83e9a86a3688729a34f7bfa567a10f59da7',
     }]
+    // 公告栏
+    // ['@vuepress-reco/vuepress-plugin-bulletin-popover', {
+    //   width: '300px', // 默认 260px
+    //   title: '消息提示',
+    //   body: [
+    //     {
+    //       type: 'title',
+    //       content: '欢迎加入QQ交流群 🎉🎉🎉',
+    //       style: 'text-aligin: center;'
+    //     },
+    //   ],
+    //   footer: [
+    //     {
+    //       type: 'button',
+    //       text: '打赏',
+    //       link: '/donate'
+    //     },
+    //   ]
+    // }]
   ],
   themeConfig: {
     type: 'blog',
@@ -155,13 +185,6 @@ module.exports = {
           ]
         }
       ]
-    },
-    // 评论插件配置
-    valineConfig: {
-      appId: 'qR1MgQXTGffUVgeTTM9Qnl3E-gzGzoHsz',
-      appKey: 'OdwTWvfZsjbJIsBtQcgzc4eP',
-      placeholder: '欢迎留言',
-      showComment: false,
     }
   }
 };

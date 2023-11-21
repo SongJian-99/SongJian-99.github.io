@@ -7,15 +7,6 @@ import filters from './pageFilters'
 
 export default [{
   pid: "tags",
-  id: "微服务",
-  filter: filters.tags,
-  sorter: sorters.tags,
-  pages: [{"path":"/tag/微服务/","interval":[0,1]}],
-  prevText: "Prev",
-  nextText: "Next",
-},
-{
-  pid: "tags",
   id: "Docker",
   filter: filters.tags,
   sorter: sorters.tags,
@@ -38,6 +29,15 @@ export default [{
   filter: filters.tags,
   sorter: sorters.tags,
   pages: [{"path":"/tag/工作/","interval":[0,3]}],
+  prevText: "Prev",
+  nextText: "Next",
+},
+{
+  pid: "tags",
+  id: "微服务",
+  filter: filters.tags,
+  sorter: sorters.tags,
+  pages: [{"path":"/tag/微服务/","interval":[0,1]}],
   prevText: "Prev",
   nextText: "Next",
 },

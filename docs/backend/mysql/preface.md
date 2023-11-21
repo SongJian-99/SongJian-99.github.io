@@ -1,7 +1,6 @@
 ---
 title: MySQL
 date: 2023-06-016
-isShowComments: false
 author: Cleaner
 categories: 
  - 后端

@@ -1,7 +1,6 @@
 ---
 title: 微服务架构中实施应用开发的十二要素
 date: 2023-07-24
-isShowComments: false
 author: Cleaner
 categories: 
  - 后端
