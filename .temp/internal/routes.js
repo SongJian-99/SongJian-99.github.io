@@ -9,6 +9,22 @@ import GlobalLayout from "E:\\vscode\\blog\\node_modules\\@vuepress\\core\\lib\\
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
+    name: "v-65a62e07",
+    path: "/backend/docker/Web.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-65a62e07").then(next)
+    },
+  },
+  {
+    name: "v-f6dcfe16",
+    path: "/backend/docker/Elasticsearch.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-f6dcfe16").then(next)
+    },
+  },
+  {
     name: "v-9280c340",
     path: "/",
     component: GlobalLayout,
@@ -29,19 +45,11 @@ export const routes = [
     },
   },
   {
-    name: "v-f6dcfe16",
-    path: "/backend/docker/Elasticsearch.html",
+    name: "v-1227ff87",
+    path: "/backend/microservice/twelve-factor.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-f6dcfe16").then(next)
-    },
-  },
-  {
-    name: "v-65a62e07",
-    path: "/backend/docker/Web.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-65a62e07").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-1227ff87").then(next)
     },
   },
   {
@@ -50,14 +58,6 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-15ca2d81").then(next)
-    },
-  },
-  {
-    name: "v-1227ff87",
-    path: "/backend/microservice/twelve-factor.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-1227ff87").then(next)
     },
   },
   {
@@ -101,19 +101,19 @@ export const routes = [
     },
   },
   {
-    name: "v-921ea9ca",
-    path: "/frontend/vuepress/VuePressThree.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-921ea9ca").then(next)
-    },
-  },
-  {
     name: "v-6ffbb6db",
     path: "/frontend/vuepress/VuePressTwo.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-6ffbb6db").then(next)
+    },
+  },
+  {
+    name: "v-921ea9ca",
+    path: "/frontend/vuepress/VuePressThree.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-921ea9ca").then(next)
     },
   },
   {
@@ -193,19 +193,6 @@ export const routes = [
     redirect: "/tag/Docker/"
   },
   {
-    name: "v-dc3c2992",
-    path: "/tag/MySQL/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-dc3c2992").then(next)
-    },
-    meta: {"pid":"tags","id":"MySQL"}
-  },
-  {
-    path: "/tag/MySQL/index.html",
-    redirect: "/tag/MySQL/"
-  },
-  {
     name: "v-5706017f",
     path: "/tag/微服务/",
     component: GlobalLayout,
@@ -217,6 +204,19 @@ export const routes = [
   {
     path: "/tag/微服务/index.html",
     redirect: "/tag/微服务/"
+  },
+  {
+    name: "v-dc3c2992",
+    path: "/tag/MySQL/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-dc3c2992").then(next)
+    },
+    meta: {"pid":"tags","id":"MySQL"}
+  },
+  {
+    path: "/tag/MySQL/index.html",
+    redirect: "/tag/MySQL/"
   },
   {
     name: "v-5e81bb1d",
