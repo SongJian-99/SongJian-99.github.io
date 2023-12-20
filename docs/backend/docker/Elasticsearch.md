@@ -9,7 +9,7 @@ tags:
 ---
 
 
-> 本文主要介绍了使用 Docker Compse 部署 Elasticsearch + Kibana，并整合到 Spring Boot 项目中的详细步骤。
+> 本文主要介绍使用 Docker Compse 部署 Elasticsearch + Kibana，并整合到 Spring Boot 项目中的详细步骤。
 >
 > Elasticsearch + Kibana 版本: 7.17.0（7 的最新版本）；Spring Boot 版本：2.7.5 。
 >
@@ -114,7 +114,7 @@ docker-compose logs -f  // 查看容器启动日志
 }
 ```
 
-![image-20230605100450480.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/079334d4068a4172a9fa999f34582e21~tplv-k3u1fbpfcp-zoom-1.image)
+![image-20230605100450480.png](https://s2.loli.net/2023/06/05/X6cogqtLQYr3OGy.png)
 
 ### 设置登陆密码
 
@@ -136,7 +136,7 @@ docker exec -it elasticsearch /bin/bash
 /usr/share/elasticsearch/bin/elasticsearch-setup-passwords interactive
 ```
 
-![image-20230605103218114.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8edf8a4cac2f4ed59edbbc8bb6659e92~tplv-k3u1fbpfcp-zoom-1.image)
+![image-20230605103218114.png](https://s2.loli.net/2023/06/05/ZnM5NGe31kwLWOT.png)
 
 4.  退出容器，然后在 kibana.yml 文件中添加如下配置。
 
@@ -231,7 +231,7 @@ public class Demo {
 
 2.  访问地址，创建索引。然后通过 Kibana 查看新增的索引。
 
-![image-20230606102111649.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/17bf34463e664282942a339893774b96~tplv-k3u1fbpfcp-zoom-1.image)
+![image-20230606102111649.png](https://s2.loli.net/2023/06/06/g5N4oGQOCePLWXf.png)
 
 ## 问题
 

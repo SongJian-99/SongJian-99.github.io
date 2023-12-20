@@ -65,7 +65,7 @@ docker run -p 3306:3306 --name mysql \
 -d mysql:8.0.28
 ```
 
-如果需要额外配置 MySQL，可以在 **conf** 目录下添加 my.cnf 配置文件，然后重新启动容器（命令如下）
+如果需要对 MySQL 进行详细配置，可以在 **conf** 目录下添加 my.cnf 配置文件，然后重新启动容器（命令如下）
 
 ```sh
 docker restat mysql(容器id)
@@ -159,7 +159,7 @@ binlog_expire_logs_seconds = 604800
 
 ### 下载 JDK
 
-项目使用的 JDK 版本为 17.0.5。[下载](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)对应的版本，上传到 **jdk** 目录下，并解压。 ![image-20230128185346114.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0c46a80ffece48b0aa85d092fa1a7487~tplv-k3u1fbpfcp-zoom-1.image)
+项目使用的 JDK 版本为 17.0.5。[下载](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)对应的版本，上传到 **jdk** 目录下，并解压。 ![image-20230128185346114.png](https://s2.loli.net/2023/02/03/tAVzlEXg9DHF71u.png)
 
 ### 编写 Dockerfile 文件
 

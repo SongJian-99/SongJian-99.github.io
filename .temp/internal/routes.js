@@ -21,14 +21,6 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-65a62e07",
-    path: "/backend/docker/Web.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-65a62e07").then(next)
-    },
-  },
-  {
     name: "v-f6dcfe16",
     path: "/backend/docker/Elasticsearch.html",
     component: GlobalLayout,
@@ -37,19 +29,11 @@ export const routes = [
     },
   },
   {
-    name: "v-a02ed722",
-    path: "/backend/docker/preface.html",
+    name: "v-65a62e07",
+    path: "/backend/docker/Web.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-a02ed722").then(next)
-    },
-  },
-  {
-    name: "v-15ca2d81",
-    path: "/backend/mysql/explain.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-15ca2d81").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-65a62e07").then(next)
     },
   },
   {
@@ -69,6 +53,14 @@ export const routes = [
     },
   },
   {
+    name: "v-15ca2d81",
+    path: "/backend/mysql/explain.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-15ca2d81").then(next)
+    },
+  },
+  {
     name: "v-165bc73b",
     path: "/backend/work/onlyoffice.html",
     component: GlobalLayout,
@@ -77,11 +69,11 @@ export const routes = [
     },
   },
   {
-    name: "v-2ab2a5ca",
-    path: "/backend/work/practice.html",
+    name: "v-a02ed722",
+    path: "/backend/docker/preface.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2ab2a5ca").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-a02ed722").then(next)
     },
   },
   {
@@ -93,11 +85,11 @@ export const routes = [
     },
   },
   {
-    name: "v-2a4b324a",
-    path: "/backend/work/webservice.html",
+    name: "v-2ab2a5ca",
+    path: "/backend/work/practice.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2a4b324a").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-2ab2a5ca").then(next)
     },
   },
   {
@@ -106,6 +98,14 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-5b9558ca").then(next)
+    },
+  },
+  {
+    name: "v-2a4b324a",
+    path: "/backend/work/webservice.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-2a4b324a").then(next)
     },
   },
   {
@@ -201,19 +201,6 @@ export const routes = [
     redirect: "/tag/Docker/"
   },
   {
-    name: "v-dc3c2992",
-    path: "/tag/MySQL/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-dc3c2992").then(next)
-    },
-    meta: {"pid":"tags","id":"MySQL"}
-  },
-  {
-    path: "/tag/MySQL/index.html",
-    redirect: "/tag/MySQL/"
-  },
-  {
     name: "v-7a62bdfa",
     path: "/tag/Micorservice/",
     component: GlobalLayout,
@@ -225,6 +212,19 @@ export const routes = [
   {
     path: "/tag/Micorservice/index.html",
     redirect: "/tag/Micorservice/"
+  },
+  {
+    name: "v-dc3c2992",
+    path: "/tag/MySQL/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-dc3c2992").then(next)
+    },
+    meta: {"pid":"tags","id":"MySQL"}
+  },
+  {
+    path: "/tag/MySQL/index.html",
+    redirect: "/tag/MySQL/"
   },
   {
     name: "v-364eb69d",
@@ -253,19 +253,6 @@ export const routes = [
     redirect: "/tag/Poi/"
   },
   {
-    name: "v-9c29eaf8",
-    path: "/tag/WebService/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-9c29eaf8").then(next)
-    },
-    meta: {"pid":"tags","id":"WebService"}
-  },
-  {
-    path: "/tag/WebService/index.html",
-    redirect: "/tag/WebService/"
-  },
-  {
     name: "v-5e08fc30",
     path: "/tag/VuePress/",
     component: GlobalLayout,
@@ -277,6 +264,19 @@ export const routes = [
   {
     path: "/tag/VuePress/index.html",
     redirect: "/tag/VuePress/"
+  },
+  {
+    name: "v-9c29eaf8",
+    path: "/tag/WebService/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-9c29eaf8").then(next)
+    },
+    meta: {"pid":"tags","id":"WebService"}
+  },
+  {
+    path: "/tag/WebService/index.html",
+    redirect: "/tag/WebService/"
   },
   {
     name: "v-32555732",

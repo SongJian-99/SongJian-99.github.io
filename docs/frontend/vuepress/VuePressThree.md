@@ -8,18 +8,11 @@ tags:
  - VuePress
 ---
 
->本文主要介绍如何为 VuePress + GitHub Pages + GitHub Actions 搭建的网站添加自定义域名的详细步骤.
+>本文主要介绍为 VuePress + GitHub Pages + GitHub Actions 搭建的网站添加自定义域名的详细步骤。
 >
 >前提：站点已经使用 VuePress + GitHub Pages + GibHub Actions 搭建并正常运行。
 >
 
-## 前言
-
-阅读本文，你可以收获：
-
-* 域名 DNS 解析相关知识
-* GitHub Pages 自定义域名设置
-* Github Actions 自定义域名配置
 
 ## 域名
 

@@ -8,18 +8,8 @@ export default {
       "scope": "tags",
       "path": "/tag/Docker/",
       "pageKeys": [
-        "v-65a62e07",
-        "v-f6dcfe16"
-      ]
-    },
-    "MySQL": {
-      "key": "MySQL",
-      "scope": "tags",
-      "path": "/tag/MySQL/",
-      "pageKeys": [
-        "v-15ca2d81",
-        "v-022ff53e",
-        "v-2ab2a5ca"
+        "v-f6dcfe16",
+        "v-65a62e07"
       ]
     },
     "Micorservice": {
@@ -28,6 +18,16 @@ export default {
       "path": "/tag/Micorservice/",
       "pageKeys": [
         "v-1227ff87"
+      ]
+    },
+    "MySQL": {
+      "key": "MySQL",
+      "scope": "tags",
+      "path": "/tag/MySQL/",
+      "pageKeys": [
+        "v-022ff53e",
+        "v-15ca2d81",
+        "v-2ab2a5ca"
       ]
     },
     "OnlyOffice": {
@@ -46,14 +46,6 @@ export default {
         "v-091f4df9"
       ]
     },
-    "WebService": {
-      "key": "WebService",
-      "scope": "tags",
-      "path": "/tag/WebService/",
-      "pageKeys": [
-        "v-2a4b324a"
-      ]
-    },
     "VuePress": {
       "key": "VuePress",
       "scope": "tags",
@@ -62,6 +54,14 @@ export default {
         "v-5b9558ca",
         "v-921ea9ca",
         "v-6ffbb6db"
+      ]
+    },
+    "WebService": {
+      "key": "WebService",
+      "scope": "tags",
+      "path": "/tag/WebService/",
+      "pageKeys": [
+        "v-2a4b324a"
       ]
     },
     "Git": {
@@ -79,14 +79,14 @@ export default {
       "scope": "categories",
       "path": "/categories/后端/",
       "pageKeys": [
-        "v-65a62e07",
         "v-f6dcfe16",
-        "v-15ca2d81",
+        "v-65a62e07",
         "v-1227ff87",
         "v-022ff53e",
+        "v-15ca2d81",
         "v-165bc73b",
-        "v-2ab2a5ca",
         "v-091f4df9",
+        "v-2ab2a5ca",
         "v-2a4b324a"
       ]
     },

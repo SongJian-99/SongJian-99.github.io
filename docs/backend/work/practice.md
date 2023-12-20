@@ -10,21 +10,13 @@ tags:
 
 ## 前言
 
-阅读本文，你可以收获：
-
-* 线上问题定位和排查思路
-* Docker 和 MySQL 相关命令使用
-* MySQL 锁和索引相关知识学习
-
-## 现象
-
 开发环境一个微服务模块所有接口请求报错，对应页面无法访问。其他未涉及到该模块的接口和页面访问正常。
 
 最近未更新过该服务，之前该服务也没有发生过不可用的情况。
 
 ## 错误排查
 
-根据所观察到的现象，加上简单思考判断，可以确定是单个服务出现故障，而且大概率是服务运行一段时间后出现的问题，具体原因尚不清楚。
+根据所观察到的现象和临时思考判断，可以确定是单个服务出现故障，具体原因尚不清楚。
 
 ### 查看日志
 
@@ -64,7 +56,7 @@ select * from information_schema.INNODB_TRX;
 
 * 查询结果如图。发现大量事务处于 LOCK WAIT 状态，只有一个事务处于 RUNNING 状态，被阻塞的事务都是在执行更新同一张表中的记录操作。
 
-![ba585b0c760dc1b474202c3cae27dd6c.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/09c268b6a7164b628a9b1d7d658ddf64~tplv-k3u1fbpfcp-zoom-1.image)
+![ba585b0c760dc1b474202c3cae27dd6c.png](https://s2.loli.net/2023/04/24/Oi3XjNGZFmCpwHy.png)
 
 2. 进一步确认，查看当前数据库出现的锁信息。表 INNODB_LOCKS 记录了当前被锁定的对象以及相关的锁信息，包括事务 ID、锁类型、锁定模式、锁定对象等。**注意 MySQL 8.0 版本之后没有此表**。
 
@@ -77,7 +69,7 @@ select * from performance_schema.data_locks;
 
 * 查询结果如图。锁的记录数正好对应上面查询的事务数，并且都持有 X 锁（排他锁）
 
-![image-20221222142135836.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a66b16be038e489eb858d69cdb297be5~tplv-k3u1fbpfcp-zoom-1.image)
+![image-20221222142135836.png](https://s2.loli.net/2022/12/22/iItP41AkOmcwzpH.png)
 
 ## 问题定位&解决
 

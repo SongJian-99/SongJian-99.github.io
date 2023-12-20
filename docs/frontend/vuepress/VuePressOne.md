@@ -219,17 +219,17 @@ jobs:
 ~~~
 ## 验证
 
-所有步骤配置完成，我们只需将项目代码 push 到仓库中，workflow 就会自动运行，并且按照配置文件中的步骤依次执行命令，最终将项目编译后的静态文件部署到 gh-pages 分支上。可以在 Actions 中查看运行情况。运行成功后，即可通过域名访问页面。
+所有步骤配置完成，我们只需将项目代码 push 到仓库中，workflow 就会自动运行，按照配置文件中的步骤依次执行命令，最终将项目编译后的静态文件部署到 gh-pages 分支上。可以在 Actions 中查看运行情况。运行成功后，即可通过域名访问页面。
 
 ## 问题
 
 1.  Vue Press 不能热更新，每次项目文件改动后，都需要重新启动。 解决：将 package.json 文件中运行项目的命令改为`"docs:dev": "vuepress dev docs --temp .temp"`。
 
-2.  出现问题最多的地方就是 workflow 自动执行的时候，因为有很多个步骤。每次执行失败的时候，定位下哪个步骤出现错误，看一下错误信息，然后再针对性修改。
+2.  Actions workflow 自动执行的时候，因为有很多个步骤，比较容易发生错误。
 
-    大致的修改方向：首先确保创建 access token 和 secret 这两个步骤没问题（这两个步骤有问题会出现仓库无权限 403，push 代码失败的错误），并且确保名称和 workflow 的配置文件相对应。
+    每次执行失败的时候，定位下哪个步骤出现错误，看一下错误信息，然后再针对性修改。大致的修改方向：首先确保创建 access token 和 secret 这两个步骤没问题（这两个步骤有问题会出现仓库无权限 403，push 代码失败的错误），并且确保名称和 workflow 的配置文件相对应。
 
-3.  workflow 配置文件可以自行调整，官方提供的和其他博客中的配置文件各种各样，这种不行就换另一种试试。
+1.  workflow 配置文件可以自行调整，官方提供的和其他博客中的配置文件各种各样，这种不行就换另一种试试。
 
-    `crazy-max/ghaction-github-pages@v2` 完整配置参数地址：https://github.com/crazy-max/ghaction-github-pages
+    `crazy-max/ghaction-github-pages@v2` 完整配置参数地址：<https://github.com/crazy-max/ghaction-github-pages>
    
