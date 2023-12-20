@@ -5,7 +5,7 @@ author: Cleaner
 categories: 
  - 后端
 tags: 
- - 工作
+ - OnlyOffice
 ---
 
 > 本文主要介绍使用 Docker 部署 OnlyOffice Workspace（包括 Community Server、Control Panel、Document Server） 的详细步骤。

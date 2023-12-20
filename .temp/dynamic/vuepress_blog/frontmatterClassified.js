@@ -12,31 +12,46 @@ export default {
         "v-f6dcfe16"
       ]
     },
-    "微服务": {
-      "key": "微服务",
-      "scope": "tags",
-      "path": "/tag/微服务/",
-      "pageKeys": [
-        "v-1227ff87"
-      ]
-    },
     "MySQL": {
       "key": "MySQL",
       "scope": "tags",
       "path": "/tag/MySQL/",
       "pageKeys": [
         "v-15ca2d81",
-        "v-022ff53e"
+        "v-022ff53e",
+        "v-2ab2a5ca"
       ]
     },
-    "工作": {
-      "key": "工作",
+    "Micorservice": {
+      "key": "Micorservice",
       "scope": "tags",
-      "path": "/tag/工作/",
+      "path": "/tag/Micorservice/",
       "pageKeys": [
-        "v-165bc73b",
-        "v-091f4df9",
-        "v-2ab2a5ca"
+        "v-1227ff87"
+      ]
+    },
+    "OnlyOffice": {
+      "key": "OnlyOffice",
+      "scope": "tags",
+      "path": "/tag/OnlyOffice/",
+      "pageKeys": [
+        "v-165bc73b"
+      ]
+    },
+    "Poi": {
+      "key": "Poi",
+      "scope": "tags",
+      "path": "/tag/Poi/",
+      "pageKeys": [
+        "v-091f4df9"
+      ]
+    },
+    "WebService": {
+      "key": "WebService",
+      "scope": "tags",
+      "path": "/tag/WebService/",
+      "pageKeys": [
+        "v-2a4b324a"
       ]
     },
     "VuePress": {
@@ -45,8 +60,8 @@ export default {
       "path": "/tag/VuePress/",
       "pageKeys": [
         "v-5b9558ca",
-        "v-6ffbb6db",
-        "v-921ea9ca"
+        "v-921ea9ca",
+        "v-6ffbb6db"
       ]
     },
     "Git": {
@@ -66,12 +81,13 @@ export default {
       "pageKeys": [
         "v-65a62e07",
         "v-f6dcfe16",
-        "v-1227ff87",
         "v-15ca2d81",
+        "v-1227ff87",
         "v-022ff53e",
         "v-165bc73b",
+        "v-2ab2a5ca",
         "v-091f4df9",
-        "v-2ab2a5ca"
+        "v-2a4b324a"
       ]
     },
     "前端": {
@@ -80,8 +96,8 @@ export default {
       "path": "/categories/前端/",
       "pageKeys": [
         "v-5b9558ca",
-        "v-6ffbb6db",
-        "v-921ea9ca"
+        "v-921ea9ca",
+        "v-6ffbb6db"
       ]
     },
     "工具": {

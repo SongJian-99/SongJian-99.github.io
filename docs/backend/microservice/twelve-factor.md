@@ -5,7 +5,7 @@ author: Cleaner
 categories: 
  - 后端
 tags: 
- - 微服务
+ - Micorservice
 ---
 
 > 最近参与了 Nginx 微服务之月活动，学习到许多微服务架构相关的知识，应用到日常工作中，收获颇丰。
