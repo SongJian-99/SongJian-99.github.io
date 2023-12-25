@@ -116,8 +116,8 @@ export const siteData = {
           "slug": "问题"
         }
       ],
-      "lastUpdated": "2023/11/21 下午7:40:44",
-      "lastUpdatedTimestamp": 1700566844000
+      "lastUpdated": "2023/12/20 下午3:12:16",
+      "lastUpdatedTimestamp": 1703056336000
     },
     {
       "title": "使用 Dockerfile + Docker Compose 部署 Web 项目",
@@ -224,8 +224,8 @@ export const siteData = {
           "slug": "问题"
         }
       ],
-      "lastUpdated": "2023/11/21 下午7:40:44",
-      "lastUpdatedTimestamp": 1700566844000
+      "lastUpdated": "2023/12/20 下午3:12:16",
+      "lastUpdatedTimestamp": 1703056336000
     },
     {
       "title": "微服务架构中实施应用开发的十二要素",
@@ -398,8 +398,8 @@ export const siteData = {
           "slug": "实战优化思路"
         }
       ],
-      "lastUpdated": "2023/11/21 下午7:40:44",
-      "lastUpdatedTimestamp": 1700566844000
+      "lastUpdated": "2023/12/20 下午3:12:16",
+      "lastUpdatedTimestamp": 1703056336000
     },
     {
       "title": "企业级在线办公套件——OnlyOffice Workspace 部署使用",
@@ -575,149 +575,8 @@ export const siteData = {
           "slug": "问题"
         }
       ],
-      "lastUpdated": "2023/12/20 上午10:50:10",
-      "lastUpdatedTimestamp": 1703040610000
-    },
-    {
-      "title": "Update 未加索引导致的微服务模块不可用",
-      "frontmatter": {
-        "title": "Update 未加索引导致的微服务模块不可用",
-        "date": "2023-06-14T00:00:00.000Z",
-        "author": "Cleaner",
-        "categories": [
-          "后端"
-        ],
-        "tags": [
-          "MySQL"
-        ],
-        "readingShow": "top"
-      },
-      "regularPath": "/backend/work/practice.html",
-      "relativePath": "backend/work/practice.md",
-      "key": "v-2ab2a5ca",
-      "path": "/backend/work/practice.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "前言",
-          "slug": "前言"
-        },
-        {
-          "level": 2,
-          "title": "错误排查",
-          "slug": "错误排查"
-        },
-        {
-          "level": 3,
-          "title": "查看日志",
-          "slug": "查看日志"
-        },
-        {
-          "level": 3,
-          "title": "连接数据库",
-          "slug": "连接数据库"
-        },
-        {
-          "level": 2,
-          "title": "问题定位&解决",
-          "slug": "问题定位-解决"
-        },
-        {
-          "level": 2,
-          "title": "问题",
-          "slug": "问题"
-        },
-        {
-          "level": 2,
-          "title": "末尾",
-          "slug": "末尾"
-        }
-      ],
-      "lastUpdated": "2023/12/20 上午10:50:10",
-      "lastUpdatedTimestamp": 1703040610000
-    },
-    {
-      "title": "使用 VuePress + GitHub Pages + GitHub Actions 搭建个人博客",
-      "frontmatter": {
-        "title": "使用 VuePress + GitHub Pages + GitHub Actions 搭建个人博客",
-        "date": "2023-06-08T00:00:00.000Z",
-        "author": "Cleaner",
-        "categories": [
-          "前端"
-        ],
-        "tags": [
-          "VuePress"
-        ],
-        "readingShow": "top"
-      },
-      "regularPath": "/frontend/vuepress/VuePressOne.html",
-      "relativePath": "frontend/vuepress/VuePressOne.md",
-      "key": "v-5b9558ca",
-      "path": "/frontend/vuepress/VuePressOne.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "新建代码仓库",
-          "slug": "新建代码仓库"
-        },
-        {
-          "level": 2,
-          "title": "VuePress",
-          "slug": "vuepress"
-        },
-        {
-          "level": 3,
-          "title": "项目初始化",
-          "slug": "项目初始化"
-        },
-        {
-          "level": 3,
-          "title": "配置",
-          "slug": "配置"
-        },
-        {
-          "level": 3,
-          "title": "运行",
-          "slug": "运行"
-        },
-        {
-          "level": 2,
-          "title": "GitHub Pages",
-          "slug": "github-pages"
-        },
-        {
-          "level": 2,
-          "title": "GitHub Actions",
-          "slug": "github-actions"
-        },
-        {
-          "level": 3,
-          "title": "新增 Access Token",
-          "slug": "新增-access-token"
-        },
-        {
-          "level": 3,
-          "title": "创建 Secrets",
-          "slug": "创建-secrets"
-        },
-        {
-          "level": 3,
-          "title": "创建任务文件",
-          "slug": "创建任务文件"
-        },
-        {
-          "level": 2,
-          "title": "验证",
-          "slug": "验证"
-        },
-        {
-          "level": 2,
-          "title": "问题",
-          "slug": "问题"
-        }
-      ],
-      "lastUpdated": "2023/11/2 上午9:36:27",
-      "lastUpdatedTimestamp": 1698888987000
+      "lastUpdated": "2023/12/20 下午3:12:16",
+      "lastUpdatedTimestamp": 1703056336000
     },
     {
       "title": "使用 Axis 调用 WebService 服务接口",
@@ -812,8 +671,235 @@ export const siteData = {
           "slug": "问题"
         }
       ],
-      "lastUpdated": "2023/7/24 下午6:01:11",
-      "lastUpdatedTimestamp": 1690192871000
+      "lastUpdated": "2023/12/20 下午3:12:16",
+      "lastUpdatedTimestamp": 1703056336000
+    },
+    {
+      "title": "留言板",
+      "frontmatter": {
+        "title": "留言板",
+        "date": "2023-07-25T00:00:00.000Z",
+        "author": "Cleaner",
+        "readingShow": false
+      },
+      "regularPath": "/message-board.html",
+      "relativePath": "message-board.md",
+      "key": "v-6a783e8a",
+      "path": "/message-board.html",
+      "lastUpdated": "2023/11/21 下午7:40:44",
+      "lastUpdatedTimestamp": 1700566844000
+    },
+    {
+      "title": "使用 VuePress + GitHub Pages + GitHub Actions 搭建个人博客",
+      "frontmatter": {
+        "title": "使用 VuePress + GitHub Pages + GitHub Actions 搭建个人博客",
+        "date": "2023-06-08T00:00:00.000Z",
+        "author": "Cleaner",
+        "categories": [
+          "前端"
+        ],
+        "tags": [
+          "VuePress"
+        ],
+        "readingShow": "top"
+      },
+      "regularPath": "/frontend/vuepress/VuePressOne.html",
+      "relativePath": "frontend/vuepress/VuePressOne.md",
+      "key": "v-5b9558ca",
+      "path": "/frontend/vuepress/VuePressOne.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "新建代码仓库",
+          "slug": "新建代码仓库"
+        },
+        {
+          "level": 2,
+          "title": "VuePress",
+          "slug": "vuepress"
+        },
+        {
+          "level": 3,
+          "title": "项目初始化",
+          "slug": "项目初始化"
+        },
+        {
+          "level": 3,
+          "title": "配置",
+          "slug": "配置"
+        },
+        {
+          "level": 3,
+          "title": "运行",
+          "slug": "运行"
+        },
+        {
+          "level": 2,
+          "title": "GitHub Pages",
+          "slug": "github-pages"
+        },
+        {
+          "level": 2,
+          "title": "GitHub Actions",
+          "slug": "github-actions"
+        },
+        {
+          "level": 3,
+          "title": "新增 Access Token",
+          "slug": "新增-access-token"
+        },
+        {
+          "level": 3,
+          "title": "创建 Secrets",
+          "slug": "创建-secrets"
+        },
+        {
+          "level": 3,
+          "title": "创建任务文件",
+          "slug": "创建任务文件"
+        },
+        {
+          "level": 2,
+          "title": "验证",
+          "slug": "验证"
+        },
+        {
+          "level": 2,
+          "title": "问题",
+          "slug": "问题"
+        }
+      ],
+      "lastUpdated": "2023/12/20 下午3:12:16",
+      "lastUpdatedTimestamp": 1703056336000
+    },
+    {
+      "title": "分布式存储系统——Ceph 部署使用",
+      "frontmatter": {
+        "title": "分布式存储系统——Ceph 部署使用",
+        "date": "2023-12-25T00:00:00.000Z",
+        "author": "Cleaner",
+        "categories": [
+          "后端"
+        ],
+        "tags": [
+          "Ceph"
+        ],
+        "readingShow": "top"
+      },
+      "regularPath": "/backend/work/ceph.html",
+      "relativePath": "backend/work/ceph.md",
+      "key": "v-5acd688a",
+      "path": "/backend/work/ceph.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Ceph 介绍",
+          "slug": "ceph-介绍"
+        },
+        {
+          "level": 2,
+          "title": "Ceph 集群搭建",
+          "slug": "ceph-集群搭建"
+        },
+        {
+          "level": 3,
+          "title": "部署环境",
+          "slug": "部署环境"
+        },
+        {
+          "level": 3,
+          "title": "拉取镜像",
+          "slug": "拉取镜像"
+        },
+        {
+          "level": 3,
+          "title": "启动 mon 容器",
+          "slug": "启动-mon-容器"
+        },
+        {
+          "level": 3,
+          "title": "启动 osd 容器",
+          "slug": "启动-osd-容器"
+        },
+        {
+          "level": 3,
+          "title": "启动 mds 容器",
+          "slug": "启动-mds-容器"
+        },
+        {
+          "level": 3,
+          "title": "启动 mgr 容器",
+          "slug": "启动-mgr-容器"
+        },
+        {
+          "level": 3,
+          "title": "安装 Dashboard 管理后台",
+          "slug": "安装-dashboard-管理后台"
+        },
+        {
+          "level": 2,
+          "title": "问题",
+          "slug": "问题"
+        }
+      ]
+    },
+    {
+      "title": "Update 未加索引导致的微服务模块不可用",
+      "frontmatter": {
+        "title": "Update 未加索引导致的微服务模块不可用",
+        "date": "2023-06-14T00:00:00.000Z",
+        "author": "Cleaner",
+        "categories": [
+          "后端"
+        ],
+        "tags": [
+          "MySQL"
+        ],
+        "readingShow": "top"
+      },
+      "regularPath": "/backend/work/practice.html",
+      "relativePath": "backend/work/practice.md",
+      "key": "v-2ab2a5ca",
+      "path": "/backend/work/practice.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "前言",
+          "slug": "前言"
+        },
+        {
+          "level": 2,
+          "title": "错误排查",
+          "slug": "错误排查"
+        },
+        {
+          "level": 3,
+          "title": "查看日志",
+          "slug": "查看日志"
+        },
+        {
+          "level": 3,
+          "title": "连接数据库",
+          "slug": "连接数据库"
+        },
+        {
+          "level": 2,
+          "title": "问题定位&解决",
+          "slug": "问题定位-解决"
+        },
+        {
+          "level": 2,
+          "title": "问题",
+          "slug": "问题"
+        },
+        {
+          "level": 2,
+          "title": "末尾",
+          "slug": "末尾"
+        }
+      ],
+      "lastUpdated": "2023/12/20 下午3:12:16",
+      "lastUpdatedTimestamp": 1703056336000
     },
     {
       "title": "VuePress 个人博客美化：vuepress-theme-reco 主题使用",
@@ -920,8 +1006,8 @@ export const siteData = {
           "slug": "末尾"
         }
       ],
-      "lastUpdated": "2023/7/24 下午6:01:11",
-      "lastUpdatedTimestamp": 1690192871000
+      "lastUpdated": "2023/12/20 下午3:12:16",
+      "lastUpdatedTimestamp": 1703056336000
     },
     {
       "title": "树洞",
@@ -935,21 +1021,6 @@ export const siteData = {
       "relativePath": "other/treeholes.md",
       "key": "v-04e7d924",
       "path": "/other/treeholes.html",
-      "lastUpdated": "2023/11/21 下午7:40:44",
-      "lastUpdatedTimestamp": 1700566844000
-    },
-    {
-      "title": "留言板",
-      "frontmatter": {
-        "title": "留言板",
-        "date": "2023-07-25T00:00:00.000Z",
-        "author": "Cleaner",
-        "readingShow": false
-      },
-      "regularPath": "/message-board.html",
-      "relativePath": "message-board.md",
-      "key": "v-6a783e8a",
-      "path": "/message-board.html",
       "lastUpdated": "2023/11/21 下午7:40:44",
       "lastUpdatedTimestamp": 1700566844000
     },
@@ -1079,6 +1150,16 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
+        "title": "WebService Tags",
+        "readingShow": "top"
+      },
+      "regularPath": "/tag/WebService/",
+      "key": "v-9c29eaf8",
+      "path": "/tag/WebService/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
         "title": "VuePress Tags",
         "readingShow": "top"
       },
@@ -1089,12 +1170,12 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "WebService Tags",
+        "title": "Ceph Tags",
         "readingShow": "top"
       },
-      "regularPath": "/tag/WebService/",
-      "key": "v-9c29eaf8",
-      "path": "/tag/WebService/"
+      "regularPath": "/tag/Ceph/",
+      "key": "v-18c9fdea",
+      "path": "/tag/Ceph/"
     },
     {
       "frontmatter": {
@@ -1267,6 +1348,10 @@ export const siteData = {
             {
               "title": "使用 Axis 调用 WebService 服务接口",
               "path": "/backend/work/webservice"
+            },
+            {
+              "title": "分布式存储系统——Ceph 部署使用",
+              "path": "/backend/work/ceph"
             }
           ]
         }

@@ -52,6 +52,15 @@ export default [{
 },
 {
   pid: "tags",
+  id: "WebService",
+  filter: filters.tags,
+  sorter: sorters.tags,
+  pages: [{"path":"/tag/WebService/","interval":[0,1]}],
+  prevText: "Prev",
+  nextText: "Next",
+},
+{
+  pid: "tags",
   id: "VuePress",
   filter: filters.tags,
   sorter: sorters.tags,
@@ -61,10 +70,10 @@ export default [{
 },
 {
   pid: "tags",
-  id: "WebService",
+  id: "Ceph",
   filter: filters.tags,
   sorter: sorters.tags,
-  pages: [{"path":"/tag/WebService/","interval":[0,1]}],
+  pages: [{"path":"/tag/Ceph/","interval":[0,1]}],
   prevText: "Prev",
   nextText: "Next",
 },
