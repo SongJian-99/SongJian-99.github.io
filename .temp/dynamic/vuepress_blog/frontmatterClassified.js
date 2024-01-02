@@ -8,8 +8,8 @@ export default {
       "scope": "tags",
       "path": "/tag/Docker/",
       "pageKeys": [
-        "v-f6dcfe16",
-        "v-65a62e07"
+        "v-65a62e07",
+        "v-f6dcfe16"
       ]
     },
     "Micorservice": {
@@ -38,6 +38,14 @@ export default {
         "v-165bc73b"
       ]
     },
+    "Ceph": {
+      "key": "Ceph",
+      "scope": "tags",
+      "path": "/tag/Ceph/",
+      "pageKeys": [
+        "v-5acd688a"
+      ]
+    },
     "Poi": {
       "key": "Poi",
       "scope": "tags",
@@ -60,16 +68,8 @@ export default {
       "path": "/tag/VuePress/",
       "pageKeys": [
         "v-921ea9ca",
-        "v-5b9558ca",
-        "v-6ffbb6db"
-      ]
-    },
-    "Ceph": {
-      "key": "Ceph",
-      "scope": "tags",
-      "path": "/tag/Ceph/",
-      "pageKeys": [
-        "v-5acd688a"
+        "v-6ffbb6db",
+        "v-5b9558ca"
       ]
     },
     "Git": {
@@ -87,16 +87,16 @@ export default {
       "scope": "categories",
       "path": "/categories/后端/",
       "pageKeys": [
-        "v-f6dcfe16",
         "v-65a62e07",
+        "v-f6dcfe16",
         "v-1227ff87",
         "v-022ff53e",
         "v-15ca2d81",
         "v-165bc73b",
-        "v-091f4df9",
-        "v-2a4b324a",
         "v-5acd688a",
-        "v-2ab2a5ca"
+        "v-091f4df9",
+        "v-2ab2a5ca",
+        "v-2a4b324a"
       ]
     },
     "前端": {
@@ -105,8 +105,8 @@ export default {
       "path": "/categories/前端/",
       "pageKeys": [
         "v-921ea9ca",
-        "v-5b9558ca",
-        "v-6ffbb6db"
+        "v-6ffbb6db",
+        "v-5b9558ca"
       ]
     },
     "工具": {

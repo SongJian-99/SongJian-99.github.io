@@ -14,6 +14,7 @@ tags:
 
 * [WebService 快速入门](https://zhuanlan.zhihu.com/p/126507013)
 * [Axis 调用 WebService 接口](https://www.cnblogs.com/archermeng/p/8587537.html)
+* [Axis 调用 WebService 接口](https://blog.csdn.net/qq_33236248/article/details/80436688)
 
 ## 实现
 
@@ -21,13 +22,15 @@ tags:
 
 1. 参考 WebService 服务端提供的 WSDL 格式的文档，根据文档确定要调用的方法及参数。
 
-2. 选择接口调用方式。服务接口需要传递 XML 格式的参数，参数中包含了身份认证的信息。使用 Axis 方式调用比较方便。
-
+2. 选择接口调用方式。
    * 直接发送 HTTP 请求调用。
 
-   * 根据 WSDL 文档生成 Client，通过 Client 调用：IDEA 中提供了代码生成的方法，需要先安装 WebServcie 插件。
+   * 根据 WSDL 文档生成 Client，通过 Client 调用。（IDEA 中提供了代码生成的方法，需要先安装 WebServcie 插件。）
 
-   * 通过 Axis 方式调用。
+   * 通过 Axis 方式调用。（Java 提供了相关的类库，引入相关依赖即可使用）
+
+**工作中 WebService 服务接口需要传递 XML 格式的参数，参数中包含了身份认证的信息。使用 Axis 方式调用比较方便**。
+
 
 3. 引入相关依赖，编写代码。
 
@@ -43,11 +46,6 @@ tags:
 <dependency>
     <groupId>org.apache.axis</groupId>
     <artifactId>axis-jaxrpc</artifactId>
-    <version>1.4</version>
-</dependency>
-<dependency>
-    <groupId>org.apache.axis</groupId>
-    <artifactId>axis-saaj</artifactId>
     <version>1.4</version>
 </dependency>
 <dependency>
@@ -73,22 +71,27 @@ tags:
 /**
  * 发送请求
  *
- * @param url	请求地址（示例：http://webservice?wsdl）
- * @param namespace	命名空间
- * @param method	调用的方法
- * @param parameter	方法的参数
- * 注：命名空间、方法、方法参数根据实际情况调整（在提供的WSDL文件中查看）
+ * @param url	WSDL文档地址（示例：http://webservice?wsdl）
+ * @param soapActionUrl	要调用的方法地址
+ * @param namespace	    命名空间
+ * @param method	    调用的方法名称
+ * @param parameter	    电泳的方法参数
+ * 注：命名空间、方法地址、方法、方法参数根据实际情况调整（在提供的WSDL文件中查看）
 */
-public void sendRequest(String url,String namespace, String method,String parameter) throws Exception {
+public void sendRequest(String url,String soapActionUrl, String namespace, String method,String parameter) throws Exception {
     Service service = new Service();
-    Call call = service.createCall();
+    Call call = (Call) service.createCall();
     // 请求地址
     call.setTargetEndpointAddress(url);
-    QName qName = new QName(namespace, method);
+     // 请求地址
+    call.setTargetEndpointAddress(new URL(url));
+    call.setEncodingStyle("UTF-8");
+    call.setUseSOAPAction(true);
+    call.setSOAPActionURI(soapUrl);
     // 操作的方法
-    call.setOperationName(qName);
+    call.setOperationName(new QName(namespace, method));
     // 方法参数
-    call.addParameter(parameter, XMLType.XSD_STRING, ParameterMode.IN);
+    call.addParameter(new QName(namespace,parameter), XMLType.XSD_STRING, ParameterMode.IN);
     // 返回结果类型
     call.setReturnType(XMLType.XSD_STRING);
     // 构造xml参数
@@ -109,21 +112,23 @@ public void sendRequest(String url,String namespace, String method,String parame
 }
 
 /**
- * xml 参数构造方法
- * 注：根据实际接口所需的xml参数格式进行构造，这里只是个示例
+ * xml 参数构造方法（dom4j）
  * @return
 */
 private String makeXml() {
-    StringBuffer sb = new StringBuffer();
-    sb.append("<?xml version=\"1.0\" encoding=\"utf-8\"?>\n" +
-              "<Root>\n" +
-              "  <elementOne>\n");
-    sb.append("    <RequestTime>" + DateUtil.now() + "</RequestTime>\n");
-    sb.append("  </elementOne>\n");
-    sb.append("  <elementTwo>\n");
-    sb.append("    <sendTime>" + DateUtil.now() + "</sendTime>\n");
-    sb.append("  </elementTwo>\n");
-    sb.append("</Root>\n");
-    return sb.toString();
+    Document document = DocumentHelper.createDocument();
+    Element contractRoot = document.addElement("ContractRoot");
+    Element tcpCont = contractRoot.addElement("TcpCont");
+    tcpCont.addElement("RequestTime").setText(DateUtil.now());
+
+    Element bizCont = contractRoot.addElement("BizCont");
+    bizCont.addElement("RequestTime").setText(DateUtil.now());
+
+    return document.asXML();
 }
 ```
+
+## 说明
+
+* WSDL 命名空间查看：在 WSDL 文档中找到`targetNamespace`标签
+* soapActionUrl 查看：在 WSDL 文档中找到`soap:operation`标签
