@@ -151,7 +151,7 @@ docker run -d \
 # CEPHFS_METADATA_POOL_PG是元数据池的数量，默认为8。
 ~~~
 
-#### 启动 rgw 容器
+### 启动 rgw 容器
 
 1.  执行如下命令，在 mon 节点生成 rgw密钥信息，否则启动 rgw容器会报错。
 
@@ -244,7 +244,7 @@ docker exec mgr ceph mgr services
 
 ![ceph-04.png](https://s2.loli.net/2023/12/22/jGZ7t8pAevsmcFz.png)
 
-1.  浏览器访问 Dashboard 管理页面。
+9.  浏览器访问 Dashboard 管理页面。
 
 ![ceph-05.png](https://s2.loli.net/2023/12/22/GxjH2tga3cJKUhq.png)
 

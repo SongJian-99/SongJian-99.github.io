@@ -3,6 +3,14 @@
  */
 export default {
   "tags": {
+    "Micorservice": {
+      "key": "Micorservice",
+      "scope": "tags",
+      "path": "/tag/Micorservice/",
+      "pageKeys": [
+        "v-1227ff87"
+      ]
+    },
     "Docker": {
       "key": "Docker",
       "scope": "tags",
@@ -12,12 +20,12 @@ export default {
         "v-f6dcfe16"
       ]
     },
-    "Micorservice": {
-      "key": "Micorservice",
+    "Ceph": {
+      "key": "Ceph",
       "scope": "tags",
-      "path": "/tag/Micorservice/",
+      "path": "/tag/Ceph/",
       "pageKeys": [
-        "v-1227ff87"
+        "v-5acd688a"
       ]
     },
     "MySQL": {
@@ -30,20 +38,12 @@ export default {
         "v-2ab2a5ca"
       ]
     },
-    "OnlyOffice": {
-      "key": "OnlyOffice",
+    "WebService": {
+      "key": "WebService",
       "scope": "tags",
-      "path": "/tag/OnlyOffice/",
+      "path": "/tag/WebService/",
       "pageKeys": [
-        "v-165bc73b"
-      ]
-    },
-    "Ceph": {
-      "key": "Ceph",
-      "scope": "tags",
-      "path": "/tag/Ceph/",
-      "pageKeys": [
-        "v-5acd688a"
+        "v-2a4b324a"
       ]
     },
     "Poi": {
@@ -54,12 +54,12 @@ export default {
         "v-091f4df9"
       ]
     },
-    "WebService": {
-      "key": "WebService",
+    "OnlyOffice": {
+      "key": "OnlyOffice",
       "scope": "tags",
-      "path": "/tag/WebService/",
+      "path": "/tag/OnlyOffice/",
       "pageKeys": [
-        "v-2a4b324a"
+        "v-165bc73b"
       ]
     },
     "VuePress": {
@@ -67,9 +67,9 @@ export default {
       "scope": "tags",
       "path": "/tag/VuePress/",
       "pageKeys": [
-        "v-921ea9ca",
+        "v-5b9558ca",
         "v-6ffbb6db",
-        "v-5b9558ca"
+        "v-921ea9ca"
       ]
     },
     "Git": {
@@ -87,16 +87,16 @@ export default {
       "scope": "categories",
       "path": "/categories/后端/",
       "pageKeys": [
-        "v-65a62e07",
-        "v-f6dcfe16",
         "v-1227ff87",
-        "v-022ff53e",
-        "v-15ca2d81",
-        "v-165bc73b",
+        "v-65a62e07",
         "v-5acd688a",
+        "v-f6dcfe16",
+        "v-022ff53e",
+        "v-2a4b324a",
         "v-091f4df9",
+        "v-15ca2d81",
         "v-2ab2a5ca",
-        "v-2a4b324a"
+        "v-165bc73b"
       ]
     },
     "前端": {
@@ -104,9 +104,9 @@ export default {
       "scope": "categories",
       "path": "/categories/前端/",
       "pageKeys": [
-        "v-921ea9ca",
+        "v-5b9558ca",
         "v-6ffbb6db",
-        "v-5b9558ca"
+        "v-921ea9ca"
       ]
     },
     "工具": {
