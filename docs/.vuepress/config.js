@@ -85,6 +85,8 @@ module.exports = {
     type: 'blog',
     autohor: 'Cleaner',
     domain: 'cleaner.love',
+    // 项目开始时间
+    startYear: '2023',
     // 个人信息的头像
     authorAvatar: '/avator.jpg',
     search: true,
@@ -111,8 +113,8 @@ module.exports = {
           { text: 'VuePress', link: '/frontend/vuepress/VuePressOne.md'}
         ]
       },
-      { text: 'Docker', link: '/backend/docker/preface', icon: 'iconfont icon-docker' },
-      { text: 'MySQL', link: '/backend/mysql/preface', icon: 'iconfont icon-mysql' },
+      { text: 'Docker', link: '/backend/docker/Web', icon: 'iconfont icon-docker' },
+      { text: 'MySQL', link: '/backend/mysql/explain', icon: 'iconfont icon-mysql' },
       { text: '工作', link: '/backend/work/poi', icon: 'iconfont icon-work' },
       { text: '微服务', link: '/backend/microservice/twelve-factor', icon: 'iconfont icon-microservice' },
       { text: '工具', link: '/tool/git', icon: 'iconfont icon-tools' },
@@ -132,8 +134,8 @@ module.exports = {
           title: 'Docker 应用',
           collapsable: true,
           children: [
-            { title: '使用 Docker Compose 部署 Elasticsearch + Kibana', path: '/backend/docker/Elasticsearch' },
-            { title: '使用 Dockerfile + Docker Compose 部署 Web 项目', path: '/backend/docker/Web' }
+            { title: '使用 Dockerfile + Docker Compose 部署 Web 项目', path: '/backend/docker/Web' },
+            { title: '使用 Docker Compose 部署 Elasticsearch + Kibana', path: '/backend/docker/Elasticsearch' }
           ]
         }
       ],

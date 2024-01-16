@@ -8,15 +8,65 @@
   transition: all .5s;
 }
 .abstract-item:hover {
-    transform:  scale(1.02);
-    transition: all .5s;
+  transform:  scale(1.02);
+  transition: all .5s;
+}
+// 页面样式
+.page {
+  background-color: #f2f4f5;
+}
+// 左侧侧边栏样式
+.sidebar {
+  margin-right: 0.8rem
+}
+.sidebar ul.sidebar-links > li{
+  background-color: white !important;  
+}
+a.sidebar-link.active{
+  background-color: #dbf0e5 !important;
+  border-left: 3px solid #3eaf7c !important;
+  border-right: none !important;
+}
+// 左侧侧边栏标题
+.sidebar > .sidebar-links > li > a.sidebar-link {
+  font-size: 1.5em !important;
+  margin-left: -1em;
 }
 
-// 右侧文章标题导航栏
-a.sidebar-link {
-  font-size: 15px !important;
+// 右侧侧边栏样式
+.theme-container .sub-sidebar {
+  right: 1rem !important;
+  top: 3.5rem !important;
+  bottom: auto !important;
+  background-color: white;  
 }
 
+// 右侧侧边栏标题
+.sub-sidebar-wrapper li{
+  font-size: 1.1em !important;
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  margin-top: -0.5rem !important;
+  border-left: none !important;
+}
+// 中间内容区 start region
+main section {
+  background-color: white;
+  margin-top: -0.8rem;
+  margin-left: 0.8rem;
+}
+
+.page-edit {
+  background-color: white;
+  max-width: none !important;
+  margin: 0 0 0 0.8rem !important;
+}
+.page-nav {
+  background-color: white;
+  max-width: none !important;
+  margin: 0 0 0 0.8rem !important;
+}
+// end region
 // 时间线样式
 .timeline-wrapper .year {
   margin: 80px 0px 20px !important;
@@ -53,6 +103,13 @@ a.sidebar-link {
 .home-blog .hero .description {
   font-family: cursive
   font-size: 2rem !important
+}
+
+// 留言板和树洞页面自定义样式
+.message-board, .treeholes{
+  .page{
+    background-color: white !important;
+  }
 }
 
 

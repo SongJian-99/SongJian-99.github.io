@@ -3,6 +3,7 @@ title: 留言板
 date: 2023-07-25
 author: Cleaner
 readingShow: false
+pageClass: message-board
 ---
 
 :::tip

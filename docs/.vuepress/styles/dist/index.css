@@ -1,0 +1,96 @@
+.content {
+  font-size: 30px;
+}
+.abstract-item {
+  background-color: rgba(172,220,253,0.239) !important;
+  transition: all 0.5s;
+}
+.abstract-item:hover {
+  transform: scale(1.02);
+  transition: all 0.5s;
+}
+.page {
+  background-color: #f2f4f5;
+}
+.sidebar {
+  margin-right: 0.8rem;
+}
+.sidebar ul.sidebar-links > li {
+  background-color: #fff !important;
+}
+a.sidebar-link.active {
+  background-color: #dbf0e5 !important;
+  border-left: 3px solid #3eaf7c !important;
+  border-right: none !important;
+}
+.sidebar > .sidebar-links > li > a.sidebar-link {
+  font-size: 1.5em !important;
+  margin-left: -1em;
+}
+.theme-container .sub-sidebar {
+  right: 1rem !important;
+  top: 3.5rem !important;
+  bottom: auto !important;
+  background-color: #fff;
+}
+.sub-sidebar-wrapper li {
+  font-size: 1.1em !important;
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  margin-top: -0.5rem !important;
+  border-left: none !important;
+}
+main section {
+  background-color: #fff;
+  margin-top: -0.8rem;
+  margin-left: 0.8rem;
+}
+.page-edit {
+  background-color: #fff;
+  max-width: none !important;
+  margin: 0 0 0 0.8rem !important;
+}
+.page-nav {
+  background-color: #fff;
+  max-width: none !important;
+  margin: 0 0 0 0.8rem !important;
+}
+.timeline-wrapper .year {
+  margin: 80px 0px 20px !important;
+  font-size: 27px !important;
+}
+.timeline-wrapper .year-wrapper li {
+  padding: 10px 20px 10px !important;
+  border-bottom: 2px solid rgba(153,157,160,0.42) !important;
+  background: rgba(193,193,230,0.149);
+  border-radius: 5rem;
+  margin: 5px 0px;
+  transition: all 0.5s;
+}
+.timeline-wrapper .year-wrapper li:hover {
+  transform: translate(50px, 0);
+  transition: all 0.5s;
+}
+.timeline-wrapper .year-wrapper li .date {
+  width: 43px !important;
+  font-size: 13px !important;
+}
+.timeline-wrapper .year-wrapper li .date:before {
+  top: 22px !important;
+  border: 1px solid !important;
+}
+.timeline-wrapper:after {
+  background: #87ceeb !important;
+}
+.timeline-wrapper .desc:before,
+.timeline-wrapper .year:before {
+  background: #5f9ea0 !important;
+}
+.home-blog .hero .description {
+  font-family: cursive;
+  font-size: 2rem !important;
+}
+.message-board .page,
+.treeholes .page {
+  background-color: #fff !important;
+}

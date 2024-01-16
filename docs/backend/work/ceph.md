@@ -250,6 +250,31 @@ docker exec mgr ceph mgr services
 
 ![ceph-06.png](https://s2.loli.net/2023/12/22/zIlArb8mqkxQhVj.png)
 
+
+## 创建用户 和 bucket
+
+使用 **boto3** 库操作 Ceph 对象存储服务，需要先初始化用户和 bucket。
+
+创建 bucket 参考该篇文章。[使用 s3cmd 创建 bucket](https://blog.csdn.net/m0_52412144/article/details/124705083)
+
+* 查看系统内所有用户。
+~~~sh
+docker exec rgw radosgw-admin metadata list user
+~~~
+* 创建新用户。
+~~~sh
+docker exec rgw radosgw-admin user create --display-name="cephAdmin" --uid=cephAdmin
+~~~
+* 查看用户信息。access_key 和 secret_key 在代码中要使用。
+~~~sh
+docker exec rgw radosgw-admin user info --uid=cephAdmin
+~~~
+
+* 查看系统内所有 bucket。
+~~~sh
+docker exec rgw radosgw-admin metadata list bucket
+~~~
+
 ## 问题
 
 *   osd 容器启动失败。`error connecting to the cluster`、`does not generate config`。执行如下命令解决。
@@ -303,3 +328,6 @@ docker restart mon
 
 ![ceph-10.png](https://s2.loli.net/2023/12/25/K1uyRMFx4GePcsn.png)
 
+## 参考文档
+
+1. [radosgw-admin 命令使用](https://blog.csdn.net/yujia_666/article/details/108189421)

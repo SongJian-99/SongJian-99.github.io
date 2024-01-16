@@ -3,21 +3,22 @@
  */
 export default {
   "tags": {
-    "Micorservice": {
-      "key": "Micorservice",
-      "scope": "tags",
-      "path": "/tag/Micorservice/",
-      "pageKeys": [
-        "v-1227ff87"
-      ]
-    },
     "Docker": {
       "key": "Docker",
       "scope": "tags",
       "path": "/tag/Docker/",
       "pageKeys": [
-        "v-65a62e07",
-        "v-f6dcfe16"
+        "v-f6dcfe16",
+        "v-65a62e07"
+      ]
+    },
+    "MySQL": {
+      "key": "MySQL",
+      "scope": "tags",
+      "path": "/tag/MySQL/",
+      "pageKeys": [
+        "v-15ca2d81",
+        "v-2ab2a5ca"
       ]
     },
     "Ceph": {
@@ -28,22 +29,12 @@ export default {
         "v-5acd688a"
       ]
     },
-    "MySQL": {
-      "key": "MySQL",
+    "OnlyOffice": {
+      "key": "OnlyOffice",
       "scope": "tags",
-      "path": "/tag/MySQL/",
+      "path": "/tag/OnlyOffice/",
       "pageKeys": [
-        "v-022ff53e",
-        "v-15ca2d81",
-        "v-2ab2a5ca"
-      ]
-    },
-    "WebService": {
-      "key": "WebService",
-      "scope": "tags",
-      "path": "/tag/WebService/",
-      "pageKeys": [
-        "v-2a4b324a"
+        "v-165bc73b"
       ]
     },
     "Poi": {
@@ -54,22 +45,30 @@ export default {
         "v-091f4df9"
       ]
     },
-    "OnlyOffice": {
-      "key": "OnlyOffice",
-      "scope": "tags",
-      "path": "/tag/OnlyOffice/",
-      "pageKeys": [
-        "v-165bc73b"
-      ]
-    },
     "VuePress": {
       "key": "VuePress",
       "scope": "tags",
       "path": "/tag/VuePress/",
       "pageKeys": [
         "v-5b9558ca",
-        "v-6ffbb6db",
-        "v-921ea9ca"
+        "v-921ea9ca",
+        "v-6ffbb6db"
+      ]
+    },
+    "Micorservice": {
+      "key": "Micorservice",
+      "scope": "tags",
+      "path": "/tag/Micorservice/",
+      "pageKeys": [
+        "v-1227ff87"
+      ]
+    },
+    "WebService": {
+      "key": "WebService",
+      "scope": "tags",
+      "path": "/tag/WebService/",
+      "pageKeys": [
+        "v-2a4b324a"
       ]
     },
     "Git": {
@@ -87,16 +86,15 @@ export default {
       "scope": "categories",
       "path": "/categories/后端/",
       "pageKeys": [
-        "v-1227ff87",
+        "v-f6dcfe16",
+        "v-15ca2d81",
         "v-65a62e07",
         "v-5acd688a",
-        "v-f6dcfe16",
-        "v-022ff53e",
-        "v-2a4b324a",
+        "v-165bc73b",
         "v-091f4df9",
-        "v-15ca2d81",
         "v-2ab2a5ca",
-        "v-165bc73b"
+        "v-1227ff87",
+        "v-2a4b324a"
       ]
     },
     "前端": {
@@ -105,8 +103,8 @@ export default {
       "path": "/categories/前端/",
       "pageKeys": [
         "v-5b9558ca",
-        "v-6ffbb6db",
-        "v-921ea9ca"
+        "v-921ea9ca",
+        "v-6ffbb6db"
       ]
     },
     "工具": {
