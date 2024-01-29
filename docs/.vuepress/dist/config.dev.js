@@ -129,6 +129,10 @@ module.exports = {
       link: '/backend/microservice/twelve-factor',
       icon: 'iconfont icon-microservice'
     }, {
+      text: '大模型',
+      link: '/llm/internLM2',
+      icon: 'iconfont icon-ai'
+    }, {
       text: '工具',
       link: '/tool/git',
       icon: 'iconfont icon-tools'
@@ -151,7 +155,7 @@ module.exports = {
     sidebar: {
       '/backend/docker/': [{
         title: 'Docker 应用',
-        collapsable: true,
+        collapsable: false,
         children: [{
           title: '使用 Dockerfile + Docker Compose 部署 Web 项目',
           path: '/backend/docker/Web'
@@ -162,7 +166,7 @@ module.exports = {
       }],
       '/backend/microservice/': [{
         title: '微服务理论知识',
-        collapsable: true,
+        collapsable: false,
         children: [{
           title: '微服务架构中实施应用开发的十二要素',
           path: '/backend/microservice/twelve-factor'
@@ -170,7 +174,7 @@ module.exports = {
       }],
       '/backend/work/': [{
         title: '工作实践',
-        collapsable: true,
+        collapsable: false,
         children: [{
           title: '使用 Poi-tl 类库实现 Echarts 图表 + 前端表格导出到 Word 文档',
           path: '/backend/work/poi'
@@ -190,7 +194,7 @@ module.exports = {
       }],
       '/backend/mysql': [{
         title: 'MySQL',
-        collapsable: true,
+        collapsable: false,
         children: [{
           title: 'SQL执行计划分析',
           path: '/backend/mysql/explain'
@@ -198,7 +202,7 @@ module.exports = {
       }],
       '/frontend/vuepress': [{
         title: 'VuePress',
-        collapsable: true,
+        collapsable: false,
         children: [{
           title: '使用 VuePress + GitHub Pages + GitHub Actions 搭建个人博客',
           path: '/frontend/vuepress/VuePressOne'
@@ -212,10 +216,18 @@ module.exports = {
       }],
       '/tool': [{
         title: '工具',
-        collapsable: true,
+        collapsable: false,
         children: [{
           title: 'Git',
           path: '/tool/git'
+        }]
+      }],
+      '/llm': [{
+        title: '大语言模型',
+        collapsable: false,
+        children: [{
+          title: 'InternLM2（书生·浦语）',
+          path: '/llm/InternLM2'
         }]
       }]
     }

@@ -8,8 +8,8 @@ export default {
       "scope": "tags",
       "path": "/tag/Docker/",
       "pageKeys": [
-        "v-f6dcfe16",
-        "v-65a62e07"
+        "v-65a62e07",
+        "v-f6dcfe16"
       ]
     },
     "MySQL": {
@@ -21,12 +21,12 @@ export default {
         "v-2ab2a5ca"
       ]
     },
-    "Ceph": {
-      "key": "Ceph",
+    "Micorservice": {
+      "key": "Micorservice",
       "scope": "tags",
-      "path": "/tag/Ceph/",
+      "path": "/tag/Micorservice/",
       "pageKeys": [
-        "v-5acd688a"
+        "v-1227ff87"
       ]
     },
     "OnlyOffice": {
@@ -35,6 +35,14 @@ export default {
       "path": "/tag/OnlyOffice/",
       "pageKeys": [
         "v-165bc73b"
+      ]
+    },
+    "Ceph": {
+      "key": "Ceph",
+      "scope": "tags",
+      "path": "/tag/Ceph/",
+      "pageKeys": [
+        "v-5acd688a"
       ]
     },
     "Poi": {
@@ -55,20 +63,20 @@ export default {
         "v-6ffbb6db"
       ]
     },
-    "Micorservice": {
-      "key": "Micorservice",
-      "scope": "tags",
-      "path": "/tag/Micorservice/",
-      "pageKeys": [
-        "v-1227ff87"
-      ]
-    },
     "WebService": {
       "key": "WebService",
       "scope": "tags",
       "path": "/tag/WebService/",
       "pageKeys": [
         "v-2a4b324a"
+      ]
+    },
+    "LLM": {
+      "key": "LLM",
+      "scope": "tags",
+      "path": "/tag/LLM/",
+      "pageKeys": [
+        "v-9e33fd64"
       ]
     },
     "Git": {
@@ -86,14 +94,14 @@ export default {
       "scope": "categories",
       "path": "/categories/后端/",
       "pageKeys": [
-        "v-f6dcfe16",
-        "v-15ca2d81",
         "v-65a62e07",
-        "v-5acd688a",
-        "v-165bc73b",
-        "v-091f4df9",
-        "v-2ab2a5ca",
+        "v-15ca2d81",
         "v-1227ff87",
+        "v-165bc73b",
+        "v-2ab2a5ca",
+        "v-f6dcfe16",
+        "v-5acd688a",
+        "v-091f4df9",
         "v-2a4b324a"
       ]
     },
@@ -105,6 +113,14 @@ export default {
         "v-5b9558ca",
         "v-921ea9ca",
         "v-6ffbb6db"
+      ]
+    },
+    "人工智能": {
+      "key": "人工智能",
+      "scope": "categories",
+      "path": "/categories/人工智能/",
+      "pageKeys": [
+        "v-9e33fd64"
       ]
     },
     "工具": {

@@ -75,7 +75,7 @@ tags:
  * @param soapActionUrl	要调用的方法地址
  * @param namespace	    命名空间
  * @param method	    调用的方法名称
- * @param parameter	    电泳的方法参数
+ * @param parameter	    调用的方法参数
  * 注：命名空间、方法地址、方法、方法参数根据实际情况调整（在提供的WSDL文件中查看）
 */
 public void sendRequest(String url,String soapActionUrl, String namespace, String method,String parameter) throws Exception {

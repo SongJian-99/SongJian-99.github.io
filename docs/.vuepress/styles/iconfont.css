@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'iconfont';  /* Project id 4106829 */
-  src: url('iconfont.woff2?t=1693904547000') format('woff2'),
-        url('iconfont.woff?t=1693904547000') format('woff'),
-        url('iconfont.ttf?t=1693904547000') format('truetype');
+  font-family: "iconfont"; /* Project id 4106829 */
+  src: url('iconfont.woff2?t=1706509779108') format('woff2'),
+       url('iconfont.woff?t=1706509779108') format('woff'),
+       url('iconfont.ttf?t=1706509779108') format('truetype');
 }
-  
+
 .iconfont {
   font-family: "iconfont" !important;
   font-size: 16px;
@@ -39,6 +39,10 @@
 
 .icon-microservice:before {
   content: "\e7fa";
+}
+
+.icon-ai:before {
+  content: "\ec5f";
 }
 
 .icon-tools:before {

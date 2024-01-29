@@ -23,6 +23,30 @@ export const siteData = {
   ],
   "pages": [
     {
+      "title": "首页",
+      "frontmatter": {
+        "home": true,
+        "title": "首页",
+        "author": "Cleaner",
+        "heroText": null,
+        "tagline": "“岁月漫长，要心地善良”",
+        "heroImage": "/logo.jpg",
+        "heroImageStyle": {
+          "maxWidth": "500px",
+          "display": "block",
+          "margin": "-12rem auto 1.5rem",
+          "boxShadow": "0 5px 18px rgba(0,0,0,0.2)"
+        },
+        "readingShow": false
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-9280c340",
+      "path": "/",
+      "lastUpdated": "2023/11/21 下午7:40:44",
+      "lastUpdatedTimestamp": 1700566844000
+    },
+    {
       "title": "使用 Docker Compose 部署 Elasticsearch + Kibana",
       "frontmatter": {
         "title": "使用 Docker Compose 部署 Elasticsearch + Kibana",
@@ -96,28 +120,87 @@ export const siteData = {
       "lastUpdatedTimestamp": 1703056336000
     },
     {
-      "title": "首页",
+      "title": "微服务架构中实施应用开发的十二要素",
       "frontmatter": {
-        "home": true,
-        "title": "首页",
+        "title": "微服务架构中实施应用开发的十二要素",
+        "date": "2023-07-24T00:00:00.000Z",
         "author": "Cleaner",
-        "heroText": null,
-        "tagline": "“岁月漫长，要心地善良”",
-        "heroImage": "/logo.jpg",
-        "heroImageStyle": {
-          "maxWidth": "500px",
-          "display": "block",
-          "margin": "-12rem auto 1.5rem",
-          "boxShadow": "0 5px 18px rgba(0,0,0,0.2)"
-        },
-        "readingShow": false
+        "categories": [
+          "后端"
+        ],
+        "tags": [
+          "Micorservice"
+        ],
+        "readingShow": "top"
       },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-9280c340",
-      "path": "/",
-      "lastUpdated": "2023/11/21 下午7:40:44",
-      "lastUpdatedTimestamp": 1700566844000
+      "regularPath": "/backend/microservice/twelve-factor.html",
+      "relativePath": "backend/microservice/twelve-factor.md",
+      "key": "v-1227ff87",
+      "path": "/backend/microservice/twelve-factor.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "十二要素",
+          "slug": "十二要素"
+        },
+        {
+          "level": 3,
+          "title": "基准代码",
+          "slug": "基准代码"
+        },
+        {
+          "level": 3,
+          "title": "依赖",
+          "slug": "依赖"
+        },
+        {
+          "level": 3,
+          "title": "配置",
+          "slug": "配置"
+        },
+        {
+          "level": 3,
+          "title": "支撑服务",
+          "slug": "支撑服务"
+        },
+        {
+          "level": 3,
+          "title": "构建、发布、运行",
+          "slug": "构建、发布、运行"
+        },
+        {
+          "level": 3,
+          "title": "进程&端口绑定&并发&易处理",
+          "slug": "进程-端口绑定-并发-易处理"
+        },
+        {
+          "level": 3,
+          "title": "开发环境和线上环境等价",
+          "slug": "开发环境和线上环境等价"
+        },
+        {
+          "level": 3,
+          "title": "日志",
+          "slug": "日志"
+        },
+        {
+          "level": 3,
+          "title": "管理进程",
+          "slug": "管理进程"
+        },
+        {
+          "level": 2,
+          "title": "更多",
+          "slug": "更多"
+        },
+        {
+          "level": 2,
+          "title": "末尾",
+          "slug": "末尾"
+        }
+      ],
+      "lastUpdated": "2023/12/20 上午10:50:10",
+      "lastUpdatedTimestamp": 1703040610000
     },
     {
       "title": "SQL 语句执行计划分析",
@@ -176,6 +259,94 @@ export const siteData = {
       ],
       "lastUpdated": "2023/12/20 下午3:12:16",
       "lastUpdatedTimestamp": 1703056336000
+    },
+    {
+      "title": "分布式存储系统——Ceph 部署使用",
+      "frontmatter": {
+        "title": "分布式存储系统——Ceph 部署使用",
+        "date": "2023-12-25T00:00:00.000Z",
+        "author": "Cleaner",
+        "categories": [
+          "后端"
+        ],
+        "tags": [
+          "Ceph"
+        ],
+        "readingShow": "top"
+      },
+      "regularPath": "/backend/work/ceph.html",
+      "relativePath": "backend/work/ceph.md",
+      "key": "v-5acd688a",
+      "path": "/backend/work/ceph.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Ceph 介绍",
+          "slug": "ceph-介绍"
+        },
+        {
+          "level": 2,
+          "title": "Ceph 集群搭建",
+          "slug": "ceph-集群搭建"
+        },
+        {
+          "level": 3,
+          "title": "部署环境",
+          "slug": "部署环境"
+        },
+        {
+          "level": 3,
+          "title": "拉取镜像",
+          "slug": "拉取镜像"
+        },
+        {
+          "level": 3,
+          "title": "启动 mon 容器",
+          "slug": "启动-mon-容器"
+        },
+        {
+          "level": 3,
+          "title": "启动 osd 容器",
+          "slug": "启动-osd-容器"
+        },
+        {
+          "level": 3,
+          "title": "启动 mds 容器",
+          "slug": "启动-mds-容器"
+        },
+        {
+          "level": 3,
+          "title": "启动 rgw 容器",
+          "slug": "启动-rgw-容器"
+        },
+        {
+          "level": 3,
+          "title": "启动 mgr 容器",
+          "slug": "启动-mgr-容器"
+        },
+        {
+          "level": 3,
+          "title": "安装 Dashboard 管理后台",
+          "slug": "安装-dashboard-管理后台"
+        },
+        {
+          "level": 2,
+          "title": "创建用户 和 bucket",
+          "slug": "创建用户-和-bucket"
+        },
+        {
+          "level": 2,
+          "title": "问题",
+          "slug": "问题"
+        },
+        {
+          "level": 2,
+          "title": "参考文档",
+          "slug": "参考文档"
+        }
+      ],
+      "lastUpdated": "2024/1/16 下午4:38:59",
+      "lastUpdatedTimestamp": 1705394339000
     },
     {
       "title": "使用 Dockerfile + Docker Compose 部署 Web 项目",
@@ -284,192 +455,6 @@ export const siteData = {
       ],
       "lastUpdated": "2023/12/20 下午3:12:16",
       "lastUpdatedTimestamp": 1703056336000
-    },
-    {
-      "title": "分布式存储系统——Ceph 部署使用",
-      "frontmatter": {
-        "title": "分布式存储系统——Ceph 部署使用",
-        "date": "2023-12-25T00:00:00.000Z",
-        "author": "Cleaner",
-        "categories": [
-          "后端"
-        ],
-        "tags": [
-          "Ceph"
-        ],
-        "readingShow": "top"
-      },
-      "regularPath": "/backend/work/ceph.html",
-      "relativePath": "backend/work/ceph.md",
-      "key": "v-5acd688a",
-      "path": "/backend/work/ceph.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Ceph 介绍",
-          "slug": "ceph-介绍"
-        },
-        {
-          "level": 2,
-          "title": "Ceph 集群搭建",
-          "slug": "ceph-集群搭建"
-        },
-        {
-          "level": 3,
-          "title": "部署环境",
-          "slug": "部署环境"
-        },
-        {
-          "level": 3,
-          "title": "拉取镜像",
-          "slug": "拉取镜像"
-        },
-        {
-          "level": 3,
-          "title": "启动 mon 容器",
-          "slug": "启动-mon-容器"
-        },
-        {
-          "level": 3,
-          "title": "启动 osd 容器",
-          "slug": "启动-osd-容器"
-        },
-        {
-          "level": 3,
-          "title": "启动 mds 容器",
-          "slug": "启动-mds-容器"
-        },
-        {
-          "level": 3,
-          "title": "启动 rgw 容器",
-          "slug": "启动-rgw-容器"
-        },
-        {
-          "level": 3,
-          "title": "启动 mgr 容器",
-          "slug": "启动-mgr-容器"
-        },
-        {
-          "level": 3,
-          "title": "安装 Dashboard 管理后台",
-          "slug": "安装-dashboard-管理后台"
-        },
-        {
-          "level": 2,
-          "title": "创建用户 和 bucket",
-          "slug": "创建用户-和-bucket"
-        },
-        {
-          "level": 2,
-          "title": "问题",
-          "slug": "问题"
-        },
-        {
-          "level": 2,
-          "title": "参考文档",
-          "slug": "参考文档"
-        }
-      ],
-      "lastUpdated": "2024/1/10 下午4:42:34",
-      "lastUpdatedTimestamp": 1704876154000
-    },
-    {
-      "title": "企业级在线办公套件——OnlyOffice Workspace 部署使用",
-      "frontmatter": {
-        "title": "企业级在线办公套件——OnlyOffice Workspace 部署使用",
-        "date": "2023-10-18T00:00:00.000Z",
-        "author": "Cleaner",
-        "categories": [
-          "后端"
-        ],
-        "tags": [
-          "OnlyOffice"
-        ],
-        "readingShow": "top"
-      },
-      "regularPath": "/backend/work/onlyoffice.html",
-      "relativePath": "backend/work/onlyoffice.md",
-      "key": "v-165bc73b",
-      "path": "/backend/work/onlyoffice.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "前言",
-          "slug": "前言"
-        },
-        {
-          "level": 2,
-          "title": "部署",
-          "slug": "部署"
-        },
-        {
-          "level": 3,
-          "title": "服务器要求",
-          "slug": "服务器要求"
-        },
-        {
-          "level": 3,
-          "title": "创建网络",
-          "slug": "创建网络"
-        },
-        {
-          "level": 3,
-          "title": "MySQL",
-          "slug": "mysql"
-        },
-        {
-          "level": 3,
-          "title": "Document Server",
-          "slug": "document-server"
-        },
-        {
-          "level": 3,
-          "title": "Control Panel",
-          "slug": "control-panel"
-        },
-        {
-          "level": 3,
-          "title": "Community Server",
-          "slug": "community-server"
-        },
-        {
-          "level": 2,
-          "title": "使用",
-          "slug": "使用"
-        },
-        {
-          "level": 3,
-          "title": "邮件添加账户",
-          "slug": "邮件添加账户"
-        },
-        {
-          "level": 2,
-          "title": "Vue 集成 Document Server",
-          "slug": "vue-集成-document-server"
-        },
-        {
-          "level": 2,
-          "title": "问题",
-          "slug": "问题"
-        },
-        {
-          "level": 3,
-          "title": "Community Server 启动失败",
-          "slug": "community-server-启动失败"
-        },
-        {
-          "level": 3,
-          "title": "文档安全令牌未正确形成",
-          "slug": "文档安全令牌未正确形成"
-        },
-        {
-          "level": 3,
-          "title": "Document Server 20 人使用限制",
-          "slug": "document-server-20-人使用限制"
-        }
-      ],
-      "lastUpdated": "2023/12/20 上午10:50:10",
-      "lastUpdatedTimestamp": 1703040610000
     },
     {
       "title": "使用 Poi-tl 类库实现 Echarts 图表 + 前端表格导出到 Word 文档",
@@ -598,6 +583,54 @@ export const siteData = {
       "lastUpdatedTimestamp": 1703056336000
     },
     {
+      "title": "使用 Axis 调用 WebService 服务接口",
+      "frontmatter": {
+        "title": "使用 Axis 调用 WebService 服务接口",
+        "date": "2023-12-20T00:00:00.000Z",
+        "author": "Cleaner",
+        "categories": [
+          "后端"
+        ],
+        "tags": [
+          "WebService"
+        ],
+        "readingShow": "top"
+      },
+      "regularPath": "/backend/work/webservice.html",
+      "relativePath": "backend/work/webservice.md",
+      "key": "v-2a4b324a",
+      "path": "/backend/work/webservice.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "前言",
+          "slug": "前言"
+        },
+        {
+          "level": 2,
+          "title": "实现",
+          "slug": "实现"
+        },
+        {
+          "level": 3,
+          "title": "引入依赖",
+          "slug": "引入依赖"
+        },
+        {
+          "level": 3,
+          "title": "代码实现",
+          "slug": "代码实现"
+        },
+        {
+          "level": 2,
+          "title": "说明",
+          "slug": "说明"
+        }
+      ],
+      "lastUpdated": "2024/1/2 上午11:39:01",
+      "lastUpdatedTimestamp": 1704166741000
+    },
+    {
       "title": "使用 VuePress + GitHub Pages + GitHub Actions 搭建个人博客",
       "frontmatter": {
         "title": "使用 VuePress + GitHub Pages + GitHub Actions 搭建个人博客",
@@ -681,106 +714,23 @@ export const siteData = {
       "lastUpdatedTimestamp": 1703056336000
     },
     {
-      "title": "微服务架构中实施应用开发的十二要素",
+      "title": "企业级在线办公套件——OnlyOffice Workspace 部署使用",
       "frontmatter": {
-        "title": "微服务架构中实施应用开发的十二要素",
-        "date": "2023-07-24T00:00:00.000Z",
+        "title": "企业级在线办公套件——OnlyOffice Workspace 部署使用",
+        "date": "2023-10-18T00:00:00.000Z",
         "author": "Cleaner",
         "categories": [
           "后端"
         ],
         "tags": [
-          "Micorservice"
+          "OnlyOffice"
         ],
         "readingShow": "top"
       },
-      "regularPath": "/backend/microservice/twelve-factor.html",
-      "relativePath": "backend/microservice/twelve-factor.md",
-      "key": "v-1227ff87",
-      "path": "/backend/microservice/twelve-factor.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "十二要素",
-          "slug": "十二要素"
-        },
-        {
-          "level": 3,
-          "title": "基准代码",
-          "slug": "基准代码"
-        },
-        {
-          "level": 3,
-          "title": "依赖",
-          "slug": "依赖"
-        },
-        {
-          "level": 3,
-          "title": "配置",
-          "slug": "配置"
-        },
-        {
-          "level": 3,
-          "title": "支撑服务",
-          "slug": "支撑服务"
-        },
-        {
-          "level": 3,
-          "title": "构建、发布、运行",
-          "slug": "构建、发布、运行"
-        },
-        {
-          "level": 3,
-          "title": "进程&端口绑定&并发&易处理",
-          "slug": "进程-端口绑定-并发-易处理"
-        },
-        {
-          "level": 3,
-          "title": "开发环境和线上环境等价",
-          "slug": "开发环境和线上环境等价"
-        },
-        {
-          "level": 3,
-          "title": "日志",
-          "slug": "日志"
-        },
-        {
-          "level": 3,
-          "title": "管理进程",
-          "slug": "管理进程"
-        },
-        {
-          "level": 2,
-          "title": "更多",
-          "slug": "更多"
-        },
-        {
-          "level": 2,
-          "title": "末尾",
-          "slug": "末尾"
-        }
-      ],
-      "lastUpdated": "2023/12/20 上午10:50:10",
-      "lastUpdatedTimestamp": 1703040610000
-    },
-    {
-      "title": "使用 Axis 调用 WebService 服务接口",
-      "frontmatter": {
-        "title": "使用 Axis 调用 WebService 服务接口",
-        "date": "2023-12-20T00:00:00.000Z",
-        "author": "Cleaner",
-        "categories": [
-          "后端"
-        ],
-        "tags": [
-          "WebService"
-        ],
-        "readingShow": "top"
-      },
-      "regularPath": "/backend/work/webservice.html",
-      "relativePath": "backend/work/webservice.md",
-      "key": "v-2a4b324a",
-      "path": "/backend/work/webservice.html",
+      "regularPath": "/backend/work/onlyoffice.html",
+      "relativePath": "backend/work/onlyoffice.md",
+      "key": "v-165bc73b",
+      "path": "/backend/work/onlyoffice.html",
       "headers": [
         {
           "level": 2,
@@ -789,27 +739,77 @@ export const siteData = {
         },
         {
           "level": 2,
-          "title": "实现",
-          "slug": "实现"
+          "title": "部署",
+          "slug": "部署"
         },
         {
           "level": 3,
-          "title": "引入依赖",
-          "slug": "引入依赖"
+          "title": "服务器要求",
+          "slug": "服务器要求"
         },
         {
           "level": 3,
-          "title": "代码实现",
-          "slug": "代码实现"
+          "title": "创建网络",
+          "slug": "创建网络"
+        },
+        {
+          "level": 3,
+          "title": "MySQL",
+          "slug": "mysql"
+        },
+        {
+          "level": 3,
+          "title": "Document Server",
+          "slug": "document-server"
+        },
+        {
+          "level": 3,
+          "title": "Control Panel",
+          "slug": "control-panel"
+        },
+        {
+          "level": 3,
+          "title": "Community Server",
+          "slug": "community-server"
         },
         {
           "level": 2,
-          "title": "说明",
-          "slug": "说明"
+          "title": "使用",
+          "slug": "使用"
+        },
+        {
+          "level": 3,
+          "title": "邮件添加账户",
+          "slug": "邮件添加账户"
+        },
+        {
+          "level": 2,
+          "title": "Vue 集成 Document Server",
+          "slug": "vue-集成-document-server"
+        },
+        {
+          "level": 2,
+          "title": "问题",
+          "slug": "问题"
+        },
+        {
+          "level": 3,
+          "title": "Community Server 启动失败",
+          "slug": "community-server-启动失败"
+        },
+        {
+          "level": 3,
+          "title": "文档安全令牌未正确形成",
+          "slug": "文档安全令牌未正确形成"
+        },
+        {
+          "level": 3,
+          "title": "Document Server 20 人使用限制",
+          "slug": "document-server-20-人使用限制"
         }
       ],
-      "lastUpdated": "2024/1/2 上午11:39:01",
-      "lastUpdatedTimestamp": 1704166741000
+      "lastUpdated": "2023/12/20 上午10:50:10",
+      "lastUpdatedTimestamp": 1703040610000
     },
     {
       "title": "VuePress + GitHub Pages 自定义域名",
@@ -863,38 +863,6 @@ export const siteData = {
       ],
       "lastUpdated": "2023/12/20 下午3:12:16",
       "lastUpdatedTimestamp": 1703056336000
-    },
-    {
-      "title": "留言板",
-      "frontmatter": {
-        "title": "留言板",
-        "date": "2023-07-25T00:00:00.000Z",
-        "author": "Cleaner",
-        "readingShow": false,
-        "pageClass": "message-board"
-      },
-      "regularPath": "/message-board.html",
-      "relativePath": "message-board.md",
-      "key": "v-6a783e8a",
-      "path": "/message-board.html",
-      "lastUpdated": "2023/11/21 下午7:40:44",
-      "lastUpdatedTimestamp": 1700566844000
-    },
-    {
-      "title": "树洞",
-      "frontmatter": {
-        "title": "树洞",
-        "date": "2023-10-22T00:00:00.000Z",
-        "author": "Cleaner",
-        "readingShow": false,
-        "pageClass": "treeholes"
-      },
-      "regularPath": "/other/treeholes.html",
-      "relativePath": "other/treeholes.md",
-      "key": "v-04e7d924",
-      "path": "/other/treeholes.html",
-      "lastUpdated": "2023/11/21 下午7:40:44",
-      "lastUpdatedTimestamp": 1700566844000
     },
     {
       "title": "VuePress 个人博客美化：vuepress-theme-reco 主题使用",
@@ -1005,6 +973,89 @@ export const siteData = {
       "lastUpdatedTimestamp": 1703056336000
     },
     {
+      "title": "留言板",
+      "frontmatter": {
+        "title": "留言板",
+        "date": "2023-07-25T00:00:00.000Z",
+        "author": "Cleaner",
+        "readingShow": false,
+        "pageClass": "message-board"
+      },
+      "regularPath": "/message-board.html",
+      "relativePath": "message-board.md",
+      "key": "v-6a783e8a",
+      "path": "/message-board.html",
+      "lastUpdated": "2024/1/16 下午4:38:59",
+      "lastUpdatedTimestamp": 1705394339000
+    },
+    {
+      "title": "树洞",
+      "frontmatter": {
+        "title": "树洞",
+        "date": "2023-10-22T00:00:00.000Z",
+        "author": "Cleaner",
+        "readingShow": false,
+        "pageClass": "treeholes"
+      },
+      "regularPath": "/other/treeholes.html",
+      "relativePath": "other/treeholes.md",
+      "key": "v-04e7d924",
+      "path": "/other/treeholes.html",
+      "lastUpdated": "2024/1/16 下午4:38:59",
+      "lastUpdatedTimestamp": 1705394339000
+    },
+    {
+      "title": "大语言模型 InternLM2（书生·浦语）",
+      "frontmatter": {
+        "title": "大语言模型 InternLM2（书生·浦语）",
+        "date": "2024-01-29T00:00:00.000Z",
+        "author": "Cleaner",
+        "categories": [
+          "人工智能"
+        ],
+        "tags": [
+          "LLM"
+        ],
+        "readingShow": "top"
+      },
+      "regularPath": "/llm/InternLM2.html",
+      "relativePath": "llm/InternLM2.md",
+      "key": "v-9e33fd64",
+      "path": "/llm/InternLM2.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "介绍",
+          "slug": "介绍"
+        },
+        {
+          "level": 2,
+          "title": "环境准备",
+          "slug": "环境准备"
+        },
+        {
+          "level": 2,
+          "title": "模型部署&使用",
+          "slug": "模型部署-使用"
+        },
+        {
+          "level": 3,
+          "title": "页面交互方式",
+          "slug": "页面交互方式"
+        },
+        {
+          "level": 3,
+          "title": "代码方式",
+          "slug": "代码方式"
+        },
+        {
+          "level": 2,
+          "title": "总结",
+          "slug": "总结"
+        }
+      ]
+    },
+    {
       "title": "Git",
       "frontmatter": {
         "title": "Git",
@@ -1046,156 +1097,6 @@ export const siteData = {
       ],
       "lastUpdated": "2023/11/21 下午7:40:44",
       "lastUpdatedTimestamp": 1700566844000
-    },
-    {
-      "frontmatter": {
-        "layout": "Tags",
-        "title": "Tags",
-        "readingShow": "top"
-      },
-      "regularPath": "/tag/",
-      "key": "v-b1564aac",
-      "path": "/tag/"
-    },
-    {
-      "frontmatter": {
-        "layout": "FrontmatterKey",
-        "title": "Categories",
-        "readingShow": "top"
-      },
-      "regularPath": "/categories/",
-      "key": "v-ef9325c4",
-      "path": "/categories/"
-    },
-    {
-      "frontmatter": {
-        "layout": "TimeLines",
-        "title": "Timeline",
-        "readingShow": "top"
-      },
-      "regularPath": "/timeline/",
-      "key": "v-6319eb4e",
-      "path": "/timeline/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "Docker Tags",
-        "readingShow": "top"
-      },
-      "regularPath": "/tag/Docker/",
-      "key": "v-83bebff6",
-      "path": "/tag/Docker/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "MySQL Tags",
-        "readingShow": "top"
-      },
-      "regularPath": "/tag/MySQL/",
-      "key": "v-dc3c2992",
-      "path": "/tag/MySQL/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "Ceph Tags",
-        "readingShow": "top"
-      },
-      "regularPath": "/tag/Ceph/",
-      "key": "v-18c9fdea",
-      "path": "/tag/Ceph/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "OnlyOffice Tags",
-        "readingShow": "top"
-      },
-      "regularPath": "/tag/OnlyOffice/",
-      "key": "v-364eb69d",
-      "path": "/tag/OnlyOffice/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "Poi Tags",
-        "readingShow": "top"
-      },
-      "regularPath": "/tag/Poi/",
-      "key": "v-324cfe22",
-      "path": "/tag/Poi/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "VuePress Tags",
-        "readingShow": "top"
-      },
-      "regularPath": "/tag/VuePress/",
-      "key": "v-5e08fc30",
-      "path": "/tag/VuePress/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "Micorservice Tags",
-        "readingShow": "top"
-      },
-      "regularPath": "/tag/Micorservice/",
-      "key": "v-7a62bdfa",
-      "path": "/tag/Micorservice/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "WebService Tags",
-        "readingShow": "top"
-      },
-      "regularPath": "/tag/WebService/",
-      "key": "v-9c29eaf8",
-      "path": "/tag/WebService/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "Git Tags",
-        "readingShow": "top"
-      },
-      "regularPath": "/tag/Git/",
-      "key": "v-32555732",
-      "path": "/tag/Git/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Category",
-        "title": "后端 Categories",
-        "readingShow": "top"
-      },
-      "regularPath": "/categories/%E5%90%8E%E7%AB%AF/",
-      "key": "v-12afc5a1",
-      "path": "/categories/后端/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Category",
-        "title": "前端 Categories",
-        "readingShow": "top"
-      },
-      "regularPath": "/categories/%E5%89%8D%E7%AB%AF/",
-      "key": "v-14bbbf36",
-      "path": "/categories/前端/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Category",
-        "title": "工具 Categories",
-        "readingShow": "top"
-      },
-      "regularPath": "/categories/%E5%B7%A5%E5%85%B7/",
-      "key": "v-7f958298",
-      "path": "/categories/工具/"
     }
   ],
   "themeConfig": {
@@ -1255,6 +1156,11 @@ export const siteData = {
         "icon": "iconfont icon-microservice"
       },
       {
+        "text": "大模型",
+        "link": "/llm/internLM2",
+        "icon": "iconfont icon-ai"
+      },
+      {
         "text": "工具",
         "link": "/tool/git",
         "icon": "iconfont icon-tools"
@@ -1284,7 +1190,7 @@ export const siteData = {
       "/backend/docker/": [
         {
           "title": "Docker 应用",
-          "collapsable": true,
+          "collapsable": false,
           "children": [
             {
               "title": "使用 Dockerfile + Docker Compose 部署 Web 项目",
@@ -1300,7 +1206,7 @@ export const siteData = {
       "/backend/microservice/": [
         {
           "title": "微服务理论知识",
-          "collapsable": true,
+          "collapsable": false,
           "children": [
             {
               "title": "微服务架构中实施应用开发的十二要素",
@@ -1312,7 +1218,7 @@ export const siteData = {
       "/backend/work/": [
         {
           "title": "工作实践",
-          "collapsable": true,
+          "collapsable": false,
           "children": [
             {
               "title": "使用 Poi-tl 类库实现 Echarts 图表 + 前端表格导出到 Word 文档",
@@ -1340,7 +1246,7 @@ export const siteData = {
       "/backend/mysql": [
         {
           "title": "MySQL",
-          "collapsable": true,
+          "collapsable": false,
           "children": [
             {
               "title": "SQL执行计划分析",
@@ -1352,7 +1258,7 @@ export const siteData = {
       "/frontend/vuepress": [
         {
           "title": "VuePress",
-          "collapsable": true,
+          "collapsable": false,
           "children": [
             {
               "title": "使用 VuePress + GitHub Pages + GitHub Actions 搭建个人博客",
@@ -1372,11 +1278,23 @@ export const siteData = {
       "/tool": [
         {
           "title": "工具",
-          "collapsable": true,
+          "collapsable": false,
           "children": [
             {
               "title": "Git",
               "path": "/tool/git"
+            }
+          ]
+        }
+      ],
+      "/llm": [
+        {
+          "title": "大语言模型",
+          "collapsable": false,
+          "children": [
+            {
+              "title": "InternLM2（书生·浦语）",
+              "path": "/llm/InternLM2"
             }
           ]
         }
