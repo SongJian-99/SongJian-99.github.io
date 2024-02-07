@@ -3,15 +3,6 @@
  */
 export default {
   "tags": {
-    "Docker": {
-      "key": "Docker",
-      "scope": "tags",
-      "path": "/tag/Docker/",
-      "pageKeys": [
-        "v-65a62e07",
-        "v-f6dcfe16"
-      ]
-    },
     "MySQL": {
       "key": "MySQL",
       "scope": "tags",
@@ -19,6 +10,23 @@ export default {
       "pageKeys": [
         "v-15ca2d81",
         "v-2ab2a5ca"
+      ]
+    },
+    "Docker": {
+      "key": "Docker",
+      "scope": "tags",
+      "path": "/tag/Docker/",
+      "pageKeys": [
+        "v-f6dcfe16",
+        "v-65a62e07"
+      ]
+    },
+    "Ceph": {
+      "key": "Ceph",
+      "scope": "tags",
+      "path": "/tag/Ceph/",
+      "pageKeys": [
+        "v-5acd688a"
       ]
     },
     "Micorservice": {
@@ -37,20 +45,20 @@ export default {
         "v-165bc73b"
       ]
     },
-    "Ceph": {
-      "key": "Ceph",
-      "scope": "tags",
-      "path": "/tag/Ceph/",
-      "pageKeys": [
-        "v-5acd688a"
-      ]
-    },
     "Poi": {
       "key": "Poi",
       "scope": "tags",
       "path": "/tag/Poi/",
       "pageKeys": [
         "v-091f4df9"
+      ]
+    },
+    "WebService": {
+      "key": "WebService",
+      "scope": "tags",
+      "path": "/tag/WebService/",
+      "pageKeys": [
+        "v-2a4b324a"
       ]
     },
     "VuePress": {
@@ -61,14 +69,6 @@ export default {
         "v-5b9558ca",
         "v-921ea9ca",
         "v-6ffbb6db"
-      ]
-    },
-    "WebService": {
-      "key": "WebService",
-      "scope": "tags",
-      "path": "/tag/WebService/",
-      "pageKeys": [
-        "v-2a4b324a"
       ]
     },
     "LLM": {
@@ -94,14 +94,14 @@ export default {
       "scope": "categories",
       "path": "/categories/后端/",
       "pageKeys": [
-        "v-65a62e07",
         "v-15ca2d81",
-        "v-1227ff87",
-        "v-165bc73b",
-        "v-2ab2a5ca",
         "v-f6dcfe16",
         "v-5acd688a",
+        "v-65a62e07",
+        "v-1227ff87",
+        "v-165bc73b",
         "v-091f4df9",
+        "v-2ab2a5ca",
         "v-2a4b324a"
       ]
     },

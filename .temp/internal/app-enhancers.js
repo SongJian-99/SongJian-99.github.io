@@ -2,7 +2,7 @@ import m0 from "E:\\vscode\\blog\\.temp\\app-enhancers\\0.js"
 import m1 from "E:\\vscode\\blog\\.temp\\app-enhancers\\1.js"
 import m2 from "E:\\vscode\\blog\\.temp\\app-enhancers\\2.js"
 import m3 from "E:\\vscode\\blog\\.temp\\app-enhancers\\data-block.js"
-import m4 from "E:\\vscode\\blog\\.temp\\app-enhancers\\global-components-15.js"
+import m4 from "E:\\vscode\\blog\\.temp\\app-enhancers\\global-components-8.js"
 import m5 from "E:\\vscode\\blog\\.temp\\app-enhancers\\3.js"
 import m6 from "E:\\vscode\\blog\\.temp\\app-enhancers\\4.js"
 import m7 from "E:\\vscode\\blog\\.temp\\app-enhancers\\5.js"
@@ -17,6 +17,7 @@ import m15 from "E:\\vscode\\blog\\.temp\\app-enhancers\\12.js"
 import m16 from "E:\\vscode\\blog\\.temp\\app-enhancers\\13.js"
 import m17 from "E:\\vscode\\blog\\.temp\\app-enhancers\\14.js"
 import m18 from "E:\\vscode\\blog\\.temp\\app-enhancers\\15.js"
+import m19 from "E:\\vscode\\blog\\.temp\\app-enhancers\\16.js"
 
 export default [
   m0,
@@ -37,5 +38,6 @@ export default [
   m15,
   m16,
   m17,
-  m18
+  m18,
+  m19
 ]

@@ -5,8 +5,8 @@ module.exports = {
     }
   },
   theme: 'reco',
-  title: 'Cleaner',
-  description: 'Cleaner\'s blog',
+  title: 'Cleaner 知识库',
+  description: 'Cleaner 知识库',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     // 主题 移动端优化
@@ -49,6 +49,30 @@ module.exports = {
           buttonText: "刷新"
       }
     }],
+    // 公告栏
+    ['@vuepress-reco/vuepress-plugin-bulletin-popover', {
+      width: '260px', // 默认 260px
+      title: '公告',
+      body: [
+        {
+          type: 'title',
+          content: '欢迎加入微信技术交流群 🎉🎉🎉',
+          style: 'text-aligin: center;'
+        },
+        {
+          type: 'text',
+          content: "交流群无任何套路，会不时分享技术与个人成长相关的知识，供大家学习。请扫码添加我的微信（备注：技术交流），我会直接拉你入群。",
+          style: 'font-size: 12px;'
+        },
+        {
+          type: 'image',
+          src: '/wechat.jpg'
+        }
+      ],
+      footer: [
+   
+      ]
+    }],
     // 文章阅读进度条，官网地址：https://github.com/tolking/vuepress-plugin-reading-progress
     ['reading-progress', {
       fixed: 'top'
@@ -61,25 +85,6 @@ module.exports = {
       clientSecret: 'c687a83e9a86a3688729a34f7bfa567a10f59da7',
       autoCreateIssue: true
     }]
-    // 公告栏
-    // ['@vuepress-reco/vuepress-plugin-bulletin-popover', {
-    //   width: '300px', // 默认 260px
-    //   title: '消息提示',
-    //   body: [
-    //     {
-    //       type: 'title',
-    //       content: '欢迎加入QQ交流群 🎉🎉🎉',
-    //       style: 'text-aligin: center;'
-    //     },
-    //   ],
-    //   footer: [
-    //     {
-    //       type: 'button',
-    //       text: '打赏',
-    //       link: '/donate'
-    //     },
-    //   ]
-    // }]
   ],
   themeConfig: {
     type: 'blog',
@@ -95,6 +100,8 @@ module.exports = {
     subSidebar: 'auto',
     sidebarDepth: 1,
     noFoundPageByTencent: false,
+    // 主题模式（暗/亮）
+    modePicker: false,
     lastUpdated: '更新时间',
     // 设置时区偏移量（8小时）
     timezoneOffset: 8 * 60 * 60 * 1000,
@@ -117,7 +124,7 @@ module.exports = {
       { text: 'MySQL', link: '/backend/mysql/explain', icon: 'iconfont icon-mysql' },
       { text: '工作', link: '/backend/work/poi', icon: 'iconfont icon-work' },
       { text: '微服务', link: '/backend/microservice/twelve-factor', icon: 'iconfont icon-microservice' },
-      { text: '大模型', link: '/llm/internLM2', icon: 'iconfont icon-ai' },
+      { text: '大模型', link: '/llm/InternLM2', icon: 'iconfont icon-ai' },
       { text: '工具', link: '/tool/git', icon: 'iconfont icon-tools' },
       { text: '留言板', link: '/message-board', icon: 'reco-suggestion' },
       { 
@@ -167,7 +174,7 @@ module.exports = {
           title: 'MySQL',
           collapsable: false,
           children: [
-            { title: 'SQL执行计划分析', path: '/backend/mysql/explain' },
+            { title: 'SQL 执行计划分析', path: '/backend/mysql/explain' },
           ]
         }
       ],

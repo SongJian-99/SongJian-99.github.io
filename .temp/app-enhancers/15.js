@@ -1,1 +1,1 @@
-export { default } from "E:\\vscode\\blog\\node_modules\\@vssue\\vuepress-plugin-vssue\\lib\\enhanceApp.js"
+export { default } from "E:\\vscode\\blog\\node_modules\\vuepress-plugin-reading-progress\\enhanceAppFile.js"
