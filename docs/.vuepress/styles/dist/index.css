@@ -12,6 +12,12 @@
 .page {
   background-color: #f2f4f5;
 }
+.page .page-title {
+  max-width: 1000px !important;
+}
+.content__default:not(.custom) {
+  max-width: 1000px !important;
+}
 .sidebar {
   margin-right: 0.8rem;
 }
@@ -33,10 +39,11 @@ a.sidebar-link.active {
 }
 .theme-container .sub-sidebar {
   padding-top: 0.5rem;
-  right: 1rem !important;
-  top: 3.5rem !important;
+  right: 0.5rem !important;
+  top: 3.3rem !important;
   bottom: auto !important;
   background-color: #fff;
+  width: 13rem !important;
 }
 .sub-sidebar-wrapper li {
   font-size: 1.1em !important;
@@ -45,20 +52,30 @@ a.sidebar-link.active {
   margin-top: -0.5rem !important;
   border-left: none !important;
 }
+.sub-sidebar-wrapper li a {
+  color: #6d727a !important;
+}
+.sub-sidebar-wrapper li.active a {
+  font-weight: bold;
+  color: #3eaf7c !important;
+}
+.sub-sidebar-wrapper li:hover a {
+  color: #3eaf7c !important;
+}
 main section {
   background-color: #fff;
-  margin-top: -0.8rem;
-  margin-left: 0.8rem;
+  margin-top: -1rem;
+  margin-left: 0.4rem;
 }
 .page-edit {
   background-color: #fff;
   max-width: none !important;
-  margin: 0 0 0 0.8rem !important;
+  margin: 0 0 0 0.4rem !important;
 }
 .page-nav {
   background-color: #fff;
   max-width: none !important;
-  margin: 0 0 0 0.8rem !important;
+  margin: 0 0 0 0.4rem !important;
 }
 .timeline-wrapper .year {
   margin: 80px 0px 20px !important;
@@ -98,4 +115,11 @@ main section {
 .message-board .page,
 .treeholes .page {
   background-color: #fff !important;
+}
+blockquote {
+  background-color: #fff5eb !important;
+  border: 1px solid #fedab0;
+  border-radius: 7px;
+  border-left: none !important;
+  color: #6d727a !important;
 }

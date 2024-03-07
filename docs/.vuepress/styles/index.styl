@@ -15,6 +15,14 @@
 .page {
   background-color: #f2f4f5;
 }
+// 内容展示宽度设置
+.page .page-title {
+  max-width: 1000px !important
+}
+.content__default:not(.custom){
+  max-width: 1000px !important  
+}
+
 // 左侧侧边栏样式
 .sidebar {
   margin-right: 0.8rem
@@ -40,10 +48,11 @@ a.sidebar-link.active{
 // 右侧侧边栏样式
 .theme-container .sub-sidebar {
   padding-top: .5rem;
-  right: 1rem !important;
-  top: 3.5rem !important;
+  right: 0.5rem !important;
+  top: 3.3rem !important;
   bottom: auto !important;
   background-color: white;  
+  width: 13rem !important
 }
 
 // 右侧侧边栏标题
@@ -54,22 +63,36 @@ a.sidebar-link.active{
   margin-top: -0.5rem !important;
   border-left: none !important;
 }
+
+// 右侧侧边栏字体颜色
+.sub-sidebar-wrapper li a{
+  color: #6d727a !important
+}
+.sub-sidebar-wrapper li.active a {
+  font-weight: bold
+  color: #3eaf7c !important
+} 
+.sub-sidebar-wrapper li:hover a{
+  color: #3eaf7c !important
+} 
+
+
 // 中间内容区 start region
 main section {
   background-color: white;
-  margin-top: -0.8rem;
-  margin-left: 0.8rem;
+  margin-top: -1.0rem;
+  margin-left: 0.4rem;
 }
 
 .page-edit {
   background-color: white;
   max-width: none !important;
-  margin: 0 0 0 0.8rem !important;
+  margin: 0 0 0 0.4rem !important;
 }
 .page-nav {
   background-color: white;
   max-width: none !important;
-  margin: 0 0 0 0.8rem !important;
+  margin: 0 0 0 0.4rem !important;
 }
 // end region
 // 时间线样式
@@ -116,6 +139,31 @@ main section {
     background-color: white !important;
   }
 }
+
+// 摘要样式
+blockquote {
+  background-color: #fff5eb !important;
+  border: 1px solid #fedab0;
+  border-radius: 7px;
+  border-left: none !important;
+  color: #6d727a !important
+}
+
+// 滚动条
+// .page::-webkit-scrollbar
+//   width: 5px;
+//   height: 5px;
+
+// .page::-webkit-scrollbar-track-piece
+//   // background-color: rgba(0, 0, 0, 0.2);
+
+// .page::-webkit-scrollbar-thumb:vertical
+//   height: 5px;
+//   background-color: green;
+
+// .page::-webkit-scrollbar-thumb:horizontal
+//   width: 5px;
+//   background-color: green;
 
 
 // /* 

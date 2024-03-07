@@ -3,13 +3,12 @@
  */
 export default {
   "tags": {
-    "MySQL": {
-      "key": "MySQL",
+    "Micorservice": {
+      "key": "Micorservice",
       "scope": "tags",
-      "path": "/tag/MySQL/",
+      "path": "/tag/Micorservice/",
       "pageKeys": [
-        "v-15ca2d81",
-        "v-2ab2a5ca"
+        "v-1227ff87"
       ]
     },
     "Docker": {
@@ -21,6 +20,15 @@ export default {
         "v-65a62e07"
       ]
     },
+    "MySQL": {
+      "key": "MySQL",
+      "scope": "tags",
+      "path": "/tag/MySQL/",
+      "pageKeys": [
+        "v-15ca2d81",
+        "v-2ab2a5ca"
+      ]
+    },
     "Ceph": {
       "key": "Ceph",
       "scope": "tags",
@@ -29,20 +37,22 @@ export default {
         "v-5acd688a"
       ]
     },
-    "Micorservice": {
-      "key": "Micorservice",
-      "scope": "tags",
-      "path": "/tag/Micorservice/",
-      "pageKeys": [
-        "v-1227ff87"
-      ]
-    },
     "OnlyOffice": {
       "key": "OnlyOffice",
       "scope": "tags",
       "path": "/tag/OnlyOffice/",
       "pageKeys": [
         "v-165bc73b"
+      ]
+    },
+    "Vue": {
+      "key": "Vue",
+      "scope": "tags",
+      "path": "/tag/Vue/",
+      "pageKeys": [
+        "v-4fda8722",
+        "v-4e38efb3",
+        "v-790c0355"
       ]
     },
     "Poi": {
@@ -94,15 +104,15 @@ export default {
       "scope": "categories",
       "path": "/categories/后端/",
       "pageKeys": [
-        "v-15ca2d81",
-        "v-f6dcfe16",
-        "v-5acd688a",
-        "v-65a62e07",
         "v-1227ff87",
+        "v-f6dcfe16",
+        "v-15ca2d81",
+        "v-65a62e07",
+        "v-5acd688a",
         "v-165bc73b",
         "v-091f4df9",
-        "v-2ab2a5ca",
-        "v-2a4b324a"
+        "v-2a4b324a",
+        "v-2ab2a5ca"
       ]
     },
     "前端": {
@@ -110,6 +120,9 @@ export default {
       "scope": "categories",
       "path": "/categories/前端/",
       "pageKeys": [
+        "v-4fda8722",
+        "v-4e38efb3",
+        "v-790c0355",
         "v-5b9558ca",
         "v-921ea9ca",
         "v-6ffbb6db"

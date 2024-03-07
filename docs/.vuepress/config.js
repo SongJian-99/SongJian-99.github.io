@@ -117,7 +117,8 @@ module.exports = {
         text: '前端',
         icon: 'iconfont icon-frontend',
         items: [
-          { text: 'VuePress', link: '/frontend/vuepress/VuePressOne.md'}
+          { text: 'VuePress', link: '/frontend/vuepress/VuePressOne.md'},
+          { text: 'Vue', link: '/frontend/vue/jsx.md'}
         ]
       },
       { text: 'Docker', link: '/backend/docker/Web', icon: 'iconfont icon-docker' },
@@ -178,14 +179,23 @@ module.exports = {
           ]
         }
       ],
-      '/frontend/vuepress': [
+      '/frontend': [
         {
-          title: 'VuePress',
+          title: 'VuePress 使用实践',
           collapsable: false,
           children: [
             { title: '使用 VuePress + GitHub Pages + GitHub Actions 搭建个人博客', path: '/frontend/vuepress/VuePressOne' },
             { title: 'VuePress 个人博客美化：vuepress-theme-reco 主题使用', path: '/frontend/vuepress/VuePressTwo' },
             { title: 'VuePress + GitHub Pages 自定义域名', path: '/frontend/vuepress/VuePressThree' }
+          ],
+        },
+        {
+          title: 'Vue 使用实践',
+          collapsable: false,
+          children: [
+            { title: 'JSX 实现 Element-ui 表格列动态渲染', path: '/frontend/vue/jsx' },
+            { title: '流式数据接收+打字机效果展示', path: '/frontend/vue/stream' },
+            { title: '其他问题汇总', path: '/frontend/vue/questions' },
           ]
         }
       ],
