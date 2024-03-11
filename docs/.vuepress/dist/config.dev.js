@@ -232,11 +232,18 @@ module.exports = {
         }]
       }],
       '/tool': [{
-        title: '工具',
+        title: 'Git 使用实践',
         collapsable: false,
         children: [{
-          title: 'Git',
+          title: 'Git 常用命令',
           path: '/tool/git'
+        }]
+      }, {
+        title: 'CentOS 使用实践',
+        collapsable: false,
+        children: [{
+          title: 'CentOS 知识汇总',
+          path: '/tool/centos'
         }]
       }],
       '/llm': [{

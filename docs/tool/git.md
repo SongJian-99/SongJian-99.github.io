@@ -21,6 +21,7 @@ tags:
 * `git remote remove origin`：删除关联的远程仓库
 * `git remote add origin xxx`：关联远程仓库
 * `git pull origin master --allow-unrelated-histories`：允许不相关历史提交，并强制合并。执行 Git 命令报错`fatal: refusing to merge unrelated histories`时使用，然后再解决冲突。
+* `git stash`：将当前分支的修改暂存起来。之后使用`git stash pop`命令可以将暂存的内容恢复。**适用场景：开发过程中，需要临时切换分支。**
 
 ## 项目开发中的 Git 规范
 
