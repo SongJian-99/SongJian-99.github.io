@@ -15,7 +15,7 @@ pageClass: treeholes
   <el-card shadow="hover">愿世事黯浊，你明媚如初。</el-card>
 </el-col>
 <el-col :span='8'>
-  <el-card shadow="hover">愿此时平淡，若彼时灿烂</el-card>
+  <el-card shadow="hover">愿此时平淡，若彼时灿烂。</el-card>
 </el-col>
 </el-row>
 
@@ -36,7 +36,7 @@ pageClass: treeholes
   <el-card shadow="hover">愿生活不太拥挤，愿笑容不必刻意。</el-card>
 </el-col>
 <el-col :span='8'>
-  <el-card shadow="hover">日子还不是照旧，自斟自饮自消受。</el-card>
+  <el-card shadow="hover">只愿与你像旧时老友，春来赏花秋浓煮酒。</el-card>
 </el-col>
 <el-col :span='8'>
   <el-card shadow="hover">愿童真不经岁月，愿青春不染离别。</el-card>
@@ -61,6 +61,21 @@ pageClass: treeholes
 </el-col>
 <el-col :span='8'>
   <el-card shadow="hover">祝你岁月无波澜，敬我余生不悲欢。</el-card>
+</el-col>
+<el-col :span='8'>
+  <el-card shadow="hover">愿你安好，宛若微风入侵泥沼，不气不恼。</el-card>
+</el-col>
+</el-row>
+
+<el-row class='marginBottom' style='margin-bottom: 5px' :gutter='7'>
+<el-col :span='8'>
+  <el-card shadow="hover">愿你习惯曲终人散，不再为谁独悲欢。</el-card>
+</el-col>
+<el-col :span='8'>
+  <el-card shadow="hover">愿你眼中总有光芒，活出你想要的模样。</el-card>
+</el-col>
+<el-col :span='8'>
+  <el-card shadow="hover">但愿日子清静，抬头遇见的都是柔情。</el-card>
 </el-col>
 </el-row>
 
@@ -96,10 +111,10 @@ pageClass: treeholes
   <el-card shadow="hover">愿你前程似锦再无波澜，愿你衣锦还乡再无苦难。</el-card>
 </el-col>
 <el-col :span='8'>
-  <el-card shadow="hover">愿你安好，宛若微风入侵泥沼，不气不恼。</el-card>
+  <el-card shadow="hover">祝你坚强，祝你可爱，祝你一生向前，永不回头。</el-card>
 </el-col>
 <el-col :span='8'>
-  <el-card shadow="hover">愿你习惯曲终人散，不再为谁独悲欢。</el-card>
+  <el-card shadow="hover">希望岁月赐予你我如同往昔不变的明日，哪怕历经沧桑，也依然保持可爱与纯良。</el-card>
 </el-col>
 </el-row>
 
@@ -114,19 +129,6 @@ pageClass: treeholes
   <el-card shadow="hover">愿你余生笑得坦荡，往后再无任何风雨阻挡。</el-card>
 </el-col>
 </el-row>
-
-<el-row class='marginBottom' style='margin-bottom: 5px' :gutter='7'>
-<el-col :span='8'>
-  <el-card shadow="hover">愿你眼中总有光芒，活出你想要的模样。</el-card>
-</el-col>
-<el-col :span='8'>
-  <el-card shadow="hover">祝你坚强，祝你可爱，祝你一生向前，永不回头。</el-card>
-</el-col>
-<el-col :span='8'>
-  <el-card shadow="hover">但愿日子清静，抬头遇见的都是柔情。</el-card>
-</el-col>
-</el-row>
-
 
 <el-row class='marginBottom' style='margin-bottom: 5px' :gutter='7'>
 <el-col :span='8'>
@@ -159,10 +161,10 @@ pageClass: treeholes
   <el-card shadow="hover">因为孤独是生命的常态，陪伴才显得格外珍贵。</el-card>
 </el-col>
 <el-col :span='8'>
-  <el-card shadow="hover">只愿与你像旧时老友，春来赏花秋浓煮酒。</el-card>
+  <el-card shadow="hover">愿我的故事细水长流，敬你的孤独择日而终。</el-card>
 </el-col>
 <el-col :span='8'>
-  <el-card shadow="hover">愿我的故事细水长流，敬你的孤独择日而终。</el-card>
+  <el-card shadow="hover">我们仍需共生命的慷慨与繁华相爱，即使岁月以刻薄和荒芜相欺。</el-card>
 </el-col>
 </el-row>
 
@@ -180,28 +182,23 @@ pageClass: treeholes
 
 <el-row class='marginBottom' style='margin-bottom: 5px' :gutter='7'>
 <el-col :span='8'>
-  <el-card shadow="hover">我们仍需共生命的慷慨与繁华相爱，即使岁月以刻薄和荒芜相欺。</el-card>
-</el-col>
-</el-row>
-
-<el-row class='marginBottom' style='margin-bottom: 5px' :gutter='7'>
-<el-col :span='8'>
   <el-card shadow="hover">愿你一生有山可靠，有树可栖。与心爱之人，春赏花，夏纳凉。秋登山，冬扫雪。</el-card>
 </el-col>
 <el-col :span='8'>
   <el-card shadow="hover">愿你十里春天，愿你风光无限，愿你记得经年西笑罢秋霜，愿你此情久长莫惘然。</el-card>
 </el-col>
+</el-row>
+
+<el-row class='marginBottom' style='margin-bottom: 5px' :gutter='7'>
 <el-col :span='8'>
   <el-card shadow="hover">愿时光能缓，愿故人不散，愿你惦念的人能和你道晚安，愿你独闯的日子里不觉得孤单。</el-card>
 </el-col>
 </el-row>
 
-<el-row class='marginBottom' style='margin-bottom: 5px' :gutter='7'>
-<el-col :span='8'>
-  <el-card shadow="hover">希望岁月赐予你我如同往昔不变的明日，哪怕历经沧桑，也依然保持可爱与纯良。</el-card>
-</el-col>
-</el-row>
 
+<!-- <el-col :span='8'>
+  <el-card shadow="hover">日子还不是照旧，自斟自饮自消受。</el-card>
+</el-col> -->
 
 <style scope>
   .marginBottom {

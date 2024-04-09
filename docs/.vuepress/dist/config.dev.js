@@ -194,6 +194,9 @@ module.exports = {
         }, {
           title: '分布式存储系统——Ceph 部署使用',
           path: '/backend/work/ceph'
+        }, {
+          title: 'EasyExcel 导出多张图片',
+          path: '/backend/work/easyexcel'
         }]
       }],
       '/backend/mysql': [{
