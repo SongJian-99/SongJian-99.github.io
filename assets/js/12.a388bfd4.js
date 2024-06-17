@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{532:function(n,e,t){"use strict";t.r(e);var o={name:"CommonFooter"},s=t(2),i=Object(s.a)(o,(function(){this._self._c;return this._m(0)}),[function(){var n=this._self._c;return n("div",[n("a",[this._v("Cleaner")])])}],!1,null,"78042ed4",null);e.default=i.exports}}]);
