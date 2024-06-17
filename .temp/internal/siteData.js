@@ -41,7 +41,7 @@ export const siteData = {
       },
       "regularPath": "/",
       "relativePath": "README.md",
-      "key": "v-9280c340",
+      "key": "v-51316b00",
       "path": "/",
       "lastUpdated": "2023/11/21 下午7:40:44",
       "lastUpdatedTimestamp": 1700566844000
@@ -62,7 +62,7 @@ export const siteData = {
       },
       "regularPath": "/backend/docker/Web.html",
       "relativePath": "backend/docker/Web.md",
-      "key": "v-65a62e07",
+      "key": "v-44f55287",
       "path": "/backend/docker/Web.html",
       "headers": [
         {
@@ -170,7 +170,7 @@ export const siteData = {
       },
       "regularPath": "/backend/docker/Elasticsearch.html",
       "relativePath": "backend/docker/Elasticsearch.md",
-      "key": "v-f6dcfe16",
+      "key": "v-75616575",
       "path": "/backend/docker/Elasticsearch.html",
       "headers": [
         {
@@ -228,64 +228,6 @@ export const siteData = {
       "lastUpdatedTimestamp": 1703056336000
     },
     {
-      "title": "SQL 语句执行计划分析",
-      "frontmatter": {
-        "title": "SQL 语句执行计划分析",
-        "date": "2023-08-23T00:00:00.000Z",
-        "author": "Cleaner",
-        "categories": [
-          "后端"
-        ],
-        "tags": [
-          "MySQL"
-        ],
-        "readingShow": "top"
-      },
-      "regularPath": "/backend/mysql/explain.html",
-      "relativePath": "backend/mysql/explain.md",
-      "key": "v-15ca2d81",
-      "path": "/backend/mysql/explain.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "前言",
-          "slug": "前言"
-        },
-        {
-          "level": 2,
-          "title": "Explain 各字段含义",
-          "slug": "explain-各字段含义"
-        },
-        {
-          "level": 3,
-          "title": "id",
-          "slug": "id"
-        },
-        {
-          "level": 3,
-          "title": "select_type",
-          "slug": "select-type"
-        },
-        {
-          "level": 3,
-          "title": "type",
-          "slug": "type"
-        },
-        {
-          "level": 3,
-          "title": "Extra",
-          "slug": "extra"
-        },
-        {
-          "level": 2,
-          "title": "实战优化思路",
-          "slug": "实战优化思路"
-        }
-      ],
-      "lastUpdated": "2024/3/11 上午9:57:53",
-      "lastUpdatedTimestamp": 1710122273000
-    },
-    {
       "title": "分布式存储系统——Ceph 部署使用",
       "frontmatter": {
         "title": "分布式存储系统——Ceph 部署使用",
@@ -301,7 +243,7 @@ export const siteData = {
       },
       "regularPath": "/backend/work/ceph.html",
       "relativePath": "backend/work/ceph.md",
-      "key": "v-5acd688a",
+      "key": "v-faf0f10a",
       "path": "/backend/work/ceph.html",
       "headers": [
         {
@@ -389,7 +331,7 @@ export const siteData = {
       },
       "regularPath": "/backend/microservice/twelve-factor.html",
       "relativePath": "backend/microservice/twelve-factor.md",
-      "key": "v-1227ff87",
+      "key": "v-6cf9ce47",
       "path": "/backend/microservice/twelve-factor.html",
       "headers": [
         {
@@ -472,7 +414,7 @@ export const siteData = {
       },
       "regularPath": "/backend/work/easyexcel.html",
       "relativePath": "backend/work/easyexcel.md",
-      "key": "v-41e2b063",
+      "key": "v-7ded87ba",
       "path": "/backend/work/easyexcel.html",
       "headers": [
         {
@@ -510,7 +452,67 @@ export const siteData = {
           "title": "总结",
           "slug": "总结"
         }
-      ]
+      ],
+      "lastUpdated": "2024/4/9 下午6:43:22",
+      "lastUpdatedTimestamp": 1712659402000
+    },
+    {
+      "title": "SQL 语句执行计划分析",
+      "frontmatter": {
+        "title": "SQL 语句执行计划分析",
+        "date": "2023-08-23T00:00:00.000Z",
+        "author": "Cleaner",
+        "categories": [
+          "后端"
+        ],
+        "tags": [
+          "MySQL"
+        ],
+        "readingShow": "top"
+      },
+      "regularPath": "/backend/mysql/explain.html",
+      "relativePath": "backend/mysql/explain.md",
+      "key": "v-2a4697bb",
+      "path": "/backend/mysql/explain.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "前言",
+          "slug": "前言"
+        },
+        {
+          "level": 2,
+          "title": "Explain 各字段含义",
+          "slug": "explain-各字段含义"
+        },
+        {
+          "level": 3,
+          "title": "id",
+          "slug": "id"
+        },
+        {
+          "level": 3,
+          "title": "select_type",
+          "slug": "select-type"
+        },
+        {
+          "level": 3,
+          "title": "type",
+          "slug": "type"
+        },
+        {
+          "level": 3,
+          "title": "Extra",
+          "slug": "extra"
+        },
+        {
+          "level": 2,
+          "title": "实战优化思路",
+          "slug": "实战优化思路"
+        }
+      ],
+      "lastUpdated": "2024/3/11 上午9:57:53",
+      "lastUpdatedTimestamp": 1710122273000
     },
     {
       "title": "企业级在线办公套件——OnlyOffice Workspace 部署使用",
@@ -528,7 +530,7 @@ export const siteData = {
       },
       "regularPath": "/backend/work/onlyoffice.html",
       "relativePath": "backend/work/onlyoffice.md",
-      "key": "v-165bc73b",
+      "key": "v-660e62fb",
       "path": "/backend/work/onlyoffice.html",
       "headers": [
         {
@@ -626,7 +628,7 @@ export const siteData = {
       },
       "regularPath": "/backend/work/poi.html",
       "relativePath": "backend/work/poi.md",
-      "key": "v-091f4df9",
+      "key": "v-02e979b9",
       "path": "/backend/work/poi.html",
       "headers": [
         {
@@ -679,6 +681,27 @@ export const siteData = {
       "lastUpdatedTimestamp": 1703056336000
     },
     {
+      "title": "JSX 实现 Element-ui 表格列动态渲染",
+      "frontmatter": {
+        "title": "JSX 实现 Element-ui 表格列动态渲染",
+        "date": "2024-03-07T00:00:00.000Z",
+        "author": "Cleaner",
+        "categories": [
+          "前端"
+        ],
+        "tags": [
+          "Vue"
+        ],
+        "readingShow": "top"
+      },
+      "regularPath": "/frontend/vue/jsx.html",
+      "relativePath": "frontend/vue/jsx.md",
+      "key": "v-71865575",
+      "path": "/frontend/vue/jsx.html",
+      "lastUpdated": "2024/3/7 下午4:23:13",
+      "lastUpdatedTimestamp": 1709799793000
+    },
+    {
       "title": "Update 未加索引导致的微服务模块不可用",
       "frontmatter": {
         "title": "Update 未加索引导致的微服务模块不可用",
@@ -694,7 +717,7 @@ export const siteData = {
       },
       "regularPath": "/backend/work/practice.html",
       "relativePath": "backend/work/practice.md",
-      "key": "v-2ab2a5ca",
+      "key": "v-7505ae4a",
       "path": "/backend/work/practice.html",
       "headers": [
         {
@@ -737,75 +760,6 @@ export const siteData = {
       "lastUpdatedTimestamp": 1703056336000
     },
     {
-      "title": "使用 Axis 调用 WebService 服务接口",
-      "frontmatter": {
-        "title": "使用 Axis 调用 WebService 服务接口",
-        "date": "2023-12-20T00:00:00.000Z",
-        "author": "Cleaner",
-        "categories": [
-          "后端"
-        ],
-        "tags": [
-          "WebService"
-        ],
-        "readingShow": "top"
-      },
-      "regularPath": "/backend/work/webservice.html",
-      "relativePath": "backend/work/webservice.md",
-      "key": "v-2a4b324a",
-      "path": "/backend/work/webservice.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "前言",
-          "slug": "前言"
-        },
-        {
-          "level": 2,
-          "title": "实现",
-          "slug": "实现"
-        },
-        {
-          "level": 3,
-          "title": "引入依赖",
-          "slug": "引入依赖"
-        },
-        {
-          "level": 3,
-          "title": "代码实现",
-          "slug": "代码实现"
-        },
-        {
-          "level": 2,
-          "title": "说明",
-          "slug": "说明"
-        }
-      ],
-      "lastUpdated": "2024/1/29 下午2:35:44",
-      "lastUpdatedTimestamp": 1706510144000
-    },
-    {
-      "title": "JSX 实现 Element-ui 表格列动态渲染",
-      "frontmatter": {
-        "title": "JSX 实现 Element-ui 表格列动态渲染",
-        "date": "2024-03-07T00:00:00.000Z",
-        "author": "Cleaner",
-        "categories": [
-          "前端"
-        ],
-        "tags": [
-          "Vue"
-        ],
-        "readingShow": "top"
-      },
-      "regularPath": "/frontend/vue/jsx.html",
-      "relativePath": "frontend/vue/jsx.md",
-      "key": "v-4fda8722",
-      "path": "/frontend/vue/jsx.html",
-      "lastUpdated": "2024/3/7 下午4:23:13",
-      "lastUpdatedTimestamp": 1709799793000
-    },
-    {
       "title": "其他问题汇总",
       "frontmatter": {
         "title": "其他问题汇总",
@@ -821,7 +775,7 @@ export const siteData = {
       },
       "regularPath": "/frontend/vue/questions.html",
       "relativePath": "frontend/vue/questions.md",
-      "key": "v-4e38efb3",
+      "key": "v-39212fb9",
       "path": "/frontend/vue/questions.html",
       "headers": [
         {
@@ -849,7 +803,7 @@ export const siteData = {
       },
       "regularPath": "/frontend/vue/stream.html",
       "relativePath": "frontend/vue/stream.md",
-      "key": "v-790c0355",
+      "key": "v-71e3804a",
       "path": "/frontend/vue/stream.html",
       "lastUpdated": "2024/3/7 下午4:23:13",
       "lastUpdatedTimestamp": 1709799793000
@@ -870,7 +824,7 @@ export const siteData = {
       },
       "regularPath": "/frontend/vuepress/VuePressOne.html",
       "relativePath": "frontend/vuepress/VuePressOne.md",
-      "key": "v-5b9558ca",
+      "key": "v-45d2da1b",
       "path": "/frontend/vuepress/VuePressOne.html",
       "headers": [
         {
@@ -938,6 +892,193 @@ export const siteData = {
       "lastUpdatedTimestamp": 1703056336000
     },
     {
+      "title": "使用 Axis 调用 WebService 服务接口",
+      "frontmatter": {
+        "title": "使用 Axis 调用 WebService 服务接口",
+        "date": "2023-12-20T00:00:00.000Z",
+        "author": "Cleaner",
+        "categories": [
+          "后端"
+        ],
+        "tags": [
+          "WebService"
+        ],
+        "readingShow": "top"
+      },
+      "regularPath": "/backend/work/webservice.html",
+      "relativePath": "backend/work/webservice.md",
+      "key": "v-3a8d029b",
+      "path": "/backend/work/webservice.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "前言",
+          "slug": "前言"
+        },
+        {
+          "level": 2,
+          "title": "实现",
+          "slug": "实现"
+        },
+        {
+          "level": 3,
+          "title": "引入依赖",
+          "slug": "引入依赖"
+        },
+        {
+          "level": 3,
+          "title": "代码实现",
+          "slug": "代码实现"
+        },
+        {
+          "level": 2,
+          "title": "说明",
+          "slug": "说明"
+        }
+      ],
+      "lastUpdated": "2024/1/29 下午2:35:44",
+      "lastUpdatedTimestamp": 1706510144000
+    },
+    {
+      "title": "VuePress + GitHub Pages 自定义域名",
+      "frontmatter": {
+        "title": "VuePress + GitHub Pages 自定义域名",
+        "date": "2023-06-18T00:00:00.000Z",
+        "author": "Cleaner",
+        "categories": [
+          "前端"
+        ],
+        "tags": [
+          "VuePress"
+        ],
+        "readingShow": "top"
+      },
+      "regularPath": "/frontend/vuepress/VuePressThree.html",
+      "relativePath": "frontend/vuepress/VuePressThree.md",
+      "key": "v-7b66f19b",
+      "path": "/frontend/vuepress/VuePressThree.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "域名",
+          "slug": "域名"
+        },
+        {
+          "level": 3,
+          "title": "申请",
+          "slug": "申请"
+        },
+        {
+          "level": 3,
+          "title": "配置",
+          "slug": "配置"
+        },
+        {
+          "level": 2,
+          "title": "GitHub Pages 设置",
+          "slug": "github-pages-设置"
+        },
+        {
+          "level": 2,
+          "title": "GitHub Actions 配置",
+          "slug": "github-actions-配置"
+        },
+        {
+          "level": 2,
+          "title": "问题",
+          "slug": "问题"
+        }
+      ],
+      "lastUpdated": "2023/12/20 下午3:12:16",
+      "lastUpdatedTimestamp": 1703056336000
+    },
+    {
+      "title": "大语言模型基础知识",
+      "frontmatter": {
+        "title": "大语言模型基础知识",
+        "date": "2024-06-17T00:00:00.000Z",
+        "author": "Cleaner",
+        "categories": [
+          "人工智能"
+        ],
+        "tags": [
+          "LLM"
+        ],
+        "readingShow": "top"
+      },
+      "regularPath": "/llm/basicOne.html",
+      "relativePath": "llm/basicOne.md",
+      "key": "v-8f95755a",
+      "path": "/llm/basicOne.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、大语言模型发展历程",
+          "slug": "一、大语言模型发展历程"
+        },
+        {
+          "level": 3,
+          "title": "统计语言模型（Statistical Language Model, SLM）",
+          "slug": "统计语言模型-statistical-language-model-slm"
+        },
+        {
+          "level": 3,
+          "title": "神经语言模型（Neural Language Model, NLM）",
+          "slug": "神经语言模型-neural-language-model-nlm"
+        },
+        {
+          "level": 3,
+          "title": "预训练语言模型（Pre-trained Language Model, PLM）",
+          "slug": "预训练语言模型-pre-trained-language-model-plm"
+        },
+        {
+          "level": 3,
+          "title": "大语言模型（Large Language Model, LLM）",
+          "slug": "大语言模型-large-language-model-llm"
+        },
+        {
+          "level": 2,
+          "title": "二、大语言模型构建过程",
+          "slug": "二、大语言模型构建过程"
+        },
+        {
+          "level": 3,
+          "title": "预训练",
+          "slug": "预训练"
+        },
+        {
+          "level": 3,
+          "title": "指令微调",
+          "slug": "指令微调"
+        },
+        {
+          "level": 3,
+          "title": "人类对齐",
+          "slug": "人类对齐"
+        },
+        {
+          "level": 2,
+          "title": "三、大语言模型使用",
+          "slug": "三、大语言模型使用"
+        },
+        {
+          "level": 3,
+          "title": "低资源部署策略",
+          "slug": "低资源部署策略"
+        },
+        {
+          "level": 3,
+          "title": "提示学习",
+          "slug": "提示学习"
+        },
+        {
+          "level": 3,
+          "title": "智能体",
+          "slug": "智能体"
+        }
+      ]
+    },
+    {
       "title": "VuePress 个人博客美化：vuepress-theme-reco 主题使用",
       "frontmatter": {
         "title": "VuePress 个人博客美化：vuepress-theme-reco 主题使用",
@@ -953,7 +1094,7 @@ export const siteData = {
       },
       "regularPath": "/frontend/vuepress/VuePressTwo.html",
       "relativePath": "frontend/vuepress/VuePressTwo.md",
-      "key": "v-6ffbb6db",
+      "key": "v-38cd854a",
       "path": "/frontend/vuepress/VuePressTwo.html",
       "headers": [
         {
@@ -1046,57 +1187,58 @@ export const siteData = {
       "lastUpdatedTimestamp": 1706510144000
     },
     {
-      "title": "VuePress + GitHub Pages 自定义域名",
+      "title": "留言板",
       "frontmatter": {
-        "title": "VuePress + GitHub Pages 自定义域名",
-        "date": "2023-06-18T00:00:00.000Z",
+        "title": "留言板",
+        "date": "2023-07-25T00:00:00.000Z",
+        "author": "Cleaner",
+        "readingShow": false,
+        "pageClass": "message-board"
+      },
+      "regularPath": "/message-board.html",
+      "relativePath": "message-board.md",
+      "key": "v-2300189b",
+      "path": "/message-board.html",
+      "lastUpdated": "2024/1/16 下午4:38:59",
+      "lastUpdatedTimestamp": 1705394339000
+    },
+    {
+      "title": "CentOS",
+      "frontmatter": {
+        "title": "CentOS",
+        "date": "2024-03-11T00:00:00.000Z",
         "author": "Cleaner",
         "categories": [
-          "前端"
+          "工具"
         ],
         "tags": [
-          "VuePress"
+          "CentOS"
         ],
         "readingShow": "top"
       },
-      "regularPath": "/frontend/vuepress/VuePressThree.html",
-      "relativePath": "frontend/vuepress/VuePressThree.md",
-      "key": "v-921ea9ca",
-      "path": "/frontend/vuepress/VuePressThree.html",
+      "regularPath": "/tool/centos.html",
+      "relativePath": "tool/centos.md",
+      "key": "v-ab41ed0a",
+      "path": "/tool/centos.html",
       "headers": [
         {
           "level": 2,
-          "title": "域名",
-          "slug": "域名"
-        },
-        {
-          "level": 3,
-          "title": "申请",
-          "slug": "申请"
-        },
-        {
-          "level": 3,
-          "title": "配置",
-          "slug": "配置"
+          "title": "防火墙",
+          "slug": "防火墙"
         },
         {
           "level": 2,
-          "title": "GitHub Pages 设置",
-          "slug": "github-pages-设置"
+          "title": "显存",
+          "slug": "显存"
         },
         {
           "level": 2,
-          "title": "GitHub Actions 配置",
-          "slug": "github-actions-配置"
-        },
-        {
-          "level": 2,
-          "title": "问题",
-          "slug": "问题"
+          "title": "问题汇总",
+          "slug": "问题汇总"
         }
       ],
-      "lastUpdated": "2023/12/20 下午3:12:16",
-      "lastUpdatedTimestamp": 1703056336000
+      "lastUpdated": "2024/3/11 上午9:57:53",
+      "lastUpdatedTimestamp": 1710122273000
     },
     {
       "title": "大语言模型 InternLM2（书生·浦语）",
@@ -1114,7 +1256,7 @@ export const siteData = {
       },
       "regularPath": "/llm/InternLM2.html",
       "relativePath": "llm/InternLM2.md",
-      "key": "v-9e33fd64",
+      "key": "v-18a6fefb",
       "path": "/llm/InternLM2.html",
       "headers": [
         {
@@ -1157,60 +1299,6 @@ export const siteData = {
       "lastUpdatedTimestamp": 1707290096000
     },
     {
-      "title": "留言板",
-      "frontmatter": {
-        "title": "留言板",
-        "date": "2023-07-25T00:00:00.000Z",
-        "author": "Cleaner",
-        "readingShow": false,
-        "pageClass": "message-board"
-      },
-      "regularPath": "/message-board.html",
-      "relativePath": "message-board.md",
-      "key": "v-6a783e8a",
-      "path": "/message-board.html",
-      "lastUpdated": "2024/1/16 下午4:38:59",
-      "lastUpdatedTimestamp": 1705394339000
-    },
-    {
-      "title": "CentOS",
-      "frontmatter": {
-        "title": "CentOS",
-        "date": "2024-03-11T00:00:00.000Z",
-        "author": "Cleaner",
-        "categories": [
-          "工具"
-        ],
-        "tags": [
-          "CentOS"
-        ],
-        "readingShow": "top"
-      },
-      "regularPath": "/tool/centos.html",
-      "relativePath": "tool/centos.md",
-      "key": "v-75cbd388",
-      "path": "/tool/centos.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "防火墙",
-          "slug": "防火墙"
-        },
-        {
-          "level": 2,
-          "title": "显存",
-          "slug": "显存"
-        },
-        {
-          "level": 2,
-          "title": "问题汇总",
-          "slug": "问题汇总"
-        }
-      ],
-      "lastUpdated": "2024/3/11 上午9:57:53",
-      "lastUpdatedTimestamp": 1710122273000
-    },
-    {
       "title": "树洞",
       "frontmatter": {
         "title": "树洞",
@@ -1221,10 +1309,10 @@ export const siteData = {
       },
       "regularPath": "/other/treeholes.html",
       "relativePath": "other/treeholes.md",
-      "key": "v-04e7d924",
+      "key": "v-2c93e1db",
       "path": "/other/treeholes.html",
-      "lastUpdated": "2024/1/16 下午4:38:59",
-      "lastUpdatedTimestamp": 1705394339000
+      "lastUpdated": "2024/4/9 下午6:43:22",
+      "lastUpdatedTimestamp": 1712659402000
     },
     {
       "title": "Git",
@@ -1242,7 +1330,7 @@ export const siteData = {
       },
       "regularPath": "/tool/git.html",
       "relativePath": "tool/git.md",
-      "key": "v-24218ec4",
+      "key": "v-f25abe5e",
       "path": "/tool/git.html",
       "headers": [
         {
@@ -1312,16 +1400,6 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "MySQL Tags",
-        "readingShow": "top"
-      },
-      "regularPath": "/tag/MySQL/",
-      "key": "v-dc3c2992",
-      "path": "/tag/MySQL/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
         "title": "Ceph Tags",
         "readingShow": "top"
       },
@@ -1352,6 +1430,16 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
+        "title": "MySQL Tags",
+        "readingShow": "top"
+      },
+      "regularPath": "/tag/MySQL/",
+      "key": "v-dc3c2992",
+      "path": "/tag/MySQL/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
         "title": "OnlyOffice Tags",
         "readingShow": "top"
       },
@@ -1372,16 +1460,6 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "WebService Tags",
-        "readingShow": "top"
-      },
-      "regularPath": "/tag/WebService/",
-      "key": "v-9c29eaf8",
-      "path": "/tag/WebService/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
         "title": "Vue Tags",
         "readingShow": "top"
       },
@@ -1398,6 +1476,16 @@ export const siteData = {
       "regularPath": "/tag/VuePress/",
       "key": "v-5e08fc30",
       "path": "/tag/VuePress/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "WebService Tags",
+        "readingShow": "top"
+      },
+      "regularPath": "/tag/WebService/",
+      "key": "v-9c29eaf8",
+      "path": "/tag/WebService/"
     },
     {
       "frontmatter": {
@@ -1532,8 +1620,8 @@ export const siteData = {
         "icon": "iconfont icon-microservice"
       },
       {
-        "text": "大模型",
-        "link": "/llm/InternLM2",
+        "text": "大语言模型",
+        "link": "/llm/basicOne",
         "icon": "iconfont icon-ai"
       },
       {
@@ -1697,7 +1785,17 @@ export const siteData = {
       ],
       "/llm": [
         {
-          "title": "大语言模型",
+          "title": "大语言模型基础",
+          "collapsable": false,
+          "children": [
+            {
+              "title": "发展历程、构建过程及如何使用",
+              "path": "/llm/basicOne"
+            }
+          ]
+        },
+        {
+          "title": "大语言模型使用",
           "collapsable": false,
           "children": [
             {

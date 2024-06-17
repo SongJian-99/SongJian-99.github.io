@@ -8,17 +8,8 @@ export default {
       "scope": "tags",
       "path": "/tag/Docker/",
       "pageKeys": [
-        "v-65a62e07",
-        "v-f6dcfe16"
-      ]
-    },
-    "MySQL": {
-      "key": "MySQL",
-      "scope": "tags",
-      "path": "/tag/MySQL/",
-      "pageKeys": [
-        "v-15ca2d81",
-        "v-2ab2a5ca"
+        "v-44f55287",
+        "v-75616575"
       ]
     },
     "Ceph": {
@@ -26,7 +17,7 @@ export default {
       "scope": "tags",
       "path": "/tag/Ceph/",
       "pageKeys": [
-        "v-5acd688a"
+        "v-faf0f10a"
       ]
     },
     "Micorservice": {
@@ -34,7 +25,7 @@ export default {
       "scope": "tags",
       "path": "/tag/Micorservice/",
       "pageKeys": [
-        "v-1227ff87"
+        "v-6cf9ce47"
       ]
     },
     "EasyExcel": {
@@ -42,7 +33,16 @@ export default {
       "scope": "tags",
       "path": "/tag/EasyExcel/",
       "pageKeys": [
-        "v-41e2b063"
+        "v-7ded87ba"
+      ]
+    },
+    "MySQL": {
+      "key": "MySQL",
+      "scope": "tags",
+      "path": "/tag/MySQL/",
+      "pageKeys": [
+        "v-2a4697bb",
+        "v-7505ae4a"
       ]
     },
     "OnlyOffice": {
@@ -50,7 +50,7 @@ export default {
       "scope": "tags",
       "path": "/tag/OnlyOffice/",
       "pageKeys": [
-        "v-165bc73b"
+        "v-660e62fb"
       ]
     },
     "Poi": {
@@ -58,15 +58,7 @@ export default {
       "scope": "tags",
       "path": "/tag/Poi/",
       "pageKeys": [
-        "v-091f4df9"
-      ]
-    },
-    "WebService": {
-      "key": "WebService",
-      "scope": "tags",
-      "path": "/tag/WebService/",
-      "pageKeys": [
-        "v-2a4b324a"
+        "v-02e979b9"
       ]
     },
     "Vue": {
@@ -74,9 +66,9 @@ export default {
       "scope": "tags",
       "path": "/tag/Vue/",
       "pageKeys": [
-        "v-4fda8722",
-        "v-4e38efb3",
-        "v-790c0355"
+        "v-71865575",
+        "v-39212fb9",
+        "v-71e3804a"
       ]
     },
     "VuePress": {
@@ -84,9 +76,17 @@ export default {
       "scope": "tags",
       "path": "/tag/VuePress/",
       "pageKeys": [
-        "v-5b9558ca",
-        "v-6ffbb6db",
-        "v-921ea9ca"
+        "v-45d2da1b",
+        "v-7b66f19b",
+        "v-38cd854a"
+      ]
+    },
+    "WebService": {
+      "key": "WebService",
+      "scope": "tags",
+      "path": "/tag/WebService/",
+      "pageKeys": [
+        "v-3a8d029b"
       ]
     },
     "LLM": {
@@ -94,7 +94,8 @@ export default {
       "scope": "tags",
       "path": "/tag/LLM/",
       "pageKeys": [
-        "v-9e33fd64"
+        "v-8f95755a",
+        "v-18a6fefb"
       ]
     },
     "CentOS": {
@@ -102,7 +103,7 @@ export default {
       "scope": "tags",
       "path": "/tag/CentOS/",
       "pageKeys": [
-        "v-75cbd388"
+        "v-ab41ed0a"
       ]
     },
     "Git": {
@@ -110,7 +111,7 @@ export default {
       "scope": "tags",
       "path": "/tag/Git/",
       "pageKeys": [
-        "v-24218ec4"
+        "v-f25abe5e"
       ]
     }
   },
@@ -120,16 +121,16 @@ export default {
       "scope": "categories",
       "path": "/categories/后端/",
       "pageKeys": [
-        "v-65a62e07",
-        "v-f6dcfe16",
-        "v-15ca2d81",
-        "v-5acd688a",
-        "v-1227ff87",
-        "v-41e2b063",
-        "v-165bc73b",
-        "v-091f4df9",
-        "v-2ab2a5ca",
-        "v-2a4b324a"
+        "v-44f55287",
+        "v-75616575",
+        "v-faf0f10a",
+        "v-6cf9ce47",
+        "v-7ded87ba",
+        "v-2a4697bb",
+        "v-660e62fb",
+        "v-02e979b9",
+        "v-7505ae4a",
+        "v-3a8d029b"
       ]
     },
     "前端": {
@@ -137,12 +138,12 @@ export default {
       "scope": "categories",
       "path": "/categories/前端/",
       "pageKeys": [
-        "v-4fda8722",
-        "v-4e38efb3",
-        "v-790c0355",
-        "v-5b9558ca",
-        "v-6ffbb6db",
-        "v-921ea9ca"
+        "v-71865575",
+        "v-39212fb9",
+        "v-71e3804a",
+        "v-45d2da1b",
+        "v-7b66f19b",
+        "v-38cd854a"
       ]
     },
     "人工智能": {
@@ -150,7 +151,8 @@ export default {
       "scope": "categories",
       "path": "/categories/人工智能/",
       "pageKeys": [
-        "v-9e33fd64"
+        "v-8f95755a",
+        "v-18a6fefb"
       ]
     },
     "工具": {
@@ -158,8 +160,8 @@ export default {
       "scope": "categories",
       "path": "/categories/工具/",
       "pageKeys": [
-        "v-75cbd388",
-        "v-24218ec4"
+        "v-ab41ed0a",
+        "v-f25abe5e"
       ]
     }
   },
