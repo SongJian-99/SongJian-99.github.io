@@ -48,3 +48,7 @@
 .icon-tools:before {
   content: "\e6c2";
 }
+
+.icon-navigate:before {
+  content: "\e619";
+}

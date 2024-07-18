@@ -4,16 +4,16 @@
 
 import { injectComponentOption, ensureAsyncComponentsLoaded } from '@app/util'
 import rootMixins from '@internal/root-mixins'
-import GlobalLayout from "/Users/songjian/Project/vscode/blog/node_modules/@vuepress/core/lib/client/components/GlobalLayout.vue"
+import GlobalLayout from "E:\\vscode\\blog\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
 
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-51316b00",
+    name: "v-9280c340",
     path: "/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-51316b00").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-9280c340").then(next)
     },
   },
   {
@@ -21,440 +21,188 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-44f55287",
-    path: "/backend/docker/Web.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-44f55287").then(next)
-    },
-  },
-  {
-    name: "v-75616575",
-    path: "/backend/docker/Elasticsearch.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-75616575").then(next)
-    },
-  },
-  {
-    name: "v-faf0f10a",
-    path: "/backend/work/ceph.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-faf0f10a").then(next)
-    },
-  },
-  {
-    name: "v-6cf9ce47",
+    name: "v-1227ff87",
     path: "/backend/microservice/twelve-factor.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6cf9ce47").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-1227ff87").then(next)
     },
   },
   {
-    name: "v-7ded87ba",
-    path: "/backend/work/easyexcel.html",
+    name: "v-5acd688a",
+    path: "/backend/work/ceph.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7ded87ba").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-5acd688a").then(next)
     },
   },
   {
-    name: "v-2a4697bb",
+    name: "v-f6dcfe16",
+    path: "/backend/docker/Elasticsearch.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-f6dcfe16").then(next)
+    },
+  },
+  {
+    name: "v-15ca2d81",
     path: "/backend/mysql/explain.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2a4697bb").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-15ca2d81").then(next)
     },
   },
   {
-    name: "v-660e62fb",
+    name: "v-65a62e07",
+    path: "/backend/docker/Web.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-65a62e07").then(next)
+    },
+  },
+  {
+    name: "v-41e2b063",
+    path: "/backend/work/easyexcel.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-41e2b063").then(next)
+    },
+  },
+  {
+    name: "v-165bc73b",
     path: "/backend/work/onlyoffice.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-660e62fb").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-165bc73b").then(next)
     },
   },
   {
-    name: "v-02e979b9",
+    name: "v-091f4df9",
     path: "/backend/work/poi.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-02e979b9").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-091f4df9").then(next)
     },
   },
   {
-    name: "v-71865575",
-    path: "/frontend/vue/jsx.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-71865575").then(next)
-    },
-  },
-  {
-    name: "v-7505ae4a",
+    name: "v-2ab2a5ca",
     path: "/backend/work/practice.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7505ae4a").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-2ab2a5ca").then(next)
     },
   },
   {
-    name: "v-39212fb9",
-    path: "/frontend/vue/questions.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-39212fb9").then(next)
-    },
-  },
-  {
-    name: "v-71e3804a",
-    path: "/frontend/vue/stream.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-71e3804a").then(next)
-    },
-  },
-  {
-    name: "v-45d2da1b",
-    path: "/frontend/vuepress/VuePressOne.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-45d2da1b").then(next)
-    },
-  },
-  {
-    name: "v-3a8d029b",
+    name: "v-2a4b324a",
     path: "/backend/work/webservice.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3a8d029b").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-2a4b324a").then(next)
     },
   },
   {
-    name: "v-7b66f19b",
+    name: "v-4fda8722",
+    path: "/frontend/vue/jsx.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4fda8722").then(next)
+    },
+  },
+  {
+    name: "v-4e38efb3",
+    path: "/frontend/vue/questions.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4e38efb3").then(next)
+    },
+  },
+  {
+    name: "v-5b9558ca",
+    path: "/frontend/vuepress/VuePressOne.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5b9558ca").then(next)
+    },
+  },
+  {
+    name: "v-921ea9ca",
     path: "/frontend/vuepress/VuePressThree.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7b66f19b").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-921ea9ca").then(next)
     },
   },
   {
-    name: "v-8f95755a",
-    path: "/llm/basicOne.html",
+    name: "v-790c0355",
+    path: "/frontend/vue/stream.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-8f95755a").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-790c0355").then(next)
     },
   },
   {
-    name: "v-38cd854a",
+    name: "v-6ffbb6db",
     path: "/frontend/vuepress/VuePressTwo.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-38cd854a").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-6ffbb6db").then(next)
     },
   },
   {
-    name: "v-2300189b",
-    path: "/message-board.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2300189b").then(next)
-    },
-  },
-  {
-    name: "v-ab41ed0a",
-    path: "/tool/centos.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-ab41ed0a").then(next)
-    },
-  },
-  {
-    name: "v-18a6fefb",
+    name: "v-9e33fd64",
     path: "/llm/InternLM2.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-18a6fefb").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-9e33fd64").then(next)
     },
   },
   {
-    name: "v-2c93e1db",
-    path: "/other/treeholes.html",
+    name: "v-36e6c066",
+    path: "/llm/basicOne.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2c93e1db").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-36e6c066").then(next)
     },
   },
   {
-    name: "v-f25abe5e",
+    name: "v-6a783e8a",
+    path: "/message-board.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6a783e8a").then(next)
+    },
+  },
+  {
+    name: "v-1547fefa",
+    path: "/other/navigate.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-1547fefa").then(next)
+    },
+  },
+  {
+    name: "v-24218ec4",
     path: "/tool/git.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-f25abe5e").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-24218ec4").then(next)
     },
   },
   {
-    name: "v-b1564aac",
-    path: "/tag/",
+    name: "v-04e7d924",
+    path: "/other/treeholes.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tags", "v-b1564aac").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-04e7d924").then(next)
     },
-    meta: {"pid":"tags","id":"tags"}
   },
   {
-    path: "/tag/index.html",
-    redirect: "/tag/"
-  },
-  {
-    name: "v-ef9325c4",
-    path: "/categories/",
+    name: "v-75cbd388",
+    path: "/tool/centos.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("FrontmatterKey", "v-ef9325c4").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-75cbd388").then(next)
     },
-    meta: {"pid":"categories","id":"categories"}
-  },
-  {
-    path: "/categories/index.html",
-    redirect: "/categories/"
-  },
-  {
-    name: "v-6319eb4e",
-    path: "/timeline/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("TimeLines", "v-6319eb4e").then(next)
-    },
-    meta: {"pid":"timeline","id":"timeline"}
-  },
-  {
-    path: "/timeline/index.html",
-    redirect: "/timeline/"
-  },
-  {
-    name: "v-83bebff6",
-    path: "/tag/Docker/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-83bebff6").then(next)
-    },
-    meta: {"pid":"tags","id":"Docker"}
-  },
-  {
-    path: "/tag/Docker/index.html",
-    redirect: "/tag/Docker/"
-  },
-  {
-    name: "v-18c9fdea",
-    path: "/tag/Ceph/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-18c9fdea").then(next)
-    },
-    meta: {"pid":"tags","id":"Ceph"}
-  },
-  {
-    path: "/tag/Ceph/index.html",
-    redirect: "/tag/Ceph/"
-  },
-  {
-    name: "v-7a62bdfa",
-    path: "/tag/Micorservice/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-7a62bdfa").then(next)
-    },
-    meta: {"pid":"tags","id":"Micorservice"}
-  },
-  {
-    path: "/tag/Micorservice/index.html",
-    redirect: "/tag/Micorservice/"
-  },
-  {
-    name: "v-5ba5b544",
-    path: "/tag/EasyExcel/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-5ba5b544").then(next)
-    },
-    meta: {"pid":"tags","id":"EasyExcel"}
-  },
-  {
-    path: "/tag/EasyExcel/index.html",
-    redirect: "/tag/EasyExcel/"
-  },
-  {
-    name: "v-dc3c2992",
-    path: "/tag/MySQL/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-dc3c2992").then(next)
-    },
-    meta: {"pid":"tags","id":"MySQL"}
-  },
-  {
-    path: "/tag/MySQL/index.html",
-    redirect: "/tag/MySQL/"
-  },
-  {
-    name: "v-364eb69d",
-    path: "/tag/OnlyOffice/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-364eb69d").then(next)
-    },
-    meta: {"pid":"tags","id":"OnlyOffice"}
-  },
-  {
-    path: "/tag/OnlyOffice/index.html",
-    redirect: "/tag/OnlyOffice/"
-  },
-  {
-    name: "v-324cfe22",
-    path: "/tag/Poi/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-324cfe22").then(next)
-    },
-    meta: {"pid":"tags","id":"Poi"}
-  },
-  {
-    path: "/tag/Poi/index.html",
-    redirect: "/tag/Poi/"
-  },
-  {
-    name: "v-32475d9a",
-    path: "/tag/Vue/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-32475d9a").then(next)
-    },
-    meta: {"pid":"tags","id":"Vue"}
-  },
-  {
-    path: "/tag/Vue/index.html",
-    redirect: "/tag/Vue/"
-  },
-  {
-    name: "v-5e08fc30",
-    path: "/tag/VuePress/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-5e08fc30").then(next)
-    },
-    meta: {"pid":"tags","id":"VuePress"}
-  },
-  {
-    path: "/tag/VuePress/index.html",
-    redirect: "/tag/VuePress/"
-  },
-  {
-    name: "v-9c29eaf8",
-    path: "/tag/WebService/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-9c29eaf8").then(next)
-    },
-    meta: {"pid":"tags","id":"WebService"}
-  },
-  {
-    path: "/tag/WebService/index.html",
-    redirect: "/tag/WebService/"
-  },
-  {
-    name: "v-3251aea8",
-    path: "/tag/LLM/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-3251aea8").then(next)
-    },
-    meta: {"pid":"tags","id":"LLM"}
-  },
-  {
-    path: "/tag/LLM/index.html",
-    redirect: "/tag/LLM/"
-  },
-  {
-    name: "v-78c8b219",
-    path: "/tag/CentOS/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-78c8b219").then(next)
-    },
-    meta: {"pid":"tags","id":"CentOS"}
-  },
-  {
-    path: "/tag/CentOS/index.html",
-    redirect: "/tag/CentOS/"
-  },
-  {
-    name: "v-32555732",
-    path: "/tag/Git/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-32555732").then(next)
-    },
-    meta: {"pid":"tags","id":"Git"}
-  },
-  {
-    path: "/tag/Git/index.html",
-    redirect: "/tag/Git/"
-  },
-  {
-    name: "v-12afc5a1",
-    path: "/categories/后端/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-12afc5a1").then(next)
-    },
-    meta: {"pid":"categories","id":"后端"}
-  },
-  {
-    path: "/categories/后端/index.html",
-    redirect: "/categories/后端/"
-  },
-  {
-    name: "v-14bbbf36",
-    path: "/categories/前端/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-14bbbf36").then(next)
-    },
-    meta: {"pid":"categories","id":"前端"}
-  },
-  {
-    path: "/categories/前端/index.html",
-    redirect: "/categories/前端/"
-  },
-  {
-    name: "v-4e573672",
-    path: "/categories/人工智能/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-4e573672").then(next)
-    },
-    meta: {"pid":"categories","id":"人工智能"}
-  },
-  {
-    path: "/categories/人工智能/index.html",
-    redirect: "/categories/人工智能/"
-  },
-  {
-    name: "v-7f958298",
-    path: "/categories/工具/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-7f958298").then(next)
-    },
-    meta: {"pid":"categories","id":"工具"}
-  },
-  {
-    path: "/categories/工具/index.html",
-    redirect: "/categories/工具/"
   },
   {
     path: '*',

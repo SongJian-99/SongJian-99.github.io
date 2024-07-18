@@ -8,32 +8,8 @@ export default {
       "scope": "tags",
       "path": "/tag/Docker/",
       "pageKeys": [
-        "v-44f55287",
-        "v-75616575"
-      ]
-    },
-    "Ceph": {
-      "key": "Ceph",
-      "scope": "tags",
-      "path": "/tag/Ceph/",
-      "pageKeys": [
-        "v-faf0f10a"
-      ]
-    },
-    "Micorservice": {
-      "key": "Micorservice",
-      "scope": "tags",
-      "path": "/tag/Micorservice/",
-      "pageKeys": [
-        "v-6cf9ce47"
-      ]
-    },
-    "EasyExcel": {
-      "key": "EasyExcel",
-      "scope": "tags",
-      "path": "/tag/EasyExcel/",
-      "pageKeys": [
-        "v-7ded87ba"
+        "v-f6dcfe16",
+        "v-65a62e07"
       ]
     },
     "MySQL": {
@@ -41,8 +17,32 @@ export default {
       "scope": "tags",
       "path": "/tag/MySQL/",
       "pageKeys": [
-        "v-2a4697bb",
-        "v-7505ae4a"
+        "v-15ca2d81",
+        "v-2ab2a5ca"
+      ]
+    },
+    "Micorservice": {
+      "key": "Micorservice",
+      "scope": "tags",
+      "path": "/tag/Micorservice/",
+      "pageKeys": [
+        "v-1227ff87"
+      ]
+    },
+    "Ceph": {
+      "key": "Ceph",
+      "scope": "tags",
+      "path": "/tag/Ceph/",
+      "pageKeys": [
+        "v-5acd688a"
+      ]
+    },
+    "EasyExcel": {
+      "key": "EasyExcel",
+      "scope": "tags",
+      "path": "/tag/EasyExcel/",
+      "pageKeys": [
+        "v-41e2b063"
       ]
     },
     "OnlyOffice": {
@@ -50,7 +50,7 @@ export default {
       "scope": "tags",
       "path": "/tag/OnlyOffice/",
       "pageKeys": [
-        "v-660e62fb"
+        "v-165bc73b"
       ]
     },
     "Poi": {
@@ -58,27 +58,7 @@ export default {
       "scope": "tags",
       "path": "/tag/Poi/",
       "pageKeys": [
-        "v-02e979b9"
-      ]
-    },
-    "Vue": {
-      "key": "Vue",
-      "scope": "tags",
-      "path": "/tag/Vue/",
-      "pageKeys": [
-        "v-71865575",
-        "v-39212fb9",
-        "v-71e3804a"
-      ]
-    },
-    "VuePress": {
-      "key": "VuePress",
-      "scope": "tags",
-      "path": "/tag/VuePress/",
-      "pageKeys": [
-        "v-45d2da1b",
-        "v-7b66f19b",
-        "v-38cd854a"
+        "v-091f4df9"
       ]
     },
     "WebService": {
@@ -86,7 +66,27 @@ export default {
       "scope": "tags",
       "path": "/tag/WebService/",
       "pageKeys": [
-        "v-3a8d029b"
+        "v-2a4b324a"
+      ]
+    },
+    "Vue": {
+      "key": "Vue",
+      "scope": "tags",
+      "path": "/tag/Vue/",
+      "pageKeys": [
+        "v-4e38efb3",
+        "v-4fda8722",
+        "v-790c0355"
+      ]
+    },
+    "VuePress": {
+      "key": "VuePress",
+      "scope": "tags",
+      "path": "/tag/VuePress/",
+      "pageKeys": [
+        "v-6ffbb6db",
+        "v-5b9558ca",
+        "v-921ea9ca"
       ]
     },
     "LLM": {
@@ -94,8 +94,8 @@ export default {
       "scope": "tags",
       "path": "/tag/LLM/",
       "pageKeys": [
-        "v-8f95755a",
-        "v-18a6fefb"
+        "v-9e33fd64",
+        "v-36e6c066"
       ]
     },
     "CentOS": {
@@ -103,7 +103,7 @@ export default {
       "scope": "tags",
       "path": "/tag/CentOS/",
       "pageKeys": [
-        "v-ab41ed0a"
+        "v-75cbd388"
       ]
     },
     "Git": {
@@ -111,7 +111,7 @@ export default {
       "scope": "tags",
       "path": "/tag/Git/",
       "pageKeys": [
-        "v-f25abe5e"
+        "v-24218ec4"
       ]
     }
   },
@@ -121,16 +121,16 @@ export default {
       "scope": "categories",
       "path": "/categories/后端/",
       "pageKeys": [
-        "v-44f55287",
-        "v-75616575",
-        "v-faf0f10a",
-        "v-6cf9ce47",
-        "v-7ded87ba",
-        "v-2a4697bb",
-        "v-660e62fb",
-        "v-02e979b9",
-        "v-7505ae4a",
-        "v-3a8d029b"
+        "v-f6dcfe16",
+        "v-65a62e07",
+        "v-15ca2d81",
+        "v-1227ff87",
+        "v-5acd688a",
+        "v-41e2b063",
+        "v-165bc73b",
+        "v-091f4df9",
+        "v-2a4b324a",
+        "v-2ab2a5ca"
       ]
     },
     "前端": {
@@ -138,12 +138,12 @@ export default {
       "scope": "categories",
       "path": "/categories/前端/",
       "pageKeys": [
-        "v-71865575",
-        "v-39212fb9",
-        "v-71e3804a",
-        "v-45d2da1b",
-        "v-7b66f19b",
-        "v-38cd854a"
+        "v-4e38efb3",
+        "v-4fda8722",
+        "v-6ffbb6db",
+        "v-5b9558ca",
+        "v-790c0355",
+        "v-921ea9ca"
       ]
     },
     "人工智能": {
@@ -151,8 +151,8 @@ export default {
       "scope": "categories",
       "path": "/categories/人工智能/",
       "pageKeys": [
-        "v-8f95755a",
-        "v-18a6fefb"
+        "v-9e33fd64",
+        "v-36e6c066"
       ]
     },
     "工具": {
@@ -160,8 +160,8 @@ export default {
       "scope": "categories",
       "path": "/categories/工具/",
       "pageKeys": [
-        "v-ab41ed0a",
-        "v-f25abe5e"
+        "v-75cbd388",
+        "v-24218ec4"
       ]
     }
   },

@@ -8,6 +8,7 @@ module.exports = {
   },
   theme: "reco",
   title: "Cleaner 知识库",
+  port: 9400,
   description: "Cleaner 知识库",
   head: [["link", {
     rel: "icon",
@@ -107,6 +108,10 @@ module.exports = {
     },
     nav: [// 导航栏配置
     {
+      text: "导航",
+      link: "/other/navigate",
+      icon: "iconfont icon-navigate"
+    }, {
       text: "前端",
       icon: "iconfont icon-frontend",
       items: [{
@@ -140,11 +145,12 @@ module.exports = {
       text: "工具",
       link: "/tool/git",
       icon: "iconfont icon-tools"
-    }, {
-      text: "留言板",
-      link: "/message-board",
-      icon: "reco-suggestion"
-    }, {
+    }, // {
+    //   text: "留言板",
+    //   link: "/message-board",
+    //   icon: "reco-suggestion",
+    // },
+    {
       text: "其他",
       icon: "reco-other",
       items: [{
