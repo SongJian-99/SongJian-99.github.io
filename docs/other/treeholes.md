@@ -200,7 +200,7 @@ pageClass: treeholes
   <el-card shadow="hover">日子还不是照旧，自斟自饮自消受。</el-card>
 </el-col> -->
 
-<style scope>
+<style>
   .marginBottom {
     margin-bottom: 5px
   }

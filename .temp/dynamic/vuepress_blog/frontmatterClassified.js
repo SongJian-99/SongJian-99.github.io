@@ -8,8 +8,24 @@ export default {
       "scope": "tags",
       "path": "/tag/Docker/",
       "pageKeys": [
-        "v-f6dcfe16",
-        "v-65a62e07"
+        "v-65a62e07",
+        "v-f6dcfe16"
+      ]
+    },
+    "Micorservice": {
+      "key": "Micorservice",
+      "scope": "tags",
+      "path": "/tag/Micorservice/",
+      "pageKeys": [
+        "v-1227ff87"
+      ]
+    },
+    "EasyExcel": {
+      "key": "EasyExcel",
+      "scope": "tags",
+      "path": "/tag/EasyExcel/",
+      "pageKeys": [
+        "v-41e2b063"
       ]
     },
     "MySQL": {
@@ -21,12 +37,12 @@ export default {
         "v-2ab2a5ca"
       ]
     },
-    "Micorservice": {
-      "key": "Micorservice",
+    "OnlyOffice": {
+      "key": "OnlyOffice",
       "scope": "tags",
-      "path": "/tag/Micorservice/",
+      "path": "/tag/OnlyOffice/",
       "pageKeys": [
-        "v-1227ff87"
+        "v-165bc73b"
       ]
     },
     "Ceph": {
@@ -35,22 +51,6 @@ export default {
       "path": "/tag/Ceph/",
       "pageKeys": [
         "v-5acd688a"
-      ]
-    },
-    "EasyExcel": {
-      "key": "EasyExcel",
-      "scope": "tags",
-      "path": "/tag/EasyExcel/",
-      "pageKeys": [
-        "v-41e2b063"
-      ]
-    },
-    "OnlyOffice": {
-      "key": "OnlyOffice",
-      "scope": "tags",
-      "path": "/tag/OnlyOffice/",
-      "pageKeys": [
-        "v-165bc73b"
       ]
     },
     "Poi": {
@@ -74,19 +74,9 @@ export default {
       "scope": "tags",
       "path": "/tag/Vue/",
       "pageKeys": [
-        "v-4e38efb3",
         "v-4fda8722",
+        "v-4e38efb3",
         "v-790c0355"
-      ]
-    },
-    "VuePress": {
-      "key": "VuePress",
-      "scope": "tags",
-      "path": "/tag/VuePress/",
-      "pageKeys": [
-        "v-6ffbb6db",
-        "v-5b9558ca",
-        "v-921ea9ca"
       ]
     },
     "LLM": {
@@ -96,6 +86,16 @@ export default {
       "pageKeys": [
         "v-9e33fd64",
         "v-36e6c066"
+      ]
+    },
+    "VuePress": {
+      "key": "VuePress",
+      "scope": "tags",
+      "path": "/tag/VuePress/",
+      "pageKeys": [
+        "v-5b9558ca",
+        "v-921ea9ca",
+        "v-6ffbb6db"
       ]
     },
     "CentOS": {
@@ -121,13 +121,13 @@ export default {
       "scope": "categories",
       "path": "/categories/后端/",
       "pageKeys": [
-        "v-f6dcfe16",
         "v-65a62e07",
-        "v-15ca2d81",
+        "v-f6dcfe16",
         "v-1227ff87",
-        "v-5acd688a",
         "v-41e2b063",
+        "v-15ca2d81",
         "v-165bc73b",
+        "v-5acd688a",
         "v-091f4df9",
         "v-2a4b324a",
         "v-2ab2a5ca"
@@ -138,12 +138,12 @@ export default {
       "scope": "categories",
       "path": "/categories/前端/",
       "pageKeys": [
-        "v-4e38efb3",
         "v-4fda8722",
-        "v-6ffbb6db",
-        "v-5b9558ca",
+        "v-4e38efb3",
         "v-790c0355",
-        "v-921ea9ca"
+        "v-5b9558ca",
+        "v-921ea9ca",
+        "v-6ffbb6db"
       ]
     },
     "人工智能": {
