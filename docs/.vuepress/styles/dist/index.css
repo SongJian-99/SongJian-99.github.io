@@ -71,11 +71,16 @@ main section {
   background-color: #fff;
   max-width: none !important;
   margin: 0 0 0 0.4rem !important;
+  padding-right: 1rem !important;
 }
 .page-nav {
   background-color: #fff;
   max-width: none !important;
   margin: 0 0 0 0.4rem !important;
+  padding-bottom: 0.1rem !important;
+}
+.comments-wrapper {
+  padding: 0 !important;
 }
 .timeline-wrapper .year {
   margin: 80px 0px 20px !important;

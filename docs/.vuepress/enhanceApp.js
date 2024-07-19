@@ -1,6 +1,7 @@
 import '../.vuepress/styles/iconfont.css'
 import Element from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
+import FooterLink from '../.vuepress/components/FooterLink.vue'
 
 
 export default ({Vue,isServer,router}) => {
@@ -24,6 +25,22 @@ export default ({Vue,isServer,router}) => {
       }
     }
     // continue
-    next();       
+    if (to.path !== '/') {
+      // 获取内容容器
+      console.log(document)
+      const contentContainer = document.querySelector('.theme-container');
+      console.log(contentContainer)
+      if (contentContainer) {
+        // 检查是否已经存在 footer-link
+        if (!contentContainer.querySelector('.footer-link')) {
+          // 创建 FooterLink 组件实例并插入到页面中
+          const FooterLinkConstructor = Vue.extend(FooterLink);
+          const instance = new FooterLinkConstructor().$mount();
+          console.log(instance)
+          contentContainer.appendChild(instance.$el);
+        }
+      }
+    }
+    next();  
   })
 };

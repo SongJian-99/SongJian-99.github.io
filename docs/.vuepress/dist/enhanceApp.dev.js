@@ -11,6 +11,8 @@ var _elementUi = _interopRequireDefault(require("element-ui"));
 
 require("element-ui/lib/theme-chalk/index.css");
 
+var _FooterLink = _interopRequireDefault(require("../.vuepress/components/FooterLink.vue"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 var _default = function _default(_ref) {
@@ -39,6 +41,24 @@ var _default = function _default(_ref) {
       }
     } // continue
 
+
+    if (to.path !== '/') {
+      // 获取内容容器
+      console.log(document);
+      var contentContainer = document.querySelector('.theme-container');
+      console.log(contentContainer);
+
+      if (contentContainer) {
+        // 检查是否已经存在 footer-link
+        if (!contentContainer.querySelector('.footer-link')) {
+          // 创建 FooterLink 组件实例并插入到页面中
+          var FooterLinkConstructor = Vue.extend(_FooterLink["default"]);
+          var instance = new FooterLinkConstructor().$mount();
+          console.log(instance);
+          contentContainer.appendChild(instance.$el);
+        }
+      }
+    }
 
     next();
   });

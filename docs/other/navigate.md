@@ -1,5 +1,6 @@
 ---
 readingShow: false
+# layout: CommonFooter
 ---
 
 <el-divider><span class='divider-text'>开源电子书</span></el-divider>
@@ -172,6 +173,27 @@ readingShow: false
     </el-card>
   </a>
 </el-col>
+<el-col :span='8'>
+  <a class='navigate-a' href='https://gitmind.cn/' target='_blank'>
+    <!-- 颜色备份 c7f9ed -->
+    <el-card :body-style="cardStyle" shadow="hover">
+      <div class='div-title'>
+        <span class='navigate-title'>GitMind</span>
+      </div>
+      <div class='navigate-content' title='GitMind 是一款新一代 AI 智能思维导图协作软件，可以帮助用户创建、分享、协作各种思维分型，如思维导图、流程图、组织结构图等。GitMind 还支持云端同步、多端同步、多人协作、AI 智能生成等功能。'>
+        GitMind 是一款新一代 AI 智能思维导图协作软件，可以帮助用户创建、分享、协作各种思维分型，如思维导图、流程图、组织结构图等。GitMind 还支持云端同步、多端同步、多人协作、AI 智能生成等功能。
+      </div>
+      <div>
+        <el-tag type='success' effect='plain' size='mini'>
+          软件
+        </el-tag>
+        <el-tag type='success' effect='plain' size='mini'>
+          思维导图
+        </el-tag>
+      </div>
+    </el-card>
+  </a>
+</el-col>
 </el-row>
 
 
@@ -228,3 +250,6 @@ export default {
 </style>
 
 <Vssue :title="$title" />
+
+<!-- <common-footer></common-footer> -->
+<!-- <a href="URL_ADDRESS" target="_blank">Cleaner</a> -->
