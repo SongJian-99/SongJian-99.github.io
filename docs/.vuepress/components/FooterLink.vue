@@ -1,6 +1,6 @@
 <template>
   <div class="footer-link">
-    <a href="https://cleaner.love/">@Cleaner</a>
+    <span>Cleaner | 2023-2024</span>
   </div>
 </template>
 
@@ -13,10 +13,13 @@
 <style scoped>
   .footer-link {
     position: absolute;
-    bottom: 8px; /* 距离页面底部的距离 */
-    left: 50%;
+    bottom: 8px; 
+    left: 40%;
     transform: translateX(-50%);
+    font-size: .8rem;
+    font-weight: 400;
     text-align: center;
+    color: #6a8bad; 
   }
 </style>
 

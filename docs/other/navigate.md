@@ -1,6 +1,5 @@
 ---
 readingShow: false
-# layout: CommonFooter
 ---
 
 <el-divider><span class='divider-text'>开源电子书</span></el-divider>
@@ -251,5 +250,4 @@ export default {
 
 <Vssue :title="$title" />
 
-<!-- <common-footer></common-footer> -->
-<!-- <a href="URL_ADDRESS" target="_blank">Cleaner</a> -->
+<footer-link style='left: 50%'></footer-link>

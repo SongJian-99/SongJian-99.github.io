@@ -137,9 +137,9 @@ module.exports = {
     noFoundPageByTencent: false,
     // 主题模式（暗/亮）
     modePicker: false,
-    lastUpdated: "更新时间",
+    // lastUpdated: "更新时间",
     // 设置时区偏移量（8小时）
-    timezoneOffset: 8 * 60 * 60 * 1000,
+    // timezoneOffset: 8 * 60 * 60 * 1000,
     // 博客配置
     blogConfig: {
       socialLinks: [

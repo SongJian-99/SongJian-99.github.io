@@ -42,11 +42,9 @@ var _default = function _default(_ref) {
     } // continue
 
 
-    if (to.path !== '/') {
+    if (to.path !== '/' && to.path !== '/timeLine') {
       // 获取内容容器
-      console.log(document);
-      var contentContainer = document.querySelector('.theme-container');
-      console.log(contentContainer);
+      var contentContainer = document.querySelector('.page');
 
       if (contentContainer) {
         // 检查是否已经存在 footer-link
@@ -54,7 +52,6 @@ var _default = function _default(_ref) {
           // 创建 FooterLink 组件实例并插入到页面中
           var FooterLinkConstructor = Vue.extend(_FooterLink["default"]);
           var instance = new FooterLinkConstructor().$mount();
-          console.log(instance);
           contentContainer.appendChild(instance.$el);
         }
       }

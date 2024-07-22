@@ -1,6 +1,10 @@
 .content {
   font-size: 30px;
 }
+/* 隐藏空的 <ul> 标签 解决首页展示侧边栏的问题 */
+ul:empty {
+  display: none;
+}
 .abstract-item {
   background-color: rgba(172,220,253,0.239) !important;
   transition: all 0.5s;
@@ -38,6 +42,7 @@ a.sidebar-link.active {
   margin-left: -1em;
 }
 .theme-container .sub-sidebar {
+  overflow: hidden !important;
   padding-top: 0.5rem;
   right: 0.5rem !important;
   top: 3.3rem !important;
@@ -127,4 +132,17 @@ blockquote {
   border-radius: 7px;
   border-left: none !important;
   color: #6d727a !important;
+}
+::-webkit-scrollbar {
+  width: 14px !important;
+  height: 15px !important;
+}
+::-webkit-scrollbar-track {
+  background-color: #f2f4f5;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #c7c4c4 !important;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #b2afaf !important;
 }
