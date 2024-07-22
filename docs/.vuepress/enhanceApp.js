@@ -24,20 +24,22 @@ export default ({Vue,isServer,router}) => {
           }
       }
     }
-    // continue
-    if (to.path !== '/' && to.path !== '/timeLine') {
-      // 获取内容容器
-      const contentContainer = document.querySelector('.page');
-      if (contentContainer) {
-        // 检查是否已经存在 footer-link
-        if (!contentContainer.querySelector('.footer-link')) {
-          // 创建 FooterLink 组件实例并插入到页面中
-          const FooterLinkConstructor = Vue.extend(FooterLink);
-          const instance = new FooterLinkConstructor().$mount();
-          contentContainer.appendChild(instance.$el);
+    if(typeof window !== 'undefined'){
+      if (to.path !== '/' && to.path !== '/timeLine') {
+        // 获取内容容器
+        const contentContainer = document.querySelector('.page');
+        if (contentContainer) {
+          // 检查是否已经存在 footer-link
+          if (!contentContainer.querySelector('.footer-link')) {
+            // 创建 FooterLink 组件实例并插入到页面中
+            const FooterLinkConstructor = Vue.extend(FooterLink);
+            const instance = new FooterLinkConstructor().$mount();
+            contentContainer.appendChild(instance.$el);
+          }
         }
       }
     }
+    // continue
     next();  
   })
 };
