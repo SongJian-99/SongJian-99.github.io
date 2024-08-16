@@ -195,6 +195,29 @@ readingShow: false
 </el-col>
 </el-row>
 
+<el-divider><span class='divider-text'>博客文章</span></el-divider>
+<el-row style='margin-bottom: 20px' :gutter='20'>
+<el-col :span='8'>
+  <a class='navigate-a' href='https://newsletter.techworld-with-milan.com/p/learn-things-that-dont-change?open=false#%C2%A7books-every-software-engineer-must-read-in' target='_blank'>
+    <!-- 颜色备份 c7f9ed -->
+    <el-card :body-style="cardStyle" shadow="hover">
+      <div class='div-title'>
+        <span class='navigate-title'>软件工程师的必读书单</span>
+      </div>
+      <div class='navigate-content' title='作者列出一份英文书单，包括 34 本程序员的必读书籍。'>
+        作者列出一份英文书单，包括 34 本程序员的必读书籍。
+      </div>
+      <div>
+        <el-tag type='success' effect='plain' size='mini'>
+          书籍推荐
+        </el-tag>
+      </div>
+    </el-card>
+  </a>
+</el-col>
+</el-row>
+
+
 
 <script>
 export default {

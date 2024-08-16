@@ -8,8 +8,8 @@ export default {
       "scope": "tags",
       "path": "/tag/Docker/",
       "pageKeys": [
-        "v-65a62e07",
-        "v-f6dcfe16"
+        "v-f6dcfe16",
+        "v-65a62e07"
       ]
     },
     "Micorservice": {
@@ -28,14 +28,6 @@ export default {
         "v-5acd688a"
       ]
     },
-    "EasyExcel": {
-      "key": "EasyExcel",
-      "scope": "tags",
-      "path": "/tag/EasyExcel/",
-      "pageKeys": [
-        "v-41e2b063"
-      ]
-    },
     "MySQL": {
       "key": "MySQL",
       "scope": "tags",
@@ -43,6 +35,14 @@ export default {
       "pageKeys": [
         "v-15ca2d81",
         "v-2ab2a5ca"
+      ]
+    },
+    "EasyExcel": {
+      "key": "EasyExcel",
+      "scope": "tags",
+      "path": "/tag/EasyExcel/",
+      "pageKeys": [
+        "v-41e2b063"
       ]
     },
     "OnlyOffice": {
@@ -53,12 +53,30 @@ export default {
         "v-165bc73b"
       ]
     },
+    "WebService": {
+      "key": "WebService",
+      "scope": "tags",
+      "path": "/tag/WebService/",
+      "pageKeys": [
+        "v-2a4b324a"
+      ]
+    },
     "Poi": {
       "key": "Poi",
       "scope": "tags",
       "path": "/tag/Poi/",
       "pageKeys": [
         "v-091f4df9"
+      ]
+    },
+    "Vue": {
+      "key": "Vue",
+      "scope": "tags",
+      "path": "/tag/Vue/",
+      "pageKeys": [
+        "v-4e38efb3",
+        "v-4fda8722",
+        "v-790c0355"
       ]
     },
     "VuePress": {
@@ -69,24 +87,6 @@ export default {
         "v-5b9558ca",
         "v-921ea9ca",
         "v-6ffbb6db"
-      ]
-    },
-    "Vue": {
-      "key": "Vue",
-      "scope": "tags",
-      "path": "/tag/Vue/",
-      "pageKeys": [
-        "v-790c0355",
-        "v-4fda8722",
-        "v-4e38efb3"
-      ]
-    },
-    "WebService": {
-      "key": "WebService",
-      "scope": "tags",
-      "path": "/tag/WebService/",
-      "pageKeys": [
-        "v-2a4b324a"
       ]
     },
     "LLM": {
@@ -121,16 +121,16 @@ export default {
       "scope": "categories",
       "path": "/categories/后端/",
       "pageKeys": [
-        "v-65a62e07",
-        "v-1227ff87",
         "v-f6dcfe16",
+        "v-1227ff87",
         "v-5acd688a",
-        "v-41e2b063",
+        "v-65a62e07",
         "v-15ca2d81",
+        "v-41e2b063",
         "v-165bc73b",
-        "v-2ab2a5ca",
+        "v-2a4b324a",
         "v-091f4df9",
-        "v-2a4b324a"
+        "v-2ab2a5ca"
       ]
     },
     "前端": {
@@ -138,11 +138,11 @@ export default {
       "scope": "categories",
       "path": "/categories/前端/",
       "pageKeys": [
-        "v-5b9558ca",
-        "v-790c0355",
-        "v-4fda8722",
-        "v-921ea9ca",
         "v-4e38efb3",
+        "v-4fda8722",
+        "v-790c0355",
+        "v-5b9558ca",
+        "v-921ea9ca",
         "v-6ffbb6db"
       ]
     },
