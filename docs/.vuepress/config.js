@@ -284,6 +284,10 @@ module.exports = {
               title: "EasyExcel 导出多张图片",
               path: "/backend/work/easyexcel",
             },
+            {
+              title: "Java 生成与解析大疆无人机 KMZ 航线文件",
+              path: "/backend/work/kmz",
+            },
           ],
         },
       ],
@@ -366,7 +370,7 @@ module.exports = {
           collapsable: false,
           children: [
             {
-              title: "发展历程、构建过程及如何使用",
+              title: "发展历程、构建过程及大模型使用",
               path: "/llm/basicOne",
             },
           ],
@@ -376,8 +380,12 @@ module.exports = {
           collapsable: false,
           children: [
             {
-              title: "InternLM2（书生·浦语）",
+              title: "InternLM2（书生·浦语）一键部署",
               path: "/llm/InternLM2",
+            },
+            {
+              title: "本地部署 Llama 3.1：Ollama、OpenWeb UI 和 Spring AI 的综合指南",
+              path: "/llm/ollama",
             },
           ],
         },

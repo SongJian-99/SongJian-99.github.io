@@ -8,8 +8,8 @@ export default {
       "scope": "tags",
       "path": "/tag/Docker/",
       "pageKeys": [
-        "v-f6dcfe16",
-        "v-65a62e07"
+        "v-65a62e07",
+        "v-f6dcfe16"
       ]
     },
     "Micorservice": {
@@ -20,21 +20,20 @@ export default {
         "v-1227ff87"
       ]
     },
+    "OnlyOffice": {
+      "key": "OnlyOffice",
+      "scope": "tags",
+      "path": "/tag/OnlyOffice/",
+      "pageKeys": [
+        "v-165bc73b"
+      ]
+    },
     "Ceph": {
       "key": "Ceph",
       "scope": "tags",
       "path": "/tag/Ceph/",
       "pageKeys": [
         "v-5acd688a"
-      ]
-    },
-    "MySQL": {
-      "key": "MySQL",
-      "scope": "tags",
-      "path": "/tag/MySQL/",
-      "pageKeys": [
-        "v-15ca2d81",
-        "v-2ab2a5ca"
       ]
     },
     "EasyExcel": {
@@ -45,20 +44,12 @@ export default {
         "v-41e2b063"
       ]
     },
-    "OnlyOffice": {
-      "key": "OnlyOffice",
+    "dji": {
+      "key": "dji",
       "scope": "tags",
-      "path": "/tag/OnlyOffice/",
+      "path": "/tag/dji/",
       "pageKeys": [
-        "v-165bc73b"
-      ]
-    },
-    "WebService": {
-      "key": "WebService",
-      "scope": "tags",
-      "path": "/tag/WebService/",
-      "pageKeys": [
-        "v-2a4b324a"
+        "v-a4b2cf46"
       ]
     },
     "Poi": {
@@ -69,14 +60,22 @@ export default {
         "v-091f4df9"
       ]
     },
+    "WebService": {
+      "key": "WebService",
+      "scope": "tags",
+      "path": "/tag/WebService/",
+      "pageKeys": [
+        "v-2a4b324a"
+      ]
+    },
     "Vue": {
       "key": "Vue",
       "scope": "tags",
       "path": "/tag/Vue/",
       "pageKeys": [
-        "v-4e38efb3",
         "v-4fda8722",
-        "v-790c0355"
+        "v-790c0355",
+        "v-4e38efb3"
       ]
     },
     "VuePress": {
@@ -89,13 +88,23 @@ export default {
         "v-6ffbb6db"
       ]
     },
+    "MySQL": {
+      "key": "MySQL",
+      "scope": "tags",
+      "path": "/tag/MySQL/",
+      "pageKeys": [
+        "v-2ab2a5ca",
+        "v-15ca2d81"
+      ]
+    },
     "LLM": {
       "key": "LLM",
       "scope": "tags",
       "path": "/tag/LLM/",
       "pageKeys": [
+        "v-36e6c066",
         "v-9e33fd64",
-        "v-36e6c066"
+        "v-40ee5b6c"
       ]
     },
     "CentOS": {
@@ -121,16 +130,17 @@ export default {
       "scope": "categories",
       "path": "/categories/后端/",
       "pageKeys": [
-        "v-f6dcfe16",
-        "v-1227ff87",
-        "v-5acd688a",
         "v-65a62e07",
-        "v-15ca2d81",
-        "v-41e2b063",
+        "v-1227ff87",
+        "v-f6dcfe16",
         "v-165bc73b",
-        "v-2a4b324a",
+        "v-5acd688a",
+        "v-41e2b063",
+        "v-a4b2cf46",
         "v-091f4df9",
-        "v-2ab2a5ca"
+        "v-2a4b324a",
+        "v-2ab2a5ca",
+        "v-15ca2d81"
       ]
     },
     "前端": {
@@ -138,12 +148,12 @@ export default {
       "scope": "categories",
       "path": "/categories/前端/",
       "pageKeys": [
-        "v-4e38efb3",
         "v-4fda8722",
-        "v-790c0355",
         "v-5b9558ca",
+        "v-790c0355",
         "v-921ea9ca",
-        "v-6ffbb6db"
+        "v-6ffbb6db",
+        "v-4e38efb3"
       ]
     },
     "人工智能": {
@@ -151,8 +161,9 @@ export default {
       "scope": "categories",
       "path": "/categories/人工智能/",
       "pageKeys": [
+        "v-36e6c066",
         "v-9e33fd64",
-        "v-36e6c066"
+        "v-40ee5b6c"
       ]
     },
     "工具": {
