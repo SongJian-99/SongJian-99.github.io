@@ -37,5 +37,5 @@ jobs:
           build_dir: src/.vuepress/dist
           fqdn: cleaner.love
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
 
