@@ -1,4 +1,5 @@
 
+# 目前博客主题迁移为 Vuepress Theme Hope，可以在 main 分支中查看。
 # 介绍
 
 使用 VuePress + GitHub Pages + GitHub Actions 搭建的[个人网站](https://cleaner.love/)，代码完全开源，欢迎大家参考使用。
