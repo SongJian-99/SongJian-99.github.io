@@ -16,11 +16,16 @@ jobs:
         with:
           node-version: "20"
           cache: "yarn"
-      - name: Run install
+          
+      - name: yarn set version 
+        uses: borales/actions-yarn@v4
+        with:
+          cmd: set version 4.6.0
+      - name: yarn install
         uses: borales/actions-yarn@v4
         with:
           cmd: install
-      - name: Build production bundle
+      - name: yarn build
         uses: borales/actions-yarn@v4
         with:
           cmd: build
