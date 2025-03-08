@@ -30,15 +30,12 @@ jobs:
         with:
           cmd: build
 
-      # 添加 CNAME 文件到部署目录
-      - name: Add CNAME
-        run: |
-          echo "cleaner.love" > src/.vuepress/dist/CNAME
-
       - name: Deploy to GH Pages
-        uses: JamesIves/github-pages-deploy-action@v4
+        uses: crazy-max/ghaction-github-pages@v4
         with:
-          branch: gh-pages
-          folder: src/.vuepress/dist
-          clean: true
-          force: true
+          target_branch: gh-pages
+          build_dir: src/.vuepress/dist
+          fqdn: cleaner.love
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
