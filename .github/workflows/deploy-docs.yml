@@ -33,7 +33,7 @@ jobs:
       - name: Deploy to GH Pages
         uses: crazy-max/ghaction-github-pages@v4
         with:
-          target_branch: gh-pages
+          target_branch: hope-pages
           build_dir: src/.vuepress/dist
           fqdn: cleaner.love
         env:
