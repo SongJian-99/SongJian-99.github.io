@@ -24,3 +24,11 @@ projects:
     desc: VuePress 博客搭建、主题配置、部署方案等技术记录
     link: /frontend/vuepress/theme-reco-one
 ---
+
+<script setup lang="ts">
+import { SpeedInsights } from '@vercel/speed-insights/vue';
+</script>
+
+<template>
+  <SpeedInsights />
+</template>

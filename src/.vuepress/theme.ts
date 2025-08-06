@@ -1,5 +1,4 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import { SpeedInsights } from "@vercel/speed-insights/vue";
 import { Navbar } from "./navbar/index.js";
 import { Sidebar } from "./sidebar/index.js";
 
