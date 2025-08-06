@@ -1,3 +1,6 @@
 {
-  "buildCommand": "corepack enable && yarn install && yarn build"
+  "buildCommand": "corepack enable && yarn set version berry && yarn install && yarn build",
+  "outputDirectory": "src/.vuepress/dist",
+  "framework": "vuepress",
+  "cleanUrls": true
 }
