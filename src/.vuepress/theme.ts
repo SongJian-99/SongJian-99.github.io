@@ -17,13 +17,13 @@ export default hopeTheme({
   hotReload: true,
   shouldPrefetch: false,
 
-  logo: "round.png",
+  logo: "round.jpeg",
   navbarTitle: "Cleaner",
 
   breadcrumb: false,
   editLink: false,
 
-  repo: "https://github.com/SongJian-99/SongJian-99.github.io",
+  repo: "https://github.com/SongJian-99",
   darkmode: "toggle",
   docsDir: "src",
 
@@ -33,7 +33,7 @@ export default hopeTheme({
   // 博客配置
   blog: {
     name: "Cleaner",
-    avatar: "avatar.png",
+    avatar: "avatar.jpeg ",
     description: '"岁月漫长，要心地善良"',
     excerptLength: 0,
     excerpt: false,

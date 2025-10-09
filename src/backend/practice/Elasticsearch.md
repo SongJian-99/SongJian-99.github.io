@@ -1,5 +1,5 @@
 ---
-title: 使用 Docker Compose 部署 Elasticsearch + Kibana
+title: Docker Compose 部署 Elasticsearch + Kibana
 date: 2023-06-06
 author: Cleaner
 categories:
