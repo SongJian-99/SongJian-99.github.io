@@ -159,7 +159,7 @@ binlog_expire_logs_seconds = 604800
 
 ### 下载 JDK
 
-项目使用的 JDK 版本为 17.0.5。[下载](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)对应的版本，上传到 **jdk** 目录下，并解压。 ![image-20230128185346114.png](https://s2.loli.net/2023/02/03/tAVzlEXg9DHF71u.png)
+项目使用的 JDK 版本为 17.0.5。[下载](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)对应的版本，上传到 **jdk** 目录下，并解压。 ![](https://s2.loli.net/2023/02/03/tAVzlEXg9DHF71u.png)
 
 ### 编写 Dockerfile 文件
 

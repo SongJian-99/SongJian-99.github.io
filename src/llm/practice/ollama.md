@@ -2,14 +2,11 @@
 title: 本地部署 Llama 3.1：Ollama、OpenWeb UI 和 Spring AI 的综合指南
 date: 2024-11-19
 categories:
-  - 人工智能
+  - 大模型
 tags:
   - LLM
+  - ollama
 ---
-
-> 本文介绍如何使用 Ollama 在本地部署 Llama 3.1:8B 模型，并通过 OpenWeb UI 和 Spring AI 来增强模型交互体验和简化 API 的调用过程。
-
-![ollama-01.png](https://s2.loli.net/2024/07/29/Y1iGTdFy9w3AM4O.png)
 
 ## Ollama
 
@@ -32,13 +29,13 @@ Ollama 支持下载 Llama、Gemma、qwen 和 glm4 等多种主流大语言模型
 
 访问 [Ollama 官网](https://ollama.com/download)，选择操作系统，然后点击 download 按钮进行下载。**操作系统要求 MacOS 11 和 Windows 10 及以上版本**。下载完成后的 Ollama 其实是一个命令行工具，我们可以直接在终端中使用 Ollama。（执行  `ollama --help`  可查看 Ollama 提供的的命令）
 
-![ollama-02.png](https://s2.loli.net/2024/07/29/63785IkEYsjPlDK.png)
+![](https://s2.loli.net/2024/07/29/63785IkEYsjPlDK.png)
 
 ### 部署 Llama 3.1
 
 在终端中执行命令  `ollama run llama3.1` ，即可下载 Llama3.1:8B 模型。模型下载完成后，会自动启动大模型，进入命令行交互模式，直接输入指令，就可以和模型进行对话了。
 
-![ollama-03.png](https://s2.loli.net/2024/07/29/SYZ1VF4idPKgUQI.png)
+![](https://s2.loli.net/2024/07/29/SYZ1VF4idPKgUQI.png)
 
 通过 Ollama，我们轻松的实现了本地大模型的部署和命令行式的交互，但是为了更好的使用大模型，以及对大模型进行管理和配置等方面的需求，就需要借助 Ollama 社区中一些强大的工具了，其中代表性的工具之一是 OpenWeb UI（之前称为 Ollama WebUI）。
 
@@ -62,11 +59,11 @@ docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-
 
 容器启动成功后，可以访问 3000 端口，查看页面。首次登陆需要先填写邮箱和密码注册账号。登陆进来后，可以看到，OpenWeb UI 已经自动加载到了我们本地部署的 Llama3.1 模型。
 
-![ollama-04.png](https://s2.loli.net/2024/07/29/PZVDR3B7IKregM4.png)
+![](https://s2.loli.net/2024/07/29/PZVDR3B7IKregM4.png)
 
 在模型编辑页面，我们可以修改模型的配置参数和 Prompt 等信息，并利用 Document 和 Tools 等工具来增强模型的能力和使用体验。
 
-![ollama-05.png](https://s2.loli.net/2024/07/29/plt8sGjDXk3hyaR.png)
+![](https://s2.loli.net/2024/07/29/plt8sGjDXk3hyaR.png)
 
 ## Spring AI
 
@@ -239,7 +236,7 @@ public class OllamaController {
 
 5.  调用接口，可以看到 API 接口调用成功。（8B 模型生成的回答内容还是比较有限）
 
-![ollama-06.png](https://s2.loli.net/2024/07/29/LO5uGE29hDFqVPl.png)
+![](https://s2.loli.net/2024/07/29/LO5uGE29hDFqVPl.png)
 
 ## 总结
 

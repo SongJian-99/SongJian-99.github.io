@@ -1,10 +1,10 @@
 ---
 icon: screwdriver-wrench
-title: 实践
+title: 模型上下文协议（MCP）
 index: false
 timeline: false
 article: false
 dir:
-  collapsible: false
-  expanded: true
+  collapsible: true
+  expanded: false
 ---

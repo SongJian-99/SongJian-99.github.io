@@ -22,7 +22,7 @@ tags:
 
 通常我们会使用版本控制系统（SVN 或 Git）对项目源码进行追踪管理，通过创建多个代码分支来区分不同的运行环境，例如 dev 对应开发环境，test 对应测试环境，main 对应生产环境。如果要部署开发环境，只需对 dev 分支下的代码进行打包部署即可。
 
-![无标题-2023-01-30-1826.png](https://s2.loli.net/2023/07/13/8tsVUnX5NgJP3HR.png)
+![](https://s2.loli.net/2023/07/13/8tsVUnX5NgJP3HR.png)
 
 ### 依赖
 
@@ -60,7 +60,7 @@ tags:
 
 应用程序和支撑服务之间具有低耦合的关系，不需要改动任何代码，只需在配置文件中调整服务的配置信息即可快速切换服务。（本地服务切换为第三方提供的服务、服务故障切换等）
 
-![无标题-2023-07-22-1049.png](https://s2.loli.net/2023/07/22/DarpPZ38UO6tIfL.png)
+![](https://s2.loli.net/2023/07/22/DarpPZ38UO6tIfL.png)
 
 ### 构建、发布、运行
 
@@ -127,6 +127,6 @@ tags:
 
 理解了微服务架构下应用开发的各个要素，再看应用架构图，如此清晰明了。
 
-![若依微服务版架构图](https://s2.loli.net/2023/07/23/ByKvTjFfrne2o4A.png)
+![](https://s2.loli.net/2023/07/23/ByKvTjFfrne2o4A.png)
 
 <p align=center>（若依微服务版本架构图）</p>

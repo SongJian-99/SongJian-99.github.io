@@ -20,9 +20,9 @@ tags:
 
 首先我们需要拥有一个域名，登录[万网](https://wanwang.aliyun.com/domain/)选择域名后进行购买，填写相关信息，并等待审核。审核通过之后，在域名列表页（右上角控制台->控制台首页->域名->域名列表页）就可以看见已购买的域名了。
 
-![image-20230617144639816.png](https://s2.loli.net/2023/06/17/BzKhbJSynRd32Ev.png)
+![](https://s2.loli.net/2023/06/17/BzKhbJSynRd32Ev.png)
 
-![image-20230617145052448.png](https://s2.loli.net/2023/06/17/FZHrgbIC8wA4PqG.png)
+![](https://s2.loli.net/2023/06/17/FZHrgbIC8wA4PqG.png)
 
 ### 配置
 
@@ -43,13 +43,13 @@ ping songjian-99.github.io
 | CNAME    | www      | 默认         | 网站域名（songjian-99.github.io） | 10分钟（默认） |
 | A        | @        | 默认         | 上一步获取的 IP 地址              | 10分钟（默认） |
 
-![image-20230617160144514.png](https://s2.loli.net/2023/06/17/SdsHzFactYLOXpq.png)
+![](https://s2.loli.net/2023/06/17/SdsHzFactYLOXpq.png)
 
 ## GitHub Pages 设置
 
 进入到 GitHub pages 页面（仓库-> Settings -> Pages），在 Custom domain 中填写域名并保存。等待 DNS 检查，检查通过后，即可通过新域名访问网站。
 
-![image-20230617162910158.png](https://s2.loli.net/2023/06/17/Fka16xMycBwVieg.png)
+![](https://s2.loli.net/2023/06/17/Fka16xMycBwVieg.png)
 
 
 ## GitHub Actions 配置

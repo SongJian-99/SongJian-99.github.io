@@ -113,7 +113,7 @@ docker-compose logs -f  // 查看容器启动日志
 }
 ```
 
-![image-20230605100450480.png](https://s2.loli.net/2023/06/05/X6cogqtLQYr3OGy.png)
+![](https://s2.loli.net/2023/06/05/X6cogqtLQYr3OGy.png)
 
 ### 设置登陆密码
 
@@ -135,7 +135,7 @@ docker exec -it elasticsearch /bin/bash
 /usr/share/elasticsearch/bin/elasticsearch-setup-passwords interactive
 ```
 
-![image-20230605103218114.png](https://s2.loli.net/2023/06/05/ZnM5NGe31kwLWOT.png)
+![](https://s2.loli.net/2023/06/05/ZnM5NGe31kwLWOT.png)
 
 4.  退出容器，然后在 kibana.yml 文件中添加如下配置。
 
@@ -189,7 +189,7 @@ elasticsearch.password: "123456"
 </dependency>
 ```
 
-![image-20230605182211128.png](https://s2.loli.net/2023/06/06/XqwQuK89ea2yBJg.png)
+![](https://s2.loli.net/2023/06/06/XqwQuK89ea2yBJg.png)
 
 ### 添加配置
 
@@ -230,7 +230,7 @@ public class Demo {
 
 2.  访问地址，创建索引。然后通过 Kibana 查看新增的索引。
 
-![image-20230606102111649.png](https://s2.loli.net/2023/06/06/g5N4oGQOCePLWXf.png)
+![](https://s2.loli.net/2023/06/06/g5N4oGQOCePLWXf.png)
 
 ## 问题
 
@@ -238,7 +238,7 @@ public class Demo {
 
     解决：执行命令 `chmod -R 777 data` ，然后重新启动容器即可。
 
-![image-20230605094800124.png](https://s2.loli.net/2023/06/05/jnJvgN16cfRLSQU.png)
+![](https://s2.loli.net/2023/06/05/jnJvgN16cfRLSQU.png)
 
 2.  elasticsearch 容器内存占用高达 13G。
 

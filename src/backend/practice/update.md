@@ -56,7 +56,7 @@ select * from information_schema.INNODB_TRX;
 
 - 查询结果如图。发现大量事务处于 LOCK WAIT 状态，只有一个事务处于 RUNNING 状态，被阻塞的事务都是在执行更新同一张表中的记录操作。
 
-![ba585b0c760dc1b474202c3cae27dd6c.png](https://s2.loli.net/2023/04/24/Oi3XjNGZFmCpwHy.png)
+![](https://s2.loli.net/2023/04/24/Oi3XjNGZFmCpwHy.png)
 
 2. 进一步确认，查看当前数据库出现的锁信息。表 INNODB_LOCKS 记录了当前被锁定的对象以及相关的锁信息，包括事务 ID、锁类型、锁定模式、锁定对象等。**注意 MySQL 8.0 版本之后没有此表**。
 
@@ -69,7 +69,7 @@ select * from performance_schema.data_locks;
 
 - 查询结果如图。锁的记录数正好对应上面查询的事务数，并且都持有 X 锁（排他锁）
 
-![image-20221222142135836.png](https://s2.loli.net/2022/12/22/iItP41AkOmcwzpH.png)
+![](https://s2.loli.net/2022/12/22/iItP41AkOmcwzpH.png)
 
 ## 问题定位&解决
 

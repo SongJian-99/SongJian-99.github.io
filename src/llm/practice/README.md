@@ -1,6 +1,6 @@
 ---
-icon: book
-title: 基础知识
+icon: file-fragment
+title: 实践应用
 index: false
 timeline: false
 article: false

@@ -1,6 +1,6 @@
 ---
 icon: headset
-title: 人工智能
+title: 大模型
 index: false
 comment: true
 timeline: false

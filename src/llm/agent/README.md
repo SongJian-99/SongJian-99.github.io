@@ -1,6 +1,6 @@
 ---
-icon: book
-title: 基础知识
+icon: brain
+title: 智能体（Agent）
 index: false
 timeline: false
 article: false

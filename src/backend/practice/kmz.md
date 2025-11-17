@@ -14,10 +14,10 @@ tags:
 ## 实现效果
 
 - KMZ 文件结构。
-  ![kmz-01.gif](https://s2.loli.net/2024/11/19/kznUqoeSa7CbBAX.gif)
+  ![](https://s2.loli.net/2024/11/19/kznUqoeSa7CbBAX.gif)
 
 - template.kml 文件内容。
-  ![kmz-02.png](https://s2.loli.net/2024/11/19/tDBySCuWoM3mUpf.png)
+  ![](https://s2.loli.net/2024/11/19/tDBySCuWoM3mUpf.png)
 
 ## 航线文件介绍
 

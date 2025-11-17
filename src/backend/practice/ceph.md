@@ -29,7 +29,7 @@ Ceph 是一个开源的分布式存储系统，提供了对象存储、块存储
 
 - RGW（Rados Gateway）：提供了 RESTful API，允许用户发送 HTTP/HTTPS 请求访问和管理存储在 Ceph 集群中的数据，支持 Amazon S3 API 和 OpenStack Swift API。
 
-![ceph-rgw.png](https://s2.loli.net/2023/12/22/hHDbRsEJ6YyXuUr.png)
+![](https://s2.loli.net/2023/12/22/hHDbRsEJ6YyXuUr.png)
 
 ## Ceph 集群搭建
 
@@ -102,7 +102,7 @@ scp -r /root/ceph root@10.0.28.12:/root
 docker exec mon ceph -s
 ```
 
-![ceph-01.png](https://s2.loli.net/2023/12/22/1oPi3JfhdeVq9xp.png)
+![](https://s2.loli.net/2023/12/22/1oPi3JfhdeVq9xp.png)
 
 ### 启动 osd 容器
 
@@ -129,7 +129,7 @@ docker run -d \
 
 3\. 查看部署状态。如下图，三个 osd 节点启动成功。
 
-![ceph-02.png](https://s2.loli.net/2023/12/22/qPwACd25X7taokF.png)
+![](https://s2.loli.net/2023/12/22/qPwACd25X7taokF.png)
 
 ### 启动 mds 容器
 
@@ -190,7 +190,7 @@ docker run -d \
 
 2\. 查看部署状态。如下图，至此，Ceph 集群节点全部启动成功。
 
-![ceph-03.png](https://s2.loli.net/2023/12/22/lB1Ok6fN7e8Vq4U.png)
+![](https://s2.loli.net/2023/12/22/lB1Ok6fN7e8Vq4U.png)
 
 ### 安装 Dashboard 管理后台
 
@@ -242,13 +242,13 @@ docker restart mgr
 docker exec mgr ceph mgr services
 ```
 
-![ceph-04.png](https://s2.loli.net/2023/12/22/jGZ7t8pAevsmcFz.png)
+![](https://s2.loli.net/2023/12/22/jGZ7t8pAevsmcFz.png)
 
 9.  浏览器访问 Dashboard 管理页面。
 
-![ceph-05.png](https://s2.loli.net/2023/12/22/GxjH2tga3cJKUhq.png)
+![](https://s2.loli.net/2023/12/22/GxjH2tga3cJKUhq.png)
 
-![ceph-06.png](https://s2.loli.net/2023/12/22/zIlArb8mqkxQhVj.png)
+![](https://s2.loli.net/2023/12/22/zIlArb8mqkxQhVj.png)
 
 ## 创建用户 和 bucket
 
@@ -288,7 +288,7 @@ docker exec rgw radosgw-admin metadata list bucket
 docker exec -it mon ceph auth get client.bootstrap-osd -o /var/lib/ceph/bootstrap-osd/ceph.keyring
 ```
 
-![ceph-07.png](https://s2.loli.net/2023/12/22/xpZrCjDymOgvKlJ.png)
+![](https://s2.loli.net/2023/12/22/xpZrCjDymOgvKlJ.png)
 
 - rgw 容器启动失败。`ERROR- /var/lib/ceph/bootstrap-rgw/ceph.keyring must exist` 执行如下命令解决。
 
@@ -296,11 +296,11 @@ docker exec -it mon ceph auth get client.bootstrap-osd -o /var/lib/ceph/bootstra
 docker exec mon ceph auth get client.bootstrap-rgw -o /var/lib/ceph/bootstrap-rgw/ceph.keyring
 ```
 
-![ceph-08.png](https://s2.loli.net/2023/12/22/aJdxhMYjoWmyeX2.png)
+![](https://s2.loli.net/2023/12/22/aJdxhMYjoWmyeX2.png)
 
 - 服务器重启后，mon 节点重启失败。`Existing mon, trying to rejoin cluster`。修改 mon 的启动脚本解决。
 
-![ceph-09.png](https://s2.loli.net/2023/12/25/UlAO1qyk3SbGdn9.png)
+![](https://s2.loli.net/2023/12/25/UlAO1qyk3SbGdn9.png)
 
 1.  将 mon 容器内的启动脚本复制到宿主机中。
 
@@ -331,7 +331,7 @@ docker restart mon
 
 5\. 容器正常启动，但出现如下错误日志，执行`docker exec mon ceph -s`命令无响应。因为部署了三个 mon 节点，只要再启动其他两个 mon 节点即可恢复正常响应。
 
-![ceph-10.png](https://s2.loli.net/2023/12/25/K1uyRMFx4GePcsn.png)
+![](https://s2.loli.net/2023/12/25/K1uyRMFx4GePcsn.png)
 
 ## 参考文档
 

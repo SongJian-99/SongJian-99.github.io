@@ -17,7 +17,7 @@ tags:
 
 ## 实现效果
 
-![EasyExcel-01.png](https://s2.loli.net/2024/04/08/ucAbk4ejaKmdQgS.png)
+![](https://s2.loli.net/2024/04/08/ucAbk4ejaKmdQgS.png)
 
 ## 实现过程
 
@@ -30,7 +30,7 @@ EasyExcel 支持导出 `ByteArray`、`File`、`String`、`InputStream`、`URL` �
 
 执行流程和具体步骤如下。
 
-![EasyExcel-02.png](https://s2.loli.net/2024/04/08/F2N6Xji7pTZW5hn.png)
+![](https://s2.loli.net/2024/04/08/F2N6Xji7pTZW5hn.png)
 
 ### 1、引入依赖
 

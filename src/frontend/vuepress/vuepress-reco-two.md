@@ -196,7 +196,7 @@ tags: 		# 标签
 
 1. 在 [iconfont 官网](https://www.iconfont.cn/)中选择所需的图标，并添加到项目中。在项目页面，点击下载至本地，将下载的文件夹中的 iconfont.css、iconfont.woff2、iconfont.woff、iconfont.ttf 四个文件复制到 <font color=green>**styles**</font> 目录下。
 
-![image-20230608143006122.png](https://s2.loli.net/2023/06/08/gJapmRyCGifqHFs.png)
+![](https://s2.loli.net/2023/06/08/gJapmRyCGifqHFs.png)
 
 2. 在 enhanceApp.js 文件中引入 iconfont.css 文件。
 
@@ -284,7 +284,7 @@ module.exports = {
 
 * 使用 Valine 需要先获取 AppId 和 AppKey。访问 [LeanCloud](https://www.leancloud.cn/) 网站，进行注册登陆。登陆后进入到控制台页面，创建一个新应用，创建成功后，进入创建的应用中，在 设置->应用凭证 选项卡中，就可以看到 AppId 和 AppKey 了。
 
-![image-20230608115439929.png](https://s2.loli.net/2023/06/08/oAIzEcTK9pGjXuS.png)
+![](https://s2.loli.net/2023/06/08/oAIzEcTK9pGjXuS.png)
 
 * 在 config.js 文件中添加如下配置
 

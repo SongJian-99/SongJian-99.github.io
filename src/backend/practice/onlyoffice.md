@@ -173,13 +173,13 @@ onlyoffice/communityserver
 
 3\. 服务正常启动，会自动创建名为 onlyoffice 的数据库并生成所需的表，过程需要耗费一段时间。
 
-![image-20231017142926576.png](https://s2.loli.net/2023/10/18/caeZ9Yo3f2Bl4wF.png)
+![](https://s2.loli.net/2023/10/18/caeZ9Yo3f2Bl4wF.png)
 
 ## 使用
 
 浏览器访问`ip:9101`，填写用户名、密码和邮箱注册登录。登录成功后首页如下所示。至此 OnlyOffice Workspace 搭建成功。
 
-![image-20231017111430208.png](https://s2.loli.net/2023/10/18/sfnMYVSUAowbWv8.png)
+![](https://s2.loli.net/2023/10/18/sfnMYVSUAowbWv8.png)
 
 ### 邮件添加账户
 
@@ -187,9 +187,9 @@ onlyoffice/communityserver
 
 集成过程比较容易，但需要正确填写账户的配置信息，具体配置见下图。红框圈出来的部分替换为邮箱地址（例如 <xxx@qq.com>）；登陆密码替换为邮件服务的**授权码**，注意不是邮箱的登陆密码，授权码在邮箱设置界面查看（QQ 邮箱——设置——账户）。
 
-![image-20231031161451346.png](https://s2.loli.net/2023/10/31/ZC3ok6JPcUNRIyQ.png)
+![](https://s2.loli.net/2023/10/31/ZC3ok6JPcUNRIyQ.png)
 
-![image-20231031162824988.png](https://s2.loli.net/2023/10/31/bxMQisrByEe5hYu.png)
+![](https://s2.loli.net/2023/10/31/bxMQisrByEe5hYu.png)
 
 配置好之后，点击保存即可。
 
