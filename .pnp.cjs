@@ -28,6 +28,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
+          ["@types/node", "npm:24.10.1"],\
           ["@vuepress/bundler-vite", "npm:2.0.0-rc.19"],\
           ["@vuepress/plugin-comment", "virtual:0aaaeb8cadcbd8ff59adb28a5471d62b125f8ccf3abca2a38dfa898b2f30ca4a337712a54842c390dac98046a02072376c5565e8e79853e410a6f25ed5fe39e2#npm:2.0.0-rc.80"],\
           ["@vuepress/plugin-docsearch", "virtual:0aaaeb8cadcbd8ff59adb28a5471d62b125f8ccf3abca2a38dfa898b2f30ca4a337712a54842c390dac98046a02072376c5565e8e79853e410a6f25ed5fe39e2#npm:2.0.0-rc.80"],\
@@ -2031,6 +2032,14 @@ const RAW_RUNTIME_STATE =
           ["undici-types", "npm:6.20.0"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:24.10.1", {\
+        "packageLocation": "../../../.yarn/berry/cache/@types-node-npm-24.10.1-d514f50dfd-10c0.zip/node_modules/@types/node/",\
+        "packageDependencies": [\
+          ["@types/node", "npm:24.10.1"],\
+          ["undici-types", "npm:7.16.0"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@types/sax", [\
@@ -3725,6 +3734,7 @@ const RAW_RUNTIME_STATE =
       ["workspace:.", {\
         "packageLocation": "./",\
         "packageDependencies": [\
+          ["@types/node", "npm:24.10.1"],\
           ["@vuepress/bundler-vite", "npm:2.0.0-rc.19"],\
           ["@vuepress/plugin-comment", "virtual:0aaaeb8cadcbd8ff59adb28a5471d62b125f8ccf3abca2a38dfa898b2f30ca4a337712a54842c390dac98046a02072376c5565e8e79853e410a6f25ed5fe39e2#npm:2.0.0-rc.80"],\
           ["@vuepress/plugin-docsearch", "virtual:0aaaeb8cadcbd8ff59adb28a5471d62b125f8ccf3abca2a38dfa898b2f30ca4a337712a54842c390dac98046a02072376c5565e8e79853e410a6f25ed5fe39e2#npm:2.0.0-rc.80"],\
@@ -6713,6 +6723,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../.yarn/berry/cache/undici-types-npm-6.20.0-bd21e669af-10c0.zip/node_modules/undici-types/",\
         "packageDependencies": [\
           ["undici-types", "npm:6.20.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:7.16.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/undici-types-npm-7.16.0-0e23b08124-10c0.zip/node_modules/undici-types/",\
+        "packageDependencies": [\
+          ["undici-types", "npm:7.16.0"]\
         ],\
         "linkType": "HARD"\
       }]\

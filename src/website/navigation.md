@@ -72,7 +72,6 @@ export default {
         // 优秀社区
         { category: '优秀社区', title: 'GitHub', desc: '全球最大的代码托管平台和开发者社区', logo: 'https://github.githubassets.com/favicons/favicon.svg', link: 'https://github.com/' },
         { category: '优秀社区', title: 'Linux DO', desc: '新的理想型中文技术与 AI 社区', link: 'https://linux.do/' },
-        { category: '优秀社区', title: '掘金', desc: '开发者技术分享社区，优质技术文章众多', link: 'https://juejin.cn/' },
         { category: '优秀社区', title: 'Hugging Face', desc: '开源模型与数据社区', link: 'https://huggingface.co/' },
 
         // AI
@@ -86,11 +85,11 @@ export default {
         { category: 'AI 相关', subcategory: '编程 IDE', title: 'Trae', desc: '字节', link: 'https://www.trae.ai/' },
         { category: 'AI 相关', subcategory: '编程 IDE', title: 'Qoder', desc: '阿里', link: 'https://qoder.com/' },
         { category: 'AI 相关', subcategory: '编程 IDE', title: 'Cursor', desc: 'Cursor', link: 'https://cursor.com/cn' },
-        { category: 'AI 相关', subcategory: '学习&文档', title: 'Claude 文档', desc: '快速入门｜开发者指南｜API 参考', link: 'https://docs.claude.com/zh-CN/docs/intro' },
-        { category: 'AI 相关', subcategory: '学习&文档', title: '提示工程指南', desc: '全面介绍提示工程的原理和实践',  link: 'https://www.promptingguide.ai/zh' },
-        { category: 'AI 相关', subcategory: '学习&文档', title: '智能体设计模式', desc: '智能体系统设计实战指南', link: 'https://jimmysong.io/book/agentic-design-patterns/' },
-        { category: 'AI 相关', subcategory: '学习&文档', title: 'RAG 应用开发与实战手册', desc: '系统化 RAG 技术与落地实践', link: 'https://jimmysong.io/book/rag-handbook/' },
-        { category: 'AI 相关', subcategory: '学习&文档', title: 'LangChain 文档', desc: 'Agent 工程平台文档｜Python/TypeScript', link: 'https://docs.langchain.com/' },
+        { category: 'AI 相关', subcategory: '文档', title: 'Claude 文档', desc: '快速入门｜开发者指南｜API 参考', link: 'https://docs.claude.com/zh-CN/docs/intro' },
+        { category: 'AI 相关', subcategory: '文档', title: 'LangChain 文档', desc: 'Agent 工程平台文档｜Python/TypeScript', link: 'https://docs.langchain.com/' },
+        { category: 'AI 相关', subcategory: '文档', title: '提示工程指南', desc: '全面介绍提示工程的原理和实践',  link: 'https://www.promptingguide.ai/zh' },
+        { category: 'AI 相关', subcategory: '文档', title: '智能体设计模式', desc: '智能体系统设计实战指南', link: 'https://jimmysong.io/book/agentic-design-patterns/' },
+        { category: 'AI 相关', subcategory: '文档', title: 'RAG 应用开发与实战手册', desc: '系统化 RAG 技术与落地实践', link: 'https://jimmysong.io/book/rag-handbook/' },
 
         { category: 'AI 相关', subcategory: '创作', title: 'YouMind', desc: '个性化 AI 学习与创作智能体', link: 'https://youmind.com/zh-CN/overview' },
         { category: 'AI 相关', subcategory: '创作', title: 'NotebookLM', desc: 'AI 研究与思考伙伴', link: 'https://notebooklm.google/' },
@@ -118,10 +117,18 @@ export default {
         { category: '工具推荐', subcategory: '其他', title: 'GitMind', desc: '在线脑图/思维导图工具', logo: 'https://gitmind.cn/favicon.ico', link: 'https://gitmind.cn/' },
         { category: '工具推荐', subcategory: '其他', title: '百度统计', desc: '网站数据分析平台', logo: 'https://tongji.baidu.com/favicon.ico', link: 'https://tongji.baidu.com/web5/welcome/login' },
         { category: '工具推荐', subcategory: '其他', title: '轻闪PDF', desc: '在线 PDF 编辑/转换，支持 AI 文档对话', link: 'https://lightpdf.cn/' },
+        { category: '工具推荐', subcategory: '其他', title: 'Docsmall 图片压缩', desc: '免费在线图片压缩工具', link: 'https://docsmall.com/image-compress' },
 
-        { category: '设计', title: 'UI Notes', desc: '真实产品 UI 设计灵感库', link: 'https://uinotes.com/' },
+        { category: '设计', subcategory: '灵感', title: 'UI Notes', desc: '真实产品 UI 设计灵感库', link: 'https://uinotes.com/' },
+        { category: '设计', subcategory: '素材', title: 'Pexels', desc: '免费高质量图片素材库', link: 'https://www.pexels.com/zh-cn/' },
 
         { category: '开发', subcategory: '文档', title: 'Flutter 文档', desc: '官方中文文档｜跨平台 UI 框架', link: 'https://docs.flutter.cn/' },
+        { category: '开发', subcategory: '文档', title: 'Awesome Flutter 中文资源', desc: 'Flutter 学习资源合集：教程、插件、工具、文章等', link: 'https://github.com/crazycodeboy/awesome-flutter-cn' },
+        { category: '开发', subcategory: '文档', title: 'Hutool 文档', desc: 'Java 工具库官方文档', link: 'https://www.hutool.cn/docs/' },
+        { category: '开发', subcategory: '文档', title: 'MyBatis-Flex 文档', desc: '轻量灵活的 MyBatis 增强框架', link: 'https://mybatis-flex.com/' },
+        { category: '开发', subcategory: '文档', title: 'MyBatis-Plus 文档', desc: 'MyBatis 增强工具包文档', link: 'https://baomidou.com/' },
+        { category: '开发', subcategory: '文档', title: 'Spring 官方文档', desc: 'Spring 项目与参考文档', link: 'https://spring.io/' },
+        { category: '开发', subcategory: '文档', title: 'Sa-Token 文档', desc: '轻量级 Java 权限认证框架文档', link: 'https://sa-token.cc/doc.html' },
 
 
         // 电子书
@@ -130,6 +137,12 @@ export default {
         { category: '电子书', title: '深入高可用系统原理与设计', desc: '系统高可用设计的理论基础与实践', link: 'https://www.thebyte.com.cn/' },
         { category: '电子书', title: 'IDEA 高效使用指南', desc: 'IntelliJ IDEA 使用指南 | 必备插件推荐 | 插件开发入门 | 重构小技巧 | 源码阅读技巧', link: 'https://idea.javaguide.cn/' },
 
+        // 写作
+        { category: '写作', subcategory: '平台', title: '微信公众平台', desc: '微信公众号内容发布与运营平台', link: 'https://mp.weixin.qq.com/' },
+        { category: '写作', subcategory: '平台', title: '小红书', desc: '内容创作与社区平台', link: 'https://www.xiaohongshu.com/' },
+        { category: '写作', subcategory: '平台', title: '掘金', desc: '开发者技术分享社区，优质技术文章众多', link: 'https://juejin.cn/' },
+        { category: '写作', subcategory: '排版', title: '中文文案排版指北', desc: '中文文案排版规范与排版指南', link: 'https://github.com/sparanoid/chinese-copywriting-guidelines' },
+        { category: '写作', subcategory: '图床', title: 'SM.MS 图床', desc: '免费图床｜支持外链与 API（备用域名 smms.app）', link: 'https://sm.ms/' },
 
       ]
     }

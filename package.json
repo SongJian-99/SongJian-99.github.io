@@ -11,6 +11,7 @@
     "update-package": "yarn dlx vp-update"
   },
   "devDependencies": {
+    "@types/node": "^24.10.1",
     "@vuepress/bundler-vite": "2.0.0-rc.19",
     "@vuepress/plugin-comment": "^2.0.0-rc.80",
     "@vuepress/plugin-docsearch": "^2.0.0-rc.80",
