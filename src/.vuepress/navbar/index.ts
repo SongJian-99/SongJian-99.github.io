@@ -1,7 +1,12 @@
 import { navbar } from "vuepress-theme-hope";
 
 export const Navbar = navbar([
-  "/",
+  {
+    text: "导航",
+    icon: "location-arrow",
+    link: "/website/navigation",
+  },
+  // "/",
   "/frontend/",
   "/backend/",
   "/llm/",

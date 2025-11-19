@@ -1,6 +1,6 @@
 ---
 icon: laptop-file
-title: 后端技术
+title: 后端
 index: false
 comment: true
 timeline: false

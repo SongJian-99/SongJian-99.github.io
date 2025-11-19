@@ -1,6 +1,6 @@
 ---
 icon: laptop-code
-title: 前端技术
+title: 前端
 index: false
 comment: true
 timeline: false
