@@ -4,16 +4,14 @@ declare global {
   interface Window { _hmt?: any[] }
 }
 
-// 不使用环境变量，直接使用固定的百度统计 Site ID
-const TONGJI_ID = 'da6b2b203a8c10a4edc547932495ffb6';
+const HM_SRC = 'https://hm.baidu.com/hm.js?da6b2b203a8c10a4edc547932495ffb6';
 
-function ensureHmScript(id: string) {
-  if (!id || typeof document === 'undefined') return;
-  if (document.getElementById('baidu-hm')) return;
+function ensureHmScript() {
+  if (typeof document === 'undefined') return;
+  if (document.querySelector(`script[src="${HM_SRC}"]`)) return;
   const hm = document.createElement('script');
-  hm.id = 'baidu-hm';
   hm.async = true;
-  hm.src = `https://hm.baidu.com/hm.js?${id}`;
+  hm.src = HM_SRC;
   const s = document.getElementsByTagName('script')[0];
   (s?.parentNode || document.head)?.insertBefore(hm, s || null);
 }
@@ -22,7 +20,7 @@ export default defineClientConfig({
   enhance({ router }) {
     if (typeof window === 'undefined') return;
     window._hmt = window._hmt || [];
-    ensureHmScript(TONGJI_ID);
+    ensureHmScript();
     router.afterEach((to) => {
       if (to?.fullPath) {
         window._hmt?.push(['_trackPageview', to.fullPath]);
