@@ -1,8 +1,10 @@
 ---
 title: 导航
-home: true
 heroText: ""
+home: true
 comment: true
+timeline: false
+article: false
 ---
 
 <div class="content-section">
@@ -81,22 +83,28 @@ export default {
         { category: 'AI 相关', subcategory: '模型', title: '讯飞星火', desc: '讯飞 | 对话·办公', link: 'https://xinghuo.xfyun.cn/desk' },
         { category: 'AI 相关', subcategory: '模型', title: '通义千问', desc: '阿里 | 对话·多模态', link: 'https://www.tongyi.com/' },
         { category: 'AI 相关', subcategory: '模型', title: 'Pi AI', desc: 'Inflection | 对话·陪伴', link: 'https://pi.ai/discover' },
+        { category: 'AI 相关', subcategory: '模型', title: 'Gemini', desc: 'Google | 对话·多模态', link: 'https://gemini.google.com/app?hl=zh-cn' },
 
         { category: 'AI 相关', subcategory: '编程 IDE', title: 'Trae', desc: '字节', link: 'https://www.trae.ai/' },
         { category: 'AI 相关', subcategory: '编程 IDE', title: 'Qoder', desc: '阿里', link: 'https://qoder.com/' },
         { category: 'AI 相关', subcategory: '编程 IDE', title: 'Cursor', desc: 'Cursor', link: 'https://cursor.com/cn' },
         { category: 'AI 相关', subcategory: '文档', title: 'Claude 文档', desc: '快速入门｜开发者指南｜API 参考', link: 'https://docs.claude.com/zh-CN/docs/intro' },
         { category: 'AI 相关', subcategory: '文档', title: 'LangChain 文档', desc: 'Agent 工程平台文档｜Python/TypeScript', link: 'https://docs.langchain.com/' },
+        { category: 'AI 相关', subcategory: '文档', title: 'LangChain4j 文档', desc: 'Java 大语言模型集成框架中文文档', link: 'https://docs.langchain4j.info/' },
+        { category: 'AI 相关', subcategory: '文档', title: 'Google ADK 文档', desc: '智能体开发套件中文文档（Agent Development Kit）', link: 'https://adk.wiki/' },
+        { category: 'AI 相关', subcategory: '文档', title: 'CrewAI 文档', desc: '协作式多智能体框架中文文档', link: 'https://docs.crewai.org.cn/' },
         { category: 'AI 相关', subcategory: '文档', title: '提示工程指南', desc: '全面介绍提示工程的原理和实践',  link: 'https://www.promptingguide.ai/zh' },
         { category: 'AI 相关', subcategory: '文档', title: '智能体设计模式', desc: '智能体系统设计实战指南', link: 'https://jimmysong.io/book/agentic-design-patterns/' },
         { category: 'AI 相关', subcategory: '文档', title: 'RAG 应用开发与实战手册', desc: '系统化 RAG 技术与落地实践', link: 'https://jimmysong.io/book/rag-handbook/' },
 
-        { category: 'AI 相关', subcategory: '创作', title: 'YouMind', desc: '个性化 AI 学习与创作智能体', link: 'https://youmind.com/zh-CN/overview' },
+        { category: 'AI 相关', subcategory: '创作', title: 'YouMind', desc: '图片/视频生成，创作智能体', link: 'https://youmind.com/zh-CN/overview' },
         { category: 'AI 相关', subcategory: '创作', title: 'NotebookLM', desc: 'AI 研究与思考伙伴', link: 'https://notebooklm.google/' },
-        { category: 'AI 相关', subcategory: '创作', title: 'Manus', desc: 'AI 研究笔记', link: 'https://manus.im/app' },
+        { category: 'AI 相关', subcategory: '创作', title: 'Manus', desc: '定时任务，智能体平台', link: 'https://manus.im/app' },
+        { category: 'AI 相关', subcategory: '创作', title: 'Nano Banana', desc: '在线 AI 图像编辑与生成', link: 'https://www.nano-banana.com/zh' },
 
 
-        { category: 'AI 相关',subcategory: '部署', title: 'Featurize', desc: '机器学习在线实验室',  link: 'https://featurize.cn/' },
+        { category: 'AI 相关',subcategory: '部署', title: 'Featurize', desc: '算力平台，机器学习在线实验室',  link: 'https://featurize.cn/' },
+        { category: 'AI 相关', subcategory: '部署', title: '共绩算力', desc: '弹性算力服务平台', link: 'https://www.gongjiyun.com/' },
         { category: 'AI 相关', subcategory: '部署', title: 'Ollama', desc: '本地模型运行', link: 'https://ollama.com/' },
         { category: 'AI 相关', subcategory: '部署', title: 'Dify', desc: 'Agentic 工作流平台', link: 'https://dify.ai/zh' },
 

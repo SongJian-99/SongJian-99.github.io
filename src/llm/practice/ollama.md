@@ -4,7 +4,6 @@ date: 2024-11-19
 categories:
   - 大模型
 tags:
-  - LLM
   - ollama
 ---
 

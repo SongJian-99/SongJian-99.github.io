@@ -1,6 +1,4 @@
-import { navbar } from "vuepress-theme-hope";
-
-export const Navbar = navbar([
+export const Navbar = [
   {
     text: "导航",
     icon: "location-arrow",
@@ -26,4 +24,4 @@ export const Navbar = navbar([
       },
     ],
   },
-]);
+];

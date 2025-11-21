@@ -17,3 +17,10 @@ declare module '@vuepress/bundler-vite' {
   const anyExport: any;
   export default anyExport;
 }
+
+// 主题最小类型声明，避免编辑器报错
+declare module 'vuepress-theme-hope' {
+  export const hopeTheme: any;
+  export function navbar(config: any): any;
+  export function sidebar(config: any): any;
+}
