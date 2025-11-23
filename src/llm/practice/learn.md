@@ -118,10 +118,10 @@ YouTube 视频我会完整的看一遍，尤其是高质量的播客和访谈，
 
 YouTube 上有大量优质、免费的 AI 深度内容，推荐一些我常看的频道：
 
-- OpenAI DevDay / developer talk**（**官方深度讲解）
+- OpenAI DevDay / developer talk（官方深度讲解）
 - Dwarkesh Patel（高质量访谈播客）
 - Riley Brown（Vibe Coding）
-- Andrej Karpathy **（**LLM 原理**、**tokenizer）
+- Andrej Karpathy（LLM 原理、tokenizer）
 
 ![](https://s2.loli.net/2025/11/21/jvRGip569kgIEXS.png)
 

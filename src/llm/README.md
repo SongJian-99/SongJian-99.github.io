@@ -5,7 +5,6 @@ index: false
 comment: true
 timeline: false
 article: false
-dir:
-  collapsible: false,
-  expanded: true
 ---
+
+<Catalog hideHeading />

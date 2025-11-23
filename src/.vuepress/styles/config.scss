@@ -4,3 +4,11 @@ $theme-color: #096dd9;
 a.vp-card.card-item.custom-card:after {
   display: none !important;
 }
+
+// 目录：禁用顶级标题点击功能
+.vp-catalog-child-title {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  color: inherit;
+}

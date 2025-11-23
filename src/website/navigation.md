@@ -112,7 +112,7 @@ export default {
         // 影视网站
         { category: '影视网站', title: '哔哩哔哩', desc: '视频社区，涵盖技术与学习内容', logo: 'https://www.bilibili.com/favicon.ico', link: 'https://www.bilibili.com/' },
         { category: '影视网站', title: 'YouTube', desc: '全球视频平台，丰富的技术与学习资源', link: 'https://www.youtube.com/' },
-        { category: '影视网站', title: '网飞猫', desc: 'Netflix 新剧与韩国电影免费在线观看', link: 'https://www.ncat1.app/' },
+        { category: '影视网站', title: '网飞猫', desc: '电影免费在线观看,资源丰富', link: 'https://www.ncat1.app/' },
         { category: '影视网站', title: '慕课网', desc: 'IT 技术在线课程平台', logo: 'https://www.imooc.com/favicon.ico', link: 'https://www.imooc.com/' },
 
         // 工具推荐（去重并修正链接）
@@ -126,6 +126,7 @@ export default {
         { category: '工具推荐', subcategory: '其他', title: '百度统计', desc: '网站数据分析平台', logo: 'https://tongji.baidu.com/favicon.ico', link: 'https://tongji.baidu.com/web5/welcome/login' },
         { category: '工具推荐', subcategory: '其他', title: '轻闪PDF', desc: '在线 PDF 编辑/转换，支持 AI 文档对话', link: 'https://lightpdf.cn/' },
         { category: '工具推荐', subcategory: '其他', title: 'Docsmall 图片压缩', desc: '免费在线图片压缩工具', link: 'https://docsmall.com/image-compress' },
+        { category: '工具推荐', subcategory: '其他', title: 'Animated Diagrams', desc: '在线动画图表制作工具', link: 'https://animatediagrams.com/' },
 
         { category: '设计', subcategory: '灵感', title: 'UI Notes', desc: '真实产品 UI 设计灵感库', link: 'https://uinotes.com/' },
         { category: '设计', subcategory: '素材', title: 'Pexels', desc: '免费高质量图片素材库', link: 'https://www.pexels.com/zh-cn/' },
@@ -149,6 +150,7 @@ export default {
         { category: '写作', subcategory: '平台', title: '微信公众平台', desc: '微信公众号内容发布与运营平台', link: 'https://mp.weixin.qq.com/' },
         { category: '写作', subcategory: '平台', title: '小红书', desc: '内容创作与社区平台', link: 'https://www.xiaohongshu.com/' },
         { category: '写作', subcategory: '平台', title: '掘金', desc: '开发者技术分享社区，优质技术文章众多', link: 'https://juejin.cn/' },
+        { category: '写作', subcategory: '平台', title: '零克查词', desc: '内容敏感词检测', link: 'https://www.lingkechaci.com/' },
         { category: '写作', subcategory: '排版', title: '中文文案排版指北', desc: '中文文案排版规范与排版指南', link: 'https://github.com/sparanoid/chinese-copywriting-guidelines' },
         { category: '写作', subcategory: '图床', title: 'SM.MS 图床', desc: '免费图床｜支持外链与 API（备用域名 smms.app）', link: 'https://sm.ms/' },
 

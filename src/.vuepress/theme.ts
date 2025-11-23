@@ -85,6 +85,8 @@ export default hopeTheme({
       excerpt: true,
       excerptLength: 100,
     },
+    // 目录插件
+    catalog: true,
     // 评论配置
     comment: {
       provider: "Giscus",
@@ -94,13 +96,11 @@ export default hopeTheme({
       categoryId: "DIC_kwDOKwb6_c4CnT4r",
       comment: false,
     },
+    // 内置组件
     components: {
       components: ["Badge", "VPCard"],
-      // rootComponents: {
-      //   bingWallpaper: true,
-      // },
     },
-
+    // 图标配置
     icon: {
       prefix: "fa6-solid:",
     },
