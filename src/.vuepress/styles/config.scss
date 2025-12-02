@@ -12,3 +12,9 @@ a.vp-card.card-item.custom-card:after {
   text-decoration: none;
   color: inherit;
 }
+.vp-catalog-sub-title.has-children {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  color: inherit;
+}
