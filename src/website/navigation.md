@@ -75,6 +75,8 @@ export default {
         { category: '优秀社区', title: 'GitHub', desc: '全球最大的代码托管平台和开发者社区', logo: 'https://github.githubassets.com/favicons/favicon.svg', link: 'https://github.com/' },
         { category: '优秀社区', title: 'Linux DO', desc: '新的理想型中文技术与 AI 社区', link: 'https://linux.do/' },
         { category: '优秀社区', title: 'Hugging Face', desc: '开源模型与数据社区', link: 'https://huggingface.co/' },
+        { category: '优秀社区', title: 'Sebastian Raschka Magazine', desc: '机器学习与人工智能领域专家的深度文章', link: 'https://magazine.sebastianraschka.com/' },
+        { category: '优秀社区', title: 'BestBlogs', desc: '优质技术博客聚合与发现平台', link: 'https://www.bestblogs.dev/' },
 
         // AI
         { category: 'AI 相关', subcategory: '模型', title: 'ChatGPT', desc: 'OpenAI | 对话·生成', link: 'https://chatgpt.com/' },
@@ -100,6 +102,7 @@ export default {
         { category: 'AI 相关', subcategory: '创作', title: 'YouMind', desc: '图片/视频生成，创作智能体', link: 'https://youmind.com/zh-CN/overview' },
         { category: 'AI 相关', subcategory: '创作', title: 'NotebookLM', desc: 'AI 研究与思考伙伴', link: 'https://notebooklm.google/' },
         { category: 'AI 相关', subcategory: '创作', title: 'Manus', desc: '定时任务，智能体平台', link: 'https://manus.im/app' },
+        { category: 'AI 相关', subcategory: '创作', title: 'Lovart', desc: 'AI 设计与创意项目平台', link: 'https://www.lovart.ai/zh/projects' },
         { category: 'AI 相关', subcategory: '创作', title: 'Nano Banana', desc: '在线 AI 图像编辑与生成', link: 'https://www.nano-banana.com/zh' },
 
 
@@ -136,6 +139,7 @@ export default {
         { category: '开发', subcategory: '文档', title: 'Hutool 文档', desc: 'Java 工具库官方文档', link: 'https://www.hutool.cn/docs/' },
         { category: '开发', subcategory: '文档', title: 'MyBatis-Flex 文档', desc: '轻量灵活的 MyBatis 增强框架', link: 'https://mybatis-flex.com/' },
         { category: '开发', subcategory: '文档', title: 'MyBatis-Plus 文档', desc: 'MyBatis 增强工具包文档', link: 'https://baomidou.com/' },
+        { category: '开发', subcategory: '文档', title: '飞书开放平台', desc: '飞书开放平台与开发者文档', link: 'https://open.feishu.cn/?lang=zh-CN' },
         { category: '开发', subcategory: '文档', title: 'Spring 官方文档', desc: 'Spring 项目与参考文档', link: 'https://spring.io/' },
         { category: '开发', subcategory: '文档', title: 'Sa-Token 文档', desc: '轻量级 Java 权限认证框架文档', link: 'https://sa-token.cc/doc.html' },
 
