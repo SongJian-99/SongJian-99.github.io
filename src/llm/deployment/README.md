@@ -1,11 +1,11 @@
 ---
-icon: file-fragment
-title: 可观测性
+icon: rocket
+title: 部署
 index: false
 timeline: false
 article: false
 dir:
   collapsible: true
-  order: 9
   expanded: false
+  order: 7
 ---

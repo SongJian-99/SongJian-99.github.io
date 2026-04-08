@@ -33,7 +33,7 @@ export default hopeTheme({
   // 博客配置
   blog: {
     name: "Cleaner",
-    avatar: "avatar.jpeg ",
+    avatar: "avatar.jpeg",
     description: '"岁月漫长，要心地善良"',
     excerptLength: 0,
     excerpt: false,

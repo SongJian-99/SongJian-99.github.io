@@ -5,8 +5,7 @@ date: 2025-11-17
 categories:
   - 大模型
 tags:
-  - Trae
-  - MCP
+  - 实践
 ---
 
 > **GitHub MCP Server** 是 GitHub 官方提供的 MCP 实现，它封装了仓库、Issue、PR、Workflow 等 API，使模型能够安全地管理仓库与协作流程。

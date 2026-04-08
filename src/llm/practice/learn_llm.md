@@ -5,7 +5,7 @@ author: Cleaner
 categories:
   - 大模型
 tags:
-  - 大模型学习
+  - 实践
 ---
 
 目前大模型的发展日新月异，模型架构快速迭代、各类 AI 工具与概念层出不穷——Cursor、Codex、Augement、Trae、Qoder 等等等等，面对这些海量信息，真是让人头大。

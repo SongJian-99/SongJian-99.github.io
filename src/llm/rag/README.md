@@ -1,5 +1,5 @@
 ---
-icon: file-fragment
+icon: database
 title: 知识检索（RAG）
 index: false
 timeline: false
