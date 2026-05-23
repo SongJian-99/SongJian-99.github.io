@@ -80,6 +80,7 @@ export default {
         { category: '优质社区', subcategory: '博客内容', title: 'Sebastian Raschka Magazine', desc: '机器学习与人工智能领域专家的深度文章', link: 'https://magazine.sebastianraschka.com/' },
         { category: '优质社区', subcategory: '博客内容', title: 'BestBlogs', desc: '优质技术博客聚合与发现平台', link: 'https://www.bestblogs.dev/' },
         { category: '优质社区', subcategory: '博客内容', title: 'Jimmy Song', desc: '云原生、Kubernetes 与 AI 技术社区和博客', link: 'https://jimmysong.io/zh/' },
+        { category: '优质社区', subcategory: '博客内容', title: '网飞猫', desc: '在线影视资源与观影导航站', link: 'https://www.ncat1.app/' },
         { category: '优质社区', subcategory: '资源站点', title: 'macOS Home', desc: 'macOS 软件与资源导航站', link: 'https://macoshome.com/macos' },
 
         // 人工智能
@@ -107,7 +108,6 @@ export default {
         { category: '人工智能', subcategory: '开发文档', title: 'LangChain4j 文档', desc: 'Java 大语言模型集成框架中文文档', link: 'https://docs.langchain4j.info/' },
         { category: '人工智能', subcategory: '开发文档', title: 'Google ADK 文档', desc: '智能体开发套件中文文档（Agent Development Kit）', link: 'https://adk.wiki/' },
         { category: '人工智能', subcategory: '开发文档', title: 'CrewAI 文档', desc: '协作式多智能体框架中文文档', link: 'https://docs.crewai.org.cn/' },
-        { category: '人工智能', subcategory: '开发文档', title: '提示工程指南', desc: '全面介绍提示工程的原理和实践',  link: 'https://www.promptingguide.ai/zh' },
         { category: '人工智能', subcategory: '开发文档', title: '智能体设计模式', desc: '智能体系统设计实战指南', link: 'https://jimmysong.io/book/agentic-design-patterns/' },
         { category: '人工智能', subcategory: '平台部署', title: 'Featurize', desc: '算力平台，机器学习在线实验室',  link: 'https://featurize.cn/' },
         { category: '人工智能', subcategory: '平台部署', title: '共绩算力', desc: '弹性算力服务平台', link: 'https://www.gongjiyun.com/' },
@@ -129,6 +129,7 @@ export default {
         { category: '后端开发', subcategory: '框架文档', title: 'MyBatis-Flex 文档', desc: '轻量灵活的 MyBatis 增强框架', link: 'https://mybatis-flex.com/' },
         { category: '后端开发', subcategory: '框架文档', title: 'MyBatis-Plus 文档', desc: 'MyBatis 增强工具包文档', link: 'https://baomidou.com/' },
         { category: '后端开发', subcategory: '框架文档', title: 'Sa-Token 文档', desc: '轻量级 Java 权限认证框架文档', link: 'https://sa-token.cc/doc.html' },
+        { category: '后端开发', subcategory: '数据库', title: 'RockData 教程', desc: 'PostgreSQL 中文教程与数据库实践指南', link: 'https://www.rockdata.net/zh-cn/tutorial/toc/' },
         { category: '后端开发', subcategory: '工具文档', title: 'Hutool 文档', desc: 'Java 工具库官方文档', link: 'https://www.hutool.cn/docs/' },
         { category: '后端开发', subcategory: '开放平台', title: '飞书开放平台', desc: '飞书开放平台与开发者文档', link: 'https://open.feishu.cn/?lang=zh-CN' },
         { category: '后端开发', subcategory: '架构设计', title: '凤凰架构', desc: '构建可靠的大型分布式系统', logo: 'https://icyfenix.cn/favicon.ico', link: 'https://icyfenix.cn/books/arch/' },
