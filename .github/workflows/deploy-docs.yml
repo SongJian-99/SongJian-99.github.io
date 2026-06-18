@@ -35,7 +35,7 @@ jobs:
         with:
           target_branch: hope-pages
           build_dir: src/.vuepress/dist
-          fqdn: cleaner.love
+          fqdn: cleaner.ren
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
 
