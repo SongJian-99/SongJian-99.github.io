@@ -4,7 +4,7 @@ declare global {
   interface Window { _hmt?: any[] }
 }
 
-const HM_SRC = 'https://hm.baidu.com/hm.js?da6b2b203a8c10a4edc547932495ffb6';
+const HM_SRC = 'https://hm.baidu.com/hm.js?7c4c1f680e6baeb4ec44730b3ad557f2';
 
 function ensureHmScript() {
   if (typeof document === 'undefined') return;
